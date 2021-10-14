@@ -1,0 +1,994 @@
+{
+  "runner": {
+    "glitch-form": {
+      "index": {
+        "add-actions-to-resolve": "加入行动，以解决",
+        "add-followup-instructions": "添加跟帖说明",
+        "vip": "要人",
+        "add-task": "添加任务",
+        "enter-room-name": "输入房间号",
+        "select-glitch-category": "选择经验类别",
+        "glitch-information": "体验信息",
+        "close-glitch": "关闭经验",
+        "handover": "交出",
+        "internal-followup": "内部随访",
+        "enter-guest-name": "输入客人姓名",
+        "choose-location": "选择位置",
+        "send-glitch": "送经验",
+        "email": "电子邮件",
+        "eur": "欧元",
+        "submit-new-glitch": "提交新的故障",
+        "compensation-cost": "补偿费用",
+        "update-glitch": "更新体验",
+        "guest-information": "客户信息",
+        "add-experience-description": "添加的经验介绍",
+        "vip-status-optional": "VIP状态（可选）",
+        "incident-description": "事件描述",
+        "room": "房间",
+        "name": "名称",
+        "select-a-glitch-category": "选择一个经验类别",
+        "actions-to-resolve": "操作来解决",
+        "enter-guest-email": "输入邀请对象的电子邮件"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "选择经验",
+        "select-glitch-category": "选择经验类别",
+        "select-category": "选择类别"
+      }
+    },
+    "main": {
+      "filter-grid": { "reset": "重启", "close": "关" },
+      "index": {
+        "tasks": "任务",
+        "rooms": "客房",
+        "close-floor": "关闭地板",
+        "floor": "地板"
+      }
+    },
+    "clean": {
+      "index": {
+        "confirm-dnd": "确认DND",
+        "change-sheets": "更换床单",
+        "pms": "PMS"
+      }
+    },
+    "room": {
+      "restock": {
+        "room-inventory": "房盘点",
+        "cancel-restock": "取消进货",
+        "mark-as-restocked": "标记为进货"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "前调",
+        "add-note": "添加备注",
+        "new-room-note": "新室注",
+        "new-note-placeholder": "防爆。任务"
+      }
+    },
+    "glitch": {
+      "glitch-read-only": {
+        "none": "没有",
+        "send-email": "发电子邮件",
+        "glitch-cost": "体验费用",
+        "glitch-followup": "经验随访",
+        "start": "开始",
+        "glitch-description": "经验介绍",
+        "assigned-to": "分配给",
+        "current-responsibility": "当前责任",
+        "glitch-action": "体验行动",
+        "glitch-category": "经验类"
+      }
+    },
+    "components": {
+      "group-select-modal": { "close": "关", "select-assignment": "选择分配" },
+      "group-select-row": { "text": "文本" },
+      "location-select-modal": { "close": "关", "select-location": "选择位置" },
+      "room-note-row": { "remove": "去掉" },
+      "task-card": {
+        "created-by": "由...制作",
+        "location": "位置",
+        "last-message": "最后消息",
+        "submitted-time": "提交时间"
+      },
+      "special-select-row": { "text": "文本" },
+      "assignment-select": {
+        "attendants": "服务员",
+        "inspectors": "检查员",
+        "management": "管理",
+        "housekeeping": "家政",
+        "concierge": "门房",
+        "maintenance": "保养",
+        "groups": "组",
+        "runners": "运动员"
+      },
+      "user-select-row": { "text": "文本" },
+      "inventory-update-row": { "reset": "重启" },
+      "room-options": {
+        "room-gallery": "客房画廊",
+        "send-task": "发送任务",
+        "clean-room": "整理房间",
+        "guest-glitch": "客户故障",
+        "hsk-notes": "HSK笔记",
+        "lost-found": "失物招领",
+        "inventory": "库存",
+        "maintenance": "保养"
+      },
+      "room-timer": { "cancel": "取消", "done": "完成" },
+      "user-select-modal": {
+        "management": "管理",
+        "housekeeping": "家政",
+        "concierge": "门房",
+        "select-assignment": "选择分配",
+        "maintenance": "保养",
+        "close": "关"
+      },
+      "asset-action-description": {
+        "yes": "是",
+        "there-are-no-actions-for-your-asset": "有你的资产没有动作",
+        "no-actions-for-created-asset": "用于创建资产无行动",
+        "you-must-first-select-an-asset": "你必须先选择一个资产",
+        "no": "没有"
+      },
+      "asset-select-modal": { "close": "关", "select-asset": "选择资产" },
+      "room-info": { "change-sheets": "更换床单", "pms": "PMS" },
+      "reservation-nights": { "of": "的", "nights": "夜" },
+      "task-settings": { "yes": "是", "no": "没有" },
+      "gallery-row-item": { "label": "标签" }
+    },
+    "turndown": {
+      "subheader": { "all-categories": "所有类别" },
+      "index": { "all-categories": "所有类别" },
+      "modalcontent": {
+        "delay": "延迟",
+        "cancel-turndown": "取消床",
+        "refuse": "垃圾",
+        "finish-turndown": "完成量程",
+        "dnd": "请勿打扰"
+      }
+    },
+    "glitches": {
+      "index": {
+        "other-glitches": "其他方面的经验",
+        "recently-closed": "最近关门了",
+        "assigned-glitches": "分配经验"
+      }
+    },
+    "navigation": {
+      "links": {
+        "glitches": "毛刺",
+        "tasks": "任务",
+        "inventory-restock": "进货库存",
+        "notifications": "通知",
+        "turndown-service": "夜床服务",
+        "main": "主要"
+      }
+    },
+    "lostfound": { "index": { "submit-lost-item": "提交丢失物品" } }
+  },
+  "attendant": {
+    "swipeoutoptions": { "index": { "close": "关" } },
+    "clean": {
+      "menu": {
+        "dnd": "请勿打扰",
+        "refuse": "垃圾",
+        "inspect": "监室",
+        "start-cleaning": "开始清理",
+        "delay": "后来",
+        "clean": "清洁",
+        "no-check": "否检查"
+      },
+      "finishmenu": {
+        "cancel-dnd": "取消DND",
+        "cancel-refuse": "取消垃圾",
+        "cancel-finish": "取消完成",
+        "confirm-dnd": "确认DND"
+      },
+      "cleaninginfo": {
+        "credits": "积分",
+        "pms": "PMS",
+        "change-sheets": "更换床单",
+        "cleaning-info": "清洗信息"
+      },
+      "taskssubheader": {
+        "show-tasks": "显示任务",
+        "tasks": "任务",
+        "hide-tasks": "隐藏任务"
+      }
+    },
+    "popuptasks": {
+      "index": { "new-task": "新任务", "accept": "接受", "reject": "拒绝" }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "前调",
+        "add-note": "添加备注",
+        "new-room-note": "新室注",
+        "new-note-placeholder": "防爆。任务"
+      }
+    },
+    "inspect": {
+      "menu": {
+        "dnd": "请勿打扰",
+        "refuse": "垃圾",
+        "inspect": "监室",
+        "start-cleaning": "开始清理",
+        "delay": "后来",
+        "clean": "清洁",
+        "no-check": "否检查"
+      },
+      "finishmenu": { "confirm-dnd": "确认DND" },
+      "cleaninginfo": {
+        "credits": "积分",
+        "change-sheets": "更换床单",
+        "pms": "PMS"
+      },
+      "taskssubheader": {
+        "show-tasks": "显示任务",
+        "tasks": "任务",
+        "hide-tasks": "隐藏任务"
+      }
+    },
+    "alert": { "index": { "priority": "优先", "room-message": "客房信息" } },
+    "headers": {
+      "maintenance": "保养",
+      "inventory-restock": "库存补货",
+      "notes": "笔记",
+      "inspect": "检查",
+      "lost-found": "失物招领",
+      "inventory": "库存",
+      "clean": "清洁",
+      "gallery": "画廊"
+    },
+    "components": {
+      "group-select-row": { "text": "文本" },
+      "location-select-modal": { "close": "关" },
+      "user-select-row": { "text": "文本" },
+      "reservation-component": { "reservation": "保留" },
+      "room-note-row": { "remove": "去掉" },
+      "task-settings": { "yes": "是", "no": "没有" },
+      "special-select-row": { "text": "文本" },
+      "inventory-update-row": { "reset": "重启" },
+      "room-timer": { "cancel": "取消", "done": "完成" },
+      "assignment-select": {
+        "attendants": "服务员",
+        "inspectors": "检查员",
+        "management": "管理",
+        "housekeeping": "家政",
+        "concierge": "门房",
+        "maintenance": "保养",
+        "groups": "组",
+        "runners": "运动员"
+      },
+      "room-options": {
+        "room-gallery": "客房画廊",
+        "send-task": "发送任务",
+        "clean-room": "整理房间",
+        "hsk-notes": "HSK笔记",
+        "lost-found": "失物招领",
+        "inventory": "库存",
+        "maintenance": "保养"
+      },
+      "room-row-item": { "tasks": "任务" },
+      "user-select-modal": {
+        "management": "管理",
+        "housekeeping": "家政",
+        "concierge": "门房",
+        "select-assignment": "选择分配",
+        "maintenance": "保养",
+        "close": "关"
+      },
+      "asset-action-description": {
+        "yes": "是",
+        "there-are-no-actions-for-your-asset": "有你的资产没有动作",
+        "no-actions-for-created-asset": "用于创建资产无行动",
+        "you-must-first-select-an-asset": "你必须先选择一个资产",
+        "no": "没有"
+      },
+      "asset-select-modal": { "close": "关", "select-asset": "选择资产" },
+      "reservation-nights": { "of": "的", "nights": "夜" }
+    },
+    "inventoryrestock": { "index": { "restock-inventory": "" } },
+    "main": {
+      "filter-grid": {
+        "reset": "重启",
+        "search": "搜索房间，客人...",
+        "vacant": "空的",
+        "inspt": "检查",
+        "other": "其他",
+        "dirty": "脏",
+        "clean": "清洁",
+        "close": "关",
+        "occupied": "占据"
+      },
+      "index": {
+        "priority": "优先",
+        "tasks": "任务",
+        "floor": "地板",
+        "show-less": "限制预定房间",
+        "paused-rooms": "已暂停客房",
+        "show-more": "显示所有客房",
+        "scheduled": "预定房间",
+        "paused": "已暂停",
+        "credits": "学分",
+        "priority-rooms": "优先级房",
+        "close-floor": "关闭地板",
+        "rooms": "客房"
+      }
+    },
+    "navigation": {
+      "links": {
+        "tasks": "任务",
+        "main": "主要",
+        "glitches": "毛刺",
+        "inventory-restock": "库存重新进货",
+        "notifications": "通知"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "report-lost-and-found-item": "报告丢失物品",
+        "description": "增加一个说明",
+        "submit-lost-item": "提交丢失物品"
+      }
+    }
+  },
+  "base": {
+    "glitch-form": {
+      "index": {
+        "glitch-information": "故障信息",
+        "incident-description": "事件描述",
+        "name": "名称",
+        "room": "房间",
+        "submit-new-glitch": "提交新的故障",
+        "compensation-cost": "补偿费用",
+        "select-glitch-category": "选择故障类别",
+        "enter-guest-name": "输入客户名称",
+        "enter-room-number": "输入房间号",
+        "vip": "要人",
+        "premiere-club": "首映俱乐部",
+        "actions-to-resolve": "操作来解决",
+        "follow-up-with-guest": "跟进客人",
+        "email": "电子邮件",
+        "enter-guest-email": "输入客户的电子邮件"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "选择毛刺",
+        "select-glitch-category": "选择故障类别",
+        "select-category": "选择类别"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "好的",
+        "submitted-time": "提交时间",
+        "notification": "通知",
+        "accept": "接受",
+        "new-task": "新任务",
+        "location": "位置",
+        "reject": "拒绝",
+        "created-by": "由...制作",
+        "last-message": "最后消息"
+      }
+    },
+    "ubiquitous": {
+      "all": "所有",
+      "departed": "死者",
+      "photo": "照片",
+      "continue-without-photo": "继续没有照片",
+      "assignee": "代理人",
+      "unassigned": "未分配",
+      "rooms": "客房",
+      "filters": "过滤器",
+      "pms-notes": "PMS注意事项",
+      "yes": "是",
+      "blocked": "阻止",
+      "pause": "暂停",
+      "group": "组",
+      "acknowledge": "确认",
+      "tap-to-continue": "点击继续",
+      "send": "发送",
+      "search-users": "搜索用户",
+      "to": "至",
+      "planned-runner": "计划亚军",
+      "no-location": "无位置",
+      "location": "位置",
+      "all-inspectors": "所有检查员",
+      "create-asset": "创建资产",
+      "inspt": "Inspt",
+      "search-assets": "搜索资产",
+      "search-locations": "搜索位置",
+      "add-a-note": "添加注释",
+      "default-assignment": "默认分配",
+      "continue": "继续",
+      "quick": "球队",
+      "maintenance-team": "维修组",
+      "backlog": "积压",
+      "reset-entry": "重启",
+      "arr": "编曲",
+      "creator": "创造者",
+      "asset-and-action": "资产和行动",
+      "cs": "CS",
+      "close": "关",
+      "assignments": "分配",
+      "mandatory-task": "强制性任务",
+      "yesterday": "昨天",
+      "last-message": "最后消息",
+      "arrival": "由于在",
+      "resume": "恢复",
+      "select-user": "选择用户",
+      "tap-to-start-camera": "点击启动相机",
+      "attendant": "服务员",
+      "stay": "留",
+      "optional": "可选的",
+      "convert": "兑换",
+      "housekeeping": "家政",
+      "enter-a-message": "输入消息",
+      "block": "块",
+      "tasks": "任务",
+      "select-location": "选择位置",
+      "floors": "地板",
+      "submit": "提交",
+      "cancel": "取消",
+      "message": "信息",
+      "people": "个人",
+      "inspected": "检查",
+      "next": "下一个",
+      "priority": "优先",
+      "start": "开始",
+      "maintenance": "保养",
+      "prev": "上一页",
+      "today": "今天",
+      "completed": "已完成",
+      "notifications": "通知",
+      "all-runners": "所有参赛者",
+      "none": "没有",
+      "room": "房间",
+      "dep": "德普",
+      "priority-task": "优先级任务",
+      "enter-a-description-optional": "输入描述（可选）",
+      "dirty": "脏",
+      "cancelled": "取消",
+      "send-housekeeping-task": "发送看家任务",
+      "select-locations": "选择地点",
+      "search-tasks": "搜索任务",
+      "send-maintenance-task": "发送维护任务",
+      "runner": "跑步者",
+      "locations": "地点",
+      "accept": "接受",
+      "no-photo": "不许拍照",
+      "receptionist": "接待员",
+      "inspector": "检查员",
+      "occupied": "占据",
+      "vacant": "空的",
+      "information": "信息",
+      "adminstrator": "管理员",
+      "no": "没有",
+      "stayover": "留",
+      "delay": "延迟",
+      "other": "其他",
+      "blocking-task": "阻塞任务",
+      "reject": "拒绝",
+      "finish": "完",
+      "description": "描述",
+      "normal": "正常",
+      "planned-attendant": "计划话务员",
+      "update": "更新",
+      "alert": "警报",
+      "arrived": "到达",
+      "da": "d / A",
+      "change-sheets": "更换床单",
+      "task": "任务",
+      "clear": "明确",
+      "floor": "地板",
+      "departure": "离开",
+      "clean": "清洁",
+      "exit-selection": "退出选择"
+    },
+    "realtime": {
+      "index": {
+        "pending-requests-itemstosync": "待处理的请求",
+        "offline": "离线",
+        "-": ""
+      }
+    },
+    "notification": {
+      "extraoptions": {
+        "reply": "回复",
+        "convert-to-task": "转换为任务",
+        "follow-up": "跟进"
+      }
+    },
+    "createnotification": {
+      "index": { "recent-quick-notifications": "最近和快速通知" },
+      "selectuser": { "tap": "点击更改" }
+    },
+    "tasktable": {
+      "status": {
+        "started": "入门",
+        "completed": "成品",
+        "waiting": "等候",
+        "rejected": "拒绝",
+        "paused": "已暂停",
+        "canceled": "取消",
+        "finished": "成品",
+        "pending": "有待"
+      },
+      "header": {
+        "status": "状态",
+        "information": "信息",
+        "task": "任务",
+        "normal-ticket": "普通票",
+        "lite-ticket": "精简版票",
+        "assigned": "分配",
+        "time-created": "创建时间",
+        "location": "位置",
+        "created-by": "由...制作",
+        "priority-ticket": "优先票据"
+      },
+      "utils": {
+        "pause": "暂停",
+        "finish": "完",
+        "start": "开始",
+        "resume": "恢复",
+        "reject": "拒绝"
+      }
+    },
+    "notifications": {
+      "index": { "assigned": "分配", "sent": "发送" },
+      "quicknotificationform": { "send-message": "发信息" }
+    },
+    "tasks": {
+      "tabs": { "today": "今天", "sent": "发送", "backlog": "积压" },
+      "dummy": { "occupaied": "" }
+    },
+    "inventory": {
+      "index": { "close-area": "关闭面", "search-items": "搜索项目" }
+    },
+    "components": {
+      "assetactiondescription": {
+        "submit-maintenance": "提交维修",
+        "no-available": "有你的资产没有动作",
+        "description": "描述",
+        "no": "没有",
+        "no-actions": "用于创建资产无行动",
+        "priority": "优先",
+        "continue": "继续",
+        "asset": "财富",
+        "first-select": "你必须先选择一个资产",
+        "action": "行动",
+        "description-placeholder": "例如：它不会打开",
+        "yes": "是",
+        "select-asset": "选择资源",
+        "location": "位置"
+      },
+      "fullscreenphoto": { "no-photo": "不许拍照" }
+    },
+    "navigation": {
+      "index": {
+        "task": "任务",
+        "convert-task": "转换任务",
+        "notifications": "通知",
+        "tasks": "任务",
+        "notes": "笔记",
+        "create-notification": "创建通知",
+        "glitch": "客户体验",
+        "turndown-service": "夜床服务",
+        "lost-found": "失物招领",
+        "room": "房间",
+        "inventory": "库存",
+        "maintenance": "保养",
+        "home": "家",
+        "glitches": "客户体验",
+        "gallery": "画廊",
+        "inventory-restock": "进货清单"
+      },
+      "links": {
+        "assets": "资产",
+        "notifications": "通知",
+        "logout": "登出",
+        "rooms": "客房",
+        "closed": "关闭",
+        "main": "主要",
+        "sent": "发送"
+      }
+    },
+    "taskcard": {
+      "status": {
+        "started": "入门",
+        "completed": "已完成",
+        "unclaimed": "无人认领",
+        "cancelled": "取消",
+        "accepted": "公认",
+        "pending": "有待"
+      }
+    },
+    "swipeoutoptions": { "index": { "close": "关" } }
+  },
+  "inspector": {
+    "attendantmodal": {
+      "index": {
+        "priority": "优先",
+        "reset": "重启",
+        "attendant": "服务员",
+        "overwrite-guest-status": "覆盖访客状态",
+        "send-message-to-attendant": "发送信息给服务员"
+      }
+    },
+    "createtask": {
+      "index": {
+        "photo": "照片",
+        "mandatory-task": "强制性任务",
+        "assignee": "代理人",
+        "priority-task": "优先级任务",
+        "blocking-task": "阻塞任务",
+        "location": "位置",
+        "asset-and-action": "资产和行动"
+      },
+      "extraoption": { "yes": "是", "no": "没有" }
+    },
+    "main": {
+      "index": { "rooms": "客房", "all-floors": "所有楼层", "floor": "地板" },
+      "rooms-filter": {
+        "attendants": "服务员",
+        "reset": "重启",
+        "filtered-rooms": "过滤房间",
+        "other": "其他",
+        "floors": "地板",
+        "filters": "过滤器",
+        "all-rooms": "所有客房"
+      },
+      "rooms-information": { "reset": "重启", "vip": "要人" },
+      "notes": { "room-notes": "客房笔记" },
+      "roommessageform": { "room-message": "客房信息" },
+      "roomnotesmodal": {
+        "no-pms-notes-for-this-reservation": "对于此预订PMS笔记",
+        "send-message-attendant": "直接发送通知",
+        "room-notes": "客房笔记",
+        "pms-notes": "PMS笔记",
+        "save-for-later": "留着以后用",
+        "room-message": "客房信息",
+        "messaging": "消息"
+      },
+      "filters-drawer": { "1": "1" }
+    },
+    "housekeeping": {
+      "index": {
+        "today": "今天",
+        "search-tasks-rooms-users": "搜索任务，房间，用户...",
+        "backlog": "积压"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "好的",
+        "submitted-time": "提交时间",
+        "notification": "通知",
+        "accept": "接受",
+        "new-task": "新任务",
+        "location": "位置",
+        "reject": "拒绝",
+        "created-by": "由...制作",
+        "last-message": "最后消息"
+      }
+    },
+    "information": {
+      "info": {
+        "dnd": "DND",
+        "attendant-status": "话务员状态",
+        "housekeeping-status": "内务状况",
+        "room-attendant": "客房服务员",
+        "room-information": "房间信息",
+        "emilie-persion": "埃米莉persion",
+        "room-type": "房型",
+        "standart-room": "非标准房",
+        "last-action": "最后动作",
+        "room-category": "房间类型"
+      },
+      "index": { "room": "房间" },
+      "pmsnotes": {
+        "pms-notes": "PMS笔记",
+        "no-pms-notes": "没有经前综合症的注意事项"
+      },
+      "notes": { "room-notes": "客房笔记" },
+      "roommessageform": { "room-message": "客房信息" },
+      "housekeepingstatus": { "other-housekeepings": "其他Housekeepings" },
+      "vipstatus": { "vip-status": "VIP状态" },
+      "attendantstatus": { "attendant-status": "话务员状态" }
+    },
+    "updatespopup": {
+      "index": {
+        "new": "新",
+        "dismiss": "解雇",
+        "you-have": "你有",
+        "show": "显示"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "select-a-location-or-change-user": "选择一个位置或更改用户",
+        "photo": "照片",
+        "missing-location-or-user": "缺少位置或用户",
+        "send-notification": "发送通知",
+        "to": "至",
+        "select-notification": "选择通知",
+        "location": "位置",
+        "message": "信息",
+        "quick-notifications": "快速通知"
+      },
+      "selectusermodal": { "select-reciepent": "选择reciepent" }
+    },
+    "tableheader": {
+      "index": {
+        "attendant-runner": "话务员和亚军",
+        "tasks": "任务",
+        "my-assigned-tasks": "我分配的任务",
+        "open-housekeepings": "开放式管家",
+        "open-maintenances": "开放的维护",
+        "recently-closed-tasks": "最近关闭的任务",
+        "open-tasks": "打开任务"
+      }
+    },
+    "founditem": { "index": { "submit-lost-item": "提交丢失物品" } },
+    "notifications": {
+      "notificationheader": {
+        "status": "状态",
+        "message": "信息",
+        "user": "用户",
+        "room": "房间",
+        "time": "时间"
+      },
+      "assignedheader": {
+        "status": "状态",
+        "message": "信息",
+        "time": "时间",
+        "room": "房间",
+        "creator": "创造者"
+      },
+      "status": {
+        "okay": "好的",
+        "started": "入门",
+        "rejected": "拒绝",
+        "paused": "已暂停",
+        "canceled": "取消",
+        "waiting": "等候",
+        "pending": "有待"
+      },
+      "index": {
+        "sent-attendant-notifications": "发送及随之而来的通知",
+        "assigned-notifications": "分配的通知",
+        "search-rooms-or-people": "搜索房间或人"
+      }
+    },
+    "catalog": { "index": { "room-photos": "房间照片" } },
+    "planning": {
+      "index": {
+        "add-attendant": "添加服务员",
+        "reset": "重启",
+        "prev": "上一页",
+        "filters": "过滤器",
+        "next": "下一个"
+      },
+      "filtersdrawer": {
+        "all": "所有",
+        "rooms-to-plan": "房计划",
+        "stayover": "过夜",
+        "departure": "离开",
+        "arrivals": "到达",
+        "da": "d / A",
+        "filter-by-guest-status": "嘉宾身份筛选",
+        "filter-by-housekeeping": "家政过滤器",
+        "filter-by-floor": "通过筛选地板",
+        "filter-by-category": "按分类筛选",
+        "change-sheets": "更换床单",
+        "blocked": "阻止"
+      }
+    },
+    "room": {
+      "index": {
+        "information": "信息",
+        "hsk-tasks": "HSK任务",
+        "maintenances": "的维护",
+        "catalog": "目录",
+        "lost-found": "失物招领",
+        "image-about-how-the-room-should-look": "在房间里应该如何看图片",
+        "questionnaires": "问卷调查"
+      }
+    },
+    "playground": { "index": { "let-go": "松手" } },
+    "components": {
+      "selectassignmentmodal": {
+        "select-assignment": "选择分配",
+        "search-users": "搜索用户"
+      },
+      "selectlocationmodal": {
+        "select-locations": "选择地点",
+        "search-locations": "搜索位置"
+      },
+      "selectassetactionmodal": {
+        "search-assets": "搜索资产",
+        "select-asset": "选择资产"
+      }
+    },
+    "chooseattendantmodal": {
+      "index": { "choose-attendant": "随之而来的选择" }
+    },
+    "imagegallery": {
+      "index": { "image-about-how-the-room-should-look": "照片房间​​标准" }
+    },
+    "navigation": {
+      "links": {
+        "housekeeping": "家政",
+        "notifications": "通知",
+        "planning": "规划",
+        "maintenance": "保养",
+        "main": "主要",
+        "history": "历史"
+      }
+    },
+    "maintenance": {
+      "index": {
+        "today": "今天",
+        "search-tasks-rooms-users": "搜索任务，房间，用户...",
+        "backlog": "积压"
+      }
+    },
+    "history": {
+      "index": {
+        "reset": "重启",
+        "all": "所有",
+        "other": "其他",
+        "guests": "宾客",
+        "search-room-users-events": "搜索房间，用户，活动......",
+        "events": "活动",
+        "cleaning": "清洁的"
+      },
+      "historyheader": {
+        "action": "行动",
+        "user": "用户",
+        "room": "房间",
+        "time": "时间"
+      }
+    }
+  },
+  "maintenance": {
+    "createtask": {
+      "assignment": {
+        "missing-assignment": "缺少分配",
+        "search-assignments": "搜索用户，组..."
+      },
+      "assetactiondescription": {
+        "there-are-no-actions-for-your-asset": "有你的资产没有动作",
+        "no": "没有",
+        "submit-maintenance": "提交维修",
+        "you-must-first-select-an-asset": "你必须先选择一个资产",
+        "submit-housekeeping": "提交看家",
+        "yes": "是",
+        "no-actions-for-created-asset": "用于创建资产无行动"
+      },
+      "assetselectmodal": {
+        "close": "关",
+        "search-assets": "搜索资产",
+        "select-asset": "选择资产"
+      }
+    },
+    "reassigntask": {
+      "index": {
+        "reassignment-message": "添加消息重新分配（可选）",
+        "due-date": "截止日期",
+        "select-due-date": "选择到期日",
+        "assign-to": "分配给",
+        "reassign-task": "重新分配任务"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "好的",
+        "submitted-time": "提交时间",
+        "new-glitch": "新故障",
+        "accept": "接受",
+        "new-task": "新任务",
+        "location": "位置",
+        "reject": "拒绝",
+        "created-by": "由...制作",
+        "last-message": "最后消息"
+      }
+    },
+    "assetmodel": { "index": { "asset-model": "资产模型" } },
+    "swipeoutoptions": { "index": { "close": "关" } },
+    "notasks": { "index": { "no-tasks": "没有任务" } },
+    "task": {
+      "dummy": { "pause": "暂停", "finish": "完" },
+      "index": {
+        "sublocation": "子位置",
+        "information": "信息",
+        "undefined": "票",
+        "guest-status": "客户状态",
+        "normal": "普通票",
+        "messages": "消息",
+        "start-date": "开始日期",
+        "priority": "优先票据",
+        "reassign-ticket": "重新分配",
+        "unassigned": "未分配的票",
+        "lite": "精简版票",
+        "model": "模型",
+        "created-by": "由...制作"
+      }
+    },
+    "asset": { "index": { "models": "楷模", "actions": "操作" } },
+    "filters": {
+      "index": {
+        "no-locations": "任务没有位置",
+        "guest-status": "客户状态",
+        "rejected-tasks": "被拒绝的任务",
+        "progressing-tasks": "任务进展",
+        "assigned-to-me": "分配给我",
+        "blocking-tasks": "阻塞的任务",
+        "return-to-tasks": "返回任务",
+        "completed-tasks": "已完成的任务",
+        "no-asset-tasks": "没有资产任务",
+        "vacant-rooms": "空置房",
+        "pickup": "皮卡房",
+        "cleaned-rooms": "清理房间",
+        "out-of-service": "出于服务室",
+        "dirty-rooms": "肮脏的房间",
+        "occupied-rooms": "有人占用的房间",
+        "inspected-rooms": "视察室",
+        "departure-rooms": "离开房间",
+        "assignment": "分配",
+        "assigned-to-others": "分配给他人",
+        "task-status": "任务状态",
+        "priority-tasks": "优先级任务",
+        "properties": "属性",
+        "hide-all": "全部藏起来",
+        "housekeeping": "家政",
+        "reset": "重启",
+        "pending-tasks": "尚未完成的任务",
+        "search": "搜索任务",
+        "arrival-rooms": "到达房间",
+        "unassigned": "未分配的任务",
+        "paused-tasks": "已暂停任务",
+        "planned-tasks": "计划任务"
+      }
+    },
+    "main": {
+      "index": { "create-new-task-for": "创建新任务" },
+      "filterbutton": { "filters": "过滤器" },
+      "filters": {
+        "filter-tasks": "任务过滤",
+        "limit-priority": "限于优先级任务",
+        "limit-dirty": "限制脏的房间",
+        "limit-occupied": "限于占用房间",
+        "limit-out-of-service": "限制了服务室",
+        "limit-vacant": "限于空置房"
+      }
+    },
+    "navigation": {
+      "scenes": {
+        "closed-tasks": "封闭任务",
+        "tasks": "任务",
+        "hotel-assets": "酒店资产",
+        "create-task": "创建任务",
+        "reassign-task": "重新分配任务",
+        "sent-tasks": "发送任务",
+        "hotel-rooms": "酒店客房",
+        "asset": "财富",
+        "filters": "任务过滤器",
+        "action": "行动"
+      },
+      "links": {
+        "assets": "资产",
+        "notifications": "通知",
+        "rooms": "客房",
+        "closed": "关闭",
+        "main": "主要",
+        "sent": "发送"
+      }
+    },
+    "rooms": {
+      "dummy": { "occupaied": "" },
+      "index": { "close-room": "关闭房间", "close-floor": "关闭地板" }
+    }
+  }
+}

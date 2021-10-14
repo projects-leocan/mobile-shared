@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "87958E322337DA115029113A7BDD09075E4A268F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "23530B3EB4C41CEC5BC625E6D4FF714D15F5D341" : 9223372036854775807,
+    "87958E322337DA115029113A7BDD09075E4A268F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3BE8C236-27C9-4554-A5F5-A7FD42643D18",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "23530B3EB4C41CEC5BC625E6D4FF714D15F5D341" : "..",
+    "87958E322337DA115029113A7BDD09075E4A268F" : "rc-mobile-base\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RNPusher",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/RNPusher.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:opula\/rc-mobile-runner.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "23530B3EB4C41CEC5BC625E6D4FF714D15F5D341"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:opula\/rc-mobile-base.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87958E322337DA115029113A7BDD09075E4A268F"
+    }
+  ]
+}

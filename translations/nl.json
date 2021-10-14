@@ -1,0 +1,1180 @@
+{
+  "attendant": {
+    "alert": {
+      "index": {
+        "priority": "Prioriteit",
+        "room-message": "Kamer bericht"
+      }
+    },
+    "clean": {
+      "cleaninginfo": {
+        "change-sheets": "Schone lakens",
+        "cleaning-info": "Schoonmaak info",
+        "credits": "Credits",
+        "pms": "Pms"
+      },
+      "finishmenu": {
+        "cancel-dnd": "Annuleren NS",
+        "cancel-finish": "Annuleren afwerking",
+        "cancel-refuse": "Annuleren weigering",
+        "confirm-dnd": "Bevestig NS"
+      },
+      "menu": {
+        "clean": "Schoon",
+        "delay": "Later",
+        "dnd": "Niet Storen",
+        "inspect": "Inspectie Kamer",
+        "no-check": "Geen controle",
+        "refuse": "Weigering",
+        "start-cleaning": "Start schoonmaak"
+      },
+      "taskssubheader": {
+        "hide-tasks": "Verberg taken",
+        "show-tasks": "Toon taken",
+        "tasks": "Taken"
+      }
+    },
+    "components": {
+      "asset-action-description": {
+        "no": "Nee",
+        "no-actions-for-created-asset": "Geen acties voor het aangemaakte onderwerp",
+        "there-are-no-actions-for-your-asset": "Er zijn geen acties voor dit onderwerp",
+        "yes": "Ja",
+        "you-must-first-select-an-asset": "Kies onderwerp"
+      },
+      "asset-select-modal": {
+        "close": "Dichtbij",
+        "select-asset": "Kies een onderwerp"
+      },
+      "assignment-select": {
+        "attendants": "Helper",
+        "concierge": "Conciërge",
+        "groups": "Groepen",
+        "housekeeping": "Huishouding",
+        "inspectors": "Inspecteurs",
+        "maintenance": "Onderhoud",
+        "management": "Beheer",
+        "runners": "Lopers"
+      },
+      "group-select-row": {
+        "text": "Tekst"
+      },
+      "inventory-update-row": {
+        "reset": "Initialiseer"
+      },
+      "location-select-modal": {
+        "close": "Dichtbij"
+      },
+      "reservation-component": {
+        "reservation": "Reservatie"
+      },
+      "reservation-nights": {
+        "nights": "Nachten",
+        "of": "Vandaag"
+      },
+      "room-note-row": {
+        "remove": "Verwijder"
+      },
+      "room-options": {
+        "clean-room": "Schone kamer",
+        "hsk-notes": "Notas HK",
+        "inventory": "Inventaris",
+        "lost-found": "Verloren voorwerpen",
+        "maintenance": "Onderhoud",
+        "room-gallery": "Kamerlijst",
+        "send-task": "Stuur taak"
+      },
+      "room-row-item": {
+        "tasks": "Taken"
+      },
+      "room-timer": {
+        "cancel": "Annuleren",
+        "done": "Klaar"
+      },
+      "special-select-row": {
+        "text": "Tekst"
+      },
+      "task-settings": {
+        "no": "Nee",
+        "yes": "Ja"
+      },
+      "user-select-modal": {
+        "close": "Dichtbij",
+        "concierge": "Conciërge",
+        "housekeeping": "Huishouding",
+        "maintenance": "Onderhoud",
+        "management": "Beheer",
+        "select-assignment": "Kies toewijzing"
+      },
+      "user-select-row": {
+        "text": "Tekst"
+      }
+    },
+    "headers": {
+      "clean": "Schoon",
+      "gallery": "Galerij",
+      "inspect": "Inspecteer",
+      "inventory": "Inventaris",
+      "inventory-restock": "Inventaris aanvullen",
+      "lost-found": "Verloren voorwerpen",
+      "maintenance": "Onderhoud",
+      "notes": "Notas"
+    },
+    "inspect": {
+      "cleaninginfo": {
+        "change-sheets": "Schone lakens",
+        "credits": "Credits",
+        "pms": "Pms"
+      },
+      "finishmenu": {
+        "confirm-dnd": "Bevestig NS"
+      },
+      "menu": {
+        "clean": "Schoon",
+        "delay": "Later",
+        "dnd": "Niet Storen",
+        "inspect": "Inspecteer kamer",
+        "no-check": "Geen inspectie",
+        "refuse": "Weigering",
+        "start-cleaning": "Start schoonmaak"
+      },
+      "taskssubheader": {
+        "hide-tasks": "Verberg taken",
+        "show-tasks": "Toon taken",
+        "tasks": "Taken"
+      }
+    },
+    "inventoryrestock": {
+      "index": {
+        "restock-inventory": "Inventaris aanvullen"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "description": "Voeg omschrijving toe",
+        "report-lost-and-found-item": "Melding verloren voorwerp",
+        "submit-lost-item": "Verzend verloren voorwerp"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "clean": "Schoon",
+        "close": "Dichtbij",
+        "dirty": "Vuil",
+        "inspt": "Inpct",
+        "occupied": "Bezet",
+        "other": "Andere",
+        "reset": "Initialiseer",
+        "search": "Zoek kamers, gast...",
+        "vacant": "Vrij"
+      },
+      "index": {
+        "close-floor": "Sluit etage",
+        "floor": "Etage",
+        "paused": "Onderbroken",
+        "paused-rooms": "Onderbroeken kamers",
+        "priority": "Prioriteit",
+        "priority-rooms": "Prioriteit kamers",
+        "rooms": "Kamers",
+        "tasks": "Taken"
+      }
+    },
+    "navigation": {
+      "links": {
+        "glitches": "Fouten",
+        "inventory-restock": "Inventaris aanvullen",
+        "main": "Hoofd",
+        "notifications": "Meldingen",
+        "tasks": "Taken"
+      }
+    },
+    "notes": {
+      "index": {
+        "add-note": "Nota toevoegen",
+        "new-note-placeholder": "Ex. taak",
+        "new-room-note": "Nieuwe kamer nota",
+        "previous-notes": "Vorige notities"
+      }
+    },
+    "popuptasks": {
+      "index": {
+        "accept": "Aanvaarden",
+        "new-task": "Nieuwe taak",
+        "reject": "Afwijzen"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Dichtbij"
+      }
+    }
+  },
+  "base": {
+    "components": {
+      "assetactiondescription": {
+        "action": "Actie",
+        "asset": "Onderwerp",
+        "continue": "Doorgaan",
+        "description": "Omschrijving",
+        "description-placeholder": "Vb: aparaat werkt niet",
+        "first-select": "Kies een onderwerp",
+        "location": "Plaats",
+        "no": "Nee",
+        "no-actions": "Geen acties voor aangemaakte onderwerp",
+        "no-available": "Er zijn geen acties voor dit onderwerp",
+        "priority": "Prioriteit",
+        "select-asset": "Kies onderwerp",
+        "submit-maintenance": "Verzend onderhoud",
+        "yes": "Ja"
+      },
+      "fullscreenphoto": {
+        "no-photo": "Geen foto"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "recent-quick-notifications": "Recente & snelle meldingen"
+      },
+      "selectuser": {
+        "tap": "Tik om te wijzigen"
+      }
+    },
+    "glitch-form": {
+      "glitch-category-selector": {
+        "select-category": "Kies categorie",
+        "select-glitch": "Kies een fout",
+        "select-glitch-category": "Kies een fout categorie"
+      },
+      "index": {
+        "actions-to-resolve": "Acties op te lossen",
+        "compensation-cost": "Vergoedingskost",
+        "email": "E-mail",
+        "enter-guest-email": "Invoer Gast e-mail",
+        "enter-guest-name": "Invoer Gastnaam",
+        "enter-room-number": "Invoer kamernummer",
+        "follow-up-with-guest": "Follow-up met gast",
+        "glitch-information": "Fout informatie",
+        "incident-description": "Omschrijving incident",
+        "name": "Naam",
+        "premiere-club": "Premiere club",
+        "room": "Kamer",
+        "select-glitch-category": "Kies een fout categorie",
+        "submit-new-glitch": "Nieuwe fout",
+        "vip": "Vip"
+      }
+    },
+    "inventory": {
+      "index": {
+        "close-area": "Sluiten zone",
+        "search-items": "Zoek Artikelen"
+      }
+    },
+    "navigation": {
+      "index": {
+        "convert-task": "Omzetten taak",
+        "create-notification": "Aanmaak opmerking",
+        "gallery": "Galerij",
+        "glitch": "Gasten ervaring",
+        "glitches": "Ervaringen van onze gasten",
+        "home": "Huis",
+        "inventory": "Inventaris",
+        "inventory-restock": "Aanvullen inventaris",
+        "lost-found": "Verloren voorwerpen",
+        "maintenance": "Onderhoud",
+        "notes": "Notas",
+        "notifications": "Meldingen",
+        "room": "Kamer",
+        "task": "Taak",
+        "tasks": "Taken",
+        "turndown-service": "Turndown service"
+      },
+      "links": {
+        "assets": "Onderwerpen",
+        "closed": "Gesloten",
+        "logout": "Uitloggen",
+        "main": "Hoofd",
+        "notifications": "Meldingen",
+        "rooms": "Kamers",
+        "sent": "Verzonden"
+      }
+    },
+    "notification": {
+      "extraoptions": {
+        "convert-to-task": "Omzetten naar taak",
+        "follow-up": "Opvolgen",
+        "reply": "Antwoord"
+      }
+    },
+    "notifications": {
+      "index": {
+        "assigned": "Toegewezen",
+        "sent": "Verzonden"
+      },
+      "quicknotificationform": {
+        "send-message": "Bericht versturen"
+      }
+    },
+    "popup": {
+      "index": {
+        "accept": "Aanvaarden",
+        "created-by": "Gemaakt door",
+        "last-message": "Laatste bericht",
+        "location": "Plaats",
+        "new-task": "Nieuwe taak",
+        "notification": "Nota",
+        "okay": "O.K.",
+        "reject": "Afwijzen",
+        "submitted-time": "Tijd verzonden"
+      }
+    },
+    "realtime": {
+      "index": {
+        "-": "#VALUE!",
+        "offline": "Offline",
+        "pending-requests-itemstosync": "Openstaande verzoeken"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Dichtbij"
+      }
+    },
+    "taskcard": {
+      "status": {
+        "accepted": "Aanvaard",
+        "cancelled": "Geannuleerd",
+        "completed": "Voltooid",
+        "pending": "In afwachting",
+        "started": "Begonnen",
+        "unclaimed": "Niet Opgeëist"
+      }
+    },
+    "tasks": {
+      "dummy": {
+        "occupaied": ""
+      },
+      "tabs": {
+        "backlog": "Achterstand",
+        "sent": "Verzonden",
+        "today": "Vandaag"
+      }
+    },
+    "tasktable": {
+      "header": {
+        "assigned": "Toegewezen",
+        "created-by": "Gemaakt door",
+        "information": "Informatie",
+        "lite-ticket": "Minimum ticket",
+        "location": "Plaats",
+        "normal-ticket": "Normaal ticket",
+        "priority-ticket": "Prioriteits ticket",
+        "status": "Status",
+        "task": "Taak",
+        "time-created": "Tijd aangemaakt"
+      },
+      "status": {
+        "canceled": "Geannuleerd",
+        "completed": "Afgewerkt",
+        "finished": "Afgewerkt",
+        "paused": "Onderbroken",
+        "pending": "In afwachting",
+        "rejected": "Verworpen",
+        "started": "Begonnen",
+        "waiting": "Aan het wachten"
+      },
+      "utils": {
+        "finish": "Afgewerkt",
+        "pause": "Pauze",
+        "reject": "Afwijzen",
+        "resume": "Hervatten",
+        "start": "Begin"
+      }
+    },
+    "ubiquitous": {
+      "accept": "Aanvaarden",
+      "acknowledge": "Erkennen",
+      "add-a-note": "Voeg een notitie toe",
+      "adminstrator": "Beheerder",
+      "alert": "Alarm",
+      "all": "Allemaal",
+      "all-inspectors": "Alle inspecteurs",
+      "all-runners": "Alle lopers",
+      "arr": "Arr",
+      "arrival": "Verschuldigd in",
+      "arrived": "Aangekomen",
+      "asset-and-action": "Onderwerp en actie",
+      "assignee": "Toegewezene",
+      "assignments": "Opdrachten",
+      "attendant": "Helper",
+      "backlog": "Achterstand",
+      "block": "Blok",
+      "blocked": "Geblokkeerd",
+      "blocking-task": "Blokkerende taak",
+      "cancel": "Annuleren",
+      "cancelled": "Geannuleerd",
+      "change-sheets": "Schone lakens",
+      "clean": "Schoon",
+      "clear": "Leeg",
+      "close": "Toe",
+      "completed": "Voltooid",
+      "continue": "Ga door",
+      "continue-without-photo": "Ga door zonder foto",
+      "convert": "Omzetten",
+      "create-asset": "Maak onderwerp",
+      "creator": "Auteur",
+      "cs": "CS",
+      "da": "D/A",
+      "default-assignment": "Standaard toewijzing",
+      "delay": "Vertraging",
+      "dep": "Dep",
+      "departed": "Vertrokken",
+      "departure": "Vertrek",
+      "description": "Omschrijving",
+      "dirty": "Vuil",
+      "enter-a-description-optional": "Geef een beschrijving (optioneel) ...",
+      "enter-a-message": "Voer een bericht in",
+      "exit-selection": "Exit selectie",
+      "filters": "Filters",
+      "finish": "Afgewerkt",
+      "floor": "Verdieping",
+      "floors": "Verdiepingen",
+      "group": "Groep",
+      "housekeeping": "Huishouding",
+      "information": "Informatie",
+      "inspected": "Geïnspecteerd",
+      "inspector": "Inspecteur",
+      "inspt": "Inspt",
+      "last-message": "Laatste bericht",
+      "location": "Plaats",
+      "locations": "Plaatsen",
+      "maintenance": "Onderhoud",
+      "maintenance-team": "Onderhoudsteam",
+      "mandatory-task": "Verplichte taak",
+      "message": "Bericht",
+      "next": "Volgende",
+      "no": "Nee",
+      "no-location": "Geen locatie",
+      "no-photo": "Geen foto",
+      "none": "Geen",
+      "normal": "Normaal",
+      "notifications": "Meldingen",
+      "occupied": "Bezet",
+      "optional": "Optioneel",
+      "other": "Andere",
+      "pause": "Pauze",
+      "people": "Individueel",
+      "photo": "Foto",
+      "planned-attendant": "Geplande helper",
+      "planned-runner": "Geplande loper",
+      "pms-notes": "PMS Notas",
+      "prev": "Vorige",
+      "priority": "Prioriteit",
+      "priority-task": "Prioritaire taak",
+      "quick": "Team",
+      "receptionist": "Receptionist",
+      "reject": "Afwijzen",
+      "reset-entry": "Initialiseer",
+      "resume": "Hervatten",
+      "room": "Kamer",
+      "rooms": "Kamers",
+      "runner": "Loper",
+      "search-assets": "Zoek onderwerp",
+      "search-locations": "Zoek locaties",
+      "search-tasks": "Zoek taak",
+      "search-users": "Zoek gebruiker",
+      "select-location": "Kies locatie",
+      "select-locations": "Kies locaties",
+      "select-user": "Kies gebruiker",
+      "send": "Verstuur",
+      "send-housekeeping-task": "Verstuur huishouding taak",
+      "send-maintenance-task": "Verstuur onderhoudstaak",
+      "start": "Begin",
+      "stay": "Blijven",
+      "stayover": "Blijven",
+      "submit": "Verzend",
+      "tap-to-continue": "Tik op om door te gaan",
+      "tap-to-start-camera": "Tik om de camera te starten",
+      "task": "Taak",
+      "tasks": "Taken",
+      "to": "Naar",
+      "today": "Vandaag",
+      "unassigned": "Niet-toegewezen",
+      "update": "Bijwerken",
+      "vacant": "Vrij",
+      "yes": "Ja",
+      "yesterday": "Gisteren"
+    }
+  },
+  "inspector": {
+    "attendantmodal": {
+      "index": {
+        "attendant": "Helper",
+        "overwrite-guest-status": "Overschrijven gaststatus",
+        "priority": "Prioriteit",
+        "reset": "Reset",
+        "send-message-to-attendant": "Een bericht verzenden naar helper"
+      }
+    },
+    "catalog": {
+      "index": {
+        "room-photos": "Kamer fotos"
+      }
+    },
+    "chooseattendantmodal": {
+      "index": {
+        "choose-attendant": "Kies helper"
+      }
+    },
+    "components": {
+      "selectassetactionmodal": {
+        "search-assets": "Zoek onderwerpen",
+        "select-asset": "Kies onderwerp"
+      },
+      "selectassignmentmodal": {
+        "search-users": "Zoek gebruikers",
+        "select-assignment": "Kies toewijzing"
+      },
+      "selectlocationmodal": {
+        "search-locations": "Zoek locaties",
+        "select-locations": "Kies locaties"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "location": "Plaats",
+        "message": "Bericht",
+        "missing-location-or-user": "Ontbrekende locatie of gebruiker",
+        "photo": "Foto",
+        "quick-notifications": "Snelle meldingen",
+        "select-a-location-or-change-user": "Selecteer een locatie of wissel gebruiker",
+        "select-notification": "Kies een melding",
+        "send-notification": "Melding verzenden",
+        "to": "Naar"
+      },
+      "selectusermodal": {
+        "select-reciepent": "Select ontvanger"
+      }
+    },
+    "createtask": {
+      "extraoption": {
+        "no": "Nee",
+        "yes": "Ja"
+      },
+      "index": {
+        "asset-and-action": "Onderwerp en actie",
+        "assignee": "Toegewezene",
+        "blocking-task": "Blokkerende taak",
+        "location": "Plaats",
+        "mandatory-task": "Verplichte taak",
+        "photo": "Foto",
+        "priority-task": "Prioritaire taak"
+      }
+    },
+    "founditem": {
+      "index": {
+        "submit-lost-item": "Verzend verloren voorwerp"
+      }
+    },
+    "history": {
+      "historyheader": {
+        "action": "Actie",
+        "room": "Kamer",
+        "time": "Tijd",
+        "user": "Gebruiker"
+      },
+      "index": {
+        "all": "Allemaal",
+        "cleaning": "Schoonmaak",
+        "events": "Evenementen",
+        "guests": "Gasten",
+        "other": "Andere",
+        "reset": "Reset",
+        "search-room-users-events": "Zoek kamers, gebruikers, evenementen ..."
+      }
+    },
+    "housekeeping": {
+      "index": {
+        "backlog": "Achterstand",
+        "search-tasks-rooms-users": "Zoek taken, kamers, gebruikers ...",
+        "today": "Vandaag"
+      }
+    },
+    "imagegallery": {
+      "index": {
+        "image-about-how-the-room-should-look": "Foto's voor de kamer normen"
+      }
+    },
+    "information": {
+      "attendantstatus": {
+        "attendant-status": "Helper status"
+      },
+      "housekeepingstatus": {
+        "other-housekeepings": "Andere Housekeepings"
+      },
+      "index": {
+        "room": "Kamer"
+      },
+      "info": {
+        "attendant-status": "Helper status",
+        "dnd": "NS",
+        "emilie-persion": "Emilie Persion",
+        "housekeeping-status": "Housekeeping status",
+        "last-action": "Laatste Actie",
+        "room-attendant": "Kamer helper",
+        "room-category": "Kamer categorie",
+        "room-information": "Kamer informatie",
+        "room-type": "Kamertype",
+        "standart-room": "Standaard kamer"
+      },
+      "notes": {
+        "room-notes": "Kamer notas"
+      },
+      "pmsnotes": {
+        "no-pms-notes": "Geen PMS notas",
+        "pms-notes": "PMS notas"
+      },
+      "roommessageform": {
+        "room-message": "Kamer bericht"
+      },
+      "vipstatus": {
+        "vip-status": "VIP-status"
+      }
+    },
+    "main": {
+      "filters-drawer": {
+        "1": "1"
+      },
+      "index": {
+        "all-floors": "Alle verdiepingen",
+        "floor": "Verdieping",
+        "rooms": "Kamers"
+      },
+      "notes": {
+        "room-notes": "Kamer notas"
+      },
+      "roommessageform": {
+        "room-message": "Kamer bericht"
+      },
+      "roomnotesmodal": {
+        "messaging": "Berichten",
+        "no-pms-notes-for-this-reservation": "Geen pms notities voor deze reservering",
+        "pms-notes": "PMS notas",
+        "room-message": "Kamer bericht",
+        "room-notes": "Kamer notas",
+        "save-for-later": "Bewaar voor later",
+        "send-message-attendant": "Stuur direct melding"
+      },
+      "rooms-filter": {
+        "all-rooms": "Alle kamers",
+        "attendants": "Helper",
+        "filtered-rooms": "Gekozen kamers",
+        "filters": "Filters",
+        "floors": "Verdiepingen",
+        "other": "Andere",
+        "reset": "Initialiseer"
+      },
+      "rooms-information": {
+        "reset": "Initialiseer",
+        "vip": "VIP"
+      }
+    },
+    "maintenance": {
+      "index": {
+        "backlog": "Achterstand",
+        "search-tasks-rooms-users": "Zoek taken, kamers, gebruikers ...",
+        "today": "Vandaag"
+      }
+    },
+    "navigation": {
+      "links": {
+        "history": "Geschiedenis",
+        "housekeeping": "Huishouding",
+        "main": "Hoofd",
+        "maintenance": "Onderhoud",
+        "notifications": "Meldingen",
+        "planning": "Planning"
+      }
+    },
+    "notifications": {
+      "assignedheader": {
+        "creator": "Maker",
+        "message": "Bericht",
+        "room": "Kamer",
+        "status": "Status",
+        "time": "Tijd"
+      },
+      "index": {
+        "assigned-notifications": "Toegewezen meldingen",
+        "search-rooms-or-people": "Zoek kamers of mensen",
+        "sent-attendant-notifications": "Sent & helper meldingen"
+      },
+      "notificationheader": {
+        "message": "Bericht",
+        "room": "Kamer",
+        "status": "Status",
+        "time": "Tijd",
+        "user": "Gebruiker"
+      },
+      "status": {
+        "canceled": "Geannuleerd",
+        "okay": "OK",
+        "paused": "Onderbroken",
+        "pending": "In afwachting",
+        "rejected": "Geweigerd",
+        "started": "Begonnen",
+        "waiting": "Aan het wachten"
+      }
+    },
+    "planning": {
+      "filtersdrawer": {
+        "all": "Alles",
+        "arrivals": "Aankomst",
+        "blocked": "Geblokkeerd",
+        "change-sheets": "Lakens vervangen",
+        "da": "D/a",
+        "departure": "Vertrek",
+        "filter-by-category": "Filter op categorie",
+        "filter-by-floor": "Filter op verdieping",
+        "filter-by-guest-status": "Filter op gast status",
+        "filter-by-housekeeping": "Filter volgens housekeeping",
+        "rooms-to-plan": "Te plannen kamers",
+        "stayover": "Blijver"
+      },
+      "index": {
+        "add-attendant": "Helper toevoegen",
+        "filters": "Filters",
+        "next": "Volgende",
+        "prev": "Vorige",
+        "reset": "Reset"
+      }
+    },
+    "playground": {
+      "index": {
+        "let-go": "Laten gaan"
+      }
+    },
+    "popup": {
+      "index": {
+        "accept": "Aanvaarden",
+        "created-by": "Gemaakt door",
+        "last-message": "Laatste bericht",
+        "location": "Plaats",
+        "new-task": "Nieuwe taak",
+        "notification": "Nota",
+        "okay": "OK",
+        "reject": "Afwijzen",
+        "submitted-time": "Ingezonden tijd"
+      }
+    },
+    "room": {
+      "index": {
+        "catalog": "Catalogus",
+        "hsk-tasks": "Hsk taken",
+        "image-about-how-the-room-should-look": "Afbeelding over hoe de kamer er uit moet zien",
+        "information": "Informatie",
+        "lost-found": "Verloren voorwerpen",
+        "maintenances": "Onderhoud",
+        "questionnaires": "Vragenlijsten"
+      }
+    },
+    "tableheader": {
+      "index": {
+        "attendant-runner": "Helper & Loper",
+        "my-assigned-tasks": "Mijn toegewezen taken",
+        "open-housekeepings": "Open housekeepings",
+        "open-maintenances": "Open onderhoud",
+        "open-tasks": "Open taken",
+        "recently-closed-tasks": "Onlangs gesloten taken",
+        "tasks": "Taken"
+      }
+    },
+    "updatespopup": {
+      "index": {
+        "dismiss": "Afwijzen",
+        "new": "Nieuw",
+        "show": "Toon",
+        "you-have": "Jij hebt"
+      }
+    }
+  },
+  "maintenance": {
+    "asset": {
+      "index": {
+        "actions": "Acties",
+        "models": "Modellen"
+      }
+    },
+    "assetmodel": {
+      "index": {
+        "asset-model": "Onderwerp model"
+      }
+    },
+    "createtask": {
+      "assetactiondescription": {
+        "no": "Nee",
+        "no-actions-for-created-asset": "Geen acties voor onderwerp",
+        "submit-housekeeping": "Verzend housekeeping",
+        "submit-maintenance": "Verzend onderhoud",
+        "there-are-no-actions-for-your-asset": "Er zijn geen acties voor onderwerp",
+        "yes": "Ja",
+        "you-must-first-select-an-asset": "Kies onderwerp eerst"
+      },
+      "assetselectmodal": {
+        "close": "Dichtbij",
+        "search-assets": "Zoek onderwerp",
+        "select-asset": "Kies onderwerp"
+      },
+      "assignment": {
+        "missing-assignment": "Ontbrekende opdracht",
+        "search-assignments": "Zoek gebruikers, groepen ..."
+      }
+    },
+    "filters": {
+      "index": {
+        "arrival-rooms": "Aankomst kamers",
+        "assigned-to-me": "Toegewezen aan mij",
+        "assigned-to-others": "Toegewezen aan anderen",
+        "assignment": "Toewijzing",
+        "blocking-tasks": "Het blokkeren van taken",
+        "cleaned-rooms": "Schoongemaakte kamers",
+        "completed-tasks": "Voltooide taken",
+        "departure-rooms": "Vertrek kamers",
+        "dirty-rooms": "Vuile kamers",
+        "guest-status": "Gast-status",
+        "hide-all": "Verberg alles",
+        "housekeeping": "Huishouding",
+        "inspected-rooms": "Geïnspecteerd kamers",
+        "no-asset-tasks": "Geen onderwerp taken",
+        "no-locations": "Taken zonder locatie",
+        "occupied-rooms": "Bezette kamers",
+        "out-of-service": "Kamers buiten dienst",
+        "paused-tasks": "Onderbroken taken",
+        "pending-tasks": "Taken in afwachting",
+        "pickup": "Pickup kamers",
+        "planned-tasks": "Geplande taken",
+        "priority-tasks": "Prioritaire taken",
+        "progressing-tasks": "Taken in uitvoering",
+        "properties": "Eigenschappen",
+        "rejected-tasks": "Afgewezen taken",
+        "reset": "Initialiseer",
+        "return-to-tasks": "Keer terug naar de taken",
+        "search": "Zoek taken",
+        "task-status": "Taak status",
+        "unassigned": "Niet-toegewezen taken",
+        "vacant-rooms": "Vrije kamers"
+      }
+    },
+    "main": {
+      "filterbutton": {
+        "filters": "Filters"
+      },
+      "filters": {
+        "filter-tasks": "Filter taken",
+        "limit-dirty": "Beperk tot vuile kamers",
+        "limit-occupied": "Beperk tot bezette kamers",
+        "limit-out-of-service": "Beperk tot buiten dienst kamers",
+        "limit-priority": "Beperk tot prioritaire taken",
+        "limit-vacant": "Beperk tot vrije kamers"
+      },
+      "index": {
+        "create-new-task-for": "Maak een nieuwe taak voor"
+      }
+    },
+    "navigation": {
+      "links": {
+        "assets": "Onderwerp",
+        "closed": "Gesloten",
+        "main": "Hoofd",
+        "notifications": "Meldingen",
+        "rooms": "Kamers",
+        "sent": "Verzonden"
+      },
+      "scenes": {
+        "action": "Actie",
+        "asset": "Onderwerp",
+        "closed-tasks": "Gesloten Taken",
+        "create-task": "Maak Taak",
+        "filters": "Taak Filters",
+        "hotel-assets": "Hotel onderwerpen",
+        "hotel-rooms": "Hotel kamers",
+        "reassign-task": "Toewijzen Taak",
+        "sent-tasks": "Verzonden Taken",
+        "tasks": "Taken"
+      }
+    },
+    "notasks": {
+      "index": {
+        "no-tasks": "Geen taken"
+      }
+    },
+    "popup": {
+      "index": {
+        "accept": "Aanvaarden",
+        "created-by": "Gemaakt door",
+        "last-message": "Laatste bericht",
+        "location": "Plaats",
+        "new-glitch": "Nieuwe fout",
+        "new-task": "Nieuwe taak",
+        "okay": "OK",
+        "reject": "Afwijzen",
+        "submitted-time": "Ingezonden tijd"
+      }
+    },
+    "reassigntask": {
+      "index": {
+        "assign-to": "Toewijzen",
+        "due-date": "Opleveringsdatum",
+        "reassign-task": "Toewijzen taak",
+        "reassignment-message": "Voeg reassigment bericht (optioneel)",
+        "select-due-date": "Kies vervaldag"
+      }
+    },
+    "rooms": {
+      "dummy": {
+        "occupaied": "#VALUE!"
+      },
+      "index": {
+        "close-floor": "Sluit verdieping",
+        "close-room": "Sluit kamer"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Dichtbij"
+      }
+    },
+    "task": {
+      "dummy": {
+        "finish": "Klaar",
+        "pause": "Pauze"
+      },
+      "index": {
+        "created-by": "Gemaakt door",
+        "guest-status": "Gast status",
+        "information": "Informatie",
+        "lite": "Minimum ticket",
+        "messages": "Berichten",
+        "model": "Model",
+        "normal": "Normaal ticket",
+        "priority": "Prioriteits ticket",
+        "reassign-ticket": "Toewijzen",
+        "start-date": "Begin datum",
+        "sublocation": "Sublocatie",
+        "unassigned": "Niet-toegewezen ticket",
+        "undefined": "Ticket"
+      }
+    }
+  },
+  "runner": {
+    "clean": {
+      "index": {
+        "change-sheets": "Schone lakens",
+        "confirm-dnd": "Bevestig dnd",
+        "pms": "PMS"
+      }
+    },
+    "components": {
+      "asset-action-description": {
+        "no": "Nee",
+        "no-actions-for-created-asset": "Geen acties voor onderwerp",
+        "there-are-no-actions-for-your-asset": "Er zijn geen acties voor dit onderwerp",
+        "yes": "Ja",
+        "you-must-first-select-an-asset": "Kies eerst onderwerp"
+      },
+      "asset-select-modal": {
+        "close": "Dichtbij",
+        "select-asset": "Kies een onderwerp"
+      },
+      "assignment-select": {
+        "attendants": "Helpers",
+        "concierge": "Conciërge",
+        "groups": "Groepen",
+        "housekeeping": "Huishouding",
+        "inspectors": "Inspecteurs",
+        "maintenance": "Onderhoud",
+        "management": "Beheer",
+        "runners": "Lopers"
+      },
+      "gallery-row-item": {
+        "label": "Label"
+      },
+      "group-select-modal": {
+        "close": "Dichtbij",
+        "select-assignment": "Kies toewijzing"
+      },
+      "group-select-row": {
+        "text": "Tekst"
+      },
+      "inventory-update-row": {
+        "reset": "Initialiseer"
+      },
+      "location-select-modal": {
+        "close": "Dichtbij",
+        "select-location": "Selecteer een locatie"
+      },
+      "reservation-nights": {
+        "nights": "Nachten",
+        "of": "Van"
+      },
+      "room-info": {
+        "change-sheets": "Lakens vervangen",
+        "pms": "Pms"
+      },
+      "room-note-row": {
+        "remove": "Verwijderen"
+      },
+      "room-options": {
+        "clean-room": "Schone ruimte",
+        "guest-glitch": "Gast probleem",
+        "hsk-notes": "Hsk notas",
+        "inventory": "Inventaris",
+        "lost-found": "Verloren voorwerpen",
+        "maintenance": "Onderhoud",
+        "room-gallery": "Kamer gallerij",
+        "send-task": "Taak verzenden"
+      },
+      "room-timer": {
+        "cancel": "Annuleren",
+        "done": "Gedaan"
+      },
+      "special-select-row": {
+        "text": "Tekst"
+      },
+      "task-card": {
+        "created-by": "Gemaakt door",
+        "last-message": "Laatste bericht",
+        "location": "Plaats",
+        "submitted-time": "Ingezonden tijd"
+      },
+      "task-settings": {
+        "no": "Nee",
+        "yes": "Ja"
+      },
+      "user-select-modal": {
+        "close": "Dichtbij",
+        "concierge": "Conciërge",
+        "housekeeping": "Huishouding",
+        "maintenance": "Onderhoud",
+        "management": "Beheer",
+        "select-assignment": "Kies toewijzing"
+      },
+      "user-select-row": {
+        "text": "Tekst"
+      }
+    },
+    "glitch-form": {
+      "glitch-category-selector": {
+        "select-category": "Kies categorie",
+        "select-glitch": "Kies ervaring",
+        "select-glitch-category": "Kies categorie ervaring"
+      },
+      "index": {
+        "actions-to-resolve": "Acties op te lossen",
+        "add-actions-to-resolve": "Voeg op te lossen taak toe",
+        "add-experience-description": "Voeg ervaring omschrijving toe",
+        "add-followup-instructions": "Voes opvolgings instructies toe",
+        "add-task": "Voeg taak toe",
+        "choose-location": "Kies locatie",
+        "close-glitch": "Sluit ervaring",
+        "compensation-cost": "Kosten vergoeding",
+        "email": "E-mail",
+        "enter-guest-email": "Voer gast-email in",
+        "enter-guest-name": "Voer naam van de gast in",
+        "enter-room-name": "Voer kamernummer in",
+        "eur": "Eur",
+        "glitch-information": "Ervaring informatie",
+        "guest-information": "Gasten informatie",
+        "handover": "Handover",
+        "incident-description": "Beschrijving incident",
+        "internal-followup": "Interne opvolging",
+        "name": "Naam",
+        "room": "Kamer",
+        "select-a-glitch-category": "Kies ervaring categorie",
+        "select-glitch-category": "Kies ervaring categorie",
+        "send-glitch": "Ervaring verzenden",
+        "submit-new-glitch": "Nieuwe fout",
+        "update-glitch": "Ervaring bijwerken",
+        "vip": "Vip",
+        "vip-status-optional": "VIP-status (optioneel)"
+      }
+    },
+    "glitch": {
+      "glitch-read-only": {
+        "assigned-to": "Toegewezen aan",
+        "current-responsibility": "Huidige verantwoordelijkheid",
+        "glitch-action": "Ervaring actie",
+        "glitch-category": "Ervaring categorie",
+        "glitch-cost": "Ervaring kosten",
+        "glitch-description": "Ervaring beschrijving",
+        "glitch-followup": "Ervaring opvolging",
+        "none": "Geen",
+        "send-email": "E-mail verzenden",
+        "start": "Start"
+      }
+    },
+    "glitches": {
+      "index": {
+        "assigned-glitches": "Toegewezen ervaringen",
+        "other-glitches": "Andere ervaringen",
+        "recently-closed": "Recent gesloten"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "submit-lost-item": "Verzend verloren voorwerp"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "close": "Dichtbij",
+        "reset": "Initialiseer"
+      },
+      "index": {
+        "close-floor": "Sluiten verdieping",
+        "floor": "Verdieping",
+        "rooms": "Kamers",
+        "tasks": "Takes"
+      }
+    },
+    "navigation": {
+      "links": {
+        "glitches": "Fouten",
+        "inventory-restock": "Aanvullen inventaris",
+        "main": "Hoofd",
+        "notifications": "Meldingen",
+        "tasks": "Taken",
+        "turndown-service": "Turndown service"
+      }
+    },
+    "notes": {
+      "index": {
+        "add-note": "Notitie toevoegen",
+        "new-note-placeholder": "Ex. taak",
+        "new-room-note": "Nieuwe kamer nota",
+        "previous-notes": "Vorige notas"
+      }
+    },
+    "room": {
+      "restock": {
+        "cancel-restock": "Annuleren stock aanvulling",
+        "mark-as-restocked": "Markeren als bijgevuld",
+        "room-inventory": "Kamer inventaris"
+      }
+    },
+    "turndown": {
+      "index": {
+        "all-categories": "Alle categorieën"
+      },
+      "modalcontent": {
+        "cancel-turndown": "Annuleren turndown",
+        "delay": "Vertraging",
+        "dnd": "Dnd",
+        "finish-turndown": "Afwerken turndown",
+        "refuse": "Weigeren"
+      },
+      "subheader": {
+        "all-categories": "Alle categorieën"
+      }
+    }
+  }
+}

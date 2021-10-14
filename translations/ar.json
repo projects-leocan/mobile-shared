@@ -1,0 +1,1007 @@
+{
+  "runner": {
+    "glitch-form": {
+      "index": {
+        "add-actions-to-resolve": "إضافة إجراءات لحل",
+        "add-followup-instructions": "إضافة إرشادات متابعة",
+        "vip": "كبار الشخصيات",
+        "add-task": "إضافة مهمة",
+        "enter-room-name": "أدخل رقم الغرفة",
+        "select-glitch-category": "اختر فئة تجربة",
+        "glitch-information": "معلومات الخبرة",
+        "close-glitch": "تجربة قريبة",
+        "handover": "سلم",
+        "internal-followup": "متابعة الداخلية",
+        "enter-guest-name": "أدخل إسم الضيف",
+        "choose-location": "اختيار موقع",
+        "send-glitch": "إرسال خبرة",
+        "email": "البريد الإلكتروني",
+        "eur": "يورو",
+        "submit-new-glitch": "إرسال خلل جديد",
+        "compensation-cost": "تكلفة التعويض",
+        "update-glitch": "تجربة التحديث",
+        "guest-information": "معلومات الزوار",
+        "add-experience-description": "إضافة وصف تجربة",
+        "vip-status-optional": "وضع كبار الشخصيات (اختياري)",
+        "incident-description": "وصف الحدث",
+        "room": "مجال",
+        "name": "اسم",
+        "select-a-glitch-category": "حدد فئة تجربة",
+        "actions-to-resolve": "إجراءات لحل",
+        "enter-guest-email": "أدخل البريد الإلكتروني للمدعوين"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "حدد تجربة",
+        "select-glitch-category": "اختر فئة تجربة",
+        "select-category": "اختر الفئة"
+      }
+    },
+    "main": {
+      "filter-grid": { "reset": "إعادة تعيين", "close": "قريب" },
+      "index": {
+        "tasks": "مهام",
+        "rooms": "غرف",
+        "close-floor": "انهيار الطابق",
+        "floor": "أرضية"
+      }
+    },
+    "clean": {
+      "index": {
+        "confirm-dnd": "تأكيد DND",
+        "change-sheets": "ورقة التغيير",
+        "pms": "الدورة الشهرية"
+      }
+    },
+    "room": {
+      "restock": {
+        "room-inventory": "جرد الغرفة",
+        "cancel-restock": "إلغاء إعادة تخزين",
+        "mark-as-restocked": "إجعلها سأنجح"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "الملاحظات السابقة",
+        "add-note": "اضف ملاحظة",
+        "new-room-note": "مذكرة غرفة جديدة",
+        "new-note-placeholder": "السابق. مهمة"
+      }
+    },
+    "glitch": {
+      "glitch-read-only": {
+        "none": "لا شيء",
+        "send-email": "ارسل بريد الكتروني",
+        "glitch-cost": "تكلفة تجربة",
+        "glitch-followup": "متابعة تجربة",
+        "start": "بداية",
+        "glitch-description": "وصف تجربة",
+        "assigned-to": "مخصص ل",
+        "current-responsibility": "المسؤولية الحالية",
+        "glitch-action": "عمل تجربة",
+        "glitch-category": "فئة تجربة"
+      }
+    },
+    "components": {
+      "group-select-modal": {
+        "close": "قريب",
+        "select-assignment": "حدد مهمة"
+      },
+      "group-select-row": { "text": "نص" },
+      "location-select-modal": {
+        "close": "قريب",
+        "select-location": "اختر موقعا"
+      },
+      "room-note-row": { "remove": "إزالة" },
+      "task-card": {
+        "created-by": "صنع من قبل",
+        "location": "موقعك",
+        "last-message": "اخر رسالة",
+        "submitted-time": "وقت الإرسال"
+      },
+      "special-select-row": { "text": "نص" },
+      "assignment-select": {
+        "attendants": "الحاضرين",
+        "inspectors": "مفتشو",
+        "management": "إدارة",
+        "housekeeping": "التدبير المنزلي",
+        "concierge": "خدمات الاستقبال والإرشاد",
+        "maintenance": "اعمال صيانة",
+        "groups": "المجموعات",
+        "runners": "وفاز بالمركز الثاني"
+      },
+      "user-select-row": { "text": "نص" },
+      "inventory-update-row": { "reset": "إعادة تعيين" },
+      "room-options": {
+        "room-gallery": "معرض الغرفة",
+        "send-task": "إرسال مهمة",
+        "clean-room": "غرفة نظيفة",
+        "guest-glitch": "خلل يهمنا",
+        "hsk-notes": "الملاحظات HSK",
+        "lost-found": "وجد المفقود",
+        "inventory": "المخزون",
+        "maintenance": "اعمال صيانة"
+      },
+      "room-timer": { "cancel": "إلغاء", "done": "فعله" },
+      "user-select-modal": {
+        "management": "إدارة",
+        "housekeeping": "التدبير المنزلي",
+        "concierge": "خدمات الاستقبال والإرشاد",
+        "select-assignment": "حدد مهمة",
+        "maintenance": "اعمال صيانة",
+        "close": "قريب"
+      },
+      "asset-action-description": {
+        "yes": "نعم فعلا",
+        "there-are-no-actions-for-your-asset":
+          "لا توجد إجراءات لالأصول الخاصة بك",
+        "no-actions-for-created-asset": "توجد إجراءات لإنشاء الأصول",
+        "you-must-first-select-an-asset": "يجب عليك أولا تحديد الأصول",
+        "no": "لا"
+      },
+      "asset-select-modal": { "close": "قريب", "select-asset": "حدد الأصول" },
+      "room-info": { "change-sheets": "ورقة التغيير", "pms": "الدورة الشهرية" },
+      "reservation-nights": { "of": "من", "nights": "ليالي" },
+      "task-settings": { "yes": "نعم فعلا", "no": "لا" },
+      "gallery-row-item": { "label": "ضع الكلمة المناسبة" }
+    },
+    "turndown": {
+      "subheader": { "all-categories": "جميع الفئات" },
+      "index": { "all-categories": "جميع الفئات" },
+      "modalcontent": {
+        "delay": "تأخير",
+        "cancel-turndown": "إلغاء الهبوط",
+        "refuse": "رفض",
+        "finish-turndown": "الانتهاء من تحضير الأسرة للنوم",
+        "dnd": "DND"
+      }
+    },
+    "glitches": {
+      "index": {
+        "other-glitches": "تجارب أخرى",
+        "recently-closed": "اغلقت مؤخرا",
+        "assigned-glitches": "تجارب تعيين"
+      }
+    },
+    "navigation": {
+      "links": {
+        "glitches": "مواطن الخلل",
+        "tasks": "مهام",
+        "inventory-restock": "إعادة ملء المخزون",
+        "notifications": "إخطارات",
+        "turndown-service": "خدمة تحضير الأسرة للنوم",
+        "main": "الأساسية"
+      }
+    },
+    "lostfound": { "index": { "submit-lost-item": "إرسال المفقود" } }
+  },
+  "attendant": {
+    "swipeoutoptions": { "index": { "close": "قريب" } },
+    "clean": {
+      "menu": {
+        "dnd": "DND",
+        "refuse": "رفض",
+        "inspect": "تفقد غرفة",
+        "start-cleaning": "بدء تنظيف",
+        "delay": "في وقت لاحق",
+        "clean": "نظيف",
+        "no-check": "لا الاختيار"
+      },
+      "finishmenu": {
+        "cancel-dnd": "إلغاء DND",
+        "cancel-refuse": "إلغاء القمامة",
+        "cancel-finish": "إلغاء إنهاء",
+        "confirm-dnd": "تأكيد DND"
+      },
+      "cleaninginfo": {
+        "credits": "قروض",
+        "pms": "الدورة الشهرية",
+        "change-sheets": "ورقة التغيير",
+        "cleaning-info": "معلومات التنظيف"
+      },
+      "taskssubheader": {
+        "show-tasks": "إظهار المهام",
+        "tasks": "مهام",
+        "hide-tasks": "إخفاء المهام"
+      }
+    },
+    "popuptasks": {
+      "index": { "new-task": "مهمة جديدة", "accept": "قبول", "reject": "رفض" }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "الملاحظات السابقة",
+        "add-note": "اضف ملاحظة",
+        "new-room-note": "مذكرة غرفة جديدة",
+        "new-note-placeholder": "السابق. مهمة"
+      }
+    },
+    "inspect": {
+      "menu": {
+        "dnd": "DND",
+        "refuse": "رفض",
+        "inspect": "تفقد غرفة",
+        "start-cleaning": "بدء تنظيف",
+        "delay": "في وقت لاحق",
+        "clean": "نظيف",
+        "no-check": "لا الاختيار"
+      },
+      "finishmenu": { "confirm-dnd": "تأكيد DND" },
+      "cleaninginfo": {
+        "credits": "قروض",
+        "change-sheets": "ورقة التغيير",
+        "pms": "الدورة الشهرية"
+      },
+      "taskssubheader": {
+        "show-tasks": "إظهار المهام",
+        "tasks": "مهام",
+        "hide-tasks": "إخفاء المهام"
+      }
+    },
+    "alert": {
+      "index": { "priority": "أفضلية", "room-message": "رسالة الغرفة" }
+    },
+    "headers": {
+      "maintenance": "اعمال صيانة",
+      "inventory-restock": "إعادة تخزين المخزون",
+      "notes": "ملاحظات",
+      "inspect": "فحص",
+      "lost-found": "وجد المفقود",
+      "inventory": "المخزون",
+      "clean": "نظيف",
+      "gallery": "صالة عرض"
+    },
+    "components": {
+      "group-select-row": { "text": "نص" },
+      "location-select-modal": { "close": "قريب" },
+      "user-select-row": { "text": "نص" },
+      "reservation-component": { "reservation": "حجز" },
+      "room-note-row": { "remove": "إزالة" },
+      "task-settings": { "yes": "نعم فعلا", "no": "لا" },
+      "special-select-row": { "text": "نص" },
+      "inventory-update-row": { "reset": "إعادة تعيين" },
+      "room-timer": { "cancel": "إلغاء", "done": "فعله" },
+      "assignment-select": {
+        "attendants": "الحاضرين",
+        "inspectors": "مفتشو",
+        "management": "إدارة",
+        "housekeeping": "التدبير المنزلي",
+        "concierge": "خدمات الاستقبال والإرشاد",
+        "maintenance": "اعمال صيانة",
+        "groups": "المجموعات",
+        "runners": "وفاز بالمركز الثاني"
+      },
+      "room-options": {
+        "room-gallery": "معرض الغرفة",
+        "send-task": "إرسال مهمة",
+        "clean-room": "غرفة نظيفة",
+        "hsk-notes": "الملاحظات HSK",
+        "lost-found": "وجد المفقود",
+        "inventory": "المخزون",
+        "maintenance": "اعمال صيانة"
+      },
+      "room-row-item": { "tasks": "مهام" },
+      "user-select-modal": {
+        "management": "إدارة",
+        "housekeeping": "التدبير المنزلي",
+        "concierge": "خدمات الاستقبال والإرشاد",
+        "select-assignment": "حدد مهمة",
+        "maintenance": "اعمال صيانة",
+        "close": "قريب"
+      },
+      "asset-action-description": {
+        "yes": "نعم فعلا",
+        "there-are-no-actions-for-your-asset":
+          "لا توجد إجراءات لالأصول الخاصة بك",
+        "no-actions-for-created-asset": "توجد إجراءات لإنشاء الأصول",
+        "you-must-first-select-an-asset": "يجب عليك أولا تحديد الأصول",
+        "no": "لا"
+      },
+      "asset-select-modal": { "close": "قريب", "select-asset": "حدد الأصول" },
+      "reservation-nights": { "of": "من", "nights": "ليالي" }
+    },
+    "inventoryrestock": { "index": { "restock-inventory": "#VALUE!" } },
+    "main": {
+      "filter-grid": {
+        "reset": "إعادة تعيين",
+        "search": "غرف البحث، والضيوف ...",
+        "vacant": "شاغر",
+        "inspt": "Inspt",
+        "other": "آخر",
+        "dirty": "قذر",
+        "clean": "نظيف",
+        "close": "قريب",
+        "occupied": "احتل"
+      },
+      "index": {
+        "priority": "أفضلية",
+        "tasks": "مهام",
+        "floor": "أرضية",
+        "paused-rooms": "غرف توقف",
+        "paused": "توقف",
+        "priority-rooms": "غرف الأولوية",
+        "close-floor": "انهيار الطابق",
+        "rooms": "غرف"
+      }
+    },
+    "navigation": {
+      "links": {
+        "tasks": "مهام",
+        "main": "الأساسية",
+        "glitches": "مواطن الخلل",
+        "inventory-restock": "إعادة تخزين المخزون",
+        "notifications": "إخطارات"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "report-lost-and-found-item": "تقرير فقد وجدت البند",
+        "description": "إضافة وصف",
+        "submit-lost-item": "إرسال المفقود"
+      }
+    }
+  },
+  "base": {
+    "glitch-form": {
+      "index": {
+        "glitch-information": "معلومات خلل",
+        "incident-description": "وصف الحدث",
+        "name": "اسم",
+        "room": "مجال",
+        "submit-new-glitch": "إرسال خلل جديد",
+        "compensation-cost": "تكلفة التعويض",
+        "select-glitch-category": "اختر الفئة خلل",
+        "enter-guest-name": "أدخل اسم الزوار",
+        "enter-room-number": "أدخل رقم الغرفة",
+        "vip": "كبار الشخصيات",
+        "premiere-club": "النادي العرض",
+        "actions-to-resolve": "إجراءات لحل",
+        "follow-up-with-guest": "متابعة مع ضيف",
+        "email": "البريد الإلكتروني",
+        "enter-guest-email": "أدخل البريد الإلكتروني الزوار"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "حدد خلل",
+        "select-glitch-category": "اختر الفئة خلل",
+        "select-category": "اختر الفئة"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "حسنا",
+        "submitted-time": "وقت الإرسال",
+        "notification": "إعلام",
+        "accept": "قبول",
+        "new-task": "مهمة جديدة",
+        "location": "موقعك",
+        "reject": "رفض",
+        "created-by": "صنع من قبل",
+        "last-message": "اخر رسالة"
+      }
+    },
+    "ubiquitous": {
+      "all": "الكل",
+      "departed": "الراحل",
+      "photo": "صورة فوتوغرافية",
+      "continue-without-photo": "متابعة دون الصور",
+      "assignee": "المحال",
+      "unassigned": "غير المعينة",
+      "rooms": "غرف",
+      "filters": "مرشحات",
+      "pms-notes": "PMS ملاحظات",
+      "yes": "نعم فعلا",
+      "blocked": "مسدود",
+      "pause": "وقفة",
+      "group": "مجموعة",
+      "acknowledge": "الإقرار",
+      "tap-to-continue": "إضغط للإستمرار",
+      "send": "إرسال",
+      "search-users": "للمستخدمين البحث",
+      "to": "إلى",
+      "planned-runner": "تنظيم عداء",
+      "no-location": "لا مكان",
+      "location": "موقعك",
+      "all-inspectors": "جميع المفتشين",
+      "create-asset": "إنشاء الأصول",
+      "inspt": "Inspt",
+      "search-assets": "أصول البحث",
+      "search-locations": "مواقع البحث",
+      "add-a-note": "إضافة ملاحظة",
+      "default-assignment": "احالة افتراضي",
+      "continue": "استمر",
+      "quick": "الفريق",
+      "maintenance-team": "فريق الصيانة",
+      "backlog": "تراكم",
+      "reset-entry": "إعادة تعيين",
+      "arr": "وصول",
+      "creator": "المنشئ",
+      "asset-and-action": "الأصول والعمل",
+      "cs": "CS",
+      "close": "قريب",
+      "assignments": "تعيينات",
+      "mandatory-task": "مهمة إلزامية",
+      "yesterday": "في الامس",
+      "last-message": "اخر رسالة",
+      "arrival": "ويرجع ذلك",
+      "resume": "استئنف",
+      "select-user": "اختر المستخدم",
+      "tap-to-start-camera": "انقر لبدء الكاميرا",
+      "attendant": "حاضر",
+      "stay": "البقاء",
+      "optional": "اختياري",
+      "convert": "تحول",
+      "housekeeping": "التدبير المنزلي",
+      "enter-a-message": "أدخل رسالة",
+      "block": "منع",
+      "tasks": "مهام",
+      "select-location": "اختر موقعا",
+      "floors": "طوابق",
+      "submit": "خضع",
+      "cancel": "إلغاء",
+      "message": "رسالة",
+      "people": "فرد",
+      "inspected": "مفحوصه",
+      "next": "التالى",
+      "priority": "أفضلية",
+      "start": "بداية",
+      "maintenance": "اعمال صيانة",
+      "prev": "السابق",
+      "today": "اليوم",
+      "completed": "منجز",
+      "notifications": "إخطارات",
+      "all-runners": "جميع العدائين",
+      "none": "لا شيء",
+      "room": "مجال",
+      "dep": "إقلاع",
+      "priority-task": "مهمة ذات أولوية",
+      "enter-a-description-optional": "أدخل وصفا (اختياري) ...",
+      "dirty": "قذر",
+      "cancelled": "ألغيت",
+      "send-housekeeping-task": "إرسال مهمة التدبير المنزلي",
+      "select-locations": "حدد المواقع",
+      "search-tasks": "مهام البحث",
+      "send-maintenance-task": "إرسال مهمة صيانة",
+      "runner": "عداء",
+      "locations": "مواقع",
+      "accept": "قبول",
+      "no-photo": "لا توجد صور",
+      "receptionist": "موظف الإستقبال",
+      "inspector": "مفتش",
+      "occupied": "احتل",
+      "vacant": "شاغر",
+      "information": "معلومات",
+      "adminstrator": "مدير",
+      "no": "لا",
+      "stayover": "البقاء",
+      "delay": "تأخير",
+      "other": "آخر",
+      "blocking-task": "عرقلة مهمة",
+      "reject": "رفض",
+      "finish": "إنهاء",
+      "description": "وصف",
+      "normal": "عادي",
+      "planned-attendant": "المصاحبة المخطط",
+      "update": "تحديث",
+      "alert": "محزر",
+      "arrived": "وصل",
+      "da": "D / A",
+      "change-sheets": "صفائح التغيير",
+      "task": "مهمة",
+      "clear": "واضح",
+      "floor": "أرضية",
+      "departure": "مقال",
+      "clean": "نظيف",
+      "exit-selection": "اختيار الخروج"
+    },
+    "realtime": {
+      "index": {
+        "pending-requests-itemstosync": "الطلبات المعلقة",
+        "offline": "غير متصل على الانترنت",
+        "-": "#VALUE!"
+      }
+    },
+    "notification": {
+      "extraoptions": {
+        "reply": "الرد",
+        "convert-to-task": "تحويل إلى مهمة",
+        "follow-up": "متابعة"
+      }
+    },
+    "createnotification": {
+      "index": { "recent-quick-notifications": "الأخيرة وخيارات الإخطارات" },
+      "selectuser": { "tap": "انقر لتغيير" }
+    },
+    "tasktable": {
+      "status": {
+        "started": "بدأت",
+        "completed": "تم الانتهاء من",
+        "waiting": "انتظار",
+        "rejected": "مرفوض",
+        "paused": "توقف",
+        "canceled": "ألغيت",
+        "finished": "تم الانتهاء من",
+        "pending": "قيد الانتظار"
+      },
+      "header": {
+        "status": "الحالة",
+        "information": "معلومات",
+        "task": "مهمة",
+        "normal-ticket": "تذكرة الطبيعي",
+        "lite-ticket": "تذكرة لايت",
+        "assigned": "تعيين",
+        "time-created": "وقت إنشاء",
+        "location": "موقعك",
+        "created-by": "صنع من قبل",
+        "priority-ticket": "تذكرة الأولوية"
+      },
+      "utils": {
+        "pause": "وقفة",
+        "finish": "إنهاء",
+        "start": "بداية",
+        "resume": "استئنف",
+        "reject": "رفض"
+      }
+    },
+    "notifications": {
+      "index": { "assigned": "تعيين", "sent": "أرسلت" },
+      "quicknotificationform": { "send-message": "إرسال رسالة" }
+    },
+    "tasks": {
+      "tabs": { "today": "اليوم", "sent": "أرسلت", "backlog": "تراكم" },
+      "dummy": { "occupaied": "#VALUE!" }
+    },
+    "inventory": {
+      "index": { "close-area": "إغلاق منطقة", "search-items": "البحث الأصناف" }
+    },
+    "components": {
+      "assetactiondescription": {
+        "submit-maintenance": "إرسال الصيانة",
+        "no-available": "لا توجد إجراءات لالأصول الخاصة بك",
+        "description": "وصف",
+        "no": "لا",
+        "no-actions": "توجد إجراءات لإنشاء الأصول",
+        "priority": "أفضلية",
+        "continue": "استمر",
+        "asset": "الأصول",
+        "first-select": "يجب عليك أولا تحديد الأصول",
+        "action": "عمل",
+        "description-placeholder": "مثلا: أنه متعود تشغيل",
+        "yes": "نعم فعلا",
+        "select-asset": "حدد الأصول",
+        "location": "موقعك"
+      },
+      "fullscreenphoto": { "no-photo": "لا توجد صور" }
+    },
+    "navigation": {
+      "index": {
+        "task": "مهمة",
+        "convert-task": "تحويل العمل",
+        "notifications": "إخطارات",
+        "tasks": "مهام",
+        "notes": "ملاحظات",
+        "create-notification": "إنشاء إعلام",
+        "glitch": "تجربة الزائر",
+        "turndown-service": "خدمة ترتيب",
+        "lost-found": "وجد المفقود",
+        "room": "مجال",
+        "inventory": "المخزون",
+        "maintenance": "اعمال صيانة",
+        "home": "الصفحة الرئيسية",
+        "glitches": "الخبرات الزائر",
+        "gallery": "صالة عرض",
+        "inventory-restock": "إعادة ملء المخزون"
+      },
+      "links": {
+        "assets": "الأصول",
+        "notifications": "إخطارات",
+        "logout": "الخروج",
+        "rooms": "غرف",
+        "closed": "مغلق",
+        "main": "الأساسية",
+        "sent": "أرسلت"
+      }
+    },
+    "taskcard": {
+      "status": {
+        "started": "بدأت",
+        "completed": "منجز",
+        "unclaimed": "غير مطلوب",
+        "cancelled": "ألغيت",
+        "accepted": "قبلت",
+        "pending": "قيد الانتظار"
+      }
+    },
+    "swipeoutoptions": { "index": { "close": "قريب" } }
+  },
+  "inspector": {
+    "attendantmodal": {
+      "index": {
+        "priority": "أفضلية",
+        "reset": "إعادة تعيين",
+        "attendant": "حاضر",
+        "overwrite-guest-status": "وضع الكتابة الفوقية ضيف",
+        "send-message-to-attendant": "إرسال رسالة إلى حاضر"
+      }
+    },
+    "createtask": {
+      "index": {
+        "photo": "صورة فوتوغرافية",
+        "mandatory-task": "مهمة إلزامية",
+        "assignee": "المحال",
+        "priority-task": "مهمة ذات أولوية",
+        "blocking-task": "عرقلة مهمة",
+        "location": "موقعك",
+        "asset-and-action": "الأصول والعمل"
+      },
+      "extraoption": { "yes": "نعم فعلا", "no": "لا" }
+    },
+    "main": {
+      "index": {
+        "rooms": "غرف",
+        "all-floors": "جميع الطوابق",
+        "floor": "أرضية"
+      },
+      "rooms-filter": {
+        "attendants": "الحاضرين",
+        "reset": "إعادة تعيين",
+        "filtered-rooms": "غرف تصفيتها",
+        "other": "آخر",
+        "floors": "طوابق",
+        "filters": "مرشحات",
+        "all-rooms": "كل الغرف"
+      },
+      "rooms-information": { "reset": "إعادة تعيين", "vip": "كبار الشخصيات" },
+      "notes": { "room-notes": "ملاحظات الغرفة" },
+      "roommessageform": { "room-message": "رسالة الغرفة" },
+      "roomnotesmodal": {
+        "no-pms-notes-for-this-reservation":
+          "لا تلاحظ الدورة الشهرية لهذا التحفظ",
+        "send-message-attendant": "إرسال إشعار المباشر",
+        "room-notes": "ملاحظات الغرفة",
+        "pms-notes": "مذكرات الدورة الشهرية",
+        "save-for-later": "احفظ لوقت لاحق",
+        "room-message": "رسالة الغرفة",
+        "messaging": "الرسائل"
+      },
+      "filters-drawer": { "1": "1" }
+    },
+    "housekeeping": {
+      "index": {
+        "today": "اليوم",
+        "search-tasks-rooms-users": "مهام البحث والغرف والمستخدمين ...",
+        "backlog": "تراكم"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "حسنا",
+        "submitted-time": "وقت الإرسال",
+        "notification": "إعلام",
+        "accept": "قبول",
+        "new-task": "مهمة جديدة",
+        "location": "موقعك",
+        "reject": "رفض",
+        "created-by": "صنع من قبل",
+        "last-message": "اخر رسالة"
+      }
+    },
+    "information": {
+      "info": {
+        "dnd": "DND",
+        "attendant-status": "وضع المصاحبة",
+        "housekeeping-status": "وضع التدبير المنزلي",
+        "room-attendant": "يصاحب الغرفة",
+        "room-information": "معلومات الغرفة",
+        "emilie-persion": "اميلي persion",
+        "room-type": "نوع الغرفة",
+        "standart-room": "غرفة ستاندارت",
+        "last-action": "أخر فعل",
+        "room-category": "فئة الغرف"
+      },
+      "index": { "room": "مجال" },
+      "pmsnotes": {
+        "pms-notes": "مذكرات الدورة الشهرية",
+        "no-pms-notes": "لا تلاحظ الدورة الشهرية"
+      },
+      "notes": { "room-notes": "ملاحظات الغرفة" },
+      "roommessageform": { "room-message": "رسالة الغرفة" },
+      "housekeepingstatus": { "other-housekeepings": "Housekeepings أخرى" },
+      "vipstatus": { "vip-status": "وضع كبار الشخصيات" },
+      "attendantstatus": { "attendant-status": "وضع المصاحبة" }
+    },
+    "updatespopup": {
+      "index": {
+        "new": "الجديد",
+        "dismiss": "رفض",
+        "you-have": "عندك",
+        "show": "تبين"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "select-a-location-or-change-user": "تحديد موقع المستخدم أو التغيير",
+        "photo": "صورة فوتوغرافية",
+        "missing-location-or-user": "موقع أو المستخدم في عداد المفقودين",
+        "send-notification": "إرسال إشعار",
+        "to": "إلى",
+        "select-notification": "حدد الإخطار",
+        "location": "موقعك",
+        "message": "رسالة",
+        "quick-notifications": "إخطارات سريعة"
+      },
+      "selectusermodal": { "select-reciepent": "اختر reciepent" }
+    },
+    "tableheader": {
+      "index": {
+        "attendant-runner": "حاضر وعداء",
+        "tasks": "مهام",
+        "my-assigned-tasks": "بلدي المهام الموكلة",
+        "open-housekeepings": "housekeepings مفتوحة",
+        "open-maintenances": "الصيانة مفتوحة",
+        "recently-closed-tasks": "المهام المغلقة مؤخرا",
+        "open-tasks": "افتح ياسمسم"
+      }
+    },
+    "founditem": { "index": { "submit-lost-item": "إرسال المفقود" } },
+    "notifications": {
+      "notificationheader": {
+        "status": "الحالة",
+        "message": "رسالة",
+        "user": "المستعمل",
+        "room": "مجال",
+        "time": "زمن"
+      },
+      "assignedheader": {
+        "status": "الحالة",
+        "message": "رسالة",
+        "time": "زمن",
+        "room": "مجال",
+        "creator": "المنشئ"
+      },
+      "status": {
+        "okay": "حسنا",
+        "started": "بدأت",
+        "rejected": "مرفوض",
+        "paused": "توقف",
+        "canceled": "ألغيت",
+        "waiting": "انتظار",
+        "pending": "قيد الانتظار"
+      },
+      "index": {
+        "sent-attendant-notifications": "أرسلت والإخطارات المصاحبة",
+        "assigned-notifications": "إخطارات تعيين",
+        "search-rooms-or-people": "غرف البحث أو الناس"
+      }
+    },
+    "catalog": { "index": { "room-photos": "صورة فوتوغرافية التقطها" } },
+    "planning": {
+      "index": {
+        "add-attendant": "إضافة المصاحبة",
+        "reset": "إعادة تعيين",
+        "prev": "السابق",
+        "filters": "مرشحات",
+        "next": "التالى"
+      },
+      "filtersdrawer": {
+        "all": "الكل",
+        "rooms-to-plan": "غرف للتخطيط",
+        "stayover": "ابقى بعيدا",
+        "departure": "مقال",
+        "arrivals": "الوصول",
+        "da": "D / أ",
+        "filter-by-guest-status": "تصفية حسب الحالة ضيف",
+        "filter-by-housekeeping": "تصفية حسب التدبير المنزلي",
+        "filter-by-floor": "تصفية حسب الكلمة",
+        "filter-by-category": "تصفية حسب الفئة",
+        "change-sheets": "ورقة التغيير",
+        "blocked": "مسدود"
+      }
+    },
+    "room": {
+      "index": {
+        "information": "معلومات",
+        "hsk-tasks": "المهام HSK",
+        "maintenances": "الصيانة",
+        "catalog": "فهرس",
+        "lost-found": "وجد المفقود",
+        "image-about-how-the-room-should-look":
+          "صورة عن كيف يجب أن تبدو الغرفة",
+        "questionnaires": "الاستبيانات"
+      }
+    },
+    "playground": { "index": { "let-go": "اتركه" } },
+    "components": {
+      "selectassignmentmodal": {
+        "select-assignment": "حدد مهمة",
+        "search-users": "للمستخدمين البحث"
+      },
+      "selectlocationmodal": {
+        "select-locations": "حدد المواقع",
+        "search-locations": "مواقع البحث"
+      },
+      "selectassetactionmodal": {
+        "search-assets": "أصول البحث",
+        "select-asset": "حدد الأصول"
+      }
+    },
+    "chooseattendantmodal": {
+      "index": { "choose-attendant": "اختيار المصاحبة" }
+    },
+    "imagegallery": {
+      "index": { "image-about-how-the-room-should-look": "صور للمعايير الغرفة" }
+    },
+    "navigation": {
+      "links": {
+        "housekeeping": "التدبير المنزلي",
+        "notifications": "إخطارات",
+        "planning": "تخطيط",
+        "maintenance": "اعمال صيانة",
+        "main": "الأساسية",
+        "history": "التاريخ"
+      }
+    },
+    "maintenance": {
+      "index": {
+        "today": "اليوم",
+        "search-tasks-rooms-users": "مهام البحث والغرف والمستخدمين ...",
+        "backlog": "تراكم"
+      }
+    },
+    "history": {
+      "index": {
+        "reset": "إعادة تعيين",
+        "all": "الكل",
+        "other": "آخر",
+        "guests": "ضيوف",
+        "search-room-users-events": "غرف البحث والمستخدمين، والأحداث ...",
+        "events": "أحداث",
+        "cleaning": "تنظيف"
+      },
+      "historyheader": {
+        "action": "عمل",
+        "user": "المستعمل",
+        "room": "مجال",
+        "time": "زمن"
+      }
+    }
+  },
+  "maintenance": {
+    "createtask": {
+      "assignment": {
+        "missing-assignment": "احالة المفقود",
+        "search-assignments": "للمستخدمين البحث والجماعات ..."
+      },
+      "assetactiondescription": {
+        "there-are-no-actions-for-your-asset":
+          "لا توجد إجراءات لالأصول الخاصة بك",
+        "no": "لا",
+        "submit-maintenance": "إرسال الصيانة",
+        "you-must-first-select-an-asset": "يجب عليك أولا تحديد الأصول",
+        "submit-housekeeping": "إرسال التدبير المنزلي",
+        "yes": "نعم فعلا",
+        "no-actions-for-created-asset": "توجد إجراءات لإنشاء الأصول"
+      },
+      "assetselectmodal": {
+        "close": "قريب",
+        "search-assets": "أصول البحث",
+        "select-asset": "حدد الأصول"
+      }
+    },
+    "reassigntask": {
+      "index": {
+        "reassignment-message": "إضافة رسالة reassigment (اختياري)",
+        "due-date": "تاريخ الاستحقاق",
+        "select-due-date": "تحديد تاريخ الاستحقاق",
+        "assign-to": "يسند إلى",
+        "reassign-task": "إعادة تعيين مهمة"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "حسنا",
+        "submitted-time": "وقت الإرسال",
+        "new-glitch": "خلل جديد",
+        "accept": "قبول",
+        "new-task": "مهمة جديدة",
+        "location": "موقعك",
+        "reject": "رفض",
+        "created-by": "صنع من قبل",
+        "last-message": "اخر رسالة"
+      }
+    },
+    "assetmodel": { "index": { "asset-model": "نموذج الأصول" } },
+    "swipeoutoptions": { "index": { "close": "قريب" } },
+    "notasks": { "index": { "no-tasks": "أية مهام" } },
+    "task": {
+      "dummy": { "pause": "وقفة", "finish": "إنهاء" },
+      "index": {
+        "sublocation": "Sublocation",
+        "information": "معلومات",
+        "undefined": "تذكرة",
+        "guest-status": "الحالة الزائر",
+        "normal": "تذكرة الطبيعي",
+        "messages": "رسائل",
+        "start-date": "تاريخ البدء",
+        "priority": "تذكرة الأولوية",
+        "reassign-ticket": "إعادة تعيين",
+        "unassigned": "تذكرة غير معين",
+        "lite": "تذكرة لايت",
+        "model": "نموذج",
+        "created-by": "صنع من قبل"
+      }
+    },
+    "asset": { "index": { "models": "عارضات ازياء", "actions": "أفعال" } },
+    "filters": {
+      "index": {
+        "no-locations": "المهام دون مكان",
+        "guest-status": "وضع يهمنا",
+        "rejected-tasks": "المهام رفض",
+        "progressing-tasks": "تتقدم المهام",
+        "assigned-to-me": "تعيين لي",
+        "blocking-tasks": "منع المهام",
+        "return-to-tasks": "العودة إلى المهام",
+        "completed-tasks": "المهام المكتملة",
+        "no-asset-tasks": "أية مهام الأصول",
+        "vacant-rooms": "غرف شاغرة",
+        "pickup": "غرف صغيرة",
+        "cleaned-rooms": "تنظيف الغرف",
+        "out-of-service": "من غرفة الخدمات",
+        "dirty-rooms": "غرف قذرة",
+        "occupied-rooms": "غرف المحتلة",
+        "inspected-rooms": "غرف تفتيش",
+        "departure-rooms": "غرف رحيل",
+        "assignment": "مهمة",
+        "assigned-to-others": "تعيين للآخرين",
+        "task-status": "حالة المهمة",
+        "priority-tasks": "المهام ذات الأولوية",
+        "properties": "الخصائص",
+        "hide-all": "أخف كل شيء",
+        "housekeeping": "التدبير المنزلي",
+        "reset": "إعادة تعيين",
+        "pending-tasks": "المهام العالقة",
+        "search": "مهام البحث",
+        "arrival-rooms": "غرف وصول",
+        "unassigned": "المهام غير المعينة",
+        "paused-tasks": "المهام توقف",
+        "planned-tasks": "المهام المخططة"
+      }
+    },
+    "main": {
+      "index": { "create-new-task-for": "إنشاء مهمة جديدة ل" },
+      "filterbutton": { "filters": "مرشحات" },
+      "filters": {
+        "filter-tasks": "مهام تصفية",
+        "limit-priority": "الحد الى المهام ذات الأولوية",
+        "limit-dirty": "حد لغرف قذرة",
+        "limit-occupied": "حد لغرف المحتلة",
+        "limit-out-of-service": "حد لمن غرفة الخدمات",
+        "limit-vacant": "حد لغرف شاغرة"
+      }
+    },
+    "navigation": {
+      "scenes": {
+        "closed-tasks": "مهام مغلقة",
+        "tasks": "مهام",
+        "hotel-assets": "الأصول الفندقية",
+        "create-task": "إنشاء مهمة",
+        "reassign-task": "إعادة تعيين المهام",
+        "sent-tasks": "المهام المرسلة",
+        "hotel-rooms": "غرف الفندق",
+        "asset": "الأصول",
+        "filters": "شروط العمل",
+        "action": "عمل"
+      },
+      "links": {
+        "assets": "الأصول",
+        "notifications": "إخطارات",
+        "rooms": "غرف",
+        "closed": "مغلق",
+        "main": "الأساسية",
+        "sent": "أرسلت"
+      }
+    },
+    "rooms": {
+      "dummy": { "occupaied": "#VALUE!" },
+      "index": { "close-room": "غرفة قريبة", "close-floor": "انهيار الطابق" }
+    }
+  }
+}

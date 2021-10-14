@@ -1,0 +1,54 @@
+{
+  "standardsOptions": [
+    {
+      "type": "attendant",
+      "message": "The bed needs to be made",
+      "image": "https://www.filepicker.io/api/file/EfYC2EZWSe2aO6J4Z2la"
+    },
+    {
+      "type": "attendant",
+      "message": "Come back in your last room",
+      "image": "https://www.filepicker.io/api/file/aiRAflJsThGYUcXQS9sy"
+    },
+    {
+      "type": "attendant",
+      "message": "Call me by phone",
+      "image": "https://www.filepicker.io/api/file/AIF6wYGSqewSeVfE8rKV"
+    },
+    {
+      "type": "attendant",
+      "message": "Group arrived",
+      "image": "https://www.filepicker.io/api/file/AmI0jfhoR6eGTPufowci"
+    },
+    {
+      "type": "attendant",
+      "message": "The floor needs vacumming",
+      "image": "https://www.filepicker.io/api/file/eb9bXZlcRPuWSPGpSXjt"
+    },
+    {
+      "type": "attendant",
+      "message": "I am taking my break",
+      "image": "https://www.filepicker.io/api/file/agH8PNf1QNCyK0SXFDoo"
+    },
+    {
+      "type": "attendant",
+      "message": "The desk needs to be organized",
+      "image": "https://www.filepicker.io/api/file/Hzvh1ItuThGRL9thldFB"
+    },
+    {
+      "type": "attendant",
+      "message": "Please add a room service menu",
+      "image": "https://www.filepicker.io/api/file/EfYC2EZWSe2aO6J4Z2la"
+    },
+    {
+      "type": "attendant",
+      "message": "The chair needs to be cleaned",
+      "image": "https://www.filepicker.io/api/file/LkdKaoWtT9OzHw9lrJsg"
+    },
+    {
+      "type": "runner",
+      "message": "Please deliver the guest bags",
+      "image": ""
+    }
+  ]
+}
