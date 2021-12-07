@@ -464,11 +464,14 @@
       "index": {
         "open": "Ouvert",
         "emailed": "Email envoyé",
-        "phoned": "Contacté (tel)",
-        "pending": "En attente",
-        "waiting": "Attente confirmation",
+        "reception": "A la Réception",
+        "phoned": "Client contacté",
+        "pending": "Client indécis",
+        "waiting": "En attente FdC",
         "mailed": "Expédié",
         "hand-delivered": "Remis en main propre",
+        "holding": "Attente retour client",
+        "holding-lt": "En garde",
         "expired": "Expiré",
         "refused": "Refusé",
         "delete": "Annuler",
@@ -480,7 +483,8 @@
       "modal": {
         "guest-signature-optional": "Signature client (option)",
         "notes-optional": "Note (option)",
-        "added-photos-optional": "Photos ajoutées (option)"
+        "added-photos-optional": "Photos ajoutées (option)",
+        "update-status": "Mise à jour"
       }
     },
     "popup": {
@@ -581,6 +585,7 @@
       "select-locations": "Sélectionnez des lieux / pièces",
       "search-tasks": "Chercher une tâche",
       "send-maintenance-task": "Envoyer tâche Maintenance",
+      "send-task": "Envoyer la tâche",
       "runner": "Runner / Equipier",
       "locations": "lieux / pièces",
       "accept": "Accepter",
@@ -1074,6 +1079,7 @@
         "information": "Information",
         "hsk-tasks": "Tâches HK",
         "maintenances": "Maintenance",
+        "concierge": "Concierge",
         "catalog": "Standards",
         "lost-found": "Objets trouvés",
         "image-about-how-the-room-should-look": "Ce à quoi doit ressembler la chambre",
@@ -1115,6 +1121,7 @@
         "notifications": "Notifications",
         "planning": "Attribution",
         "maintenance": "Maintenance",
+        "concierge": "Suivi FO",
         "main": "Ecran principal",
         "history": "Historique",
         "lost-found": "Objets trouvés",
