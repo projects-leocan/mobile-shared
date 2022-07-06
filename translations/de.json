@@ -164,7 +164,8 @@
         "inventory-restock": "Inventar restock",
         "main": "Main",
         "notifications": "Benachrichtigungen",
-        "tasks": "Aufgaben"
+        "tasks": "Aufgaben",
+        "rooms-cleaned": "Zimmer gereinigt"
       }
     },
     "notes": {

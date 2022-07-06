@@ -421,7 +421,8 @@
         "main": "Ecran principal",
         "glitches": "Experiences",
         "inventory-restock": "Stock",
-        "notifications": "Notifications"
+        "notifications": "Notifications",
+        "rooms-cleaned": "Chambres nettoyées"
       }
     },
     "lostfound": {

@@ -329,7 +329,8 @@
         "main": "الأساسية",
         "glitches": "مواطن الخلل",
         "inventory-restock": "إعادة تخزين المخزون",
-        "notifications": "إخطارات"
+        "notifications": "إخطارات",
+        "rooms-cleaned": "تنظيف الغرف"
       }
     },
     "lostfound": {

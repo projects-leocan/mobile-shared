@@ -433,7 +433,8 @@
         "glitches": "Experiences",
         "inventory-restock": "Inventory restock",
         "notifications": "Notifications",
-        "plannings": "Future Plannings"
+        "plannings": "Future Plannings",
+        "rooms-cleaned": "Rooms Cleaned"
       }
     },
     "lostfound": {
