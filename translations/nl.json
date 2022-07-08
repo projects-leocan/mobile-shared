@@ -185,7 +185,8 @@
         "inventory-restock": "Inventaris aanvullen",
         "main": "Hoofd",
         "notifications": "Meldingen",
-        "tasks": "Taken"
+        "tasks": "Taken",
+        "rooms-cleaned": "Kamers schoongemaakt"
       }
     },
     "notes": {

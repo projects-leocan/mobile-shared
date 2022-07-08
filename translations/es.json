@@ -410,7 +410,8 @@
 				"main": "Principal",
 				"glitches": "Fallos",
 				"inventory-restock": "Inventario reabastecido",
-				"notifications": "Notificaciones"
+				"notifications": "Notificaciones",
+                "rooms-cleaned": "Habitaciones limpias"
 			}
 		},
 		"lostfound": {
