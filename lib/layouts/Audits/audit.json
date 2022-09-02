@@ -1,0 +1,438 @@
+[
+    {
+        "id": "7ae5608f-7b34-4bd7-be22-a6f22b1163d0",
+        "AuditName": "Appartment Check",
+        "CreatedBy": "7ae5608f-7b34-4bd7-be22-a6f22b1163d0",
+        "DateOfCreation": 1659686401746,
+        "LastUpdate": 1661263010843,
+        "isPublic": false,
+        "Category": "SOP (standard of procedure)",
+        "sections": [
+            {
+                "sectionHead": "Getting Started",
+                "sectionDescription": "This is how to start",
+                "questions": [
+                    {
+                        "questionImageUrls": [
+                            "https://cdn.filestackcontent.com/O3IGrGqoRjKKnVwWNQK8"
+                        ],
+                        "question": "Check the dishwasher, collect all dishes and run if necessary ",
+                        "responseType": "Checkbox",
+                        "responseFormArray": [
+                            {
+                                "input": "Done",
+                                "defaultSelection": "",
+                                "logic": {
+                                    "hasScore": true,
+                                    "hasTask": "",
+                                    "requirePhoto": true,
+                                    "requireSignature": true,
+                                    "sendNotification": "",
+                                    "score": 1,
+                                    "assignedWhoNotification": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    },
+                                    "assignedWhatTask": {
+                                        "assetId": "",
+                                        "assetName": "",
+                                        "actionName": "",
+                                        "assetQuantity": "",
+                                        "assetGroupId": "",
+                                        "assetGroupName": "",
+                                        "isActionSystemDefined": "",
+                                        "systemDefinedActionIdentifierKey": "",
+                                        "systemDefinedActionTypeKey": "",
+                                        "actionTypeKey": ""
+                                    },
+                                    "assignedWhoTask": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    }
+                                }
+                            }
+                        ],
+                        "isRequired": true
+                    },
+                    {
+                        "questionImageUrls": [
+                            "https://cdn.filestackcontent.com/mZYz5xfcSP2iyx0JLMjU",
+                            "https://cdn.filestackcontent.com/tHe2aiYkSqOfbcwExgcU"
+                        ],
+                        "question": "Complete walk through and visual inspection for damage and report problems",
+                        "responseType": "Multiple Choice",
+                        "responseFormArray": [
+                            {
+                                "input": "No Problem",
+                                "defaultSelection": "",
+                                "logic": {
+                                    "hasScore": true,
+                                    "hasTask": "",
+                                    "requirePhoto": true,
+                                    "requireSignature": "",
+                                    "sendNotification": "",
+                                    "score": 10,
+                                    "assignedWhoNotification": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    },
+                                    "assignedWhatTask": {
+                                        "assetId": "",
+                                        "assetName": "",
+                                        "actionName": "",
+                                        "assetQuantity": "",
+                                        "assetGroupId": "",
+                                        "assetGroupName": "",
+                                        "isActionSystemDefined": "",
+                                        "systemDefinedActionIdentifierKey": "",
+                                        "systemDefinedActionTypeKey": "",
+                                        "actionTypeKey": ""
+                                    },
+                                    "assignedWhoTask": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    }
+                                }
+                            },
+                            {
+                                "input": "Problems",
+                                "defaultSelection": "",
+                                "logic": {
+                                    "hasScore": true,
+                                    "hasTask": true,
+                                    "requirePhoto": true,
+                                    "requireSignature": "",
+                                    "sendNotification": "",
+                                    "score": 0,
+                                    "assignedWhoNotification": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    },
+                                    "assignedWhatTask": {
+                                        "assetId": "",
+                                        "assetName": "",
+                                        "actionName": "",
+                                        "assetQuantity": "",
+                                        "assetGroupId": "",
+                                        "assetGroupName": "",
+                                        "isActionSystemDefined": "",
+                                        "systemDefinedActionIdentifierKey": "",
+                                        "systemDefinedActionTypeKey": "",
+                                        "actionTypeKey": ""
+                                    },
+                                    "assignedWhoTask": {
+                                        "accessibleToAllHotels": true,
+                                        "hotelIds": [],
+                                        "typeKey": "SUBGROUP",
+                                        "typeDescription": "Sub group of Groupe Housekeeping",
+                                        "referenceId": "13d535af-74d1-4f89-b765-0a27a8ffba6a",
+                                        "referenceName": "EQUIPIERS HK",
+                                        "imageUrl": null
+                                    }
+                                }
+                            }
+                        ],
+                        "isRequired": true
+                    },
+                    {
+                        "questionImageUrls": [
+                            ""
+                        ],
+                        "question": "Check for thank you note or gift from previous guest and report to owner",
+                        "responseType": "Checkbox",
+                        "responseFormArray": [
+                            {
+                                "input": "Done",
+                                "defaultSelection": "",
+                                "logic": {
+                                    "hasScore": "",
+                                    "hasTask": "",
+                                    "requirePhoto": "",
+                                    "requireSignature": "",
+                                    "sendNotification": "",
+                                    "score": 0,
+                                    "assignedWhoNotification": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    },
+                                    "assignedWhatTask": {
+                                        "assetId": "",
+                                        "assetName": "",
+                                        "actionName": "",
+                                        "assetQuantity": "",
+                                        "assetGroupId": "",
+                                        "assetGroupName": "",
+                                        "isActionSystemDefined": "",
+                                        "systemDefinedActionIdentifierKey": "",
+                                        "systemDefinedActionTypeKey": "",
+                                        "actionTypeKey": ""
+                                    },
+                                    "assignedWhoTask": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    }
+                                }
+                            }
+                        ],
+                        "isRequired": true
+                    },
+                    {
+                        "questionImageUrls": [
+                            ""
+                        ],
+                        "question": "Collect all dirty linens and start laundry ",
+                        "responseType": "Checkbox",
+                        "responseFormArray": [
+                            {
+                                "input": "Done",
+                                "defaultSelection": "",
+                                "logic": {
+                                    "hasScore": "",
+                                    "hasTask": "",
+                                    "requirePhoto": true,
+                                    "requireSignature": false,
+                                    "sendNotification": "",
+                                    "score": 0,
+                                    "assignedWhoNotification": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    },
+                                    "assignedWhatTask": {
+                                        "assetId": "",
+                                        "assetName": "",
+                                        "actionName": "",
+                                        "assetQuantity": "",
+                                        "assetGroupId": "",
+                                        "assetGroupName": "",
+                                        "isActionSystemDefined": "",
+                                        "systemDefinedActionIdentifierKey": "",
+                                        "systemDefinedActionTypeKey": "",
+                                        "actionTypeKey": ""
+                                    },
+                                    "assignedWhoTask": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    }
+                                }
+                            }
+                        ],
+                        "isRequired": true
+                    }
+                ]
+            },
+            {
+                "sectionHead": "Kitchen",
+                "sectionDescription": "",
+                "questions": [
+                    {
+                        "questionImageUrls": [
+                            ""
+                        ],
+                        "question": "Wipe All surfaces",
+                        "responseType": "Checkbox",
+                        "responseFormArray": [
+                            {
+                                "input": "Done",
+                                "defaultSelection": "",
+                                "logic": {
+                                    "hasScore": "",
+                                    "hasTask": "",
+                                    "requirePhoto": "",
+                                    "requireSignature": "",
+                                    "sendNotification": "",
+                                    "score": 0,
+                                    "assignedWhoNotification": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    },
+                                    "assignedWhatTask": {
+                                        "assetId": "",
+                                        "assetName": "",
+                                        "actionName": "",
+                                        "assetQuantity": "",
+                                        "assetGroupId": "",
+                                        "assetGroupName": "",
+                                        "isActionSystemDefined": "",
+                                        "systemDefinedActionIdentifierKey": "",
+                                        "systemDefinedActionTypeKey": "",
+                                        "actionTypeKey": ""
+                                    },
+                                    "assignedWhoTask": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    }
+                                }
+                            }
+                        ],
+                        "isRequired": ""
+                    },
+                    {
+                        "questionImageUrls": [
+                            ""
+                        ],
+                        "question": "Check all lights and lamps and replace bulbs if needed",
+                        "responseType": "Checkbox",
+                        "responseFormArray": [
+                            {
+                                "input": "",
+                                "defaultSelection": "",
+                                "logic": {
+                                    "hasScore": "",
+                                    "hasTask": "",
+                                    "requirePhoto": "",
+                                    "requireSignature": "",
+                                    "sendNotification": "",
+                                    "score": 0,
+                                    "assignedWhoNotification": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    },
+                                    "assignedWhatTask": {
+                                        "assetId": "",
+                                        "assetName": "",
+                                        "actionName": "",
+                                        "assetQuantity": "",
+                                        "assetGroupId": "",
+                                        "assetGroupName": "",
+                                        "isActionSystemDefined": "",
+                                        "systemDefinedActionIdentifierKey": "",
+                                        "systemDefinedActionTypeKey": "",
+                                        "actionTypeKey": ""
+                                    },
+                                    "assignedWhoTask": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    }
+                                }
+                            }
+                        ],
+                        "isRequired": ""
+                    }
+                ]
+            },
+            {
+                "sectionHead": "End of Inspection",
+                "sectionDescription": "",
+                "questions": [
+                    {
+                        "questionImageUrls": [
+                            ""
+                        ],
+                        "question": "I certify all is ok",
+                        "responseType": "Checkbox",
+                        "responseFormArray": [
+                            {
+                                "input": "Cleaning is finished",
+                                "defaultSelection": true,
+                                "logic": {
+                                    "hasScore": "",
+                                    "hasTask": "",
+                                    "requirePhoto": "",
+                                    "requireSignature": true,
+                                    "sendNotification": "",
+                                    "score": 0,
+                                    "assignedWhoNotification": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    },
+                                    "assignedWhatTask": {
+                                        "assetId": "",
+                                        "assetName": "",
+                                        "actionName": "",
+                                        "assetQuantity": "",
+                                        "assetGroupId": "",
+                                        "assetGroupName": "",
+                                        "isActionSystemDefined": "",
+                                        "systemDefinedActionIdentifierKey": "",
+                                        "systemDefinedActionTypeKey": "",
+                                        "actionTypeKey": ""
+                                    },
+                                    "assignedWhoTask": {
+                                        "accessibleToAllHotels": null,
+                                        "hotelIds": [],
+                                        "typeKey": "",
+                                        "typeDescription": "",
+                                        "referenceId": "",
+                                        "referenceName": "",
+                                        "imageUrl": ""
+                                    }
+                                }
+                            }
+                        ],
+                        "isRequired": true
+                    }
+                ]
+            }
+        ]
+    }
+]
