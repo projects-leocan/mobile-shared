@@ -1149,7 +1149,7 @@
     },
     "navigation": {
       "links": {
-        "housekeeping": "Housekeeping",
+        "housekeeping": "Tasks",
         "notifications": "Notifications",
         "planning": "Planning",
         "maintenance": "Maintenance",
