@@ -636,7 +636,8 @@
       "tap-to-enlarge": "Toucher pour agrandir",
       "categories": "Catégories",
       "status": "Statut",
-      "calendar": "Calendrier"
+      "calendar": "Calendrier",
+      "task-assign": "Assigné à"
     },
     "realtime": {
       "index": {

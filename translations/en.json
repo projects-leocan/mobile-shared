@@ -660,7 +660,8 @@
       "tap-to-enlarge": "Tap to enlarge",
       "categories": "Categories",
       "status": "Status",
-      "calendar": "Calendar"
+      "calendar": "Calendar",
+      "task-assign": "Assignee"
     },
     "realtime": {
       "index": {
