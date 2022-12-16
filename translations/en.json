@@ -660,7 +660,16 @@
       "tap-to-enlarge": "Tap to enlarge",
       "categories": "Categories",
       "status": "Status",
-      "calendar": "Calendar"
+      "calendar": "Calendar",
+      "take-picture": "Take Picture",
+      "take-video": "Take Video",
+      "picture-gallery": "Picture from gallery",
+      "video-gallery": "Video from gallery",
+      "task-asset" : "Asset",
+      "task-next": "Next",
+      "task-guest-request": "Guest Request",
+      "task-submit": "Submit",
+      "task-assign": "Assignee"
     },
     "realtime": {
       "index": {
