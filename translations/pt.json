@@ -1,0 +1,1390 @@
+{
+  "runner": {
+    "glitch-form": {
+      "index": {
+        "add-actions-to-resolve": "Adicionar ações a resolver",
+        "add-followup-instructions": "Adicionar instruções de acompanhamento",
+        "vip": "Vip",
+        "add-task": "Adicionar tarefa",
+        "enter-room-name": "Introduza o número do quarto",
+        "select-glitch-category": "Selecione a categoria de experiência",
+        "glitch-information": "Informação sobre a experiência",
+        "close-glitch": "Fechar experiência",
+        "handover": "Transferência",
+        "internal-followup": "Acompanhamento interno",
+        "enter-guest-name": "Introduza o nome do hóspede",
+        "choose-location": "Escolha o local",
+        "send-glitch": "Enviar experiência",
+        "email": "E-mail",
+        "eur": "Eur",
+        "submit-new-glitch": "Submeter nova experiência",
+        "compensation-cost": "Custo de indemnização",
+        "update-glitch": "Atualizar experiência",
+        "guest-information": "Informação do hóspede",
+        "add-experience-description": "Adicionar descrição da experiência",
+        "vip-status-optional": "Estatuto VIP (opcional)",
+        "incident-description": "Descrição do incidente",
+        "room": "Quarto",
+        "name": "Nome",
+        "select-a-glitch-category": "Selecione uma categoria de experiência",
+        "actions-to-resolve": "Ações a resolver",
+        "enter-guest-email": "Insira o e-mail do hóspede",
+        "mark-as-closed": "Assinalar como fechado",
+        "claim-glitch": "Reclamar experiência"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Selecionar experiência",
+        "select-glitch-category": "Selecione a categoria de experiência",
+        "select-category": "Selecionar categoria"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Redefinir",
+        "close": "Fechar"
+      },
+      "index": {
+        "tasks": "Tarefas",
+        "rooms": "Quartos",
+        "close-floor": "Fechar andar",
+        "floor": "Andar"
+      }
+    },
+    "clean": {
+      "index": {
+        "confirm-dnd": "Confirmar dnd",
+        "change-sheets": "Mudar lençóis",
+        "pms": "Pms",
+        "add-change-sheets": "Adicionar mudar lençóis"
+      }
+    },
+    "room": {
+      "restock": {
+        "room-inventory": "Inventário de quartos",
+        "cancel-restock": "Cancelar reabastecimento",
+        "mark-as-restocked": "Assinalar como reabastecido"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Notas anteriores",
+        "add-note": "Adicionar nota",
+        "new-room-note": "Nota sobre o novo quarto",
+        "new-note-placeholder": "Por ex. tarefa"
+      }
+    },
+    "glitch": {
+      "glitch-read-only": {
+        "none": "Nenhum",
+        "send-email": "Enviar e-mail",
+        "glitch-cost": "Custo da experiência",
+        "glitch-followup": "Acompanhamento da experiência",
+        "start": "Início",
+        "glitch-description": "Descrição da experiência",
+        "assigned-to": "Atribuído a",
+        "current-responsibility": "Responsabilidade atual",
+        "glitch-action": "Ação da experiência",
+        "glitch-category": "Categoria de experiência",
+        "change-category": "Alterar categoria"
+      }
+    },
+    "components": {
+      "group-select-modal": {
+        "close": "Fechar",
+        "select-assignment": "Selecionar tarefa"
+      },
+      "group-select-row": {
+        "text": "Texto"
+      },
+      "location-select-modal": {
+        "close": "Fechar",
+        "select-location": "Selecionar local"
+      },
+      "room-note-row": {
+        "remove": "Remover"
+      },
+      "task-card": {
+        "created-by": "Criado por",
+        "location": "Localização",
+        "last-message": "Última mensagem",
+        "submitted-time": "Tempo submetido"
+      },
+      "special-select-row": {
+        "text": "Texto"
+      },
+      "assignment-select": {
+        "attendants": "Assistentes",
+        "inspectors": "Inspetores",
+        "management": "Gestão",
+        "housekeeping": "Limpezas",
+        "concierge": "Concierge",
+        "maintenance": "Manutenção",
+        "groups": "Grupos",
+        "runners": "Executantes"
+      },
+      "user-select-row": {
+        "text": "Texto"
+      },
+      "inventory-update-row": {
+        "reset": "Redefinir"
+      },
+      "room-options": {
+        "room-gallery": "Galeria de quartos",
+        "send-task": "Enviar tarefa",
+        "clean-room": "Limpar quarto",
+        "guest-glitch": "Experiência",
+        "hsk-notes": "Notas hsk",
+        "lost-found": "Perdidos e achados",
+        "inventory": "Inventário",
+        "maintenance": "Manutenção"
+      },
+      "room-timer": {
+        "cancel": "Cancelar",
+        "done": "Concluído"
+      },
+      "user-select-modal": {
+        "management": "Gestão",
+        "housekeeping": "Limpezas",
+        "concierge": "Concierge",
+        "select-assignment": "Selecionar tarefa",
+        "maintenance": "Manutenção",
+        "close": "Fechar"
+      },
+      "asset-action-description": {
+        "yes": "Sim",
+        "there-are-no-actions-for-your-asset": "Não existem ações para o seu ativo",
+        "no-actions-for-created-asset": "Nenhuma ação para o ativo criado",
+        "you-must-first-select-an-asset": "Deve primeiro selecionar um ativo",
+        "no": "Não"
+      },
+      "asset-select-modal": {
+        "close": "Fechar",
+        "select-asset": "Selecionar ativo"
+      },
+      "room-info": {
+        "change-sheets": "Mudar lençóis",
+        "pms": "Pms"
+      },
+      "reservation-nights": {
+        "of": "De",
+        "nights": "Noites"
+      },
+      "task-settings": {
+        "yes": "Sim",
+        "no": "Não"
+      },
+      "gallery-row-item": {
+        "label": "Etiqueta"
+      }
+    },
+    "turndown": {
+      "subheader": {
+        "all-categories": "Todas as categorias"
+      },
+      "index": {
+        "all-categories": "Todas as categorias"
+      },
+      "modalcontent": {
+        "delay": "Atraso",
+        "cancel-turndown": "Cancelar abertura de cama",
+        "refuse": "Recusar",
+        "finish-turndown": "Terminar abertura de cama",
+        "dnd": "Dnd"
+      }
+    },
+    "glitches": {
+      "index": {
+        "other-glitches": "Outras experiências",
+        "recently-closed": "Fechado recentemente",
+        "assigned-glitches": "Experiências atribuídas"
+      }
+    },
+    "navigation": {
+      "links": {
+        "glitches": "Experiências",
+        "tasks": "Tarefas",
+        "inventory-restock": "Reabastecer inventário",
+        "notifications": "Notificações",
+        "turndown-service": "Serviço de abertura de cama",
+        "audits": "Auditorias",
+        "audit": "Auditoria",
+        "create-audit": "Criar auditoria",
+        "checklists": "Listas de verificação",
+        "checklist": "Lista de verificação",
+        "main": "Principal"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "submit-lost-item": "Submeter artigo perdido"
+      }
+    }
+  },
+  "attendant": {
+    "swipeoutoptions": {
+      "index": {
+        "close": "Fechar"
+      }
+    },
+    "clean": {
+      "menu": {
+        "dnd": "DND",
+        "voucher": "Voucher",
+        "refuse": "Recusar",
+        "inspect": "Inspecionar quarto",
+        "start-cleaning": "Iniciar Limpeza",
+        "delay": "Mais tarde",
+        "clean": "Limpar",
+        "no-check": "Sem verificação"
+      },
+      "finishmenu": {
+        "cancel-dnd": "Cancelar DND",
+        "cancel-refuse": "Cancelar recusar",
+        "cancel-finish": "Cancelar concluído",
+        "confirm-dnd": "Confirmar dnd"
+      },
+      "cleaninginfo": {
+        "credits": "Créditos",
+        "pms": "Pms",
+        "change-sheets": "Mudar lençóis",
+        "long-stay": "Estadia longa",
+        "cleaning-info": "Informação sobre limpeza"
+      },
+      "taskssubheader": {
+        "show-tasks": "Mostrar tarefas",
+        "tasks": "Tarefas",
+        "hide-tasks": "Ocultar tarefas"
+      },
+      "index": {
+        "add-change-sheets": "Adicionar mudar lençóis"
+      }
+    },
+    "popuptasks": {
+      "index": {
+        "new-task": "Nova tarefa",
+        "accept": "Aceitar",
+        "reject": "Rejeitar"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Notas anteriores",
+        "add-note": "Adicionar nota",
+        "new-room-note": "Nota sobre o novo quarto",
+        "new-note-placeholder": "Por ex. tarefa"
+      }
+    },
+    "inspect": {
+      "menu": {
+        "dnd": "DND",
+        "refuse": "Recusar",
+        "inspect": "Inspecionar quarto",
+        "start-cleaning": "Iniciar Limpeza",
+        "delay": "Mais tarde",
+        "clean": "Limpar",
+        "no-check": "Sem verificação"
+      },
+      "finishmenu": {
+        "confirm-dnd": "Confirmar dnd"
+      },
+      "cleaninginfo": {
+        "credits": "Créditos",
+        "change-sheets": "Mudar lençóis",
+        "long-stay": "Estadia longa",
+        "pms": "Pms"
+      },
+      "taskssubheader": {
+        "show-tasks": "Mostrar tarefas",
+        "tasks": "Tarefas",
+        "hide-tasks": "Ocultar tarefas"
+      }
+    },
+    "alert": {
+      "index": {
+        "priority": "Prioridade",
+        "room-message": "Mensagem do quarto"
+      }
+    },
+    "headers": {
+      "maintenance": "Manutenção",
+      "inventory-restock": "Reabastecimento do inventário",
+      "notes": "Notas",
+      "inspect": "Inspecionar",
+      "lost-found": "Perdidos e achados",
+      "inventory": "Inventário",
+      "clean": "Limpar",
+      "gallery": "Galeria"
+    },
+    "components": {
+      "group-select-row": {
+        "text": "Texto"
+      },
+      "location-select-modal": {
+        "close": "Fechar"
+      },
+      "user-select-row": {
+        "text": "Texto"
+      },
+      "reservation-component": {
+        "reservation": "Reservas"
+      },
+      "room-note-row": {
+        "remove": "Remover"
+      },
+      "task-settings": {
+        "yes": "Sim",
+        "no": "Não"
+      },
+      "special-select-row": {
+        "text": "Texto"
+      },
+      "inventory-update-row": {
+        "reset": "Redefinir"
+      },
+      "room-timer": {
+        "cancel": "Cancelar",
+        "done": "Concluído"
+      },
+      "assignment-select": {
+        "attendants": "Assistentes",
+        "inspectors": "Inspetores",
+        "management": "Gestão",
+        "housekeeping": "Limpezas",
+        "concierge": "Concierge",
+        "maintenance": "Manutenção",
+        "groups": "Grupos",
+        "runners": "Executantes"
+      },
+      "room-options": {
+        "room-gallery": "Galeria de quartos",
+        "send-task": "Enviar tarefa",
+        "clean-room": "Limpar quarto",
+        "hsk-notes": "Notas hsk",
+        "lost-found": "Perdidos e achados",
+        "inventory": "Inventário",
+        "maintenance": "Manutenção"
+      },
+      "room-row-item": {
+        "tasks": "tarefas"
+      },
+      "user-select-modal": {
+        "management": "Gestão",
+        "housekeeping": "Limpezas",
+        "concierge": "Concierge",
+        "select-assignment": "Selecionar tarefa",
+        "maintenance": "Manutenção",
+        "close": "Fechar"
+      },
+      "asset-action-description": {
+        "yes": "Sim",
+        "there-are-no-actions-for-your-asset": "Não existem ações para o seu ativo",
+        "no-actions-for-created-asset": "Nenhuma ação para o ativo criado",
+        "you-must-first-select-an-asset": "Deve primeiro selecionar um ativo",
+        "no": "Não"
+      },
+      "asset-select-modal": {
+        "close": "Fechar",
+        "select-asset": "Selecionar ativo"
+      },
+      "reservation-nights": {
+        "of": "De",
+        "nights": "Noites"
+      }
+    },
+    "inventoryrestock": {
+      "index": {
+        "restock-inventory": ""
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Redefinir",
+        "search": "Procurar quartos, hóspedes, etc.",
+        "vacant": "Vago",
+        "inspt": "Inspec",
+        "other": "Outro",
+        "dirty": "Sujo",
+        "clean": "Limpar",
+        "close": "Fechar",
+        "occupied": "Ocupado"
+      },
+      "index": {
+        "priority": "Prioridade",
+        "tasks": "tarefas",
+        "floor": "Andar",
+        "paused-rooms": "Quartos em pausa",
+        "cleaning-rooms": "Limpeza de quartos",
+        "paused": "Em pausa",
+        "cleaning": "Limpeza",
+        "priority-rooms": "Quartos prioritários",
+        "close-floor": "Fechar andar",
+        "rooms": "Quartos",
+        "scheduled": "Quartos agendados",
+        "show-more": "Mostrar todos os quartos",
+        "show-less": "Limitar a quartos agendados",
+        "credits": "Créditos"
+      }
+    },
+    "navigation": {
+      "links": {
+        "tasks": "Tarefas",
+        "main": "Principal",
+        "sent": "Enviado",
+        "glitches": "Experiências",
+        "inventory-restock": "Reabastecimento do inventário",
+        "notifications": "Notificações",
+        "plannings": "Planeamentos futuros",
+        "rooms-cleaned": "Quartos limpos"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "report-lost-and-found-item": "Comunicar artigo perdido e encontrado",
+        "description": "Acrescentar uma descrição",
+        "submit-lost-item": "Submeter artigo perdido"
+      }
+    }
+  },
+  "base": {
+    "extra-options": {
+      "room-extra-options": "Opções extra de quarto"
+    },
+    "glitch-form": {
+      "index": {
+        "glitch-information": "Informação sobre a experiência",
+        "incident-description": "Descrição do incidente",
+        "name": "Nome",
+        "room": "Quarto",
+        "submit-new-glitch": "Submeter nova experiência",
+        "compensation-cost": "Custo de indemnização",
+        "select-glitch-category": "Selecione a categoria de experiência",
+        "enter-guest-name": "Introduzir nome do hóspede",
+        "enter-room-number": "Introduzir nome do quarto",
+        "vip": "Vip",
+        "premiere-club": "Clube Premiere",
+        "actions-to-resolve": "Ações a resolver",
+        "follow-up-with-guest": "Acompanhamento do hóspede",
+        "email": "E-mail",
+        "enter-guest-email": "Introduzir e-mail de hóspede"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Selecionar experiência",
+        "select-glitch-category": "Selecione a categoria de experiência",
+        "select-category": "Selecionar categoria"
+      }
+    },
+    "experiences": {
+      "index": {
+        "pending": "Experiências pendentes"
+      }
+    },
+    "lost-found-review": {
+      "index": {
+        "open": "Aberto",
+        "emailed": "Enviado por e-mail",
+        "phoned": "Telefonado",
+        "pending": "Hóspede pendente",
+        "waiting": "Contactado e a aguardar",
+        "mailed": "Enviado por correio",
+        "hand-delivered": "Entregue em mão",
+        "expired": "Expirado",
+        "refused": "Recusado",
+        "delete": "Eliminar",
+        "closed": "Fechado",
+        "found": "Encontrado",
+        "show-all": "Mostrar tudo",
+        "show-only-open": "Mostrar apenas abertos"
+      },
+      "modal": {
+        "guest-signature-optional": "Assinatura do hóspede (opcional)",
+        "notes-optional": "Notas (opcional)",
+        "added-photos-optional": "Fotos adicionadas (opcional)"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "OK",
+        "submitted-time": "Tempo submetido",
+        "notification": "Notificação",
+        "accept": "Aceitar",
+        "new-task": "Nova tarefa",
+        "location": "Localização",
+        "reject": "Rejeitar",
+        "created-by": "Criado por",
+        "last-message": "Última mensagem",
+        "assigned-audit": "Auditoria atribuída"
+      }
+    },
+    "ubiquitous": {
+      "all": "Todos",
+      "departed": "Saíram",
+      "photo": "Foto",
+      "inspt": "Inspec",
+      "assignee": "Responsável",
+      "unassigned": "Não atribuído",
+      "rooms": "Quartos",
+      "filters": "Filtros",
+      "pms-notes": "Notas PMS",
+      "yes": "Sim",
+      "blocked": "Bloqueado",
+      "pause": "Pausa",
+      "group": "Grupo",
+      "acknowledge": "Reconhecer",
+      "send": "Enviar",
+      "search": "Pesquisa",
+      "search-users": "Pesquisar utilizadores",
+      "to": "Para",
+      "no-location": "Nenhuma localização",
+      "location": "Localização",
+      "all-inspectors": "Todos os inspetores",
+      "create-asset": "Criar ativo",
+      "da": "D\/A",
+      "search-assets": "Pesquisar ativos",
+      "search-locations": "Procurar localizações",
+      "add-a-note": "Acrescentar uma nota",
+      "assignments": "Atribuições",
+      "continue": "Continuar",
+      "quick": "Equipa",
+      "maintenance-team": "Equipa de manutenção",
+      "backlog": "Lista de pendências",
+      "reset-entry": "Redefinir",
+      "arr": "Arr",
+      "creator": "Criador",
+      "asset-and-action": "Ativo e ação",
+      "cs": "CS",
+      "close": "Fechar",
+      "mandatory-task": "Tarefa obrigatória",
+      "yesterday": "Ontem",
+      "last-message": "Última mensagem",
+      "arrival": "Previsto para",
+      "resume": "Retomar",
+      "select-user": "Selecionar utilizador",
+      "attendant": "Assistente",
+      "stay": "Estadia",
+      "vacant": "Vago",
+      "optional": "opcional",
+      "convert": "Converter",
+      "housekeeping": "Limpezas",
+      "enter-a-message": "Introduzir uma mensagem",
+      "block": "Bloquear",
+      "tasks": "Tarefas",
+      "select-location": "Selecionar local",
+      "floors": "Andares",
+      "submit": "Submeter",
+      "cancel": "Cancelar",
+      "message": "Mensagem",
+      "people": "Individual",
+      "inspected": "Inspecionado",
+      "next": "Próximo",
+      "priority": "Prioridade",
+      "start": "Início",
+      "maintenance": "Manutenção",
+      "prev": "Anterior",
+      "today": "Hoje",
+      "tomorrow": "Amanhã",
+      "completed": "Concluído",
+      "notifications": "Notificações",
+      "all-runners": "Todos os executantes",
+      "none": "Nenhum",
+      "room": "Quarto",
+      "dep": "Dep",
+      "vac": "Vag",
+      "priority-task": "Tarefa prioritária",
+      "lite-task": "Tarefa prioritária",
+      "normal-task": "Tarefa prioritária",
+      "unassigned-task": "Tarefa prioritária",
+      "enter-a-description-optional": "Introduza uma descrição (opcional)...",
+      "dirty": "Sujo",
+      "cancelled": "Cancelado",
+      "send-housekeeping-task": "Enviar tarefa de limpeza",
+      "select-locations": "Selecionar localizações",
+      "search-tasks": "Tarefas de pesquisa",
+      "send-maintenance-task": "Enviar tarefa de manutenção",
+      "runner": "Executante",
+      "locations": "Localizações",
+      "accept": "Aceitar",
+      "no-photo": "Sem fotografia",
+      "receptionist": "Rececionista",
+      "inspector": "Inspetor",
+      "occupied": "Ocupado",
+      "information": "Informação",
+      "adminstrator": "Administrador",
+      "no": "Não",
+      "stayover": "Estadia",
+      "delay": "Atraso",
+      "other": "Outro",
+      "blocking-task": "Bloquear tarefa",
+      "reject": "Rejeitar",
+      "finish": "Terminar",
+      "description": "Descrição",
+      "normal": "Normal",
+      "planned-attendant": "Assistente planeado",
+      "planned-runner": "Executante planeado",
+      "update": "Atualizar",
+      "alert": "Alerta",
+      "arrived": "Chegados",
+      "change-sheets": "Mudar lençóis",
+      "task": "Tarefa",
+      "clear": "Apagar",
+      "floor": "Andar",
+      "departure": "Partida",
+      "clean": "Limpar",
+      "exit-selection": "Sair da seleção",
+      "tap-to-start-camera": "Toque para iniciar a câmara",
+      "continue-without-photo": "Continuar sem foto",
+      "default-assignment": "Atribuição por defeito",
+      "tap-to-continue": "Toque para continuar",
+      "management": "Gestão",
+      "front-office": "Receção",
+      "review": "Revisão",
+      "nos": "Nos",
+      "blk": "Blk",
+      "lc": "LC",
+      "sc": "SC",
+      "dc": "DC",
+      "dismiss": "Dispensar",
+      "show": "Mostrar",
+      "checkout-on": "Check-out em",
+      "cleaning": "Limpeza",
+      "dnd": "DND",
+      "refuse": "Recusado",
+      "reset-system": "Redefinir",
+      "bedrooms": "Quartos",
+      "properties": "Imóveis",
+      "area": "Área",
+      "asset": "Ativo",
+      "action": "Ação",
+      "model": "Modelo",
+      "guest": "Hóspede",
+      "due-out": "Saída prevista para",
+      "tap-to-enlarge": "Toque para aumentar",
+      "categories": "Categorias",
+      "status": "Estado",
+      "calendar": "Calendário"
+    },
+    "realtime": {
+      "index": {
+        "pending-requests-itemstosync": "Pedidos pendentes",
+        "offline": "Offline",
+        "-": ""
+      }
+    },
+    "notification": {
+      "extraoptions": {
+        "reply": "Responder",
+        "convert-to-task": "Converter em tarefa",
+        "follow-up": "Acompanhamento"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "recent-quick-notifications": "Notificações recentes e rápidas"
+      },
+      "selectuser": {
+        "tap": "Toque para alterar"
+      }
+    },
+    "tasktable": {
+      "modal": {
+        "assigned-to": "Atribuído a",
+        "last-action": "Última ação",
+        "messages": "Mensagens",
+        "location": "Localização",
+        "created-by": "Criado por",
+        "submitted-time": "Tempo submetido",
+        "complete-task": "Tarefa completa",
+        "cancel-task": "Cancelar tarefa",
+        "reassign-task": "Reatribuir tarefa"
+      },
+      "status": {
+        "started": "Iniciado",
+        "claimed": "A aguardar",
+        "waiting": "A aguardar",
+        "rejected": "Rejeitado",
+        "paused": "Em pausa",
+        "canceled": "Cancelado",
+        "finished": "Concluído",
+        "completed": "Concluído",
+        "pending": "Pendente"
+      },
+      "header": {
+        "status": "Estado",
+        "information": "Informação",
+        "task": "Tarefa",
+        "normal-ticket": "Bilhete normal",
+        "lite-ticket": "Bilhete Lite",
+        "assigned": "Atribuído",
+        "time-created": "Tempo criado",
+        "location": "Localização",
+        "created-by": "Criado por",
+        "priority-ticket": "Bilhete prioritário"
+      },
+      "utils": {
+        "pause": "Pausa",
+        "finish": "Terminar",
+        "start": "Início",
+        "resume": "Retomar",
+        "reject": "Rejeitar"
+      },
+      "lastaction": {
+        "created": "Criado",
+        "task-reassigned": "Reatribuído",
+        "rescheduled": "Reprogramado",
+        "added-message": "Mensagem adicionada"
+      }
+    },
+    "notifications": {
+      "index": {
+        "assigned": "Atribuído",
+        "sent": "Enviado"
+      },
+      "quicknotificationform": {
+        "send-message": "Enviar mensagem"
+      }
+    },
+    "tasks": {
+      "tabs": {
+        "today": "Hoje",
+        "sent": "Enviado",
+        "backlog": "Lista de pendências"
+      },
+      "dummy": {
+        "occupaied": ""
+      }
+    },
+    "inventory": {
+      "index": {
+        "close-area": "Fechar área",
+        "search-items": "Pesquisar artigos"
+      }
+    },
+    "components": {
+      "assetactiondescription": {
+        "submit-maintenance": "Submeter manutenção",
+        "no-available": "Não existem ações para o seu ativo",
+        "description": "Descrição",
+        "no": "Não",
+        "no-actions": "Nenhuma ação para o ativo criado",
+        "priority": "Prioridade",
+        "continue": "Continuar",
+        "asset": "Ativo",
+        "first-select": "Deve primeiro selecionar um ativo",
+        "action": "Ação",
+        "description-placeholder": "Por ex.: não liga",
+        "yes": "Sim",
+        "select-asset": "Selecionar ativo",
+        "location": "Localização"
+      },
+      "fullscreenphoto": {
+        "no-photo": "Sem fotografia"
+      },
+      "selectassignmentmodal": {
+        "select-assignment": "Selecionar tarefa"
+      }
+    },
+    "navigation": {
+      "index": {
+        "task": "Tarefa",
+        "convert-task": "Converter tarefa",
+        "notifications": "Notificações",
+        "tasks": "Tarefas",
+        "notes": "Notas",
+        "create-notification": "Criar notificação",
+        "glitch": "Experiência do hóspede",
+        "turndown-service": "Serviço de abertura de cama",
+        "lost-found": "Perdidos e achados",
+        "room": "Quarto",
+        "filter-tasks": "Filtrar tarefas",
+        "inventory": "Inventário",
+        "maintenance": "Manutenção",
+        "home": "Página inicial",
+        "glitches": "Experiências do hóspede",
+        "gallery": "Galeria",
+        "inventory-restock": "Reabastecer inventário"
+      },
+      "links": {
+        "assets": "Ativos",
+        "notifications": "Notificações",
+        "logout": "Terminar sessão",
+        "rooms": "Quartos",
+        "closed": "Fechado",
+        "main": "Principal",
+        "sent": "Enviado"
+      }
+    },
+    "taskcard": {
+      "status": {
+        "started": "Iniciado",
+        "completed": "Concluído",
+        "unclaimed": "Não reclamado",
+        "cancelled": "Cancelado",
+        "accepted": "Aceite",
+        "pending": "Pendente"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Fechar"
+      }
+    }
+  },
+  "inspector": {
+    "lost-found": {
+      "index": {
+        "today": "Hoje",
+        "description": "Descrição",
+        "reference": "Referência",
+        "category": "Categoria",
+        "guest": "Hóspede",
+        "location": "Localização",
+        "found-by": "Encontrado por"
+      }
+    },
+    "room-messages": {
+      "index": {
+        "day-night": "Dia e noite",
+        "edit": "Editar",
+        "add-message": "Adicionar mensagem",
+        "delete-messages": "Eliminar mensagem(ns)",
+        "change-room": "Mudar quarto",
+        "message": "Mensagem",
+        "message-type": "Selecione o tipo de mensagem",
+        "schedule": "Horário",
+        "calendar": "Calendário",
+        "day": "Dia",
+        "night": "Noite",
+        "pickup": "Recolha",
+        "end-of-day": "Fim do dia",
+        "end-of-stay": "Fim da estadia",
+        "custom": "Personalizado",
+        "indefinitely": "Indefinidamente",
+        "cancel": "Cancelar",
+        "submit-message": "Submeter mensagem"
+      }
+    },
+    "audits": {
+      "add-photo": "Adicionar foto",
+      "add-note": "Adicionar nota",
+      "submit-task": "Submeter tarefa",
+      "save": "Guardar",
+      "note": "Nota",
+      "photo": "Foto",
+      "select-audit": "Selecionar auditoria",
+      "assign-to-others": "Atribuir a outros (opcional)"
+    },
+    "attendantmodal": {
+      "index": {
+        "priority": "Prioridade",
+        "reset": "Redefinir",
+        "attendant": "Assistente",
+        "overwrite-guest-status": "Sobrescrever estatuto de hóspede",
+        "send-message-to-attendant": "Enviar mensagem ao assistente"
+      }
+    },
+    "createtask": {
+      "index": {
+        "photo": "Foto",
+        "mandatory-task": "Tarefa obrigatória",
+        "assignee": "Responsável",
+        "priority-task": "Tarefa prioritária",
+        "blocking-task": "Bloquear tarefa",
+        "location": "Localização",
+        "asset-and-action": "Ativo e ação"
+      },
+      "extraoption": {
+        "yes": "Sim",
+        "no": "Não"
+      }
+    },
+    "main": {
+      "index": {
+        "rooms": "Quartos",
+        "all-floors": "Todos os andares",
+        "floor": "Andar"
+      },
+      "rooms-filter": {
+        "attendants": "Assistentes",
+        "reset": "Redefinir",
+        "filtered-rooms": "Quartos filtrados",
+        "other": "Outro",
+        "floors": "Andares",
+        "filters": "Filtros",
+        "all-rooms": "Todos os quartos",
+        "show-non-guest-rooms": "Mostrar quartos não de hóspedes",
+        "hide-non-guest-rooms": "Ocultar quartos não de hóspedes"
+      },
+      "rooms-information": {
+        "reset": "Redefinir",
+        "vip": "VIP"
+      },
+      "notes": {
+        "room-notes": "Notas de quarto"
+      },
+      "roommessageform": {
+        "room-message": "Mensagem do quarto"
+      },
+      "roomnotesmodal": {
+        "no-pms-notes-for-this-reservation": "Sem notas pms para esta reserva",
+        "send-message-attendant": "Enviar notificação direta",
+        "room-notes": "Notas de quarto",
+        "pms-notes": "Notas Pms",
+        "save-for-later": "Guardar para mais tarde",
+        "room-message": "Mensagem de quarto",
+        "messaging": "Mensagens"
+      },
+      "filters-drawer": {
+        "1": "1"
+      }
+    },
+    "housekeeping": {
+      "index": {
+        "today": "Hoje",
+        "search-tasks-rooms-users": "Pesquisar tarefas, quartos, utilizadores, etc.",
+        "backlog": "Lista de pendências"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "OK",
+        "submitted-time": "Tempo submetido",
+        "notification": "Notificação",
+        "accept": "Aceitar",
+        "new-task": "Nova tarefa",
+        "location": "Localização",
+        "reject": "Rejeitar",
+        "created-by": "Criado por",
+        "last-message": "Última mensagem",
+        "assigned-audit": "Auditoria atribuída"
+      }
+    },
+    "information": {
+      "info": {
+        "dnd": "Dnd",
+        "attendant-status": "Estatuto de assistente",
+        "housekeeping-status": "Estado das limpezas",
+        "room-attendant": "Assistente de quarto",
+        "room-information": "Informação sobre o quarto",
+        "emilie-persion": "Emilie persion",
+        "room-type": "Tipo de quarto",
+        "standart-room": "Quarto standard",
+        "last-action": "Última ação",
+        "room-category": "Categoria do quarto"
+      },
+      "index": {
+        "room": "Quarto"
+      },
+      "pmsnotes": {
+        "pms-notes": "Notas Pms",
+        "no-pms-notes": "Sem notas pms"
+      },
+      "notes": {
+        "room-notes": "Notas de quarto"
+      },
+      "roommessageform": {
+        "room-message": "Mensagem de quarto"
+      },
+      "housekeepingstatus": {
+        "other-housekeepings": "Outros serviços de limpeza"
+      },
+      "vipstatus": {
+        "vip-status": "Estatuto Vip"
+      },
+      "attendantstatus": {
+        "attendant-status": "Estatuto de assistente"
+      }
+    },
+    "updatespopup": {
+      "index": {
+        "new": "Novo",
+        "dismiss": "Dispensar",
+        "you-have": "Tem",
+        "show": "Mostrar",
+        "new-updates": "nova(s) atualização(ões)"
+      },
+      "modal": {
+        "priority-set": "Prioridade definida",
+        "message-added": "Mensagem adicionada",
+        "room-restocked": "Quarto reabastecido",
+        "room-unblocked": "Quarto desbloqueado",
+        "updates": "Atualizações",
+        "dismiss-all": "Dispensar todos"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "select-a-location-or-change-user": "Selecionar um local ou mudar de utilizador",
+        "photo": "Foto",
+        "missing-location-or-user": "Localização ou utilizador em falta",
+        "send-notification": "Enviar notificação",
+        "to": "Para",
+        "select-notification": "Selecionar notificação",
+        "location": "Localização",
+        "message": "Mensagem",
+        "quick-notifications": "Notificações rápidas"
+      },
+      "selectusermodal": {
+        "select-reciepent": "Selecionar destinatário"
+      }
+    },
+    "tableheader": {
+      "index": {
+        "attendant-runner": "Assistente e executante",
+        "tasks": "Tarefas",
+        "my-assigned-tasks": "As minhas tarefas atribuídas",
+        "open-housekeepings": "Serviços de limpeza abertos",
+        "open-maintenances": "Manutenções abertas",
+        "open": "Tarefas abertas",
+        "recently-closed-tasks": "Tarefas recentemente terminadas",
+        "open-tasks": "Tarefas abertas",
+        "paused-audits": "Auditorias em pausa",
+        "open-audits": "Auditorias abertas",
+        "recently-closed-audits": "Auditorias recentemente terminadas",
+        "start-new-audit": "Iniciar nova auditoria"
+      }
+    },
+    "founditem": {
+      "index": {
+        "add-a-description": "Acrescentar uma descrição",
+        "submit-lost-item": "Submeter artigo perdido"
+      }
+    },
+    "notifications": {
+      "notificationheader": {
+        "status": "Estado",
+        "message": "Mensagem",
+        "user": "Utilizador",
+        "room": "Quarto",
+        "time": "Hora"
+      },
+      "assignedheader": {
+        "status": "Estado",
+        "message": "Mensagem",
+        "time": "Hora",
+        "room": "Quarto",
+        "creator": "Criador"
+      },
+      "status": {
+        "okay": "OK",
+        "started": "Iniciado",
+        "rejected": "Rejeitado",
+        "paused": "Em pausa",
+        "canceled": "Cancelado",
+        "waiting": "A aguardar",
+        "pending": "Pendente"
+      },
+      "index": {
+        "sent-attendant-notifications": "Notificações enviadas e de assistentes",
+        "assigned-notifications": "Notificações atribuídas",
+        "search-rooms-or-people": "Procurar quartos ou pessoas"
+      }
+    },
+    "catalog": {
+      "index": {
+        "room-photos": "Fotos do quarto"
+      }
+    },
+    "planning": {
+      "index": {
+        "add-attendant": "Adicionar assistente",
+        "reset": "Redefinir",
+        "prev": "Anterior",
+        "filters": "Filtros",
+        "next": "Próximo"
+      },
+      "filtersdrawer": {
+        "all": "Todos",
+        "rooms-to-plan": "Quartos a planear",
+        "stayover": "Dormida",
+        "departure": "Partida",
+        "arrivals": "Chegadas",
+        "da": "D\/a",
+        "filter-by-guest-status": "Filtrar por estatuto de hóspede",
+        "filter-by-housekeeping": "Filtrar por serviço de limpeza",
+        "filter-by-floor": "Filtrar por andar",
+        "filter-by-category": "Filtrar por categoria",
+        "change-sheets": "Mudar lençóis",
+        "blocked": "Bloqueado"
+      }
+    },
+    "room": {
+      "index": {
+        "information": "Informação",
+        "hsk-tasks": "Tarefas Limp",
+        "maintenances": "Manutenções",
+        "catalog": "Catálogo",
+        "lost-found": "Perdidos e achados",
+        "image-about-how-the-room-should-look": "Imagem de como deve estar o quarto",
+        "questionnaires": "Questionários",
+        "audits": "Auditorias"
+      }
+    },
+    "playground": {
+      "index": {
+        "let-go": "Desistir"
+      }
+    },
+    "components": {
+      "selectassignmentmodal": {
+        "select-assignment": "Selecionar tarefa",
+        "search-users": "Pesquisar utilizadores"
+      },
+      "selectlocationmodal": {
+        "select-locations": "Selecionar localizações",
+        "search-locations": "Procurar localizações"
+      },
+      "selectassetactionmodal": {
+        "search-assets": "Pesquisar ativos",
+        "select-asset": "Selecionar ativo"
+      }
+    },
+    "chooseattendantmodal": {
+      "index": {
+        "choose-attendant": "Escolher assistente"
+      }
+    },
+    "imagegallery": {
+      "index": {
+        "image-about-how-the-room-should-look": "Fotos para quartos standard"
+      }
+    },
+    "navigation": {
+      "links": {
+        "housekeeping": "Limpezas",
+        "notifications": "Notificações",
+        "planning": "Planeamento",
+        "maintenance": "Manutenção",
+        "maintenances": "Manutenções",
+        "main": "Principal",
+        "history": "Histórico",
+        "turndown-service": "Serviço de abertura de cama",
+        "audits": "Auditorias",
+        "audit": "Auditoria",
+        "create-audit": "Criar auditoria",
+        "show-audit": "Mostrar auditoria",
+        "lost-found": "Perdidos e achados",
+        "experiences": "Experiências"
+      }
+    },
+    "maintenance": {
+      "index": {
+        "today": "Hoje",
+        "search-tasks-rooms-users": "Pesquisar tarefas, quartos, utilizadores, etc.",
+        "backlog": "Lista de pendências"
+      }
+    },
+    "history": {
+      "index": {
+        "reset": "Redefinir",
+        "all": "Todos",
+        "other": "Outro",
+        "guests": "Hóspedes",
+        "search-room-users-events": "Pesquisar quartos, utilizadores, eventos, etc.",
+        "events": "Eventos",
+        "cleaning": "Limpeza"
+      },
+      "historyheader": {
+        "action": "Ação",
+        "user": "Utilizador",
+        "room": "Quarto",
+        "time": "Hora"
+      }
+    }
+  },
+  "maintenance": {
+    "filter-tasks": {
+      "index": {
+        "filter-tasks": "Filtrar tarefas",
+        "select-one": "Selecionar pelo menos um filtro"
+      }
+    },
+    "on-duty": {
+      "index": {
+        "you-are-currently": "Está atualmente",
+        "on-duty": "Em serviço",
+        "off-duty": "Fora de serviço",
+        "tap-go-on": "Toque para entrar em serviço",
+        "tap-go-off": "Toque para sair de serviço"
+      }
+    },
+    "filters": {
+      "index": {
+        "hide-all": "Ocultar tudo",
+        "reset": "Redefinir",
+        "search": "Tarefas de pesquisa",
+        "guest-status": "Estatuto de hóspede",
+        "vacant-rooms": "Quartos vagos",
+        "occupied-rooms": "Quartos ocupados",
+        "out-of-service": "Quartos fora de serviço",
+        "departure-rooms": "Quartos em saída",
+        "arrival-rooms": "Quartos em chegada",
+        "no-locations": "Tarefas sem localização",
+        "housekeeping": "Limpezas",
+        "dirty-rooms": "Quartos sujos",
+        "cleaned-rooms": "Quartos limpos",
+        "inspected-rooms": "Quartos inspecionados",
+        "pickup": "Quartos de recolha",
+        "properties": "Imóveis",
+        "priority-tasks": "Tarefas prioritárias",
+        "blocking-tasks": "Bloquear tarefas",
+        "no-asset-tasks": "Sem tarefas de ativo",
+        "planned-tasks": "Tarefas planeadas",
+        "task-status": "Estado da tarefa",
+        "pending-tasks": "Tarefas pendentes",
+        "progressing-tasks": "Tarefas em curso",
+        "paused-tasks": "Tarefas em pausa",
+        "completed-tasks": "Tarefas concluídas",
+        "rejected-tasks": "Tarefas rejeitadas",
+        "assignment": "Atribuição",
+        "assigned-to-me": "Atribuído a mim",
+        "unassigned": "Tarefas não atribuídas",
+        "assigned-to-others": "Atribuído a outros",
+        "return-to-tasks": "Voltar a tarefas"
+      }
+    },
+    "createtask": {
+      "assetactiondescription": {
+        "there-are-no-actions-for-your-asset": "Não existem ações para o seu ativo",
+        "no": "Não",
+        "submit-maintenance": "Submeter manutenção",
+        "you-must-first-select-an-asset": "Deve primeiro selecionar um ativo",
+        "submit-housekeeping": "Submeter serviço de limpeza",
+        "yes": "Sim",
+        "no-actions-for-created-asset": "Nenhuma ação para o ativo criado"
+      },
+      "assetselectmodal": {
+        "close": "Fechar",
+        "search-assets": "Pesquisar ativos",
+        "select-asset": "Selecionar ativo"
+      },
+      "assignment": {
+        "search-assignments": "Pesquisar utilizadores, grupos, etc.",
+        "missing-assignment": "atribuição em falta"
+      }
+    },
+    "reassigntask": {
+      "index": {
+        "reassignment-message": "Acrescentar mensagem de reatribuição (opcional)",
+        "due-date": "Data de vencimento",
+        "select-due-date": "Selecione a data de vencimento",
+        "assign-to": "Atribuir a",
+        "reassign-task": "Reatribuir tarefa"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "OK",
+        "submitted-time": "Tempo submetido",
+        "new-glitch": "Nova experiência",
+        "accept": "Aceitar",
+        "new-task": "Nova tarefa",
+        "location": "Localização",
+        "reject": "Rejeitar",
+        "created-by": "Criado por",
+        "last-message": "Última mensagem",
+        "assigned-audit": "Auditoria atribuída"
+      }
+    },
+    "assetmodel": {
+      "index": {
+        "asset-model": "Modelo de ativo"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Fechar"
+      }
+    },
+    "notasks": {
+      "index": {
+        "no-tasks": "Sem tarefas"
+      }
+    },
+    "task": {
+      "dummy": {
+        "pause": "Pausa",
+        "finish": "Terminar"
+      },
+      "index": {
+        "sublocation": "Sublocalização",
+        "information": "Informação",
+        "undefined": "Bilhete",
+        "guest-status": "Estatuto de hóspede",
+        "normal": "Bilhete normal",
+        "messages": "Mensagens",
+        "start-date": "Data de início",
+        "priority": "Bilhete prioritário",
+        "reassign-ticket": "Reatribuir",
+        "unassigned": "Bilhete não atribuído",
+        "lite": "Bilhete Lite",
+        "model": "Modelo",
+        "created-by": "Criado por",
+        "view-additional-photos": "Ver fotos adicionais",
+        "choose-model": "Escolher modelo",
+        "select":  "Selecionar",
+        "view-attachments": "Ver anexos",
+        "location-information": "Informação sobre a localização",
+        "reassign-task": "Reatribuir tarefa",
+        "move-to-departure": "Mudar para partida"
+      }
+    },
+    "asset": {
+      "index": {
+        "models": "Modelos",
+        "actions": "Ações"
+      }
+    },
+    "main": {
+      "index": {
+        "create-new-task-for": "Criar uma nova tarefa para"
+      },
+      "filterbutton": {
+        "filters": "Filtros"
+      },
+      "filters": {
+        "filter-tasks": "Filtrar tarefas",
+        "limit-priority": "Limitar a tarefas prioritárias",
+        "limit-dirty": "Limitar a quartos sujos",
+        "limit-occupied": "Limitar a quartos ocupados",
+        "limit-out-of-service": "Limitar a quartos fora de serviço",
+        "limit-vacant": "Limitar a quartos vagos"
+      }
+    },
+    "navigation": {
+      "scenes": {
+        "closed-tasks": "Tarefas fechadas",
+        "tasks": "Tarefas",
+        "hotel-assets": "Ativos do hotel",
+        "create-task": "Criar tarefa",
+        "reassign-task": "Reatribuir tarefa",
+        "filters": "Filtros de tarefas",
+        "sent-tasks": "Tarefas enviadas",
+        "hotel-rooms": "Quartos do hotel",
+        "asset": "Ativo",
+        "action": "Ação",
+        "on-duty": "Em serviço",
+        "turndown-service": "Serviço de abertura de cama",
+        "audits": "Auditorias"
+      },
+      "links": {
+        "assets": "Ativos",
+        "notifications": "Notificações",
+        "rooms": "Quartos",
+        "closed": "Fechado",
+        "main": "Principal",
+        "sent": "Enviado",
+        "turndown-service": "Serviço de abertura de cama",
+        "audits": "Auditorias",
+        "create-audit": "Criar auditoria"
+      }
+    },
+    "rooms": {
+      "dummy": {
+        "occupaied": ""
+      },
+      "index": {
+        "close-room": "Fechar quarto",
+        "close-floor": "Fechar andar"
+      }
+    }
+  }
+}

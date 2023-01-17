@@ -637,6 +637,14 @@
       "categories": "Catégories",
       "status": "Statut",
       "calendar": "Calendrier",
+      "take-picture": "Photo",
+      "take-video": "Vidéo",
+      "picture-gallery": "Photo dans Tel.",
+      "video-gallery": "Vidéo dans Tel.",
+      "task-asset" : "Equipement",
+      "task-next": "Suivant",
+      "task-guest-request": "Demande client",
+      "task-submit": "Soumettre",
       "task-assign": "Assigné à"
     },
     "realtime": {
@@ -1113,7 +1121,7 @@
     },
     "navigation": {
       "links": {
-        "housekeeping": "Housekeeping",
+        "housekeeping": "Tâches",
         "notifications": "Notifications",
         "planning": "Attribution",
         "maintenance": "Maintenance",
