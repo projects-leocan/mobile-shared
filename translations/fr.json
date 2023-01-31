@@ -941,7 +941,8 @@
         "room-type": "Type de chambre",
         "standart-room": "Chambre Standard",
         "last-action": "Dernière action",
-        "room-category": "Catégorie de chambre"
+        "room-category": "Catégorie de chambre",
+        "cleaning-name":"Nom du nettoyage"
       },
       "index": {
         "room": "Chambre"

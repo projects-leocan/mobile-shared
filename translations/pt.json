@@ -968,7 +968,8 @@
         "room-type": "Tipo de quarto",
         "standart-room": "Quarto standard",
         "last-action": "Última ação",
-        "room-category": "Categoria do quarto"
+        "room-category": "Categoria do quarto",
+        "cleaning-name": "Nome da limpeza"
       },
       "index": {
         "room": "Quarto"

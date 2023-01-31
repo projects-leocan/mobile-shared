@@ -812,7 +812,8 @@
 				"room-type": "Tipo de habitación",
 				"standart-room": "Habitación estándar",
 				"last-action": "Última acción",
-				"room-category": "Categoría de habitación"
+				"room-category": "Categoría de habitación",
+				"cleaning-name":"Nombre de limpieza"
 			},
 			"index": {
 				"room": "Habitación"

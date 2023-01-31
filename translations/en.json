@@ -977,7 +977,8 @@
         "room-type": "Room type",
         "standart-room": "Standart room",
         "last-action": "Last action",
-        "room-category": "Room Category"
+        "room-category": "Room Category",
+        "cleaning-name":"Cleaning Name"
       },
       "index": {
         "room": "Room"

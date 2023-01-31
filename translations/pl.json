@@ -812,7 +812,8 @@
                 "room-type": "Rodzaj pokoju",
                 "standart-room": "pokój standart",
                 "last-action": "Ostatnia akcja",
-                "room-category": "Pokój Kategoria"
+                "room-category": "Pokój Kategoria",
+                "cleaning-name": "Nazwa czyszczenia"
             },
             "index": {
                 "room": "Pokój"

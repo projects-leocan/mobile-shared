@@ -802,7 +802,8 @@
                 "room-type": "Πληροφορίες δωματίου",
                 "standart-room": "στάνταρ δωμάτιο",
                 "room-information": "πληροφορίες δωματίου",
-                "room-category": "Κατηγορία δωματίων"
+                "room-category": "Κατηγορία δωματίων",
+                "cleaning-name":"Όνομα καθαρισμού"
             },
             "index": {
                 "room": "δωμάτιο"

@@ -594,7 +594,8 @@
         "room-category": "Zimmer Kategorie",
         "room-information": "Information sur la chambre",
         "room-type": "Zimmertyp",
-        "standart-room": "Standart Zimmer"
+        "standart-room": "Standart Zimmer",
+        "cleaning-name":"Reinigungsname"
       },
       "notes": {
         "room-notes": "Zimmer Notizen"

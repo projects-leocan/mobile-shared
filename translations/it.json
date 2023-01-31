@@ -593,7 +593,8 @@
         "room-category": "camera Categoria",
         "room-information": "le informazioni sulla camera",
         "room-type": "Tipo di stanza",
-        "standart-room": "camera Standart"
+        "standart-room": "camera Standart",
+        "cleaning-name": "Nome pulizia"
       },
       "notes": {
         "room-notes": "Note camera"

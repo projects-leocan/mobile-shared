@@ -696,7 +696,8 @@
         "room-type": "نوع الغرفة",
         "standart-room": "غرفة ستاندارت",
         "last-action": "أخر فعل",
-        "room-category": "فئة الغرف"
+        "room-category": "فئة الغرف",
+        "cleaning-name":"اسم التنظيف"
       },
       "index": { "room": "مجال" },
       "pmsnotes": {

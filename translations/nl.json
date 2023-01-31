@@ -625,7 +625,8 @@
         "room-category": "Kamer categorie",
         "room-information": "Kamer informatie",
         "room-type": "Kamertype",
-        "standart-room": "Standaard kamer"
+        "standart-room": "Standaard kamer",
+        "cleaning-name": "Schoonmakende naam"
       },
       "notes": {
         "room-notes": "Kamer notas"

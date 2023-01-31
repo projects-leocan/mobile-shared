@@ -643,7 +643,8 @@
                 "room-attendant": "Apartmán zamestnanca",
                 "standart-room": "Apartmán štandard",
                 "emilie-persion": "",
-                "last-action": "Posledná činnosť"
+                "last-action": "Posledná činnosť",
+                "cleaning-name":"Ime čiščenja"
             },
             "index": {
                 "room": "Apartmán"

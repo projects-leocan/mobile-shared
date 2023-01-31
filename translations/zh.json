@@ -684,7 +684,8 @@
         "room-type": "房型",
         "standart-room": "非标准房",
         "last-action": "最后动作",
-        "room-category": "房间类型"
+        "room-category": "房间类型",
+        "cleaning-name":"保洁名称"
       },
       "index": { "room": "房间" },
       "pmsnotes": {
