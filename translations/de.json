@@ -10,7 +10,8 @@
       "cleaninginfo": {
         "cleaning-info": "Information",
         "credits": "Credits",
-        "pms": "pms"
+        "pms": "pms",
+        "cleaning-instruction":"Anweisung"
       },
       "finishmenu": {
         "cancel-dnd": "Abbrechen DND",

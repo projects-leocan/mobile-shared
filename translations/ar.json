@@ -196,7 +196,8 @@
         "credits": "قروض",
         "pms": "الدورة الشهرية",
         "change-sheets": "ورقة التغيير",
-        "cleaning-info": "معلومات التنظيف"
+        "cleaning-info": "معلومات التنظيف",
+        "cleaning-instruction" :"تعليمات"
       },
       "taskssubheader": {
         "show-tasks": "إظهار المهام",

@@ -239,7 +239,8 @@
         "pms": "PMS",
         "change-sheets": "Changement de draps",
         "long-stay": "Long Stay",
-        "cleaning-info": "Informations de Nettoyage"
+        "cleaning-info": "Informations de Nettoyage",
+        "cleaning-instruction":"Instruction"
       },
       "taskssubheader": {
         "show-tasks": "Affiche les tâches",

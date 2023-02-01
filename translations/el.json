@@ -237,7 +237,8 @@
                 "credits": "πιστώσεις",
                 "pms": "σημείωμα",
                 "change-sheets": "άλλαγη σεντονιών",
-                "cleaning-info": "καθαρισμός πληροφοριών"
+                "cleaning-info": "καθαρισμός πληροφοριών",
+                "cleaning-instruction":"Εντολή"
             },
             "taskssubheader": {
                 "show-tasks": "δείξε εργασίες",

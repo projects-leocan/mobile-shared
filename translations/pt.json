@@ -248,7 +248,8 @@
         "pms": "Pms",
         "change-sheets": "Mudar lençóis",
         "long-stay": "Estadia longa",
-        "cleaning-info": "Informação sobre limpeza"
+        "cleaning-info": "Informação sobre limpeza",
+        "cleaning-instruction": "Instrução"
       },
       "taskssubheader": {
         "show-tasks": "Mostrar tarefas",

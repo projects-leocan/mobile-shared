@@ -237,7 +237,8 @@
 				"credits": "Créditos",
 				"pms": "Pms",
 				"change-sheets": "Cambiar hojas",
-				"cleaning-info": "Información de Limpieza"
+				"cleaning-info": "Información de Limpieza",
+                "cleaning-instruction":"Instrucción"
 			},
 			"taskssubheader": {
 				"show-tasks": "Mostrar tareas",

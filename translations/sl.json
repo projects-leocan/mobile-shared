@@ -210,7 +210,8 @@
                 "credits": "Kredity",
                 "pms": "PMS",
                 "change-sheets": "Vymeniť posteľné prádlo",
-                "cleaning-info": "Informácie k upratovaniu"
+                "cleaning-info": "Informácie k upratovaniu",
+                "cleaning-instruction": "Navodilo"
             },
             "taskssubheader": {
                 "show-tasks": "Ukázať poznámky",

@@ -10,7 +10,8 @@
       "cleaninginfo": {
         "cleaning-info": "Info Pulizia",
         "credits": "Titoli di coda",
-        "pms": "Pms"
+        "pms": "Pms",
+        "cleaning-instruction":"Istruzione"
       },
       "finishmenu": {
         "cancel-dnd": "Annulla DND",

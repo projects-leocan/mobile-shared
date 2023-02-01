@@ -189,7 +189,8 @@
         "credits": "积分",
         "pms": "PMS",
         "change-sheets": "更换床单",
-        "cleaning-info": "清洗信息"
+        "cleaning-info": "清洗信息",
+        "cleaning-instruction": "操作说明"
       },
       "taskssubheader": {
         "show-tasks": "显示任务",

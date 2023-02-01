@@ -237,7 +237,8 @@
                 "credits": "kredyty",
                 "pms": "PMS",
                 "change-sheets": "Zmiany arkuszy",
-                "cleaning-info": "Czyszczenie informacji"
+                "cleaning-info": "Czyszczenie informacji",
+                "cleaning-instruction": "Instrukcja"
             },
             "taskssubheader": {
                 "show-tasks": "Pokaż zadania",

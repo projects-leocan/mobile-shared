@@ -248,7 +248,8 @@
         "pms": "Pms",
         "change-sheets": "Change sheets",
         "long-stay": "Long Stay",
-        "cleaning-info": "Cleaning Info"
+        "cleaning-info": "Cleaning Info",
+        "cleaning-instruction" :"Instruction"
       },
       "taskssubheader": {
         "show-tasks": "Show tasks",
