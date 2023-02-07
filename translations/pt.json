@@ -513,10 +513,13 @@
         "reject": "Rejeitar",
         "created-by": "Criado por",
         "last-message": "Última mensagem",
-        "assigned-audit": "Auditoria atribuída"
+        "assigned-audit": "Auditoria atribuída",
+        "comments" :"Comentários"
       }
     },
     "ubiquitous": {
+      "add-more-photo" : "Adicionar mais foto",
+      "add-more-video" : "Adicionar mais vídeo",
       "all": "Todos",
       "departed": "Saíram",
       "photo": "Foto",
@@ -1327,6 +1330,11 @@
         "location-information": "Informação sobre a localização",
         "reassign-task": "Reatribuir tarefa",
         "move-to-departure": "Mudar para partida"
+      },
+      "create-task-alert": {
+        "select-asset" :"Selecione o ativo!!",
+        "select-location":"Por favor, selecione a localização!!",
+        "select-asset-action":"Selecione a ação do ativo!!"
       }
     },
     "asset": {

@@ -458,10 +458,13 @@
 				"location": "Ubicación",
 				"reject": "Rechazar",
 				"created-by": "Creado por",
-				"last-message": "Ultimo mensaje"
+				"last-message": "Ultimo mensaje",
+				"comments" :"Comentarios"
 			}
 		},
 		"ubiquitous": {
+			"add-more-photo" : "Añadir más foto",
+			"add-more-video" : "Agregar más video",
 			"all": "Todos los Inspectores",
 			"departed": "Salido",
 			"photo": "Foto",
@@ -1089,6 +1092,11 @@
 				"lite": "Lite ticket",
 				"model": "Modelo",
 				"created-by": "Estado del invitado"
+			},
+			"create-task-alert": {
+				"select-asset" :"¡Seleccione el recurso!",
+				"select-location":"Por favor seleccione ubicación!!",
+				"select-asset-action":"¡Seleccione la acción de activo!"
 			}
 		},
 		"asset": {

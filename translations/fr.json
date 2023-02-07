@@ -305,7 +305,7 @@
       "lost-found": "Objets Trouvés",
       "inventory": "Inventaire",
       "clean": "Nettoyage",
-      "gallery": "Photos des chambres"
+      "gallery": "Standards Chambre"
     },
     "components": {
       "group-select-row": {
@@ -348,7 +348,7 @@
         "runners": "Runners / Equipiers"
       },
       "room-options": {
-        "room-gallery": "Photos des chambres",
+        "room-gallery": "Standards Chambre",
         "send-task": "Envoyer la tâche",
         "clean-room": "Chambre à nettoyer",
         "hsk-notes": "Caractéristique chambre",
@@ -496,7 +496,8 @@
         "reject": "Rejeter",
         "created-by": "Créée par",
         "last-message": "Message",
-        "assigned-audit": "Audit assigné"
+        "assigned-audit": "Audit assigné",
+        "comments" :"Consignes"
       }
     },
     "ubiquitous": {
@@ -639,6 +640,7 @@
       "status": "Statut",
       "calendar": "Calendrier",
       "take-picture": "Photo",
+      "add-more-video" : "Ajouter Vidéo",
       "take-video": "Vidéo",
       "picture-gallery": "Photo dans Tel.",
       "video-gallery": "Vidéo dans Tel.",
@@ -646,7 +648,8 @@
       "task-next": "Suivant",
       "task-guest-request": "Demande client",
       "task-submit": "Soumettre",
-      "task-assign": "Assigné à"
+      "task-assign": "Assigné à",
+      "add-more-photo" : "Ajouter Photo"
     },
     "realtime": {
       "index": {
@@ -1283,6 +1286,11 @@
         "location-information": "Information lieu",
         "reassign-task": "Reassignation",
         "move-to-departure": "Reassigner au depart"
+      },
+      "create-task-alert": {
+        "select-asset" :"Merci de sélectionner l'actif!!",
+        "select-location":"Merci de sélectionner l'emplacement!!",
+        "select-asset-action":"Merci de sélectionner une action!!"
       }
     },
     "asset": {

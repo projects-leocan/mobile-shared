@@ -370,10 +370,13 @@
         "location": "位置",
         "reject": "拒绝",
         "created-by": "由...制作",
-        "last-message": "最后消息"
+        "last-message": "最后消息",
+        "comments" :"评论"
       }
     },
     "ubiquitous": {
+      "add-more-photo" : "添加更多照片",
+      "add-more-video" : "添加更多视频",
       "all": "所有",
       "departed": "死者",
       "photo": "照片",
@@ -916,6 +919,11 @@
         "lite": "精简版票",
         "model": "模型",
         "created-by": "由...制作"
+      },
+      "create-task-alert": {
+        "select-asset" :"请选择资产！！",
+        "select-location":"请选择地点！！",
+        "select-asset-action":"请选择资产操作！！"
       }
     },
     "asset": { "index": { "models": "楷模", "actions": "操作" } },

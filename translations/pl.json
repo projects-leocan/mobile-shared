@@ -458,10 +458,13 @@
                 "location": "Lokalizacja",
                 "reject": "Odrzucać",
                 "created-by": "Stworzone przez",
-                "last-message": "Ostatnia wiadomość"
+                "last-message": "Ostatnia wiadomość",
+                "comments" :"Uwagi"
             }
         },
         "ubiquitous": {
+            "add-more-photo" : "Dodaj więcej zdjęć",
+            "add-more-video" : "Dodaj więcej wideo",
             "all": "Wszystko",
             "departed": "odszedł",
             "photo": "Zdjęcie",
@@ -1089,7 +1092,12 @@
                 "lite": "bilet Lite",
                 "model": "Model",
                 "created-by": "Stworzone przez"
-            }
+            },
+            "create-task-alert": {
+                "select-asset" :"Wybierz zasób!!",
+                "select-location":"Wybierz lokalizację!!",
+                "select-asset-action":"Wybierz działanie dotyczące aktywów!!"
+              }
         },
         "asset": {
             "index": {

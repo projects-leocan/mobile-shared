@@ -326,7 +326,8 @@
         "notification": "Nota",
         "okay": "O.K.",
         "reject": "Afwijzen",
-        "submitted-time": "Tijd verzonden"
+        "submitted-time": "Tijd verzonden",
+        "comments" :"Opmerkingen"  
       }
     },
     "realtime": {
@@ -393,6 +394,8 @@
       }
     },
     "ubiquitous": {
+      "add-more-photo" : "Voeg meer foto toe",
+      "add-more-video" : "Voeg meer video toe",
       "accept": "Aanvaarden",
       "acknowledge": "Erkennen",
       "add-a-note": "Voeg een notitie toe",
@@ -965,6 +968,11 @@
         "sublocation": "Sublocatie",
         "unassigned": "Niet-toegewezen ticket",
         "undefined": "Ticket"
+      },
+      "create-task-alert": {
+        "select-asset" :"Selecteer activa!!",
+        "select-location":"Selecteer locatie!! ",
+        "select-asset-action":"Selecteer item actie!!"
       }
     }
   },

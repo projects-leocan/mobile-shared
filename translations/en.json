@@ -513,7 +513,8 @@
         "reject": "Reject",
         "created-by": "Created by",
         "last-message": "Last message",
-        "assigned-audit": "Assigned audit"
+        "assigned-audit": "Assigned audit",
+        "comments" :"Comments"
       }
     },
     "ubiquitous": {
@@ -663,6 +664,8 @@
       "status": "Status",
       "calendar": "Calendar",
       "take-picture": "Take Picture",
+      "add-more-photo" : "Add More Photo",
+      "add-more-video" : "Add More Video",
       "take-video": "Take Video",
       "picture-gallery": "Picture from gallery",
       "video-gallery": "Video from gallery",
@@ -1336,6 +1339,11 @@
         "location-information": "Location information",
         "reassign-task": "Reassign task",
         "move-to-departure": "Move to departure"
+      },
+      "create-task-alert": {
+        "select-asset" :"Please select asset!!",
+        "select-location":"Please select location!!",
+        "select-asset-action":"Please select asset action!!"
       }
     },
     "asset": {

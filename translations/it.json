@@ -301,7 +301,8 @@
         "notification": "Notifica",
         "okay": "Va bene",
         "reject": "Rifiutare",
-        "submitted-time": "Inserito tempo"
+        "submitted-time": "Inserito tempo",
+        "comments" :"Commenti"
       }
     },
     "realtime": {
@@ -364,6 +365,8 @@
       }
     },
     "ubiquitous": {
+      "add-more-photo" : "Aggiungi più foto",
+      "add-more-video" : "Aggiungi altro video",
       "accept": "Accettare",
       "acknowledge": "Riconoscere",
       "add-a-note": "Aggiungi una nota",
@@ -927,6 +930,11 @@
         "sublocation": "sublocation",
         "unassigned": "biglietto non assegnati",
         "undefined": "Biglietto"
+      },
+      "create-task-alert": {
+        "select-asset" :"Si prega di selezionare la risorsa!!",
+        "select-location":"Si prega di selezionare la posizione!!",
+        "select-asset-action":"Si prega di selezionare l'azione dell'asset!!"
       }
     }
   },

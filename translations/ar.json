@@ -377,10 +377,13 @@
         "location": "موقعك",
         "reject": "رفض",
         "created-by": "صنع من قبل",
-        "last-message": "اخر رسالة"
+        "last-message": "اخر رسالة",
+        "comments" :"تعليقات"
       }
     },
     "ubiquitous": {
+      "add-more-photo" : "إضافة المزيد من الصور",
+      "add-more-video" : "أضف المزيد من الفيديو",
       "all": "الكل",
       "departed": "الراحل",
       "photo": "صورة فوتوغرافية",
@@ -930,6 +933,11 @@
         "lite": "تذكرة لايت",
         "model": "نموذج",
         "created-by": "صنع من قبل"
+      },
+      "create-task-alert": {
+        "select-asset" :"الرجاء تحديد الأصل !!",
+        "select-location":"الرجاء تحديد الموقع !!",
+        "select-asset-action":"الرجاء تحديد إجراء الأصول !!"
       }
     },
     "asset": { "index": { "models": "عارضات ازياء", "actions": "أفعال" } },

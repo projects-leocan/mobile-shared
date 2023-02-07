@@ -302,7 +302,8 @@
         "notification": "Benachrichtigung",
         "okay": "okay",
         "reject": "Ablehnen",
-        "submitted-time": "Übermittelt Zeit"
+        "submitted-time": "Übermittelt Zeit",
+        "comments" :"Kommentare"
       }
     },
     "realtime": {
@@ -365,6 +366,8 @@
       }
     },
     "ubiquitous": {
+      "add-more-photo" : "Mehr Foto hinzufügen",
+      "add-more-video" : "Weitere Videos hinzufügen",
       "accept": "Akzeptieren",
       "acknowledge": "Bestätigen",
       "add-a-note": "Füg ein Notiz hinzu",
@@ -928,6 +931,11 @@
         "sublocation": "Sublokation",
         "unassigned": "Nicht zugewiesene Ticket",
         "undefined": "Fahrkarte"
+      },
+      "create-task-alert": {
+        "select-asset" :"Bitte Anlage auswählen!!",
+        "select-location":"Bitte Ort auswählen!!",
+        "select-asset-action":"Bitte Asset-Aktion auswählen!!"
       }
     }
   },
