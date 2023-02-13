@@ -454,7 +454,8 @@
                 "reject": "απορρίπτω",
                 "created-by": "δημιουργήθηκε από",
                 "last-message": "Τελευταίο μήνυμα",
-                "comments" :"Σχόλια"
+                "comments" :"Σχόλια",
+                "sent":"Απεσταλμένα"
             }
         },
         "ubiquitous": {

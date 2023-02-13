@@ -327,7 +327,8 @@
         "okay": "O.K.",
         "reject": "Afwijzen",
         "submitted-time": "Tijd verzonden",
-        "comments" :"Opmerkingen"  
+        "comments" :"Opmerkingen",
+        "sent":"Verstuurd"
       }
     },
     "realtime": {

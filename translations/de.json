@@ -303,7 +303,8 @@
         "okay": "okay",
         "reject": "Ablehnen",
         "submitted-time": "Übermittelt Zeit",
-        "comments" :"Kommentare"
+        "comments" :"Kommentare",
+        "sent":"Gesendet"
       }
     },
     "realtime": {

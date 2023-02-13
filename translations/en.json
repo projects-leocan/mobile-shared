@@ -514,7 +514,8 @@
         "created-by": "Created by",
         "last-message": "Last message",
         "assigned-audit": "Assigned audit",
-        "comments" :"Comments"
+        "comments" :"Comments",
+        "sent":"Sent"
       }
     },
     "ubiquitous": {

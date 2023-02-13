@@ -459,7 +459,8 @@
                 "reject": "Odrzucać",
                 "created-by": "Stworzone przez",
                 "last-message": "Ostatnia wiadomość",
-                "comments" :"Uwagi"
+                "comments" :"Uwagi",
+                "sent":"Wysłano"
             }
         },
         "ubiquitous": {

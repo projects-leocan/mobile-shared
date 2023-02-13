@@ -497,7 +497,8 @@
         "created-by": "Créée par",
         "last-message": "Message",
         "assigned-audit": "Audit assigné",
-        "comments" :"Consignes"
+        "comments" :"Consignes",
+        "sent":"Envoyée"
       }
     },
     "ubiquitous": {

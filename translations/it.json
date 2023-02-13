@@ -302,7 +302,8 @@
         "okay": "Va bene",
         "reject": "Rifiutare",
         "submitted-time": "Inserito tempo",
-        "comments" :"Commenti"
+        "comments" :"Commenti",
+        "sent":"Inviata"
       }
     },
     "realtime": {

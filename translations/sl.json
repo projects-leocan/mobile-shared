@@ -424,7 +424,8 @@
                 "reject": "Odmietnúť",
                 "created-by": "Vytvorené ",
                 "last-message": "Posledná správa",
-                "comments" :"Komentarji"
+                "comments" :"Komentarji",
+                "sent":"Poslano"
             }
         },
         "ubiquitous": {

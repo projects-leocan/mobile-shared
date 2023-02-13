@@ -378,7 +378,8 @@
         "reject": "رفض",
         "created-by": "صنع من قبل",
         "last-message": "اخر رسالة",
-        "comments" :"تعليقات"
+        "comments" :"تعليقات",
+        "sent":"مرسل"
       }
     },
     "ubiquitous": {
