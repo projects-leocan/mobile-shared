@@ -477,12 +477,16 @@
         "closed": "Fermé",
         "found": "Trouvé",
         "show-all": "Tout afficher",
-        "show-only-open": "Tickets ouverts"
+        "show-only-open": "Tickets ouverts",
+        "holding": "Tenu jusqu'au retour de l'invité",
+        "reception" : "Avec réception",
+        "holding-lt" :"Tenue à long terme"
       },
       "modal": {
         "guest-signature-optional": "Signature client (option)",
         "notes-optional": "Note (option)",
-        "added-photos-optional": "Photos ajoutées (option)"
+        "added-photos-optional": "Photos ajoutées (option)",
+        "update-status":"État de mise à jour"
       }
     },
     "popup": {

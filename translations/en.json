@@ -249,7 +249,7 @@
         "change-sheets": "Change sheets",
         "long-stay": "Long Stay",
         "cleaning-info": "Cleaning Info",
-        "cleaning-instruction" :"Instruction"
+        "cleaning-instruction": "Instruction"
       },
       "taskssubheader": {
         "show-tasks": "Show tasks",
@@ -494,12 +494,16 @@
         "closed": "Closed",
         "found": "Found",
         "show-all": "Show all",
-        "show-only-open": "Show only open"
+        "show-only-open": "Show only open",
+        "holding": "Held untill guest returns",
+        "reception": "With reception",
+        "holding-lt": "Held long-term"
       },
       "modal": {
         "guest-signature-optional": "Guest signature (optional)",
         "notes-optional": "Notes (optional)",
-        "added-photos-optional": "Added photos (optional)"
+        "added-photos-optional": "Added photos (optional)",
+        "update-status": "Update status"
       }
     },
     "popup": {
@@ -514,8 +518,8 @@
         "created-by": "Created by",
         "last-message": "Last message",
         "assigned-audit": "Assigned audit",
-        "comments" :"Comments",
-        "sent":"Sent"
+        "comments": "Comments",
+        "sent": "Sent"
       }
     },
     "ubiquitous": {
@@ -665,12 +669,12 @@
       "status": "Status",
       "calendar": "Calendar",
       "take-picture": "Take Picture",
-      "add-more-photo" : "Add More Photo",
-      "add-more-video" : "Add More Video",
+      "add-more-photo": "Add More Photo",
+      "add-more-video": "Add More Video",
       "take-video": "Take Video",
       "picture-gallery": "Picture from gallery",
       "video-gallery": "Video from gallery",
-      "task-asset" : "Asset",
+      "task-asset": "Asset",
       "task-next": "Next",
       "task-guest-request": "Guest Request",
       "task-submit": "Submit",
@@ -983,7 +987,7 @@
         "standart-room": "Standart room",
         "last-action": "Last action",
         "room-category": "Room Category",
-        "cleaning-name":"Cleaning Name"
+        "cleaning-name": "Cleaning Name"
       },
       "index": {
         "room": "Room"
@@ -1335,16 +1339,16 @@
         "created-by": "Created by",
         "view-additional-photos": "View additional photos",
         "choose-model": "Choose model",
-        "select":  "Select",
+        "select": "Select",
         "view-attachments": "View attachments",
         "location-information": "Location information",
         "reassign-task": "Reassign task",
         "move-to-departure": "Move to departure"
       },
       "create-task-alert": {
-        "select-asset" :"Please select asset!!",
-        "select-location":"Please select location!!",
-        "select-asset-action":"Please select asset action!!"
+        "select-asset": "Please select asset!!",
+        "select-location": "Please select location!!",
+        "select-asset-action": "Please select asset action!!"
       }
     },
     "asset": {
