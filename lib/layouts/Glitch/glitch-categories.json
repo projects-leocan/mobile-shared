@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "label": "Front Office",
+      "options": [
+        "Room allocation",
+        "Accuracy of invoice",
+        "Attitude of Staff",
+        "Luggage issue",
+        "Arrival Experience",
+        "Departure Experience",
+        "Other",
+      ],
+      "icon": "building-o",
+      "group": "58330bcd0dab44047789641a"
+    },
+    {
+      "label": "Housekeeping",
+      "options": [
+          "Spa treatments",
+          "Condition of room cleanliness",
+          "Attitude of Staff",
+          "Condition of bathroom cleanliness",
+          "Condition of pool cleanliness",
+          "Laundry Dry Cleaning",
+          "Noise level",
+          "Other",
+      ],
+      "icon": "bed",
+      "group": "58341b26775723514437aa88"
+    },
+    {
+      "label": "F&B",
+      "options": [
+        "Quality of the Food",
+        "Timeliness of service",
+        "Attitude of Staff",
+        "Accuracy of order",
+        "Meeting Rooms",
+        "Value for money",
+        "Other",
+      ],
+      "icon": "cutlery",
+      "group": "58341af2f0be8a7744cd70ec"
+    },
+    {
+      "label": "General",
+      "options": [
+        "Rate your Stay",
+        "Social Media Responce",
+        "Attitude of Staff",
+        "Overall Experience",
+        "Security",
+        "Schadensmeldung Vorfall",
+        "Other",
+      ],
+      "icon": "list-alt",
+      "group": "58341bdff0be8a7744cd70ee"
+    },
+    {
+      "label": "Reservations",
+      "options": [
+        "Accuracy of Reservation",
+        "Other",
+      ],
+      "icon": "bell-o",
+      "group": "58341d04f0be8a7744cd70f3"
+    },
+    {
+      "label": "Technik / IT",
+      "options": [
+        "Condition of furniture ",
+        "Technical defect",
+        "TV",
+        "Internet",
+        "Other",
+      ],
+      "icon": "laptop",
+      "group": "58341bb4f0be8a7744cd70ed"
+    }
+  ]
+}
