@@ -519,7 +519,8 @@
         "last-message": "Last message",
         "assigned-audit": "Assigned audit",
         "comments": "Comments",
-        "sent": "Sent"
+        "sent": "Sent",
+        "guest-name":"Guest name"
       }
     },
     "ubiquitous": {

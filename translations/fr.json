@@ -502,7 +502,8 @@
         "last-message": "Message",
         "assigned-audit": "Audit assigné",
         "comments" :"Consignes",
-        "sent":"Envoyée"
+        "sent":"Envoyée",
+        "guest-name":"Nom de l'invité"
       }
     },
     "ubiquitous": {
