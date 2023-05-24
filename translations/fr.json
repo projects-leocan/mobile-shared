@@ -881,7 +881,8 @@
       "index": {
         "rooms": "Chambres",
         "all-floors": "Tous les étages",
-        "floor": "Etage"
+        "floor": "Etage",
+        "ok":"D'accord"
       },
       "rooms-filter": {
         "attendants": "FDC",

@@ -920,7 +920,8 @@
       "index": {
         "rooms": "Rooms",
         "all-floors": "All floors",
-        "floor": "Floor"
+        "floor": "Floor",
+        "ok":"Ok"
       },
       "rooms-filter": {
         "attendants": "Attendants",
