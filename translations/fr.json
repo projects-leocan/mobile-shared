@@ -492,7 +492,7 @@
     },
     "popup": {
       "index": {
-        "okay": "Ok",
+        "okay": "D'accord",
         "submitted-time": "Créée",
         "notification": "Notification",
         "accept": "Accepter",
@@ -927,7 +927,7 @@
     },
     "popup": {
       "index": {
-        "okay": "OK",
+        "okay": "D'accord",
         "submitted-time": "Créé(e) depuis",
         "notification": "Notification",
         "accept": "Accepter",
@@ -1050,7 +1050,7 @@
         "creator": "Créateur"
       },
       "status": {
-        "okay": "OK",
+        "okay": "D'accord",
         "started": "Commencée",
         "rejected": "Rejetée",
         "paused": "Mise en pause",
@@ -1242,7 +1242,7 @@
     },
     "popup": {
       "index": {
-        "okay": "Ok",
+        "okay": "D'accord",
         "submitted-time": "Créée",
         "new-glitch": "Nouvelle experience",
         "accept": "Accepter",
