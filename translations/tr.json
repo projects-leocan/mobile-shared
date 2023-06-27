@@ -1,0 +1,1358 @@
+{
+  "runner": {
+    "glitch-form": {
+      "index": {
+        "add-actions-to-resolve": "Eylem ekleme",
+        "add-followup-instructions": "İzleme talimatları ekleme",
+        "vip": "VIP",
+        "add-task": "Görev ekleme",
+        "enter-room-name": "Oda numarasını girin",
+        "select-glitch-category": "Bir kategori seçin",
+        "glitch-information": "Haberler",
+        "close-glitch": "Deneyimi kapatın",
+        "handover": "Başka bir kişiye teslim etme",
+        "internal-followup": "Dahili izleme",
+        "enter-guest-name": "İstemcinin adını girin",
+        "choose-location": "Bir yer/oda seçin",
+        "send-glitch": "Deneyimi gönderin",
+        "email": "Posta",
+        "eur": "Avro",
+        "submit-new-glitch": "Yeni deneyimi gönderin",
+        "compensation-cost": "Tazminat maliyeti",
+        "update-glitch": "Deneyimi güncelleştirme",
+        "guest-information": "Müşteri Bilgileri",
+        "add-experience-description": "Açıklama ekleme",
+        "vip-status-optional": "VIP Statüsü (İsteğe Bağlı)",
+        "incident-description": "Olayın açıklaması",
+        "room": "Oda",
+        "name": "Ad",
+        "select-a-glitch-category": "Bir kategori seçin",
+        "actions-to-resolve": "Olayı çözmek için eylem",
+        "enter-guest-email": "Müşterinin e-posta adresini girin"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Bir deneyim seçin",
+        "select-glitch-category": "Bir deneyim kategorisi seçin",
+        "select-category": "Bir kategori seçin"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Sıfırlama",
+        "close": "Kapatmak"
+      },
+      "index": {
+        "tasks": "Görev",
+        "rooms": "Oda",
+        "close-floor": "Pencereyi kapat",
+        "floor": "Kat"
+      }
+    },
+    "clean": {
+      "index": {
+        "confirm-dnd": "Onayla Rahatsız Etmeyin",
+        "change-sheets": "Sayfaların değiştirilmesi",
+        "pms": "cesaret",
+        "add-change-sheets": "Çarşafları değiştirmek zorunda kaldım"
+      }
+    },
+    "room": {
+      "restock": {
+        "room-inventory": "Oda envanteri",
+        "cancel-restock": "Hisse senedini iptal et",
+        "mark-as-restocked": "Yeniden stoklama yapıldı"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Önceki notlar",
+        "add-note": "Not ekleme",
+        "new-room-note": "Yeni oda özelliği",
+        "new-note-placeholder": "Örneğin, görev"
+      }
+    },
+    "glitch": {
+      "glitch-read-only": {
+        "none": "Boş",
+        "send-email": "Posta gönder",
+        "glitch-cost": "Masraf",
+        "glitch-followup": "Aftercare",
+        "start": "Başlamak",
+        "glitch-description": "Tarif",
+        "assigned-to": "Atandığı yer",
+        "current-responsibility": "Sorumlu kişi",
+        "glitch-action": "Eylem",
+        "glitch-category": "Kategori"
+      }
+    },
+    "components": {
+      "group-select-modal": {
+        "close": "Kapatmak",
+        "select-assignment": "Bir alıcı seçin"
+      },
+      "group-select-row": {
+        "text": "Metin"
+      },
+      "location-select-modal": {
+        "close": "Kapatmak",
+        "select-location": "Bir yer/oda seçin"
+      },
+      "room-note-row": {
+        "remove": "Silmek"
+      },
+      "task-card": {
+        "created-by": "Oluşturan",
+        "location": "Yer / oda",
+        "last-message": "İleti",
+        "submitted-time": "Oluşturulan"
+      },
+      "special-select-row": {
+        "text": "Metin"
+      },
+      "assignment-select": {
+        "attendants": "Oda hizmetçileri/valeler",
+        "inspectors": "Temizlikçiler",
+        "management": "Çerçeve",
+        "housekeeping": "Temizlik",
+        "concierge": "FO Takibi",
+        "maintenance": "Bakım",
+        "groups": "Grup",
+        "runners": "Koşucu"
+      },
+      "user-select-row": {
+        "text": "Ttexte"
+      },
+      "inventory-update-row": {
+        "reset": "Sıfırlama"
+      },
+      "room-options": {
+        "room-gallery": "Oda düzeni",
+        "send-task": "Görev Gönder",
+        "clean-room": "Temizlenecek oda",
+        "guest-glitch": "Deneyim müşterisi",
+        "hsk-notes": "Oda Özelliği",
+        "lost-found": "Kayıp ve buluntu",
+        "inventory": "Envanter",
+        "maintenance": "Bakım"
+      },
+      "room-timer": {
+        "cancel": "İptal",
+        "done": "Temizlenmiş"
+      },
+      "user-select-modal": {
+        "management": "Çerçeve",
+        "housekeeping": "Temizlik",
+        "concierge": "FO Takibi",
+        "select-assignment": "Bir alıcı seçin",
+        "maintenance": "Bakım",
+        "close": "Kapatmak"
+      },
+      "asset-action-description": {
+        "yes": "Evet",
+        "there-are-no-actions-for-your-asset": "Bu ekipman için herhangi bir işlem yapılmamıştır",
+        "no-actions-for-created-asset": "Bu ekipman için herhangi bir işlem yapılmamıştır",
+        "you-must-first-select-an-asset": "İlk önce bir ekipman parçası seçmeniz gerekir",
+        "no": "Değil"
+      },
+      "asset-select-modal": {
+        "close": "Kapatmak",
+        "select-asset": "Bir cihaz seçin"
+      },
+      "room-info": {
+        "change-sheets": "Sayfaların değiştirilmesi",
+        "pms": "cesaret"
+      },
+      "reservation-nights": {
+        "of": "Üzerinde",
+        "nights": "Gece"
+      },
+      "task-settings": {
+        "yes": "Evet",
+        "no": "Değil"
+      },
+      "gallery-row-item": {
+        "label": "Görgü"
+      }
+    },
+    "turndown": {
+      "subheader": {
+        "all-categories": "Tüm kategoriler"
+      },
+      "index": {
+        "all-categories": "Tüm kategoriler"
+      },
+      "modalcontent": {
+        "delay": "Sonra",
+        "cancel-turndown": "Kapsam hizmetini iptal etme",
+        "refuse": "Reddetti",
+        "finish-turndown": "Kapsama hizmeti tamamlandı",
+        "dnd": "cesaret"
+      }
+    },
+    "glitches": {
+      "index": {
+        "other-glitches": "Diğer müşteri raporları",
+        "recently-closed": "Yakın zamanda kapatıldı",
+        "assigned-glitches": "Atanan müşteri raporları"
+      }
+    },
+    "navigation": {
+      "links": {
+        "glitches": "Deneyim",
+        "tasks": "Görev",
+        "inventory-restock": "Stok Yöneticisi",
+        "notifications": "Bildirim",
+        "turndown-service": "Kapsama hizmeti",
+        "main": "Ana ekran"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "submit-lost-item": "Göndermek için"
+      }
+    }
+  },
+  "attendant": {
+    "swipeoutoptions": {
+      "index": {
+        "close": "Kapatmak"
+      }
+    },
+    "clean": {
+      "menu": {
+        "dnd": "cesaret",
+        "refuse": "Ret",
+        "inspect": "Denetlenecek oda",
+        "start-cleaning": "Temizlemeye başlayın",
+        "delay": "Sonra",
+        "clean": "Temizleme",
+        "no-check": "Denetlenmedi"
+      },
+      "finishmenu": {
+        "cancel-dnd": "DND'yi iptal etme",
+        "cancel-refuse": "Reddetmeyi İptal Et",
+        "cancel-finish": "İptal Et Temizlendi",
+        "confirm-dnd": "DND'yi onaylayın"
+      },
+      "cleaninginfo": {
+        "credits": "Kredi",
+        "pms": "cesaret",
+        "change-sheets": "Sayfaların değiştirilmesi",
+        "long-stay": "Uzun Süreli Konaklama",
+        "cleaning-info": "Temizlik Bilgileri",
+        "cleaning-instruction": "Talimat"
+      },
+      "taskssubheader": {
+        "show-tasks": "Görevleri görüntüler",
+        "tasks": "Görev",
+        "hide-tasks": "Görevleri gizler"
+      },
+      "index": {
+        "add-change-sheets": "Çarşafları değiştirmek zorunda kaldım"
+      }
+    },
+    "popuptasks": {
+      "index": {
+        "new-task": "Yeni görev",
+        "accept": "Almak",
+        "reject": "Reddetmek"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Önceki notlar",
+        "add-note": "Not ekleme",
+        "new-room-note": "Yeni oda özelliği",
+        "new-note-placeholder": "Örneğin, görev"
+      }
+    },
+    "inspect": {
+      "menu": {
+        "dnd": "cesaret",
+        "refuse": "Ret",
+        "inspect": "Teftiş odası",
+        "start-cleaning": "Temizlemeye başlayın",
+        "delay": "Sonra",
+        "clean": "Temiz",
+        "no-check": "Denetlenmedi"
+      },
+      "finishmenu": {
+        "confirm-dnd": "DND'yi onaylayın"
+      },
+      "cleaninginfo": {
+        "credits": "Kredi",
+        "change-sheets": "Sayfaların değiştirilmesi",
+        "long-stay": "Uzun Süreli Konaklama",
+        "pms": "cesaret"
+      },
+      "taskssubheader": {
+        "show-tasks": "Görevleri görüntüler",
+        "tasks": "Görev",
+        "hide-tasks": "Görevleri gizler"
+      }
+    },
+    "alert": {
+      "index": {
+        "priority": "Öncelik",
+        "room-message": "Odaya mesaj"
+      }
+    },
+    "headers": {
+      "maintenance": "Bakım",
+      "inventory-restock": "Stok Yöneticisi",
+      "notes": "Özellik -lerini",
+      "inspect": "Incelemek",
+      "lost-found": "Kayıp ve buluntu",
+      "inventory": "Envanter",
+      "clean": "Temizleme",
+      "gallery": "Standart Oda"
+    },
+    "components": {
+      "group-select-row": {
+        "text": "Metin"
+      },
+      "location-select-modal": {
+        "close": "Kapatmak"
+      },
+      "user-select-row": {
+        "text": "Metin"
+      },
+      "reservation-component": {
+        "reservation": "Rezervasyon"
+      },
+      "room-note-row": {
+        "remove": "Silmek"
+      },
+      "task-settings": {
+        "yes": "Evet",
+        "no": "Değil"
+      },
+      "special-select-row": {
+        "text": "Metin"
+      },
+      "inventory-update-row": {
+        "reset": "Réinitilaiser"
+      },
+      "room-timer": {
+        "cancel": "İptal",
+        "done": "Bitirme odası"
+      },
+      "assignment-select": {
+        "attendants": "Hizmetçiler / Valets de chambre",
+        "inspectors": "Temizlikçiler",
+        "management": "Çerçeve",
+        "housekeeping": "Temizlik",
+        "concierge": "FO Takibi",
+        "maintenance": "Bakım Ekibi",
+        "groups": "Grup",
+        "runners": "Koşucular / Equipiers"
+      },
+      "room-options": {
+        "room-gallery": "Standart Oda",
+        "send-task": "Görev Gönder",
+        "clean-room": "Temizlenecek oda",
+        "hsk-notes": "Oda Özelliği",
+        "lost-found": "Kayıp ve buluntu",
+        "inventory": "Envanter",
+        "maintenance": "Bakım"
+      },
+      "room-row-item": {
+        "tasks": "Görev"
+      },
+      "user-select-modal": {
+        "management": "Çerçeve",
+        "housekeeping": "Temizlik",
+        "concierge": "FO Takibi",
+        "select-assignment": "Bir kullanıcı seçin",
+        "maintenance": "Bakım",
+        "close": "Kapatmak"
+      },
+      "asset-action-description": {
+        "yes": "Evet",
+        "there-are-no-actions-for-your-asset": "Bu ekipman için herhangi bir işlem yapılmamıştır",
+        "no-actions-for-created-asset": "Bu ekipman için herhangi bir işlem yapılmamıştır",
+        "you-must-first-select-an-asset": "İlk önce bir ekipman parçası seçmeniz gerekir",
+        "no": "Değil"
+      },
+      "asset-select-modal": {
+        "close": "Kapatmak",
+        "select-asset": "Ekipman seçin"
+      },
+      "reservation-nights": {
+        "of": "üzerinde",
+        "nights": "Gece"
+      }
+    },
+    "inventoryrestock": {
+      "index": {
+        "restock-inventory": "Envanteri sıfırlama"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Silmek",
+        "search": "Odaya göre ara, müşteriler ...",
+        "vacant": "Serbest",
+        "inspt": "Temiz",
+        "other": "Başka",
+        "dirty": "Satış",
+        "clean": "Temiz",
+        "close": "Kapatmak",
+        "occupied": "Meşgul"
+      },
+      "index": {
+        "priority": "Öncelik",
+        "tasks": "Görev",
+        "floor": "Kat",
+        "paused-rooms": "Duraklatılmış odalar",
+        "cleaning-rooms": "Temizlik odaları",
+        "paused": "Durakla -tma",
+        "priority-rooms": "Öncelikli odalar",
+        "close-floor": "Pencereyi kapatın",
+        "rooms": "Oda -larında",
+        "scheduled": "Programlanmış odalar",
+        "show-more": "Tümünü görüntüle",
+        "show-less": "Programlarla sınırlama",
+        "credits": "Kredi"
+      }
+    },
+    "navigation": {
+      "links": {
+        "tasks": "Görev",
+        "main": "Ana ekran",
+        "glitches": "Deneyim",
+        "inventory-restock": "Stok",
+        "notifications": "Bildirim",
+        "rooms-cleaned": "Temizlenmiş odalar"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "report-lost-and-found-item": "Bulunan bir öğeyi geri getirme",
+        "description": "Açıklama ekleme",
+        "submit-lost-item": "Bulunan bir öğeyi gönderme"
+      }
+    }
+  },
+  "base": {
+    "extra-options": {
+      "room-extra-options": "Ek bilgi"
+    },
+    "glitch-form": {
+      "index": {
+        "glitch-information": "Deneyim Bilgileri",
+        "incident-description": "Olayın açıklaması",
+        "name": "Ad",
+        "room": "Oda",
+        "submit-new-glitch": "Yeni deneyimi gönderin",
+        "compensation-cost": "Tazminat maliyeti",
+        "select-glitch-category": "Deneyim kategorisini seçin",
+        "enter-guest-name": "İstemcinin adını girin",
+        "enter-room-number": "Oda numarasını girin",
+        "vip": "VIP",
+        "premiere-club": "İlk Kulüp",
+        "actions-to-resolve": "Olayı çözmek için eylem",
+        "follow-up-with-guest": "Müşteri ile takip",
+        "email": "Posta",
+        "enter-guest-email": "Müşterinin e-posta adresini girin"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Deneyimi seçin",
+        "select-glitch-category": "Deneyim kategorisini seçin",
+        "select-category": "Kategori seçin"
+      }
+    },
+    "lost-found-review": {
+      "index": {
+        "open": "Açık",
+        "emailed": "E-posta gönderildi",
+        "phoned": "İletişim kuruldu (tel)",
+        "pending": "Beklemede",
+        "waiting": "Onay bekleniyor",
+        "mailed": "Sevk",
+        "hand-delivered": "Elden teslim",
+        "expired": "Süresi dolmuş",
+        "refused": "Reddetti",
+        "delete": "İptal",
+        "closed": "Kapalı",
+        "found": "Kurmak",
+        "show-all": "Tümünü görüntüle",
+        "show-only-open": "Açık biletler",
+        "show-only-received": "Alınan",
+        "holding": "Misafir dönene kadar bekletilir",
+        "reception": "Resepsiyon ile",
+        "holding-lt": "Uzun süreli bekletme"
+      },
+      "modal": {
+        "guest-signature-optional": "İmza istemcisi (isteğe bağlı)",
+        "notes-optional": "Not (seçenek)",
+        "added-photos-optional": "Eklenen fotoğraflar (seçenek)",
+        "update-status": "Güncelleme Durumu"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Tamam",
+        "submitted-time": "Oluşturulan",
+        "notification": "Bildirim",
+        "accept": "Almak",
+        "new-task": "Yeni görev",
+        "location": "Yer",
+        "reject": "Reddetmek",
+        "created-by": "Oluşturan",
+        "last-message": "İleti",
+        "assigned-audit": "Atanan denetim",
+        "comments": "Talimat -ları",
+        "sent": "Gönderilen",
+        "guest-name": "Misafir Adı"
+      }
+    },
+    "ubiquitous": {
+      "all": "Tüm",
+      "departed": "Parti",
+      "photo": "Fotoğraf",
+      "inspt": "Inspt",
+      "assignee": "Celp",
+      "unassigned": "Atanma -mış",
+      "rooms": "Sikke",
+      "filters": "Filtre",
+      "pms-notes": "Notlar PMS",
+      "yes": "Evet",
+      "blocked": "Engellenmiş",
+      "pause": "Duraklat",
+      "group": "Grup",
+      "acknowledge": "Görüş",
+      "send": "Gönder",
+      "search": "Araştırma",
+      "search-users": "Bir kullanıcı bulun",
+      "to": "a :",
+      "no-location": "Mekan yok",
+      "location": "Yer",
+      "all-inspectors": "Tüm Cetveller",
+      "create-asset": "Ekipman oluşturma",
+      "da": "D/A",
+      "search-assets": "Ekipman arama",
+      "search-locations": "Bir yer/oda arayın",
+      "add-a-note": "Not ekleme",
+      "assignments": "Celp",
+      "continue": "Devam etmek",
+      "quick": "Takım",
+      "maintenance-team": "Bakım ekibi",
+      "backlog": "Geç",
+      "reset-entry": "Réinit.",
+      "arr": "Varış",
+      "creator": "Yaratıcı",
+      "asset-and-action": "Ekipman ve eylem",
+      "cs": "C*D",
+      "close": "Kapatmak",
+      "mandatory-task": "Zorunlu görev",
+      "yesterday": "Burada",
+      "last-message": "İleti",
+      "arrival": "Varış",
+      "resume": "Özgeçmiş",
+      "select-user": "Bir kullanıcı seçin",
+      "attendant": "Hizmetçi / Vale",
+      "stay": "Rec",
+      "optional": "Seçenek",
+      "convert": "Dönüştürmek",
+      "housekeeping": "Temizlik",
+      "enter-a-message": "Bir mesaj girin",
+      "block": "Blok",
+      "tasks": "Görev",
+      "select-location": "Bir yer/oda seçin",
+      "floors": "Zemin",
+      "submit": "Göndermek için",
+      "cancel": "İptal",
+      "message": "İleti",
+      "people": "Kişi",
+      "inspected": "Kontrol",
+      "next": "Önümüzdeki",
+      "priority": "Öncelik",
+      "start": "Başlamak",
+      "maintenance": "Bakım",
+      "prev": "Önceki",
+      "today": "Bugün",
+      "tomorrow": "Yarın",
+      "completed": "Completée",
+      "notifications": "Bildirim",
+      "all-runners": "Tüm Ekipler / Koşucular",
+      "none": "-",
+      "room": "Oda",
+      "bedrooms": "Oda -larında",
+      "dep": "DEP",
+      "priority-task": "Öncelikli Görev",
+      "lite-task": "Basit görev",
+      "normal-task": "Normal görev",
+      "unassigned-task": "Atanmamış görev",
+      "enter-a-description-optional": "Bir açıklama girin (isteğe bağlı)",
+      "dirty": "Satış",
+      "cancelled": "Iptal",
+      "send-housekeeping-task": "HK görevi gönder",
+      "select-locations": "Konumları/odaları seçin",
+      "search-tasks": "Görev arama",
+      "send-maintenance-task": "Bakım görevi gönder",
+      "runner": "Koşucu / Mürettebat",
+      "locations": "Yerler / Odalar",
+      "accept": "Almak",
+      "no-photo": "Fotoğraf yok",
+      "receptionist": "Resepsiyonist",
+      "inspector": "Cetveller",
+      "occupied": "Meşgul",
+      "vacant": "Vacancy",
+      "information": "Bilgi",
+      "adminstrator": "Yönetici",
+      "no": "Değil",
+      "stayover": "Yeniden Katman",
+      "delay": "Sonra",
+      "other": "Başka",
+      "blocking-task": "Engelleme görevi",
+      "reject": "Reddetmek",
+      "finish": "Bitirmek",
+      "description": "Tarif",
+      "normal": "Normal",
+      "planned-attendant": "Planlı hizmetçi",
+      "planned-runner": "Planlanan mürettebat üyesi",
+      "update": "Güncelleştirmek",
+      "alert": "Uyarı",
+      "arrived": "Varış",
+      "change-sheets": "Sayfaları değiştirme",
+      "task": "Görev",
+      "clear": "Silmek",
+      "floor": "Kat",
+      "departure": "Terk",
+      "clean": "Temiz",
+      "exit-selection": "Kapatmak",
+      "tap-to-start-camera": "Fotoğrafa dokunun",
+      "continue-without-photo": "Fotoğraf olmadan devam et",
+      "default-assignment": "Varsayılan atama",
+      "tap-to-continue": "Devam etmek için dokunun",
+      "review": "Görmek",
+      "dismiss": "Maske",
+      "show": "Yayınla",
+      "checkout-on": "Kalkış tarihi",
+      "cleaning": "Temizleme",
+      "dnd": "cesaret",
+      "refuse": "Reddetti",
+      "reset-system": "Silmek",
+      "management": "Çerçeve",
+      "properties": "Özellikler",
+      "area": "Alan",
+      "asset": "Ekipman",
+      "action": "Eylem",
+      "model": "Model",
+      "guest": "Müşteri",
+      "due-out": "Kalkış tarihi",
+      "tap-to-enlarge": "Büyütmek için dokunun",
+      "categories": "Kategori",
+      "status": "Durum",
+      "calendar": "Takvim",
+      "take-picture": "Fotoğraf",
+      "add-more-video": "Video Ekle",
+      "take-video": "Video",
+      "picture-gallery": "Tel'deki fotoğraf.",
+      "video-gallery": "Video in Tel.",
+      "task-asset": "Ekipman",
+      "task-next": "Önümüzdeki",
+      "task-guest-request": "Müşteri Sorgulama",
+      "task-submit": "Göndermek için",
+      "task-assign": "Atandığı yer",
+      "add-more-photo": "Fotoğraf Ekle"
+    },
+    "realtime": {
+      "index": {
+        "pending-requests-itemstosync": "Bekleyen istek",
+        "offline": "Çevrimdışı",
+        "-": ""
+      }
+    },
+    "notification": {
+      "extraoptions": {
+        "reply": "Cevap",
+        "convert-to-task": "Göreve dönüştür",
+        "follow-up": "Aftercare"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "recent-quick-notifications": "Hızlı veya son bildirimler"
+      },
+      "selectuser": {
+        "tap": "Değiştirmek için dokunun"
+      }
+    },
+    "tasktable": {
+      "modal": {
+        "assigned-to": "Atandığı yer",
+        "last-action": "Son eylem",
+        "messages": "Ileti",
+        "location": "Yer",
+        "created-by": "Oluşturan",
+        "submitted-time": "Oluşturulan",
+        "complete-task": "Bitirmek",
+        "cancel-task": "İptal",
+        "reassign-task": "Réassigner"
+      },
+      "status": {
+        "started": "Başladı",
+        "waiting": "Kabul",
+        "rejected": "Reddedilmiş",
+        "paused": "Durakla -tma",
+        "canceled": "Iptal",
+        "finished": "Üzerinde",
+        "completed": "Üzerinde",
+        "pending": "Beklemede"
+      },
+      "header": {
+        "status": "Durum",
+        "information": "Bilgi",
+        "task": "Görev",
+        "normal-ticket": "Bilet normal",
+        "lite-ticket": "Tamamlamak için bilet",
+        "assigned": "Celp",
+        "time-created": "Oluşturulan",
+        "location": "Yer",
+        "created-by": "Oluşturan",
+        "priority-ticket": "Öncelikli bilet"
+      },
+      "utils": {
+        "pause": "Durakla -tma",
+        "finish": "Bitirmek",
+        "start": "Başlamak",
+        "resume": "Özgeçmiş",
+        "reject": "Reddetmek"
+      },
+      "lastaction": {
+        "created": "Görev oluşturuldu",
+        "task-reassigned": "Yeniden atanan görev",
+        "rescheduled": "Yeniden zamanlanan görev",
+        "added-message": "Mesaj eklendi"
+      }
+    },
+    "notifications": {
+      "index": {
+        "assigned": "Atanan",
+        "sent": "Teslim"
+      },
+      "quicknotificationform": {
+        "send-message": "Mesaj gönder"
+      }
+    },
+    "tasks": {
+      "tabs": {
+        "today": "Bugün",
+        "sent": "Teslim",
+        "backlog": "Geç"
+      },
+      "dummy": {
+        "occupaied": ""
+      }
+    },
+    "inventory": {
+      "index": {
+        "close-area": "Bölgeyi kapatın",
+        "search-items": "Bir öğeyi arama"
+      }
+    },
+    "components": {
+      "assetactiondescription": {
+        "submit-maintenance": "Bakım görevini gönder",
+        "no-available": "Bu ekipman için herhangi bir işlem yapılmamıştır",
+        "description": "Tarif",
+        "no": "Değil",
+        "no-actions": "Bu ekipman için herhangi bir işlem yapılmamıştır",
+        "priority": "Öncelik",
+        "continue": "Devam etmek",
+        "asset": "Ekipman",
+        "first-select": "İlk önce bir ekipman parçası seçmeniz gerekir",
+        "action": "Eylem",
+        "description-placeholder": "Ör: dönmüyor",
+        "yes": "Evet",
+        "select-asset": "Ekipman seçin",
+        "location": "Yer"
+      },
+      "fullscreenphoto": {
+        "no-photo": "Fotoğraf yok"
+      }
+    },
+    "navigation": {
+      "index": {
+        "task": "Görev",
+        "convert-task": "Göreve dönüştür",
+        "notifications": "Bildirim",
+        "tasks": "Görev",
+        "notes": "Özellik -lerini",
+        "create-notification": "Bildirim oluşturma",
+        "glitch": "Deneyim Müşterisi",
+        "turndown-service": "Kapsama Hizmeti",
+        "lost-found": "Kayıp ve buluntu",
+        "room": "Oda",
+        "filter-tasks": "Filtre görünümü",
+        "inventory": "Stok yönetimi",
+        "maintenance": "Bakım",
+        "home": "Ev",
+        "glitches": "Deneyimler Müşteriler",
+        "gallery": "Odaların fotoğrafları",
+        "inventory-restock": "Stok"
+      },
+      "links": {
+        "assets": "Ekipman",
+        "notifications": "Bildirim",
+        "logout": "Oturum kapatma",
+        "rooms": "Oda -larında",
+        "closed": "Kapalı",
+        "main": "Ana ekran",
+        "sent": "Teslim"
+      }
+    },
+    "taskcard": {
+      "status": {
+        "started": "Başladı",
+        "completed": "Tamamlandı",
+        "unclaimed": "Beklemede",
+        "cancelled": "Iptal",
+        "accepted": "Kabul",
+        "pending": "Beklemede"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Kapatmak"
+      }
+    }
+  },
+  "inspector": {
+    "room-messages": {
+      "index": {
+        "day-night": "Gün ve Kapsam",
+        "edit": "Değiştirmek",
+        "add-message": "Yeni",
+        "delete-messages": "Mesajları silme",
+        "change-room": "# no'ya geçin.",
+        "message": "İleti",
+        "message-type": "Bir ileti türü seçin",
+        "schedule": "Bir son tarih seçin",
+        "calendar": "Takvim",
+        "day": "Gün",
+        "night": "Battaniye",
+        "pickup": "Pikap",
+        "end-of-day": "Bugün",
+        "end-of-stay": "Kalkışa kadar",
+        "custom": "Töre",
+        "indefinitely": "Sonsuza kadar",
+        "cancel": "İptal",
+        "submit-message": "Göndermek için"
+      }
+    },
+    "audits": {
+      "add-photo": "Fotoğraf ekleme",
+      "add-note": "Not ekleme",
+      "submit-task": "Göndermek için",
+      "save": "Kurtarmak",
+      "note": "Not",
+      "photo": "Fotoğraf",
+      "select-audit": "Denetim seç",
+      "assign-to-others": "Ata ... (isteğe bağlı)"
+    },
+    "attendantmodal": {
+      "index": {
+        "priority": "Öncelik",
+        "reset": "Sıfırlama",
+        "attendant": "Hizmetçi / Vale",
+        "overwrite-guest-status": "Ön büro durumunu değiştirme",
+        "send-message-to-attendant": "Bir fdc / vdc'ye mesaj gönderin"
+      }
+    },
+    "createtask": {
+      "index": {
+        "photo": "Fotoğraf",
+        "mandatory-task": "Zorunlu görev",
+        "assignee": "Celp",
+        "priority-task": "Öncelikli görev",
+        "blocking-task": "Engelleme görevi",
+        "location": "Yer / oda",
+        "asset-and-action": "Ekipman ve eylem"
+      },
+      "extraoption": {
+        "yes": "Evet",
+        "no": "Değil"
+      }
+    },
+    "main": {
+      "index": {
+        "rooms": "Oda -larında",
+        "all-floors": "Tüm katlar",
+        "floor": "Kat",
+        "ok": "Anlaşıldı"
+      },
+      "rooms-filter": {
+        "attendants": "cesaret",
+        "reset": "Sıfırlama",
+        "filtered-rooms": "Filtreye göre odalar",
+        "other": "Başka",
+        "floors": "Zemin",
+        "filters": "Filtre",
+        "all-rooms": "Tüm odalar",
+        "show-non-guest-rooms": "Ortak alanları göster",
+        "hide-non-guest-rooms": "Ortak alanları gizleme"
+      },
+      "rooms-information": {
+        "reset": "Sıfırlama",
+        "vip": "VIP"
+      },
+      "notes": {
+        "room-notes": "Oda Özelliği"
+      },
+      "roommessageform": {
+        "room-message": "Oda Mesajı"
+      },
+      "roomnotesmodal": {
+        "no-pms-notes-for-this-reservation": "Bu rezervasyon için PMS derecelendirmesi yok",
+        "send-message-attendant": "Doğrudan bildirim gönderme",
+        "room-notes": "Oda Özelliği",
+        "pms-notes": "PMS notları",
+        "save-for-later": "Daha sonrası için kaydet",
+        "room-message": "Oda Mesajı",
+        "messaging": "Gönderilecek mesaj"
+      },
+      "filters-drawer": {
+        "1": "1"
+      }
+    },
+    "housekeeping": {
+      "index": {
+        "today": "Bugün",
+        "search-tasks-rooms-users": "Odaları, kullanıcıları vb. arayın...",
+        "backlog": "Geç"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "TAMAM",
+        "submitted-time": "Oluşturulma tarihinden beri",
+        "notification": "Bildirim",
+        "accept": "Almak",
+        "new-task": "Yeni görev",
+        "location": "Yer / oda",
+        "reject": "Reddetmek",
+        "created-by": "Oluşturan",
+        "last-message": "İleti"
+      }
+    },
+    "information": {
+      "info": {
+        "dnd": "Rahatsız etmeyin",
+        "cleaning": "Temizlik devam ediyor...",
+        "refused": "Müşteri tarafından reddedildi",
+        "delay": "Sonra",
+        "finish": "sonlu",
+        "attendant-status": "Temizlik Durumu",
+        "housekeeping-status": "Statut Kat Hizmetleri",
+        "room-attendant": "Hizmetçi / Vale",
+        "room-information": "Oda bilgileri",
+        "emilie-persion": "Emilie persion",
+        "room-type": "Oda tipi",
+        "standart-room": "Standart Oda",
+        "last-action": "Son eylem",
+        "room-category": "Oda Kategorisi",
+        "cleaning-name": "Temizlik Adı"
+      },
+      "index": {
+        "room": "Oda"
+      },
+      "pmsnotes": {
+        "pms-notes": "Notlar pms",
+        "no-pms-notes": "PMS notu yok"
+      },
+      "notes": {
+        "room-notes": "Oda Özelliği"
+      },
+      "roommessageform": {
+        "room-message": "Oda Mesajı"
+      },
+      "housekeepingstatus": {
+        "other-housekeepings": "Başka"
+      },
+      "vipstatus": {
+        "vip-status": "VIP statüsü"
+      },
+      "attendantstatus": {
+        "attendant-status": "Oda hizmetçisi statüsü"
+      }
+    },
+    "updatespopup": {
+      "index": {
+        "new": "Yeni",
+        "dismiss": "Yok saymak",
+        "you-have": "Yeni bilgiler",
+        "show": "Yayınla",
+        "new-updates": ""
+      },
+      "modal": {
+        "priority-set": "Doğrulanmış Öncelik",
+        "message-added": "Mesaj eklendi",
+        "room-restocked": "Yeniden stoklama yapıldı",
+        "room-unblocked": "Kilidi açılmış oda",
+        "updates": "Yeni bilgiler",
+        "dismiss-all": "Tümünü yoksayma"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "select-a-location-or-change-user": "Bir yer/oda veya başka bir kullanıcı seçin",
+        "photo": "Fotoğraf",
+        "missing-location-or-user": "Eksik yer/oda veya kullanıcı",
+        "send-notification": "Bildirim gönder",
+        "to": "Da:",
+        "select-notification": "Bir bildirim seçin",
+        "location": "Yer / oda",
+        "message": "İleti",
+        "quick-notifications": "Bildirim"
+      },
+      "selectusermodal": {
+        "select-reciepent": "Bir alıcı seçin"
+      }
+    },
+    "tableheader": {
+      "index": {
+        "attendant-runner": "Kadın / Vale & koşucu",
+        "tasks": "Görev",
+        "my-assigned-tasks": "Görevlerim",
+        "open-housekeepings": "HK iş ilanlarını açın",
+        "open": "Açık görevler görevleri",
+        "open-maintenances": "Açık bakım görevleri",
+        "recently-closed-tasks": "Son kapatılan görevler",
+        "open-tasks": "Açık görevler",
+        "paused-audits": "Duraklatma denetimleri",
+        "open-audits": "Açık denetimler",
+        "recently-closed-audits": "Son denetimler kapandı",
+        "start-new-audit": "Yeni bir denetim başlatma"
+      }
+    },
+    "founditem": {
+      "index": {
+        "add-a-description": "Açıklama ekleme",
+        "submit-lost-item": "Öğe Gönder"
+      }
+    },
+    "notifications": {
+      "notificationheader": {
+        "status": "Durum",
+        "message": "İleti",
+        "user": "Kullanıcı",
+        "room": "Oda",
+        "time": "Saat"
+      },
+      "assignedheader": {
+        "status": "Durum",
+        "message": "İleti",
+        "time": "Saat",
+        "room": "Oda",
+        "creator": "Yaratıcı"
+      },
+      "status": {
+        "okay": "TAMAM",
+        "started": "Başladı",
+        "rejected": "Reddedilmiş",
+        "paused": "Durakla -tma",
+        "canceled": "Iptal",
+        "waiting": "Kabul",
+        "pending": "Beklemede"
+      },
+      "index": {
+        "sent-attendant-notifications": "Gönderilen bildirimler",
+        "assigned-notifications": "Bildirimlerim",
+        "search-rooms-or-people": "Oda veya kullanıcı arama"
+      }
+    },
+    "catalog": {
+      "index": {
+        "room-photos": "Odaların fotoğrafları"
+      }
+    },
+    "planning": {
+      "index": {
+        "add-attendant": "FoC ekleme",
+        "reset": "Sıfırlama",
+        "prev": "Önceki",
+        "filters": "Filtre",
+        "next": "Önümüzdeki"
+      },
+      "filtersdrawer": {
+        "all": "Tüm",
+        "rooms-to-plan": "Tahsis edilecek odalar",
+        "stayover": "Yeniden Katman",
+        "departure": "Terk",
+        "arrivals": "Gelenler",
+        "da": "D/A",
+        "filter-by-guest-status": "Müşteri durumuna göre filtrele",
+        "filter-by-housekeeping": "HK durumuna göre filtrele",
+        "filter-by-floor": "Kata göre filtrele",
+        "filter-by-category": "Kategoriye göre filtrele",
+        "change-sheets": "Sayfaların değiştirilmesi",
+        "blocked": "Engellenmiş"
+      }
+    },
+    "room": {
+      "index": {
+        "information": "Bilgi",
+        "hsk-tasks": "HK Görevleri",
+        "maintenances": "Bakım",
+        "catalog": "Standart",
+        "lost-found": "Kayıp ve buluntu",
+        "image-about-how-the-room-should-look": "Oda nasıl görünmeli",
+        "questionnaires": "Denetim"
+      }
+    },
+    "playground": {
+      "index": {
+        "let-go": "Gidelim"
+      }
+    },
+    "components": {
+      "selectassignmentmodal": {
+        "select-assignment": "Bir alıcı seçin",
+        "search-users": "Bir kullanıcı bulun"
+      },
+      "selectlocationmodal": {
+        "select-locations": "Bir yer/oda seçin",
+        "search-locations": "Bir yer/oda arayın"
+      },
+      "selectassetactionmodal": {
+        "search-assets": "Ekipman arama",
+        "select-asset": "Bir cihaz seçin"
+      }
+    },
+    "chooseattendantmodal": {
+      "index": {
+        "choose-attendant": "Yeni bir fdc seçin"
+      }
+    },
+    "imagegallery": {
+      "index": {
+        "image-about-how-the-room-should-look": "Oda nasıl görünmeli"
+      }
+    },
+    "navigation": {
+      "links": {
+        "housekeeping": "Görev",
+        "notifications": "Bildirim",
+        "planning": "Attribution",
+        "maintenance": "Bakım",
+        "main": "Ana ekran",
+        "history": "Tarihsel",
+        "lost-found": "Kayıp ve buluntu",
+        "experiences": "Deneyim Müşterisi"
+      }
+    },
+    "maintenance": {
+      "index": {
+        "today": "Bugün",
+        "search-tasks-rooms-users": "Odaları, kullanıcıları vb. arayın...",
+        "backlog": "Geç"
+      }
+    },
+    "history": {
+      "index": {
+        "reset": "Sıfırlama",
+        "all": "Tüm",
+        "other": "Başka",
+        "guests": "Istemci",
+        "search-room-users-events": "Odaları, kullanıcıları vb. arayın...",
+        "events": "Olay",
+        "cleaning": "Temizleme"
+      },
+      "historyheader": {
+        "action": "Eylem",
+        "user": "Kullanıcı",
+        "room": "Oda",
+        "time": "Saat"
+      }
+    }
+  },
+  "maintenance": {
+    "filter-tasks": {
+      "index": {
+        "filter-tasks": "Filtre görünümü",
+        "select-one": "En az 1 filtre seçin"
+      }
+    },
+    "filters": {
+      "index": {
+        "hide-all": "Tümünü gizle",
+        "reset": "Sıfırlama",
+        "search": "Görev arama",
+        "guest-status": "Ön büro durumu",
+        "vacant-rooms": "Ücretsiz odalar",
+        "occupied-rooms": "İşgal edilen odalar",
+        "out-of-service": "Hizmet dışı odalar",
+        "departure-rooms": "Kalkışta odalar",
+        "arrival-rooms": "Gelen odalar",
+        "no-locations": "Yerelleştirme içermeyen görevler",
+        "housekeeping": "Statut kat hizmetleri",
+        "dirty-rooms": "Kirli odalar",
+        "cleaned-rooms": "Temiz odalar",
+        "inspected-rooms": "Teftiş edilen odalar",
+        "pickup": "Chambres almak",
+        "properties": "Özellikler",
+        "priority-tasks": "Öncelikli görevler",
+        "blocking-tasks": "Görevleri engelleme",
+        "no-asset-tasks": "Ekipmansız görevler",
+        "planned-tasks": "Zamanlanmış görevler",
+        "task-status": "Görev Durumu",
+        "pending-tasks": "Bekleyen görevler",
+        "progressing-tasks": "Geçerli görevler",
+        "paused-tasks": "Duraklatılmış görevler",
+        "completed-tasks": "Tamamlanan görevler",
+        "rejected-tasks": "Reddedilen görevler",
+        "assignment": "Celp",
+        "assigned-to-me": "Atanmış görevlerim",
+        "unassigned": "Atanmamış görevler",
+        "assigned-to-others": "Diğer ödevler",
+        "return-to-tasks": "Görevlere geri dön"
+      }
+    },
+    "createtask": {
+      "assetactiondescription": {
+        "there-are-no-actions-for-your-asset": "Bu ekipman için herhangi bir işlem yapılmamıştır",
+        "no": "Değil",
+        "submit-maintenance": "Göndermek için",
+        "you-must-first-select-an-asset": "Önce bir ekipman parçası seçmelisiniz",
+        "submit-housekeeping": "Göndermek için",
+        "yes": "Evet",
+        "no-actions-for-created-asset": "Bu ekipman için herhangi bir işlem yapılmaz"
+      },
+      "assetselectmodal": {
+        "close": "Kapatmak",
+        "search-assets": "Ekipman ara",
+        "select-asset": "Bir cihaz seçin"
+      },
+      "assignment": {
+        "search-assignments": "Kullanıcı arama",
+        "missing-assignment": "eksik ödev"
+      }
+    },
+    "reassigntask": {
+      "index": {
+        "reassignment-message": "Yeniden atamaya ileti ekleme",
+        "due-date": "Kalkış tarihi",
+        "select-due-date": "Bir kalkış tarihi seçin",
+        "assign-to": "Ata",
+        "reassign-task": "Yeniden Atanan"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Tamam",
+        "submitted-time": "Oluşturulan",
+        "new-glitch": "Yeni deneyim",
+        "accept": "Almak",
+        "new-task": "Yeni görev",
+        "location": "Konum / Oda",
+        "reject": "Reddetmek",
+        "created-by": "Oluşturan",
+        "last-message": "İleti"
+      }
+    },
+    "assetmodel": {
+      "index": {
+        "asset-model": "Ekipman modeli"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Kapatmak"
+      }
+    },
+    "notasks": {
+      "index": {
+        "no-tasks": "Görev yok"
+      }
+    },
+    "task": {
+      "dummy": {
+        "pause": "Durakla -tma",
+        "finish": "Sonlu"
+      },
+      "index": {
+        "sublocation": "Alt yerelleştirme",
+        "information": "Bilgi",
+        "undefined": "Bilet",
+        "guest-status": "Oda Bilgileri",
+        "normal": "Bilet normal",
+        "messages": "Ileti",
+        "start-date": "Oluşturulan",
+        "priority": "Öncelikli bilet",
+        "reassign-ticket": "Yeniden Atanan",
+        "unassigned": "Bilet görülmüyor",
+        "lite": "Tamamlamak için bilet",
+        "model": "Model",
+        "created-by": "Oluşturan",
+        "view-additional-photos": "Ek fotoğraflar",
+        "choose-model": "Modeli seçin",
+        "select": "Seçmek",
+        "view-attachments": "Ekipmana bağlı belge",
+        "location-information": "Konum Bilgisi",
+        "reassign-task": "Yeniden atama",
+        "move-to-departure": "Kalkışa yeniden atama"
+      },
+      "create-task-alert": {
+        "select-asset": "Varlığı seçtiğiniz için teşekkür ederiz! !",
+        "select-location": "Konumu seçtiğiniz için teşekkür ederiz! !",
+        "select-asset-action": "Bir eylem seçtiğiniz için teşekkür ederiz! !"
+      }
+    },
+    "asset": {
+      "index": {
+        "models": "Model",
+        "actions": "Eylemler"
+      }
+    },
+    "main": {
+      "index": {
+        "create-new-task-for": "Şunun için yeni bir görev oluşturun:"
+      },
+      "filterbutton": {
+        "filters": "Filtre"
+      },
+      "filters": {
+        "filter-tasks": "Görevleri filtreleme",
+        "limit-priority": "Öncelikli görevlerle sınırlama",
+        "limit-dirty": "Kirli odalarla sınırlayın",
+        "limit-occupied": "İşgal edilen odalarla sınırlı",
+        "limit-out-of-service": "HS odalarıyla sınırlama",
+        "limit-vacant": "Boş odalarla sınırlama"
+      }
+    },
+    "navigation": {
+      "scenes": {
+        "closed-tasks": "Kapatılan görevler",
+        "tasks": "Görev",
+        "hotel-assets": "Otel tesisleri",
+        "create-task": "Görev oluşturma",
+        "reassign-task": "Görevi yeniden atama",
+        "sent-tasks": "Gönderilen görevler",
+        "hotel-rooms": "Otel odaları",
+        "asset": "Ekipman",
+        "action": "Eylem",
+        "filters": "Filtre"
+      },
+      "links": {
+        "assets": "Ekipman",
+        "notifications": "Bildirim",
+        "rooms": "Oda -larında",
+        "closed": "Kapalı",
+        "main": "Ana ekran",
+        "sent": "Gönder"
+      }
+    },
+    "rooms": {
+      "dummy": {
+        "occupaied": "Meşgul"
+      },
+      "index": {
+        "close-room": "Kapatmak",
+        "close-floor": "Kapatmak"
+      }
+    }
+  }
+}

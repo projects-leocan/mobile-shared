@@ -1,0 +1,1358 @@
+{
+  "runner": {
+    "glitch-form": {
+      "index": {
+        "add-actions-to-resolve": "Menambah tindakan",
+        "add-followup-instructions": "Tambah arahan susulan",
+        "vip": "VIP",
+        "add-task": "Menambah tugas",
+        "enter-room-name": "Masukkan nombor bilik",
+        "select-glitch-category": "Pilih kategori",
+        "glitch-information": "Berita",
+        "close-glitch": "Tutup pengalaman",
+        "handover": "Serahkan kepada orang lain",
+        "internal-followup": "Pemantauan dalaman",
+        "enter-guest-name": "Masukkan nama klien",
+        "choose-location": "Pilih tempat/bilik",
+        "send-glitch": "Hantar pengalaman",
+        "email": "Mel",
+        "eur": "Euro",
+        "submit-new-glitch": "Hantar pengalaman baharu",
+        "compensation-cost": "Kos pampasan",
+        "update-glitch": "Kemas kini pengalaman",
+        "guest-information": "Maklumat Pelanggan",
+        "add-experience-description": "Menambah perihalan",
+        "vip-status-optional": "Status VIP (Pilihan)",
+        "incident-description": "Penerangan kejadian",
+        "room": "Bilik",
+        "name": "Nama",
+        "select-a-glitch-category": "Pilih kategori",
+        "actions-to-resolve": "Tindakan untuk menyelesaikan kejadian",
+        "enter-guest-email": "Masukkan e-mel pelanggan"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Pilih pengalaman",
+        "select-glitch-category": "Pilih kategori pengalaman",
+        "select-category": "Pilih kategori"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Set semula",
+        "close": "Tutup"
+      },
+      "index": {
+        "tasks": "Tugas",
+        "rooms": "Bilik",
+        "close-floor": "Tutup tetingkap",
+        "floor": "Lantai"
+      }
+    },
+    "clean": {
+      "index": {
+        "confirm-dnd": "Sahkan Jangan Ganggu",
+        "change-sheets": "Perubahan helaian",
+        "pms": "PMS",
+        "add-change-sheets": "Saya terpaksa menukar helaian"
+      }
+    },
+    "room": {
+      "restock": {
+        "room-inventory": "Inventori bilik",
+        "cancel-restock": "Batalkan stok",
+        "mark-as-restocked": "Restocking dilakukan"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Nota terdahulu",
+        "add-note": "Menambah nota",
+        "new-room-note": "Ciri bilik baru",
+        "new-note-placeholder": "Cth. tugas"
+      }
+    },
+    "glitch": {
+      "glitch-read-only": {
+        "none": "Kosong",
+        "send-email": "Hantar mel",
+        "glitch-cost": "Kos",
+        "glitch-followup": "Penjagaan selepas itu",
+        "start": "Mula",
+        "glitch-description": "Keterangan",
+        "assigned-to": "Diuntukkan kepada",
+        "current-responsibility": "Orang yang bertanggungjawab",
+        "glitch-action": "Tindakan",
+        "glitch-category": "Kategori"
+      }
+    },
+    "components": {
+      "group-select-modal": {
+        "close": "Tutup",
+        "select-assignment": "Pilih penerima"
+      },
+      "group-select-row": {
+        "text": "Teks"
+      },
+      "location-select-modal": {
+        "close": "Tutup",
+        "select-location": "Pilih tempat/bilik"
+      },
+      "room-note-row": {
+        "remove": "Menghapuskan"
+      },
+      "task-card": {
+        "created-by": "Dicipta oleh",
+        "location": "Tempat / bilik",
+        "last-message": "Mesej",
+        "submitted-time": "Dicipta"
+      },
+      "special-select-row": {
+        "text": "Teks"
+      },
+      "assignment-select": {
+        "attendants": "Chambermaids / valet",
+        "inspectors": "Pembantu rumah",
+        "management": "Rangka",
+        "housekeeping": "Pembersihan",
+        "concierge": "Susulan FO",
+        "maintenance": "Penyelenggaraan",
+        "groups": "Kumpulan",
+        "runners": "Pelari"
+      },
+      "user-select-row": {
+        "text": "Ttexte"
+      },
+      "inventory-update-row": {
+        "reset": "Set semula"
+      },
+      "room-options": {
+        "room-gallery": "Tataletak bilik",
+        "send-task": "Hantar Tugas",
+        "clean-room": "Bilik untuk dibersihkan",
+        "guest-glitch": "Pelanggan pengalaman",
+        "hsk-notes": "Ciri-ciri Bilik",
+        "lost-found": "Hilang dan jumpa",
+        "inventory": "Inventori",
+        "maintenance": "Penyelenggaraan"
+      },
+      "room-timer": {
+        "cancel": "Batal",
+        "done": "Dibersihkan"
+      },
+      "user-select-modal": {
+        "management": "Rangka",
+        "housekeeping": "Pembersihan",
+        "concierge": "Susulan FO",
+        "select-assignment": "Pilih penerima",
+        "maintenance": "Penyelenggaraan",
+        "close": "Tutup"
+      },
+      "asset-action-description": {
+        "yes": "Ya",
+        "there-are-no-actions-for-your-asset": "Tiada tindakan untuk peralatan ini",
+        "no-actions-for-created-asset": "Tiada tindakan untuk peralatan ini",
+        "you-must-first-select-an-asset": "Mula-mula anda perlu memilih sekeping peralatan",
+        "no": "Tidak"
+      },
+      "asset-select-modal": {
+        "close": "Tutup",
+        "select-asset": "Pilih peranti"
+      },
+      "room-info": {
+        "change-sheets": "Perubahan helaian",
+        "pms": "PMS"
+      },
+      "reservation-nights": {
+        "of": "Pada",
+        "nights": "Malam"
+      },
+      "task-settings": {
+        "yes": "Ya",
+        "no": "Tidak"
+      },
+      "gallery-row-item": {
+        "label": "Etika"
+      }
+    },
+    "turndown": {
+      "subheader": {
+        "all-categories": "Semua kategori"
+      },
+      "index": {
+        "all-categories": "Semua kategori"
+      },
+      "modalcontent": {
+        "delay": "Kemudian",
+        "cancel-turndown": "Batalkan perkhidmatan perlindungan",
+        "refuse": "Ditolak",
+        "finish-turndown": "Perkhidmatan perlindungan selesai",
+        "dnd": "DND"
+      }
+    },
+    "glitches": {
+      "index": {
+        "other-glitches": "Laporan pelanggan lain",
+        "recently-closed": "Baru-baru ini ditutup",
+        "assigned-glitches": "Laporan pelanggan yang ditugaskan"
+      }
+    },
+    "navigation": {
+      "links": {
+        "glitches": "Pengalaman",
+        "tasks": "Tugas",
+        "inventory-restock": "Pengurus Saham",
+        "notifications": "Pemberitahuan",
+        "turndown-service": "Perkhidmatan liputan",
+        "main": "Skrin utama"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "submit-lost-item": "Untuk menghantar"
+      }
+    }
+  },
+  "attendant": {
+    "swipeoutoptions": {
+      "index": {
+        "close": "Tutup"
+      }
+    },
+    "clean": {
+      "menu": {
+        "dnd": "DND",
+        "refuse": "Keengganan",
+        "inspect": "Bilik yang akan diperiksa",
+        "start-cleaning": "Mulakan pembersihan",
+        "delay": "Kemudian",
+        "clean": "Pembersihan",
+        "no-check": "Tidak diperiksa"
+      },
+      "finishmenu": {
+        "cancel-dnd": "Batalkan DND",
+        "cancel-refuse": "Batalkan Tolak",
+        "cancel-finish": "Batalkan Dibersihkan",
+        "confirm-dnd": "Sahkan DND"
+      },
+      "cleaninginfo": {
+        "credits": "Kredit",
+        "pms": "PMS",
+        "change-sheets": "Perubahan helaian",
+        "long-stay": "Tinggal lama",
+        "cleaning-info": "Maklumat Pembersihan",
+        "cleaning-instruction": "Arahan"
+      },
+      "taskssubheader": {
+        "show-tasks": "Memaparkan tugas",
+        "tasks": "Tugas",
+        "hide-tasks": "Menyembunyikan tugas"
+      },
+      "index": {
+        "add-change-sheets": "Saya terpaksa menukar helaian"
+      }
+    },
+    "popuptasks": {
+      "index": {
+        "new-task": "Tugas baru",
+        "accept": "Menerima",
+        "reject": "Menolak"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Nota terdahulu",
+        "add-note": "Menambah nota",
+        "new-room-note": "Ciri bilik baru",
+        "new-note-placeholder": "Cth. tugas"
+      }
+    },
+    "inspect": {
+      "menu": {
+        "dnd": "DND",
+        "refuse": "Keengganan",
+        "inspect": "Bilik diperiksa",
+        "start-cleaning": "Mulakan pembersihan",
+        "delay": "Kemudian",
+        "clean": "Bersih",
+        "no-check": "Tidak diperiksa"
+      },
+      "finishmenu": {
+        "confirm-dnd": "Sahkan DND"
+      },
+      "cleaninginfo": {
+        "credits": "Kredit",
+        "change-sheets": "Perubahan helaian",
+        "long-stay": "Tinggal lama",
+        "pms": "PMS"
+      },
+      "taskssubheader": {
+        "show-tasks": "Memaparkan tugas",
+        "tasks": "Tugas",
+        "hide-tasks": "Menyembunyikan tugas"
+      }
+    },
+    "alert": {
+      "index": {
+        "priority": "Keutamaan",
+        "room-message": "Mesej ke bilik"
+      }
+    },
+    "headers": {
+      "maintenance": "Penyelenggaraan",
+      "inventory-restock": "Pengurus Saham",
+      "notes": "Ciri",
+      "inspect": "Memeriksa",
+      "lost-found": "Hilang dan jumpa",
+      "inventory": "Inventori",
+      "clean": "Pembersihan",
+      "gallery": "Bilik Standard"
+    },
+    "components": {
+      "group-select-row": {
+        "text": "Teks"
+      },
+      "location-select-modal": {
+        "close": "Tutup"
+      },
+      "user-select-row": {
+        "text": "Teks"
+      },
+      "reservation-component": {
+        "reservation": "Tempahan"
+      },
+      "room-note-row": {
+        "remove": "Menghapuskan"
+      },
+      "task-settings": {
+        "yes": "Ya",
+        "no": "Tidak"
+      },
+      "special-select-row": {
+        "text": "Teks"
+      },
+      "inventory-update-row": {
+        "reset": "Réinitilaiser"
+      },
+      "room-timer": {
+        "cancel": "Batal",
+        "done": "Bilik Selesai"
+      },
+      "assignment-select": {
+        "attendants": "Pembantu rumah / Valets de chambre",
+        "inspectors": "Pembantu rumah",
+        "management": "Rangka",
+        "housekeeping": "Pembersihan",
+        "concierge": "Susulan FO",
+        "maintenance": "Pasukan Penyelenggaraan",
+        "groups": "Kumpulan",
+        "runners": "Pelari / Equipiers"
+      },
+      "room-options": {
+        "room-gallery": "Bilik Standard",
+        "send-task": "Hantar Tugas",
+        "clean-room": "Bilik untuk dibersihkan",
+        "hsk-notes": "Ciri-ciri Bilik",
+        "lost-found": "Hilang dan jumpa",
+        "inventory": "Inventori",
+        "maintenance": "Penyelenggaraan"
+      },
+      "room-row-item": {
+        "tasks": "Tugas"
+      },
+      "user-select-modal": {
+        "management": "Rangka",
+        "housekeeping": "Pembersihan",
+        "concierge": "Susulan FO",
+        "select-assignment": "Pilih pengguna",
+        "maintenance": "Penyelenggaraan",
+        "close": "Tutup"
+      },
+      "asset-action-description": {
+        "yes": "Ya",
+        "there-are-no-actions-for-your-asset": "Tiada tindakan untuk peralatan ini",
+        "no-actions-for-created-asset": "Tiada tindakan untuk peralatan ini",
+        "you-must-first-select-an-asset": "Mula-mula anda perlu memilih sekeping peralatan",
+        "no": "Tidak"
+      },
+      "asset-select-modal": {
+        "close": "Tutup",
+        "select-asset": "Pilih peralatan"
+      },
+      "reservation-nights": {
+        "of": "pada",
+        "nights": "Malam"
+      }
+    },
+    "inventoryrestock": {
+      "index": {
+        "restock-inventory": "Mengeset semula inventori"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Memadam",
+        "search": "Cari mengikut bilik, pelanggan ...",
+        "vacant": "Percuma",
+        "inspt": "Bersih",
+        "other": "Lain",
+        "dirty": "Jualan",
+        "clean": "Bersih",
+        "close": "Tutup",
+        "occupied": "Sibuk"
+      },
+      "index": {
+        "priority": "Keutamaan",
+        "tasks": "Tugas",
+        "floor": "Lantai",
+        "paused-rooms": "Bilik jeda",
+        "cleaning-rooms": "Membersihkan bilik",
+        "paused": "Menjeda",
+        "priority-rooms": "Keutamaan bilik",
+        "close-floor": "Menutup tetingkap",
+        "rooms": "Bilik",
+        "scheduled": "Bilik program",
+        "show-more": "Lihat semua",
+        "show-less": "Had kepada program",
+        "credits": "Kredit"
+      }
+    },
+    "navigation": {
+      "links": {
+        "tasks": "Tugas",
+        "main": "Skrin utama",
+        "glitches": "Pengalaman",
+        "inventory-restock": "Saham",
+        "notifications": "Pemberitahuan",
+        "rooms-cleaned": "Bilik yang dibersihkan"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "report-lost-and-found-item": "Membawa balik item yang ditemui",
+        "description": "Menambah perihalan",
+        "submit-lost-item": "Hantar item yang ditemui"
+      }
+    }
+  },
+  "base": {
+    "extra-options": {
+      "room-extra-options": "Maklumat tambahan"
+    },
+    "glitch-form": {
+      "index": {
+        "glitch-information": "Maklumat Pengalaman",
+        "incident-description": "Penerangan kejadian",
+        "name": "Nama",
+        "room": "Bilik",
+        "submit-new-glitch": "Hantar pengalaman baharu",
+        "compensation-cost": "Kos pampasan",
+        "select-glitch-category": "Pilih kategori pengalaman",
+        "enter-guest-name": "Masukkan nama klien",
+        "enter-room-number": "Masukkan nombor bilik",
+        "vip": "VIP",
+        "premiere-club": "Kelab Pertama",
+        "actions-to-resolve": "Tindakan untuk menyelesaikan kejadian",
+        "follow-up-with-guest": "Susulan dengan klien",
+        "email": "Mel",
+        "enter-guest-email": "Masukkan e-mel pelanggan"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Pilih pengalaman",
+        "select-glitch-category": "Pilih kategori pengalaman",
+        "select-category": "Pilih kategori"
+      }
+    },
+    "lost-found-review": {
+      "index": {
+        "open": "Terbuka",
+        "emailed": "E-mel dihantar",
+        "phoned": "Dihubungi (tel)",
+        "pending": "Belum selesai",
+        "waiting": "Menunggu pengesahan",
+        "mailed": "Dihantar",
+        "hand-delivered": "Dihantar dengan tangan",
+        "expired": "Tamat tempoh",
+        "refused": "Ditolak",
+        "delete": "Batal",
+        "closed": "Ditutup",
+        "found": "Mendapati",
+        "show-all": "Lihat semua",
+        "show-only-open": "Buka tiket",
+        "show-only-received": "Diterima",
+        "holding": "Diadakan sehingga tetamu kembali",
+        "reception": "Dengan penerimaan tetamu",
+        "holding-lt": "Penangguhan jangka panjang"
+      },
+      "modal": {
+        "guest-signature-optional": "Klien tandatangan (opsyen)",
+        "notes-optional": "Nota (pilihan)",
+        "added-photos-optional": "Foto tambahan (pilihan)",
+        "update-status": "Kemas Kini Status"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Ok",
+        "submitted-time": "Dicipta",
+        "notification": "Pemberitahuan",
+        "accept": "Menerima",
+        "new-task": "Tugas baru",
+        "location": "Tempat",
+        "reject": "Menolak",
+        "created-by": "Dicipta oleh",
+        "last-message": "Mesej",
+        "assigned-audit": "Audit yang diperuntukkan",
+        "comments": "Arahan",
+        "sent": "Dihantar",
+        "guest-name": "Nama Tetamu"
+      }
+    },
+    "ubiquitous": {
+      "all": "Semua",
+      "departed": "Pihak",
+      "photo": "Foto",
+      "inspt": "Inspt",
+      "assignee": "Saman",
+      "unassigned": "Tidak ditugaskan",
+      "rooms": "Syiling",
+      "filters": "Penapis",
+      "pms-notes": "Nota PMS",
+      "yes": "Ya",
+      "blocked": "Disekat",
+      "pause": "Jeda",
+      "group": "Kumpulan",
+      "acknowledge": "Penglihatan",
+      "send": "Menghantar",
+      "search": "Penyelidikan",
+      "search-users": "Mencari pengguna",
+      "to": "a :",
+      "no-location": "Tiada tempat",
+      "location": "Tempat",
+      "all-inspectors": "Semua Raja-Raja",
+      "create-asset": "Buat peralatan",
+      "da": "D/A",
+      "search-assets": "Peralatan carian",
+      "search-locations": "Mencari tempat/bilik",
+      "add-a-note": "Menambah nota",
+      "assignments": "Saman",
+      "continue": "Teruskan",
+      "quick": "Pasukan",
+      "maintenance-team": "Pasukan penyelenggaraan",
+      "backlog": "Lewat",
+      "reset-entry": "Réinit.",
+      "arr": "Arr",
+      "creator": "Pencipta",
+      "asset-and-action": "Peralatan dan tindakan",
+      "cs": "C*D",
+      "close": "Tutup",
+      "mandatory-task": "Tugas mandatori",
+      "yesterday": "Sini",
+      "last-message": "Mesej",
+      "arrival": "Ketibaan",
+      "resume": "Menyambung",
+      "select-user": "Pilih pengguna",
+      "attendant": "Pembantu Rumah / Valet",
+      "stay": "Rec",
+      "optional": "Opsyen",
+      "convert": "Menukar",
+      "housekeeping": "Pembersihan",
+      "enter-a-message": "Masukkan mesej",
+      "block": "Blok",
+      "tasks": "Tugas",
+      "select-location": "Pilih tempat/bilik",
+      "floors": "Lantai",
+      "submit": "Untuk menghantar",
+      "cancel": "Batal",
+      "message": "Mesej",
+      "people": "Orang",
+      "inspected": "Disemak",
+      "next": "Seterusnya",
+      "priority": "Keutamaan",
+      "start": "Mula",
+      "maintenance": "Penyelenggaraan",
+      "prev": "Sebelumnya",
+      "today": "Hari ini",
+      "tomorrow": "Esok",
+      "completed": "Completée",
+      "notifications": "Pemberitahuan",
+      "all-runners": "Semua Krew / Pelari",
+      "none": "-",
+      "room": "Bilik",
+      "bedrooms": "Bilik",
+      "dep": "DEP",
+      "priority-task": "Tugas Keutamaan",
+      "lite-task": "Tugas yang ringan",
+      "normal-task": "Tugas biasa",
+      "unassigned-task": "Tugas yang tidak ditugaskan",
+      "enter-a-description-optional": "Masukkan perihalan (pilihan)",
+      "dirty": "Jualan",
+      "cancelled": "Dibatalkan",
+      "send-housekeeping-task": "Hantar tugas HK",
+      "select-locations": "Pilih lokasi/bilik",
+      "search-tasks": "Mencari tugas",
+      "send-maintenance-task": "Hantar tugas Penyelenggaraan",
+      "runner": "Pelari / Anak Kapal",
+      "locations": "Tempat / Bilik",
+      "accept": "Menerima",
+      "no-photo": "Tiada gambar",
+      "receptionist": "Penyambut tetamu",
+      "inspector": "Pemerintah",
+      "occupied": "Sibuk",
+      "vacant": "Kekosongan",
+      "information": "Maklumat",
+      "adminstrator": "Pentadbir",
+      "no": "Tidak",
+      "stayover": "Relayer",
+      "delay": "Kemudian",
+      "other": "Lain",
+      "blocking-task": "Menyekat tugas",
+      "reject": "Menolak",
+      "finish": "Selesai",
+      "description": "Keterangan",
+      "normal": "Biasa",
+      "planned-attendant": "Pembantu rumah terancang",
+      "planned-runner": "Ahli krew yang dirancang",
+      "update": "Kemaskini terakhir",
+      "alert": "Amaran",
+      "arrived": "Ketibaan",
+      "change-sheets": "Mengubah helaian",
+      "task": "Tugas",
+      "clear": "Menghapuskan",
+      "floor": "Lantai",
+      "departure": "Berlepas",
+      "clean": "Bersih",
+      "exit-selection": "Tutup",
+      "tap-to-start-camera": "Sentuh ke gambar",
+      "continue-without-photo": "Teruskan tanpa gambar",
+      "default-assignment": "Tugasan lalai",
+      "tap-to-continue": "Ketik untuk meneruskan",
+      "review": "Untuk lihat",
+      "dismiss": "Topeng",
+      "show": "Post",
+      "checkout-on": "Berlepas pada",
+      "cleaning": "Pembersihan",
+      "dnd": "DND",
+      "refuse": "Ditolak",
+      "reset-system": "Memadam",
+      "management": "Rangka",
+      "properties": "Hartanah",
+      "area": "Kawasan",
+      "asset": "Peralatan",
+      "action": "Tindakan",
+      "model": "Model",
+      "guest": "Pelanggan",
+      "due-out": "Berlepas pada",
+      "tap-to-enlarge": "Sentuh untuk membesarkan",
+      "categories": "Kategori",
+      "status": "Status",
+      "calendar": "Kalendar",
+      "take-picture": "Foto",
+      "add-more-video": "Tambah Video",
+      "take-video": "Video",
+      "picture-gallery": "Gambar dalam Tel.",
+      "video-gallery": "Video dalam Tel.",
+      "task-asset": "Peralatan",
+      "task-next": "Seterusnya",
+      "task-guest-request": "Pertanyaan Pelanggan",
+      "task-submit": "Untuk menghantar",
+      "task-assign": "Diuntukkan kepada",
+      "add-more-photo": "Tambah Foto"
+    },
+    "realtime": {
+      "index": {
+        "pending-requests-itemstosync": "Permintaan belum selesai",
+        "offline": "Luar talian",
+        "-": ""
+      }
+    },
+    "notification": {
+      "extraoptions": {
+        "reply": "Jawapan",
+        "convert-to-task": "Menukar kepada tugas",
+        "follow-up": "Penjagaan selepas itu"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "recent-quick-notifications": "Pemberitahuan pantas atau terkini"
+      },
+      "selectuser": {
+        "tap": "Ketik untuk berubah"
+      }
+    },
+    "tasktable": {
+      "modal": {
+        "assigned-to": "Diuntukkan kepada",
+        "last-action": "Tindakan terakhir",
+        "messages": "Mesej",
+        "location": "Tempat",
+        "created-by": "Dicipta oleh",
+        "submitted-time": "Dicipta",
+        "complete-task": "Selesai",
+        "cancel-task": "Batal",
+        "reassign-task": "Réassigner"
+      },
+      "status": {
+        "started": "Memulakan",
+        "waiting": "Diterima",
+        "rejected": "Ditolak",
+        "paused": "Menjeda",
+        "canceled": "Dibatalkan",
+        "finished": "Lebih",
+        "completed": "Lebih",
+        "pending": "Belum selesai"
+      },
+      "header": {
+        "status": "Status",
+        "information": "Maklumat",
+        "task": "Tugas",
+        "normal-ticket": "Tiket normal",
+        "lite-ticket": "Tiket untuk dilengkapkan",
+        "assigned": "Saman",
+        "time-created": "Dicipta",
+        "location": "Tempat",
+        "created-by": "Dicipta oleh",
+        "priority-ticket": "Tiket keutamaan"
+      },
+      "utils": {
+        "pause": "Menjeda",
+        "finish": "Selesai",
+        "start": "Mula",
+        "resume": "Menyambung",
+        "reject": "Menolak"
+      },
+      "lastaction": {
+        "created": "Tugas dicipta",
+        "task-reassigned": "Tugas yang ditugaskan semula",
+        "rescheduled": "Tugas yang dijadualkan semula",
+        "added-message": "Mesej tambahan"
+      }
+    },
+    "notifications": {
+      "index": {
+        "assigned": "Diperuntukkan",
+        "sent": "Dihantar"
+      },
+      "quicknotificationform": {
+        "send-message": "Hantar mesej"
+      }
+    },
+    "tasks": {
+      "tabs": {
+        "today": "Hari ini",
+        "sent": "Dihantar",
+        "backlog": "Lewat"
+      },
+      "dummy": {
+        "occupaied": ""
+      }
+    },
+    "inventory": {
+      "index": {
+        "close-area": "Tutup zon",
+        "search-items": "Mencari item"
+      }
+    },
+    "components": {
+      "assetactiondescription": {
+        "submit-maintenance": "Serahkan tugas penyelenggaraan",
+        "no-available": "Tiada tindakan untuk peralatan ini",
+        "description": "Keterangan",
+        "no": "Tidak",
+        "no-actions": "Tiada tindakan untuk peralatan ini",
+        "priority": "Keutamaan",
+        "continue": "Teruskan",
+        "asset": "Peralatan",
+        "first-select": "Mula-mula anda perlu memilih sekeping peralatan",
+        "action": "Tindakan",
+        "description-placeholder": "Ex: tidak berputar",
+        "yes": "Ya",
+        "select-asset": "Pilih peralatan",
+        "location": "Tempat"
+      },
+      "fullscreenphoto": {
+        "no-photo": "Tiada gambar"
+      }
+    },
+    "navigation": {
+      "index": {
+        "task": "Tugas",
+        "convert-task": "Menukar kepada tugas",
+        "notifications": "Pemberitahuan",
+        "tasks": "Tugas",
+        "notes": "Ciri",
+        "create-notification": "Mencipta pemberitahuan",
+        "glitch": "Pelanggan Pengalaman",
+        "turndown-service": "Perkhidmatan Perlindungan",
+        "lost-found": "Hilang dan jumpa",
+        "room": "Bilik",
+        "filter-tasks": "Pandangan penapis",
+        "inventory": "Pengurusan stok",
+        "maintenance": "Penyelenggaraan",
+        "home": "Rumah",
+        "glitches": "Pengalaman Pelanggan",
+        "gallery": "Gambar bilik",
+        "inventory-restock": "Saham"
+      },
+      "links": {
+        "assets": "Peralatan",
+        "notifications": "Pemberitahuan",
+        "logout": "Log keluar",
+        "rooms": "Bilik",
+        "closed": "Ditutup",
+        "main": "Skrin utama",
+        "sent": "Dihantar"
+      }
+    },
+    "taskcard": {
+      "status": {
+        "started": "Memulakan",
+        "completed": "Siap dibina",
+        "unclaimed": "Belum selesai",
+        "cancelled": "Dibatalkan",
+        "accepted": "Diterima",
+        "pending": "Belum selesai"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Tutup"
+      }
+    }
+  },
+  "inspector": {
+    "room-messages": {
+      "index": {
+        "day-night": "Hari dan Liputan",
+        "edit": "Mengubah suai",
+        "add-message": "Baru",
+        "delete-messages": "Padamkan mesej",
+        "change-room": "Pindah ke # tidak.",
+        "message": "Mesej",
+        "message-type": "Pilih jenis mesej",
+        "schedule": "Pilih tarikh akhir",
+        "calendar": "Kalendar",
+        "day": "Hari",
+        "night": "Selimut",
+        "pickup": "Pengambilan",
+        "end-of-day": "Hari ini",
+        "end-of-stay": "Sehingga berlepas",
+        "custom": "Tersuai",
+        "indefinitely": "Lamanya",
+        "cancel": "Batal",
+        "submit-message": "Untuk menghantar"
+      }
+    },
+    "audits": {
+      "add-photo": "Menambah foto",
+      "add-note": "Menambah nota",
+      "submit-task": "Untuk menghantar",
+      "save": "Simpan",
+      "note": "Ambil perhatian",
+      "photo": "Foto",
+      "select-audit": "Pilih audit",
+      "assign-to-others": "Tugaskan kepada ... (pilihan)"
+    },
+    "attendantmodal": {
+      "index": {
+        "priority": "Keutamaan",
+        "reset": "Set semula",
+        "attendant": "Pembantu Rumah / Valet",
+        "overwrite-guest-status": "Mengubah status pejabat hadapan",
+        "send-message-to-attendant": "Hantar mesej ke fdc / vdc"
+      }
+    },
+    "createtask": {
+      "index": {
+        "photo": "Foto",
+        "mandatory-task": "Tugas mandatori",
+        "assignee": "Saman",
+        "priority-task": "Tugas keutamaan",
+        "blocking-task": "Menyekat tugas",
+        "location": "Tempat / bilik",
+        "asset-and-action": "Peralatan dan tindakan"
+      },
+      "extraoption": {
+        "yes": "Ya",
+        "no": "Tidak"
+      }
+    },
+    "main": {
+      "index": {
+        "rooms": "Bilik",
+        "all-floors": "Semua tingkat",
+        "floor": "Lantai",
+        "ok": "Baiklah"
+      },
+      "rooms-filter": {
+        "attendants": "FDC",
+        "reset": "Set semula",
+        "filtered-rooms": "Bilik dengan penapis",
+        "other": "Lain",
+        "floors": "Lantai",
+        "filters": "Penapis",
+        "all-rooms": "Semua bilik",
+        "show-non-guest-rooms": "Tunjukkan kawasan umum",
+        "hide-non-guest-rooms": "Sembunyikan kawasan umum"
+      },
+      "rooms-information": {
+        "reset": "Set semula",
+        "vip": "VIP"
+      },
+      "notes": {
+        "room-notes": "Ciri-ciri Bilik"
+      },
+      "roommessageform": {
+        "room-message": "Mesej bilik"
+      },
+      "roomnotesmodal": {
+        "no-pms-notes-for-this-reservation": "Tiada penilaian PMS untuk tempahan ini",
+        "send-message-attendant": "Hantar pemberitahuan langsung",
+        "room-notes": "Ciri-ciri Bilik",
+        "pms-notes": "nota PMS",
+        "save-for-later": "Simpan untuk kemudian",
+        "room-message": "Mesej bilik",
+        "messaging": "Mesej untuk dihantar"
+      },
+      "filters-drawer": {
+        "1": "1"
+      }
+    },
+    "housekeeping": {
+      "index": {
+        "today": "Hari ini",
+        "search-tasks-rooms-users": "Cari bilik, pengguna dan lain-lain ...",
+        "backlog": "Lewat"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "OK",
+        "submitted-time": "Dicipta sejak",
+        "notification": "Pemberitahuan",
+        "accept": "Menerima",
+        "new-task": "Tugas baru",
+        "location": "Tempat / bilik",
+        "reject": "Menolak",
+        "created-by": "Dicipta oleh",
+        "last-message": "Mesej"
+      }
+    },
+    "information": {
+      "info": {
+        "dnd": "Jangan ganggu",
+        "cleaning": "Pembersihan sedang dijalankan...",
+        "refused": "Ditolak oleh pelanggan",
+        "delay": "Kemudian",
+        "finish": "Terbatas",
+        "attendant-status": "Status Pembersihan",
+        "housekeeping-status": "Pengemasan Statut",
+        "room-attendant": "Pembantu Rumah / Valet",
+        "room-information": "Maklumat bilik",
+        "emilie-persion": "Emilie persion",
+        "room-type": "Jenis bilik",
+        "standart-room": "Bilik Standard",
+        "last-action": "Tindakan terakhir",
+        "room-category": "Kategori Bilik",
+        "cleaning-name": "Nama Pembersihan"
+      },
+      "index": {
+        "room": "Bilik"
+      },
+      "pmsnotes": {
+        "pms-notes": "Nota pms",
+        "no-pms-notes": "Tiada nota PMS"
+      },
+      "notes": {
+        "room-notes": "Ciri-ciri Bilik"
+      },
+      "roommessageform": {
+        "room-message": "Mesej bilik"
+      },
+      "housekeepingstatus": {
+        "other-housekeepings": "Lain"
+      },
+      "vipstatus": {
+        "vip-status": "Status VIP"
+      },
+      "attendantstatus": {
+        "attendant-status": "Status chambermaid"
+      }
+    },
+    "updatespopup": {
+      "index": {
+        "new": "Baru",
+        "dismiss": "Mengabaikan",
+        "you-have": "Maklumat baru",
+        "show": "Post",
+        "new-updates": ""
+      },
+      "modal": {
+        "priority-set": "Keutamaan yang Disahkan",
+        "message-added": "Mesej tambahan",
+        "room-restocked": "Restocking dilakukan",
+        "room-unblocked": "Bilik tidak berkunci",
+        "updates": "Maklumat baru",
+        "dismiss-all": "Abaikan semua"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "select-a-location-or-change-user": "Pilih tempat/bilik atau pengguna lain",
+        "photo": "Foto",
+        "missing-location-or-user": "Tempat/bilik atau pengguna yang hilang",
+        "send-notification": "Hantar pemberitahuan",
+        "to": "Pada:",
+        "select-notification": "Pilih pemberitahuan",
+        "location": "Tempat / bilik",
+        "message": "Mesej",
+        "quick-notifications": "Pemberitahuan"
+      },
+      "selectusermodal": {
+        "select-reciepent": "Pilih penerima"
+      }
+    },
+    "tableheader": {
+      "index": {
+        "attendant-runner": "Wanita / Valet & pelari",
+        "tasks": "Tugas",
+        "my-assigned-tasks": "Tugas saya",
+        "open-housekeepings": "Buka pekerjaan HK",
+        "open": "Buka tugas",
+        "open-maintenances": "Membuka tugas penyelenggaraan",
+        "recently-closed-tasks": "Tugas yang ditutup baru-baru ini",
+        "open-tasks": "Buka tugas",
+        "paused-audits": "Audit jeda",
+        "open-audits": "Buka audit",
+        "recently-closed-audits": "Audit terkini ditutup",
+        "start-new-audit": "Memulakan audit baru"
+      }
+    },
+    "founditem": {
+      "index": {
+        "add-a-description": "Menambah perihalan",
+        "submit-lost-item": "Hantar Item"
+      }
+    },
+    "notifications": {
+      "notificationheader": {
+        "status": "Status",
+        "message": "Mesej",
+        "user": "Pengguna",
+        "room": "Bilik",
+        "time": "Jam"
+      },
+      "assignedheader": {
+        "status": "Status",
+        "message": "Mesej",
+        "time": "Jam",
+        "room": "Bilik",
+        "creator": "Pencipta"
+      },
+      "status": {
+        "okay": "OK",
+        "started": "Memulakan",
+        "rejected": "Ditolak",
+        "paused": "Menjeda",
+        "canceled": "Dibatalkan",
+        "waiting": "Diterima",
+        "pending": "Belum selesai"
+      },
+      "index": {
+        "sent-attendant-notifications": "Pemberitahuan dihantar",
+        "assigned-notifications": "Pemberitahuan saya",
+        "search-rooms-or-people": "Cari bilik atau pengguna"
+      }
+    },
+    "catalog": {
+      "index": {
+        "room-photos": "Gambar bilik"
+      }
+    },
+    "planning": {
+      "index": {
+        "add-attendant": "Tambah FoC",
+        "reset": "Set semula",
+        "prev": "Sebelumnya",
+        "filters": "Penapis",
+        "next": "Seterusnya"
+      },
+      "filtersdrawer": {
+        "all": "Semua",
+        "rooms-to-plan": "Bilik untuk diperuntukkan",
+        "stayover": "Relayer",
+        "departure": "Berlepas",
+        "arrivals": "Ketibaan",
+        "da": "D/A",
+        "filter-by-guest-status": "Tapis mengikut status pelanggan",
+        "filter-by-housekeeping": "Tapis mengikut status HK",
+        "filter-by-floor": "Tapis mengikut lantai",
+        "filter-by-category": "Tapis mengikut kategori",
+        "change-sheets": "Perubahan helaian",
+        "blocked": "Disekat"
+      }
+    },
+    "room": {
+      "index": {
+        "information": "Maklumat",
+        "hsk-tasks": "Tugas HK",
+        "maintenances": "Penyelenggaraan",
+        "catalog": "Piawaian",
+        "lost-found": "Hilang dan jumpa",
+        "image-about-how-the-room-should-look": "Apa rupa bilik",
+        "questionnaires": "Audit"
+      }
+    },
+    "playground": {
+      "index": {
+        "let-go": "Mari pergi"
+      }
+    },
+    "components": {
+      "selectassignmentmodal": {
+        "select-assignment": "Pilih penerima",
+        "search-users": "Mencari pengguna"
+      },
+      "selectlocationmodal": {
+        "select-locations": "Pilih tempat/bilik",
+        "search-locations": "Mencari tempat/bilik"
+      },
+      "selectassetactionmodal": {
+        "search-assets": "Peralatan carian",
+        "select-asset": "Pilih peranti"
+      }
+    },
+    "chooseattendantmodal": {
+      "index": {
+        "choose-attendant": "Pilih fdc baharu"
+      }
+    },
+    "imagegallery": {
+      "index": {
+        "image-about-how-the-room-should-look": "Apa rupa bilik"
+      }
+    },
+    "navigation": {
+      "links": {
+        "housekeeping": "Tugas",
+        "notifications": "Pemberitahuan",
+        "planning": "Atribusi",
+        "maintenance": "Penyelenggaraan",
+        "main": "Skrin utama",
+        "history": "Sejarah",
+        "lost-found": "Hilang dan jumpa",
+        "experiences": "Pelanggan Pengalaman"
+      }
+    },
+    "maintenance": {
+      "index": {
+        "today": "Hari ini",
+        "search-tasks-rooms-users": "Cari bilik, pengguna dan lain-lain ...",
+        "backlog": "Lewat"
+      }
+    },
+    "history": {
+      "index": {
+        "reset": "Set semula",
+        "all": "Semua",
+        "other": "Lain",
+        "guests": "Pelanggan",
+        "search-room-users-events": "Cari bilik, pengguna dan lain-lain ...",
+        "events": "Peristiwa",
+        "cleaning": "Pembersihan"
+      },
+      "historyheader": {
+        "action": "Tindakan",
+        "user": "Pengguna",
+        "room": "Bilik",
+        "time": "Jam"
+      }
+    }
+  },
+  "maintenance": {
+    "filter-tasks": {
+      "index": {
+        "filter-tasks": "Pandangan penapis",
+        "select-one": "Pilih sekurang-kurangnya 1 penapis"
+      }
+    },
+    "filters": {
+      "index": {
+        "hide-all": "Sembunyikan semua",
+        "reset": "Set semula",
+        "search": "Mencari tugas",
+        "guest-status": "Status pejabat hadapan",
+        "vacant-rooms": "Bilik percuma",
+        "occupied-rooms": "Bilik yang diduduki",
+        "out-of-service": "Bilik di luar perkhidmatan",
+        "departure-rooms": "Bilik berpelepasan",
+        "arrival-rooms": "Bilik yang tiba",
+        "no-locations": "Tugas tanpa penyetempatan",
+        "housekeeping": "Pengemasan Statut",
+        "dirty-rooms": "Bilik kotor",
+        "cleaned-rooms": "Bilik yang bersih",
+        "inspected-rooms": "Bilik diperiksa",
+        "pickup": "Chambres mengambil",
+        "properties": "Hartanah",
+        "priority-tasks": "Tugas keutamaan",
+        "blocking-tasks": "Menyekat tugas",
+        "no-asset-tasks": "Tugas tanpa peralatan",
+        "planned-tasks": "Tugas yang dijadualkan",
+        "task-status": "Status Tugas",
+        "pending-tasks": "Tugas belum selesai",
+        "progressing-tasks": "Tugas semasa",
+        "paused-tasks": "Tugas yang dijeda",
+        "completed-tasks": "Tugas yang telah selesai",
+        "rejected-tasks": "Tugas yang ditolak",
+        "assignment": "Saman",
+        "assigned-to-me": "Tugas saya yang diperuntukkan",
+        "unassigned": "Tugas yang tidak ditugaskan",
+        "assigned-to-others": "Tugasan lain",
+        "return-to-tasks": "Kembali ke tugas"
+      }
+    },
+    "createtask": {
+      "assetactiondescription": {
+        "there-are-no-actions-for-your-asset": "Tiada tindakan untuk peralatan ini",
+        "no": "Tidak",
+        "submit-maintenance": "Untuk menghantar",
+        "you-must-first-select-an-asset": "Anda mesti terlebih dahulu memilih sekeping peralatan",
+        "submit-housekeeping": "Untuk menghantar",
+        "yes": "Ya",
+        "no-actions-for-created-asset": "Tiada tindakan untuk peralatan ini"
+      },
+      "assetselectmodal": {
+        "close": "Tutup",
+        "search-assets": "Cari peralatan",
+        "select-asset": "Pilih peranti"
+      },
+      "assignment": {
+        "search-assignments": "Cari pengguna",
+        "missing-assignment": "Tugasan yang hilang"
+      }
+    },
+    "reassigntask": {
+      "index": {
+        "reassignment-message": "Menambah mesej kepada penugasan semula",
+        "due-date": "Tarikh berlepas",
+        "select-due-date": "Pilih tarikh berlepas",
+        "assign-to": "Tugaskan kepada",
+        "reassign-task": "Penugasan semula"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Ok",
+        "submitted-time": "Dicipta",
+        "new-glitch": "Pengalaman baharu",
+        "accept": "Menerima",
+        "new-task": "Tugas baru",
+        "location": "Lokasi / Bilik",
+        "reject": "Menolak",
+        "created-by": "Dicipta oleh",
+        "last-message": "Mesej"
+      }
+    },
+    "assetmodel": {
+      "index": {
+        "asset-model": "Model peralatan"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Tutup"
+      }
+    },
+    "notasks": {
+      "index": {
+        "no-tasks": "Tiada tugas"
+      }
+    },
+    "task": {
+      "dummy": {
+        "pause": "Menjeda",
+        "finish": "Terbatas"
+      },
+      "index": {
+        "sublocation": "Sub-penyetempatan",
+        "information": "Maklumat",
+        "undefined": "Tiket",
+        "guest-status": "Maklumat bilik",
+        "normal": "Tiket normal",
+        "messages": "Mesej",
+        "start-date": "Dicipta",
+        "priority": "Tiket keutamaan",
+        "reassign-ticket": "Penugasan semula",
+        "unassigned": "Tiket tidak dilihat",
+        "lite": "Tiket untuk dilengkapkan",
+        "model": "Model",
+        "created-by": "Dicipta oleh",
+        "view-additional-photos": "Foto tambahan",
+        "choose-model": "Pilih model",
+        "select": "Pilih",
+        "view-attachments": "Dokumen yang dilampirkan pada peralatan",
+        "location-information": "Maklumat Lokasi",
+        "reassign-task": "Penugasan Semula",
+        "move-to-departure": "Tugaskan semula untuk berlepas"
+      },
+      "create-task-alert": {
+        "select-asset": "Terima kasih kerana memilih aset !!",
+        "select-location": "Terima kasih kerana memilih lokasi !!",
+        "select-asset-action": "Terima kasih kerana memilih tindakan !!"
+      }
+    },
+    "asset": {
+      "index": {
+        "models": "Model",
+        "actions": "Tindakan"
+      }
+    },
+    "main": {
+      "index": {
+        "create-new-task-for": "Mencipta tugas baru untuk"
+      },
+      "filterbutton": {
+        "filters": "Penapis"
+      },
+      "filters": {
+        "filter-tasks": "Tapis tugas",
+        "limit-priority": "Hadkan kepada tugas keutamaan",
+        "limit-dirty": "Hadkan ke bilik kotor",
+        "limit-occupied": "Hadkan ke bilik yang diduduki",
+        "limit-out-of-service": "Had ke bilik HS",
+        "limit-vacant": "Had ke bilik kosong"
+      }
+    },
+    "navigation": {
+      "scenes": {
+        "closed-tasks": "Tugas tertutup",
+        "tasks": "Tugas",
+        "hotel-assets": "Kemudahan hotel",
+        "create-task": "Mencipta tugas",
+        "reassign-task": "Menguntukkan semula tugas",
+        "sent-tasks": "Tugas yang diserahkan",
+        "hotel-rooms": "Bilik hotel",
+        "asset": "Peralatan",
+        "action": "Tindakan",
+        "filters": "Penapis"
+      },
+      "links": {
+        "assets": "Peralatan",
+        "notifications": "Pemberitahuan",
+        "rooms": "Bilik",
+        "closed": "Ditutup",
+        "main": "Skrin utama",
+        "sent": "Menghantar"
+      }
+    },
+    "rooms": {
+      "dummy": {
+        "occupaied": "Sibuk"
+      },
+      "index": {
+        "close-room": "Tutup",
+        "close-floor": "Tutup"
+      }
+    }
+  }
+}

@@ -1,0 +1,1358 @@
+{
+  "runner": {
+    "glitch-form": {
+      "index": {
+        "add-actions-to-resolve": "Додавання дії",
+        "add-followup-instructions": "Додавання подальших інструкцій",
+        "vip": "ВІП",
+        "add-task": "Додавання завдання",
+        "enter-room-name": "Введіть номер кімнати",
+        "select-glitch-category": "Виберіть категорію",
+        "glitch-information": "Вісті",
+        "close-glitch": "Закрийте інтерфейс",
+        "handover": "Передача іншій особі",
+        "internal-followup": "Внутрішній моніторинг",
+        "enter-guest-name": "Введіть ім'я клієнта",
+        "choose-location": "Оберіть місце/кімнату",
+        "send-glitch": "Надішліть інтерфейс",
+        "email": "Пошта",
+        "eur": "Євро",
+        "submit-new-glitch": "Надішліть нову версію",
+        "compensation-cost": "Вартість компенсації",
+        "update-glitch": "Оновіть інтерфейс",
+        "guest-information": "Інформація про клієнта",
+        "add-experience-description": "Додавання опису",
+        "vip-status-optional": "VIP-статус (необов'язково)",
+        "incident-description": "Опис події",
+        "room": "Кімната",
+        "name": "Ім'я",
+        "select-a-glitch-category": "Виберіть категорію",
+        "actions-to-resolve": "Дії щодо вирішення інциденту",
+        "enter-guest-email": "Введіть email клієнта"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Виберіть досвід",
+        "select-glitch-category": "Виберіть категорію досвіду",
+        "select-category": "Виберіть категорію"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Скинути",
+        "close": "Закрити"
+      },
+      "index": {
+        "tasks": "Завдання",
+        "rooms": "Кімната",
+        "close-floor": "Закрити вікно",
+        "floor": "Підлога"
+      }
+    },
+    "clean": {
+      "index": {
+        "confirm-dnd": "Підтвердити режим \"Не турбувати\"",
+        "change-sheets": "Зміна аркушів",
+        "pms": "ПМС",
+        "add-change-sheets": "Довелося міняти простирадла"
+      }
+    },
+    "room": {
+      "restock": {
+        "room-inventory": "Інвентар приміщень",
+        "cancel-restock": "Скасувати запас",
+        "mark-as-restocked": "Поповнення запасів зроблено"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Попередні примітки",
+        "add-note": "Додати примітку",
+        "new-room-note": "Нова особливість номера",
+        "new-note-placeholder": "Наприклад, завдання"
+      }
+    },
+    "glitch": {
+      "glitch-read-only": {
+        "none": "Порожній",
+        "send-email": "Надіслати листа",
+        "glitch-cost": "Вартість",
+        "glitch-followup": "подальший догляд",
+        "start": "Починатися",
+        "glitch-description": "Опис",
+        "assigned-to": "Призначено",
+        "current-responsibility": "Відповідальна особа",
+        "glitch-action": "Дія",
+        "glitch-category": "Категорія"
+      }
+    },
+    "components": {
+      "group-select-modal": {
+        "close": "Закрити",
+        "select-assignment": "Виберіть одержувача"
+      },
+      "group-select-row": {
+        "text": "Текст"
+      },
+      "location-select-modal": {
+        "close": "Закрити",
+        "select-location": "Оберіть місце/кімнату"
+      },
+      "room-note-row": {
+        "remove": "Видалити"
+      },
+      "task-card": {
+        "created-by": "Створено",
+        "location": "Місце / кімната",
+        "last-message": "Повідомлення",
+        "submitted-time": "Створений"
+      },
+      "special-select-row": {
+        "text": "Текст"
+      },
+      "assignment-select": {
+        "attendants": "Покоївки/камердинери",
+        "inspectors": "Домробітниці",
+        "management": "Рамка",
+        "housekeeping": "Прибирання номерів",
+        "concierge": "Подальші дії FO",
+        "maintenance": "Обслуговування",
+        "groups": "Групи",
+        "runners": "Бігунів"
+      },
+      "user-select-row": {
+        "text": "Ttexte"
+      },
+      "inventory-update-row": {
+        "reset": "Скинути"
+      },
+      "room-options": {
+        "room-gallery": "Планування кімнати",
+        "send-task": "Надіслати завдання",
+        "clean-room": "Приміщення для прибирання",
+        "guest-glitch": "Досвід клієнта",
+        "hsk-notes": "Особливість номера",
+        "lost-found": "Загублені та знайдені",
+        "inventory": "Інвентаризації",
+        "maintenance": "Обслуговування"
+      },
+      "room-timer": {
+        "cancel": "Скасувати",
+        "done": "Очищені"
+      },
+      "user-select-modal": {
+        "management": "Рамка",
+        "housekeeping": "Прибирання номерів",
+        "concierge": "Подальші дії FO",
+        "select-assignment": "Виберіть одержувача",
+        "maintenance": "Обслуговування",
+        "close": "Закрити"
+      },
+      "asset-action-description": {
+        "yes": "Так",
+        "there-are-no-actions-for-your-asset": "Ніяких дій по даному обладнанню немає",
+        "no-actions-for-created-asset": "Ніяких дій по даному обладнанню немає",
+        "you-must-first-select-an-asset": "Для початку потрібно вибрати одиницю обладнання",
+        "no": "Не"
+      },
+      "asset-select-modal": {
+        "close": "Закрити",
+        "select-asset": "Виберіть пристрій"
+      },
+      "room-info": {
+        "change-sheets": "Зміна аркушів",
+        "pms": "ПМС"
+      },
+      "reservation-nights": {
+        "of": "На",
+        "nights": "Ночі"
+      },
+      "task-settings": {
+        "yes": "Так",
+        "no": "Не"
+      },
+      "gallery-row-item": {
+        "label": "Етикет"
+      }
+    },
+    "turndown": {
+      "subheader": {
+        "all-categories": "Всі категорії"
+      },
+      "index": {
+        "all-categories": "Всі категорії"
+      },
+      "modalcontent": {
+        "delay": "Пізніше",
+        "cancel-turndown": "Скасувати послугу покриття",
+        "refuse": "Відмовився",
+        "finish-turndown": "Послуга покриття завершена",
+        "dnd": "ДНД"
+      }
+    },
+    "glitches": {
+      "index": {
+        "other-glitches": "Інші звіти клієнтів",
+        "recently-closed": "Нещодавно закриті",
+        "assigned-glitches": "Призначені звіти клієнтів"
+      }
+    },
+    "navigation": {
+      "links": {
+        "glitches": "Досвід",
+        "tasks": "Завдання",
+        "inventory-restock": "Біржовий менеджер",
+        "notifications": "Сповіщення",
+        "turndown-service": "Послуга покриття",
+        "main": "Головний екран"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "submit-lost-item": "Подати"
+      }
+    }
+  },
+  "attendant": {
+    "swipeoutoptions": {
+      "index": {
+        "close": "Закрити"
+      }
+    },
+    "clean": {
+      "menu": {
+        "dnd": "ДНД",
+        "refuse": "Відмова",
+        "inspect": "Приміщення, що підлягає огляду",
+        "start-cleaning": "Приступаємо до прибирання",
+        "delay": "Пізніше",
+        "clean": "Очищення",
+        "no-check": "Не перевірявся"
+      },
+      "finishmenu": {
+        "cancel-dnd": "Скасувати DND",
+        "cancel-refuse": "Скасувати відхилення",
+        "cancel-finish": "Скасувати очищений",
+        "confirm-dnd": "Підтвердити DND"
+      },
+      "cleaninginfo": {
+        "credits": "Кредитів",
+        "pms": "ПМС",
+        "change-sheets": "Зміна аркушів",
+        "long-stay": "Тривале проживання",
+        "cleaning-info": "Інформація про прибирання",
+        "cleaning-instruction": "Інструкція"
+      },
+      "taskssubheader": {
+        "show-tasks": "Відображення завдань",
+        "tasks": "Завдання",
+        "hide-tasks": "Приховує завдання"
+      },
+      "index": {
+        "add-change-sheets": "Довелося міняти простирадла"
+      }
+    },
+    "popuptasks": {
+      "index": {
+        "new-task": "Нове завдання",
+        "accept": "Приймати",
+        "reject": "Відкидати"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Попередні примітки",
+        "add-note": "Додати примітку",
+        "new-room-note": "Нова особливість номера",
+        "new-note-placeholder": "Наприклад, завдання"
+      }
+    },
+    "inspect": {
+      "menu": {
+        "dnd": "ДНД",
+        "refuse": "Відмова",
+        "inspect": "Оглянуте приміщення",
+        "start-cleaning": "Приступаємо до прибирання",
+        "delay": "Пізніше",
+        "clean": "Чистий",
+        "no-check": "Не перевірявся"
+      },
+      "finishmenu": {
+        "confirm-dnd": "Підтвердити DND"
+      },
+      "cleaninginfo": {
+        "credits": "Кредитів",
+        "change-sheets": "Зміна аркушів",
+        "long-stay": "Тривале проживання",
+        "pms": "ПМС"
+      },
+      "taskssubheader": {
+        "show-tasks": "Відображення завдань",
+        "tasks": "Завдання",
+        "hide-tasks": "Приховує завдання"
+      }
+    },
+    "alert": {
+      "index": {
+        "priority": "Пріоритет",
+        "room-message": "Повідомлення в кімнату"
+      }
+    },
+    "headers": {
+      "maintenance": "Обслуговування",
+      "inventory-restock": "Біржовий менеджер",
+      "notes": "Характеристики",
+      "inspect": "Оглянути",
+      "lost-found": "Загублені та знайдені",
+      "inventory": "Інвентаризації",
+      "clean": "Очищення",
+      "gallery": "Стандартний номер"
+    },
+    "components": {
+      "group-select-row": {
+        "text": "Текст"
+      },
+      "location-select-modal": {
+        "close": "Закрити"
+      },
+      "user-select-row": {
+        "text": "Текст"
+      },
+      "reservation-component": {
+        "reservation": "Бронювання"
+      },
+      "room-note-row": {
+        "remove": "Видалити"
+      },
+      "task-settings": {
+        "yes": "Так",
+        "no": "Не"
+      },
+      "special-select-row": {
+        "text": "Текст"
+      },
+      "inventory-update-row": {
+        "reset": "Réinitilaiser"
+      },
+      "room-timer": {
+        "cancel": "Скасувати",
+        "done": "оздоблення приміщення"
+      },
+      "assignment-select": {
+        "attendants": "Покоївки / Камердинери де шамбре",
+        "inspectors": "Домробітниці",
+        "management": "Рамка",
+        "housekeeping": "Прибирання номерів",
+        "concierge": "Подальші дії FO",
+        "maintenance": "Команда технічного обслуговування",
+        "groups": "Групи",
+        "runners": "Бігуни / екіпіри"
+      },
+      "room-options": {
+        "room-gallery": "Стандартний номер",
+        "send-task": "Надіслати завдання",
+        "clean-room": "Приміщення для прибирання",
+        "hsk-notes": "Особливість номера",
+        "lost-found": "Загублені та знайдені",
+        "inventory": "Інвентаризації",
+        "maintenance": "Обслуговування"
+      },
+      "room-row-item": {
+        "tasks": "Завдання"
+      },
+      "user-select-modal": {
+        "management": "Рамка",
+        "housekeeping": "Прибирання номерів",
+        "concierge": "Подальші дії FO",
+        "select-assignment": "Виберіть користувача",
+        "maintenance": "Обслуговування",
+        "close": "Закрити"
+      },
+      "asset-action-description": {
+        "yes": "Так",
+        "there-are-no-actions-for-your-asset": "Ніяких дій по даному обладнанню немає",
+        "no-actions-for-created-asset": "Ніяких дій по даному обладнанню немає",
+        "you-must-first-select-an-asset": "Для початку потрібно вибрати одиницю обладнання",
+        "no": "Не"
+      },
+      "asset-select-modal": {
+        "close": "Закрити",
+        "select-asset": "Оберіть обладнання"
+      },
+      "reservation-nights": {
+        "of": "на",
+        "nights": "Ночі"
+      }
+    },
+    "inventoryrestock": {
+      "index": {
+        "restock-inventory": "Скидання інвентарю"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Видалити",
+        "search": "Пошук по кімнатах, клієнтам ...",
+        "vacant": "Безкоштовний",
+        "inspt": "Чистий",
+        "other": "Інший",
+        "dirty": "Продаж",
+        "clean": "Чистий",
+        "close": "Закрити",
+        "occupied": "Зайнятий"
+      },
+      "index": {
+        "priority": "Пріоритет",
+        "tasks": "Завдання",
+        "floor": "Підлога",
+        "paused-rooms": "Призупинені кімнати",
+        "cleaning-rooms": "Прибирання приміщень",
+        "paused": "Призупинення",
+        "priority-rooms": "Номери в пріоритеті",
+        "close-floor": "Закрити вікно",
+        "rooms": "Номери",
+        "scheduled": "Запрограмовані кімнати",
+        "show-more": "Подивитись все",
+        "show-less": "Обмеження програмами",
+        "credits": "Кредитів"
+      }
+    },
+    "navigation": {
+      "links": {
+        "tasks": "Завдання",
+        "main": "Головний екран",
+        "glitches": "Досвід",
+        "inventory-restock": "Запас",
+        "notifications": "Сповіщення",
+        "rooms-cleaned": "Прибрані номери"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "report-lost-and-found-item": "Повернути знайдений товар",
+        "description": "Додавання опису",
+        "submit-lost-item": "Надіслати знайдений елемент"
+      }
+    }
+  },
+  "base": {
+    "extra-options": {
+      "room-extra-options": "Додаткова інформація"
+    },
+    "glitch-form": {
+      "index": {
+        "glitch-information": "Інформація про досвід",
+        "incident-description": "Опис події",
+        "name": "Ім'я",
+        "room": "Кімната",
+        "submit-new-glitch": "Надішліть нову версію",
+        "compensation-cost": "Вартість компенсації",
+        "select-glitch-category": "Виберіть категорію досвіду",
+        "enter-guest-name": "Введіть ім'я клієнта",
+        "enter-room-number": "Введіть номер кімнати",
+        "vip": "ВІП",
+        "premiere-club": "Перший клуб",
+        "actions-to-resolve": "Дії щодо вирішення інциденту",
+        "follow-up-with-guest": "Подальша робота з клієнтом",
+        "email": "Пошта",
+        "enter-guest-email": "Введіть email клієнта"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Виберіть досвід",
+        "select-glitch-category": "Виберіть категорію досвіду",
+        "select-category": "Виберіть категорію"
+      }
+    },
+    "lost-found-review": {
+      "index": {
+        "open": "Відкривати",
+        "emailed": "Електронний лист надіслано",
+        "phoned": "Зв'язалися (тел.)",
+        "pending": "Очікуванні",
+        "waiting": "Чекаємо підтвердження",
+        "mailed": "Відправлені",
+        "hand-delivered": "Доставка вручну",
+        "expired": "Минув",
+        "refused": "Відмовився",
+        "delete": "Скасувати",
+        "closed": "Закриті",
+        "found": "Знайшов",
+        "show-all": "Подивитись все",
+        "show-only-open": "Квитки з відкритою датою",
+        "show-only-received": "Отримав",
+        "holding": "Тримається до повернення гостя",
+        "reception": "З рецепцією",
+        "holding-lt": "Тривале утримання"
+      },
+      "modal": {
+        "guest-signature-optional": "Клієнт підписів (опція)",
+        "notes-optional": "Примітка (опція)",
+        "added-photos-optional": "Додані фотографії (опція)",
+        "update-status": "Стан оновлення"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Гаразд",
+        "submitted-time": "Створений",
+        "notification": "Повідомлення",
+        "accept": "Приймати",
+        "new-task": "Нове завдання",
+        "location": "Розташувати",
+        "reject": "Відкидати",
+        "created-by": "Створено",
+        "last-message": "Повідомлення",
+        "assigned-audit": "Призначений аудит",
+        "comments": "Інструкції",
+        "sent": "Відправлені",
+        "guest-name": "Ім'я гостя"
+      }
+    },
+    "ubiquitous": {
+      "all": "Увесь",
+      "departed": "Сторони",
+      "photo": "Знімок",
+      "inspt": "Інспт",
+      "assignee": "Повістка",
+      "unassigned": "Непризначений",
+      "rooms": "Монети",
+      "filters": "Фільтри",
+      "pms-notes": "Примітки PMS",
+      "yes": "Так",
+      "blocked": "Заблоковано",
+      "pause": "Пауза",
+      "group": "Група",
+      "acknowledge": "Погляд",
+      "send": "Надіслати",
+      "search": "Дослідження",
+      "search-users": "Пошук користувача",
+      "to": "a :",
+      "no-location": "Немає місця проведення",
+      "location": "Розташувати",
+      "all-inspectors": "Всі лінійки",
+      "create-asset": "Створити обладнання",
+      "da": "Д/Д",
+      "search-assets": "Пошукове обладнання",
+      "search-locations": "Пошук місця/кімнати",
+      "add-a-note": "Додати примітку",
+      "assignments": "Повістка",
+      "continue": "Продовжити",
+      "quick": "Команди",
+      "maintenance-team": "Команда технічного обслуговування",
+      "backlog": "Пізно",
+      "reset-entry": "Рейніт.",
+      "arr": "Арр",
+      "creator": "Творець",
+      "asset-and-action": "Обладнання та дія",
+      "cs": "C*D",
+      "close": "Закрити",
+      "mandatory-task": "обов'язкове завдання",
+      "yesterday": "Тут",
+      "last-message": "Повідомлення",
+      "arrival": "Прибуття",
+      "resume": "Резюме",
+      "select-user": "Виберіть користувача",
+      "attendant": "Служниця / камердинер",
+      "stay": "Рек",
+      "optional": "Варіант",
+      "convert": "Перетворити",
+      "housekeeping": "Прибирання номерів",
+      "enter-a-message": "Введіть повідомлення",
+      "block": "Блокувати",
+      "tasks": "Завдання",
+      "select-location": "Оберіть місце/кімнату",
+      "floors": "Підлоги",
+      "submit": "Подати",
+      "cancel": "Скасувати",
+      "message": "Повідомлення",
+      "people": "Осіб",
+      "inspected": "Перевірено",
+      "next": "Наступний",
+      "priority": "Пріоритет",
+      "start": "Починатися",
+      "maintenance": "Обслуговування",
+      "prev": "Попередній",
+      "today": "Сьогодні",
+      "tomorrow": "Завтра",
+      "completed": "Завершити",
+      "notifications": "Сповіщення",
+      "all-runners": "Всі екіпажі / бігуни",
+      "none": "-",
+      "room": "Кімната",
+      "bedrooms": "Номери",
+      "dep": "DEP",
+      "priority-task": "Першочергове завдання",
+      "lite-task": "Полегшене завдання",
+      "normal-task": "Звичайне завдання",
+      "unassigned-task": "Непризначене завдання",
+      "enter-a-description-optional": "Введіть опис (необов'язково)",
+      "dirty": "Продаж",
+      "cancelled": "Скасовано",
+      "send-housekeeping-task": "Надіслати завдання HK",
+      "select-locations": "Оберіть локації/кімнати",
+      "search-tasks": "Пошук завдання",
+      "send-maintenance-task": "Надіслати завдання обслуговування",
+      "runner": "Бігун / Екіпаж",
+      "locations": "Місця / кімнати",
+      "accept": "Приймати",
+      "no-photo": "Немає фото",
+      "receptionist": "Портьє",
+      "inspector": "Лінійки",
+      "occupied": "Зайнятий",
+      "vacant": "Вакансії",
+      "information": "Інформація",
+      "adminstrator": "Адміністратор",
+      "no": "Не",
+      "stayover": "Релітератор",
+      "delay": "Пізніше",
+      "other": "Інший",
+      "blocking-task": "завдання блокування",
+      "reject": "Відкидати",
+      "finish": "Закінчити",
+      "description": "Опис",
+      "normal": "Нормальний",
+      "planned-attendant": "Запланована покоївка",
+      "planned-runner": "Запланований член екіпажу",
+      "update": "Оновлювати",
+      "alert": "Оповіщення",
+      "arrived": "Прибуття",
+      "change-sheets": "Змінення аркушів",
+      "task": "Завдання",
+      "clear": "Видалити",
+      "floor": "Підлога",
+      "departure": "Від'їзду",
+      "clean": "Чистий",
+      "exit-selection": "Закрити",
+      "tap-to-start-camera": "Дотик до фотографії",
+      "continue-without-photo": "Продовжити без фото",
+      "default-assignment": "Призначення за промовчанням",
+      "tap-to-continue": "Торкніться, щоб продовжити",
+      "review": "Побачити",
+      "dismiss": "Маска",
+      "show": "Пост",
+      "checkout-on": "Виїзд на",
+      "cleaning": "Очищення",
+      "dnd": "ДНД",
+      "refuse": "Відмовився",
+      "reset-system": "Видалити",
+      "management": "Рамка",
+      "properties": "Властивості",
+      "area": "Площа",
+      "asset": "Обладнання",
+      "action": "Дія",
+      "model": "Модель",
+      "guest": "Клієнт",
+      "due-out": "Виїзд на",
+      "tap-to-enlarge": "Дотик для збільшення",
+      "categories": "Категорії",
+      "status": "Статус",
+      "calendar": "Календар",
+      "take-picture": "Знімок",
+      "add-more-video": "Додати відео",
+      "take-video": "Відео",
+      "picture-gallery": "Фото в тел.",
+      "video-gallery": "Відео в тел.",
+      "task-asset": "Обладнання",
+      "task-next": "Наступний",
+      "task-guest-request": "Запит клієнта",
+      "task-submit": "Подати",
+      "task-assign": "Призначено",
+      "add-more-photo": "Додати фото"
+    },
+    "realtime": {
+      "index": {
+        "pending-requests-itemstosync": "Відкладений запит",
+        "offline": "Автономних",
+        "-": ""
+      }
+    },
+    "notification": {
+      "extraoptions": {
+        "reply": "Відповідь",
+        "convert-to-task": "Перетворити на завдання",
+        "follow-up": "подальший догляд"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "recent-quick-notifications": "Швидкі або останні сповіщення"
+      },
+      "selectuser": {
+        "tap": "Торкніться, щоб змінити"
+      }
+    },
+    "tasktable": {
+      "modal": {
+        "assigned-to": "Призначено",
+        "last-action": "Остання дія",
+        "messages": "Повідомлення",
+        "location": "Розташувати",
+        "created-by": "Створено",
+        "submitted-time": "Створений",
+        "complete-task": "Закінчити",
+        "cancel-task": "Скасувати",
+        "reassign-task": "Réassigner"
+      },
+      "status": {
+        "started": "Почав",
+        "waiting": "Прийнято",
+        "rejected": "Відхилено",
+        "paused": "Призупинення",
+        "canceled": "Скасовано",
+        "finished": "Над",
+        "completed": "Над",
+        "pending": "Очікуванні"
+      },
+      "header": {
+        "status": "Статус",
+        "information": "Інформація",
+        "task": "Завдання",
+        "normal-ticket": "Квиток звичайний",
+        "lite-ticket": "Квиток для заповнення",
+        "assigned": "Повістка",
+        "time-created": "Створений",
+        "location": "Розташувати",
+        "created-by": "Створено",
+        "priority-ticket": "Пріоритетний квиток"
+      },
+      "utils": {
+        "pause": "Призупинення",
+        "finish": "Закінчити",
+        "start": "Починатися",
+        "resume": "Резюме",
+        "reject": "Відкидати"
+      },
+      "lastaction": {
+        "created": "Завдання створено",
+        "task-reassigned": "Перепризначення завдання",
+        "rescheduled": "Повторно заплановане завдання",
+        "added-message": "Додано повідомлення"
+      }
+    },
+    "notifications": {
+      "index": {
+        "assigned": "Призначені",
+        "sent": "Доставлено"
+      },
+      "quicknotificationform": {
+        "send-message": "Відправити повідомлення"
+      }
+    },
+    "tasks": {
+      "tabs": {
+        "today": "Сьогодні",
+        "sent": "Доставлено",
+        "backlog": "Пізно"
+      },
+      "dummy": {
+        "occupaied": ""
+      }
+    },
+    "inventory": {
+      "index": {
+        "close-area": "Закрити зону",
+        "search-items": "Пошук елемента"
+      }
+    },
+    "components": {
+      "assetactiondescription": {
+        "submit-maintenance": "Надсилання завдання з обслуговування",
+        "no-available": "Ніяких дій по даному обладнанню немає",
+        "description": "Опис",
+        "no": "Не",
+        "no-actions": "Ніяких дій по даному обладнанню немає",
+        "priority": "Пріоритет",
+        "continue": "Продовжити",
+        "asset": "Обладнання",
+        "first-select": "Для початку потрібно вибрати одиницю обладнання",
+        "action": "Дія",
+        "description-placeholder": "Наприклад: не обертається",
+        "yes": "Так",
+        "select-asset": "Оберіть обладнання",
+        "location": "Розташувати"
+      },
+      "fullscreenphoto": {
+        "no-photo": "Немає фото"
+      }
+    },
+    "navigation": {
+      "index": {
+        "task": "Завдання",
+        "convert-task": "Перетворити на завдання",
+        "notifications": "Сповіщення",
+        "tasks": "Завдання",
+        "notes": "Характеристики",
+        "create-notification": "Створення сповіщення",
+        "glitch": "Досвід клієнта",
+        "turndown-service": "Послуга покриття",
+        "lost-found": "Загублені та знайдені",
+        "room": "Кімната",
+        "filter-tasks": "Подання фільтра",
+        "inventory": "Управління запасами",
+        "maintenance": "Обслуговування",
+        "home": "Дім",
+        "glitches": "Досвід клієнтів",
+        "gallery": "Фотографії номерів",
+        "inventory-restock": "Запас"
+      },
+      "links": {
+        "assets": "Обладнання",
+        "notifications": "Сповіщення",
+        "logout": "Вихід",
+        "rooms": "Номери",
+        "closed": "Закриті",
+        "main": "Головний екран",
+        "sent": "Доставлено"
+      }
+    },
+    "taskcard": {
+      "status": {
+        "started": "Почав",
+        "completed": "Завершено",
+        "unclaimed": "Очікуванні",
+        "cancelled": "Скасовано",
+        "accepted": "Прийнято",
+        "pending": "Очікуванні"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Закрити"
+      }
+    }
+  },
+  "inspector": {
+    "room-messages": {
+      "index": {
+        "day-night": "День і покриття",
+        "edit": "Змінити",
+        "add-message": "Новий",
+        "delete-messages": "Видалення повідомлень",
+        "change-room": "Перейдіть до # немає.",
+        "message": "Повідомлення",
+        "message-type": "Виберіть тип повідомлення",
+        "schedule": "Виберіть крайній термін",
+        "calendar": "Календар",
+        "day": "День",
+        "night": "Ковдра",
+        "pickup": "Пікап",
+        "end-of-day": "Сьогодні",
+        "end-of-stay": "До вильоту",
+        "custom": "Нестандартний",
+        "indefinitely": "Нескінченно",
+        "cancel": "Скасувати",
+        "submit-message": "Подати"
+      }
+    },
+    "audits": {
+      "add-photo": "Додавання фотографії",
+      "add-note": "Додати примітку",
+      "submit-task": "Подати",
+      "save": "Рятувати",
+      "note": "Примітка",
+      "photo": "Знімок",
+      "select-audit": "Оберіть аудит",
+      "assign-to-others": "Призначити для ... (необов'язково)"
+    },
+    "attendantmodal": {
+      "index": {
+        "priority": "Пріоритет",
+        "reset": "Скинути",
+        "attendant": "Служниця / камердинер",
+        "overwrite-guest-status": "Змінення стану фронт-офісу",
+        "send-message-to-attendant": "Надсилання повідомлення до fdc / vdc"
+      }
+    },
+    "createtask": {
+      "index": {
+        "photo": "Знімок",
+        "mandatory-task": "обов'язкове завдання",
+        "assignee": "Повістка",
+        "priority-task": "Першочергове завдання",
+        "blocking-task": "завдання блокування",
+        "location": "Місце / кімната",
+        "asset-and-action": "Обладнання та дія"
+      },
+      "extraoption": {
+        "yes": "Так",
+        "no": "Не"
+      }
+    },
+    "main": {
+      "index": {
+        "rooms": "Номери",
+        "all-floors": "Всі поверхи",
+        "floor": "Підлога",
+        "ok": "Все гаразд"
+      },
+      "rooms-filter": {
+        "attendants": "КРК",
+        "reset": "Скинути",
+        "filtered-rooms": "Номери за фільтром",
+        "other": "Інший",
+        "floors": "Підлоги",
+        "filters": "Фільтри",
+        "all-rooms": "Всі номери",
+        "show-non-guest-rooms": "Показати зони спільного користування",
+        "hide-non-guest-rooms": "Приховання зон спільного користування"
+      },
+      "rooms-information": {
+        "reset": "Скинути",
+        "vip": "ВІП"
+      },
+      "notes": {
+        "room-notes": "Особливість номера"
+      },
+      "roommessageform": {
+        "room-message": "Повідомлення про кімнату"
+      },
+      "roomnotesmodal": {
+        "no-pms-notes-for-this-reservation": "Немає рейтингу PMS для цього бронювання",
+        "send-message-attendant": "Надіслати пряме сповіщення",
+        "room-notes": "Особливість номера",
+        "pms-notes": "Примітки ПМС",
+        "save-for-later": "Зберегти на потім",
+        "room-message": "Повідомлення про кімнату",
+        "messaging": "Повідомлення для відправки"
+      },
+      "filters-drawer": {
+        "1": "1"
+      }
+    },
+    "housekeeping": {
+      "index": {
+        "today": "Сьогодні",
+        "search-tasks-rooms-users": "Пошук кімнат, користувачів тощо...",
+        "backlog": "Пізно"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "ГАРАЗД",
+        "submitted-time": "Створено з",
+        "notification": "Повідомлення",
+        "accept": "Приймати",
+        "new-task": "Нове завдання",
+        "location": "Місце / кімната",
+        "reject": "Відкидати",
+        "created-by": "Створено",
+        "last-message": "Повідомлення"
+      }
+    },
+    "information": {
+      "info": {
+        "dnd": "Не турбувати",
+        "cleaning": "Прибирання триває...",
+        "refused": "Відмовлено замовником",
+        "delay": "Пізніше",
+        "finish": "Скінченних",
+        "attendant-status": "Статус очищення",
+        "housekeeping-status": "Статутне ведення домашнього господарства",
+        "room-attendant": "Служниця / камердинер",
+        "room-information": "Інформація про номер",
+        "emilie-persion": "Емілі Персіон",
+        "room-type": "Тип номера",
+        "standart-room": "Стандартний номер",
+        "last-action": "Остання дія",
+        "room-category": "Категорія номера",
+        "cleaning-name": "Ім'я для прибирання"
+      },
+      "index": {
+        "room": "Кімната"
+      },
+      "pmsnotes": {
+        "pms-notes": "Примітки pms",
+        "no-pms-notes": "Без примітки PMS"
+      },
+      "notes": {
+        "room-notes": "Особливість номера"
+      },
+      "roommessageform": {
+        "room-message": "Повідомлення про кімнату"
+      },
+      "housekeepingstatus": {
+        "other-housekeepings": "Інший"
+      },
+      "vipstatus": {
+        "vip-status": "VIP-статус"
+      },
+      "attendantstatus": {
+        "attendant-status": "Статус покоївки"
+      }
+    },
+    "updatespopup": {
+      "index": {
+        "new": "Новий",
+        "dismiss": "Ігнорувати",
+        "you-have": "Нова інформація",
+        "show": "Пост",
+        "new-updates": ""
+      },
+      "modal": {
+        "priority-set": "Підтверджений пріоритет",
+        "message-added": "Додано повідомлення",
+        "room-restocked": "Поповнення запасів зроблено",
+        "room-unblocked": "Незамкнена кімната",
+        "updates": "Нова інформація",
+        "dismiss-all": "Ігнорувати все"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "select-a-location-or-change-user": "Виберіть місце/кімнату або іншого користувача",
+        "photo": "Знімок",
+        "missing-location-or-user": "Відсутнє місце/кімната або користувач",
+        "send-notification": "Надіслати сповіщення",
+        "to": "При:",
+        "select-notification": "Виберіть сповіщення",
+        "location": "Місце / кімната",
+        "message": "Повідомлення",
+        "quick-notifications": "Сповіщення"
+      },
+      "selectusermodal": {
+        "select-reciepent": "Виберіть одержувача"
+      }
+    },
+    "tableheader": {
+      "index": {
+        "attendant-runner": "Жінка / Камердинер і бігун",
+        "tasks": "Завдання",
+        "my-assigned-tasks": "Мої завдання",
+        "open-housekeepings": "Відкриті вакансії HK",
+        "open": "Відкриття завдань",
+        "open-maintenances": "Відкриті завдання технічного обслуговування",
+        "recently-closed-tasks": "Нещодавно закриті завдання",
+        "open-tasks": "Відкриті завдання",
+        "paused-audits": "Аудит на паузі",
+        "open-audits": "Відкриті аудити",
+        "recently-closed-audits": "Останні аудити закрито",
+        "start-new-audit": "Початок нового аудиту"
+      }
+    },
+    "founditem": {
+      "index": {
+        "add-a-description": "Додавання опису",
+        "submit-lost-item": "Відправити елемент"
+      }
+    },
+    "notifications": {
+      "notificationheader": {
+        "status": "Статус",
+        "message": "Повідомлення",
+        "user": "Користувач",
+        "room": "Кімната",
+        "time": "Година"
+      },
+      "assignedheader": {
+        "status": "Статус",
+        "message": "Повідомлення",
+        "time": "Година",
+        "room": "Кімната",
+        "creator": "Творець"
+      },
+      "status": {
+        "okay": "ГАРАЗД",
+        "started": "Почав",
+        "rejected": "Відхилено",
+        "paused": "Призупинення",
+        "canceled": "Скасовано",
+        "waiting": "Прийнято",
+        "pending": "Очікуванні"
+      },
+      "index": {
+        "sent-attendant-notifications": "Надіслано сповіщень",
+        "assigned-notifications": "Мої сповіщення",
+        "search-rooms-or-people": "Як шукати кімнати або користувачів"
+      }
+    },
+    "catalog": {
+      "index": {
+        "room-photos": "Фотографії номерів"
+      }
+    },
+    "planning": {
+      "index": {
+        "add-attendant": "Додавання FoC",
+        "reset": "Скинути",
+        "prev": "Попередній",
+        "filters": "Фільтри",
+        "next": "Наступний"
+      },
+      "filtersdrawer": {
+        "all": "Увесь",
+        "rooms-to-plan": "Кімнати для виділення",
+        "stayover": "Релітератор",
+        "departure": "Від'їзду",
+        "arrivals": "Заїзд",
+        "da": "Д/Д",
+        "filter-by-guest-status": "Фільтрування за статусом клієнта",
+        "filter-by-housekeeping": "Фільтрування за статусом HK",
+        "filter-by-floor": "Фільтр по поверхах",
+        "filter-by-category": "Фільтр за категоріями",
+        "change-sheets": "Зміна аркушів",
+        "blocked": "Заблоковано"
+      }
+    },
+    "room": {
+      "index": {
+        "information": "Інформація",
+        "hsk-tasks": "Завдання HK",
+        "maintenances": "Обслуговування",
+        "catalog": "Стандартів",
+        "lost-found": "Загублені та знайдені",
+        "image-about-how-the-room-should-look": "Як повинна виглядати кімната",
+        "questionnaires": "Аудиту"
+      }
+    },
+    "playground": {
+      "index": {
+        "let-go": "Пішли"
+      }
+    },
+    "components": {
+      "selectassignmentmodal": {
+        "select-assignment": "Виберіть одержувача",
+        "search-users": "Пошук користувача"
+      },
+      "selectlocationmodal": {
+        "select-locations": "Оберіть місце/кімнату",
+        "search-locations": "Пошук місця/кімнати"
+      },
+      "selectassetactionmodal": {
+        "search-assets": "Пошукове обладнання",
+        "select-asset": "Виберіть пристрій"
+      }
+    },
+    "chooseattendantmodal": {
+      "index": {
+        "choose-attendant": "Виберіть новий FDC"
+      }
+    },
+    "imagegallery": {
+      "index": {
+        "image-about-how-the-room-should-look": "Як повинна виглядати кімната"
+      }
+    },
+    "navigation": {
+      "links": {
+        "housekeeping": "Завдання",
+        "notifications": "Сповіщення",
+        "planning": "Присвоєння",
+        "maintenance": "Обслуговування",
+        "main": "Головний екран",
+        "history": "Історичних",
+        "lost-found": "Загублені та знайдені",
+        "experiences": "Досвід клієнта"
+      }
+    },
+    "maintenance": {
+      "index": {
+        "today": "Сьогодні",
+        "search-tasks-rooms-users": "Пошук кімнат, користувачів тощо...",
+        "backlog": "Пізно"
+      }
+    },
+    "history": {
+      "index": {
+        "reset": "Скинути",
+        "all": "Увесь",
+        "other": "Інший",
+        "guests": "Клієнтів",
+        "search-room-users-events": "Пошук кімнат, користувачів тощо...",
+        "events": "Події",
+        "cleaning": "Очищення"
+      },
+      "historyheader": {
+        "action": "Дія",
+        "user": "Користувач",
+        "room": "Кімната",
+        "time": "Година"
+      }
+    }
+  },
+  "maintenance": {
+    "filter-tasks": {
+      "index": {
+        "filter-tasks": "Подання фільтра",
+        "select-one": "Виберіть принаймні 1 фільтр"
+      }
+    },
+    "filters": {
+      "index": {
+        "hide-all": "Сховати все",
+        "reset": "Скинути",
+        "search": "Пошук завдань",
+        "guest-status": "Статус фронт-офісу",
+        "vacant-rooms": "Вільні номери",
+        "occupied-rooms": "Зайняті кімнати",
+        "out-of-service": "Номери не обслуговуються",
+        "departure-rooms": "Номери на виїзді",
+        "arrival-rooms": "Номери прибуття",
+        "no-locations": "Завдання без локалізації",
+        "housekeeping": "Статутне ведення домашнього господарства",
+        "dirty-rooms": "Брудні кімнати",
+        "cleaned-rooms": "Чисті приміщення",
+        "inspected-rooms": "Оглянуті приміщення",
+        "pickup": "Chambres забрати",
+        "properties": "Властивості",
+        "priority-tasks": "Пріоритетні завдання",
+        "blocking-tasks": "Завдання блокування",
+        "no-asset-tasks": "Завдання без обладнання",
+        "planned-tasks": "Заплановані завдання",
+        "task-status": "Стан завдання",
+        "pending-tasks": "Завдання, що очікують на розгляд",
+        "progressing-tasks": "Поточні завдання",
+        "paused-tasks": "Призупинені завдання",
+        "completed-tasks": "Виконані завдання",
+        "rejected-tasks": "Відхилені завдання",
+        "assignment": "Повістка",
+        "assigned-to-me": "Мої призначені завдання",
+        "unassigned": "Непризначені завдання",
+        "assigned-to-others": "Інші завдання",
+        "return-to-tasks": "Повернутися до завдань"
+      }
+    },
+    "createtask": {
+      "assetactiondescription": {
+        "there-are-no-actions-for-your-asset": "Ніяких дій по даному обладнанню немає",
+        "no": "Не",
+        "submit-maintenance": "Подати",
+        "you-must-first-select-an-asset": "Попередньо необхідно вибрати одиницю обладнання",
+        "submit-housekeeping": "Подати",
+        "yes": "Так",
+        "no-actions-for-created-asset": "Ніяких дій по даному обладнанню"
+      },
+      "assetselectmodal": {
+        "close": "Закрити",
+        "search-assets": "Пошук обладнання",
+        "select-asset": "Виберіть пристрій"
+      },
+      "assignment": {
+        "search-assignments": "Пошук користувачів",
+        "missing-assignment": "Відсутнє призначення"
+      }
+    },
+    "reassigntask": {
+      "index": {
+        "reassignment-message": "Додавання повідомлення до перепризначення",
+        "due-date": "Дата вильоту",
+        "select-due-date": "Виберіть дату вильоту",
+        "assign-to": "Призначити",
+        "reassign-task": "Переправонаступник"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Гаразд",
+        "submitted-time": "Створений",
+        "new-glitch": "Новий досвід",
+        "accept": "Приймати",
+        "new-task": "Нове завдання",
+        "location": "Місце розташування / кімната",
+        "reject": "Відкидати",
+        "created-by": "Створено",
+        "last-message": "Повідомлення"
+      }
+    },
+    "assetmodel": {
+      "index": {
+        "asset-model": "Модель обладнання"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Закрити"
+      }
+    },
+    "notasks": {
+      "index": {
+        "no-tasks": "Немає завдань"
+      }
+    },
+    "task": {
+      "dummy": {
+        "pause": "Призупинення",
+        "finish": "Скінченних"
+      },
+      "index": {
+        "sublocation": "Сублокалізація",
+        "information": "Інформація",
+        "undefined": "Квиток",
+        "guest-status": "Інформація про номер",
+        "normal": "Квиток звичайний",
+        "messages": "Повідомлення",
+        "start-date": "Створений",
+        "priority": "Пріоритетний квиток",
+        "reassign-ticket": "Переправонаступник",
+        "unassigned": "Квиток не видно",
+        "lite": "Квиток для заповнення",
+        "model": "Модель",
+        "created-by": "Створено",
+        "view-additional-photos": "Додаткові фото",
+        "choose-model": "Оберіть модель",
+        "select": "Виберіть",
+        "view-attachments": "Документ додається до обладнання",
+        "location-information": "Інформація про місцезнаходження",
+        "reassign-task": "Перепризначення",
+        "move-to-departure": "Перепризначити на виліт"
+      },
+      "create-task-alert": {
+        "select-asset": "Дякуємо, що вибрали актив !!",
+        "select-location": "Дякуємо, що обрали локацію!!",
+        "select-asset-action": "Дякуємо, що вибрали акцію!!"
+      }
+    },
+    "asset": {
+      "index": {
+        "models": "Модель",
+        "actions": "Дії"
+      }
+    },
+    "main": {
+      "index": {
+        "create-new-task-for": "Створення нового завдання для"
+      },
+      "filterbutton": {
+        "filters": "Фільтри"
+      },
+      "filters": {
+        "filter-tasks": "Фільтрування завдань",
+        "limit-priority": "Обмеження пріоритетних завдань",
+        "limit-dirty": "Обмежте брудні приміщення",
+        "limit-occupied": "Обмежте кількість зайнятих кімнат",
+        "limit-out-of-service": "Обмежте кількість кімнат HS",
+        "limit-vacant": "Обмеження кількості вільних кімнат"
+      }
+    },
+    "navigation": {
+      "scenes": {
+        "closed-tasks": "закриті завдання",
+        "tasks": "Завдання",
+        "hotel-assets": "Зручності в готелі",
+        "create-task": "Створення завдання",
+        "reassign-task": "Перепризначення завдання",
+        "sent-tasks": "Надіслані завдання",
+        "hotel-rooms": "Готельні номери",
+        "asset": "Обладнання",
+        "action": "Дія",
+        "filters": "Фільтри"
+      },
+      "links": {
+        "assets": "Обладнання",
+        "notifications": "Сповіщення",
+        "rooms": "Номери",
+        "closed": "Закриті",
+        "main": "Головний екран",
+        "sent": "Надіслати"
+      }
+    },
+    "rooms": {
+      "dummy": {
+        "occupaied": "Зайнятий"
+      },
+      "index": {
+        "close-room": "Закрити",
+        "close-floor": "Закрити"
+      }
+    }
+  }
+}

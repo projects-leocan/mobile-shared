@@ -1,0 +1,1358 @@
+{
+  "runner": {
+    "glitch-form": {
+      "index": {
+        "add-actions-to-resolve": "Добавяне на действие",
+        "add-followup-instructions": "Добавяне на инструкции за проследяване",
+        "vip": "ВИП",
+        "add-task": "Добавяне на задача",
+        "enter-room-name": "Въведете номера на стаята",
+        "select-glitch-category": "Изберете категория",
+        "glitch-information": "Новини",
+        "close-glitch": "Затворете преживяването",
+        "handover": "Предаване на друго лице",
+        "internal-followup": "Вътрешен мониторинг",
+        "enter-guest-name": "Въведете името на клиента",
+        "choose-location": "Изберете място/стая",
+        "send-glitch": "Изпратете опита",
+        "email": "Поща",
+        "eur": "Евро",
+        "submit-new-glitch": "Изпратете новия опит",
+        "compensation-cost": "Разходи за обезщетение",
+        "update-glitch": "Актуализиране на опита",
+        "guest-information": "Информация за клиента",
+        "add-experience-description": "Добавяне на описание",
+        "vip-status-optional": "VIP статус (по избор)",
+        "incident-description": "Описание на инцидента",
+        "room": "Стая",
+        "name": "Име",
+        "select-a-glitch-category": "Изберете категория",
+        "actions-to-resolve": "Действия за разрешаване на инцидента",
+        "enter-guest-email": "Въведете имейла на клиента"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Изберете преживяване",
+        "select-glitch-category": "Изберете категория опит",
+        "select-category": "Изберете категория"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Проучване",
+        "close": "Затварям"
+      },
+      "index": {
+        "tasks": "Задачи",
+        "rooms": "Стая",
+        "close-floor": "Затвори прозореца",
+        "floor": "Етаж"
+      }
+    },
+    "clean": {
+      "index": {
+        "confirm-dnd": "Потвърдете, че не ме безпокойте",
+        "change-sheets": "Смяна на листове",
+        "pms": "ПМС",
+        "add-change-sheets": "Трябваше да сменя чаршафите"
+      }
+    },
+    "room": {
+      "restock": {
+        "room-inventory": "Инвентаризация на стаите",
+        "cancel-restock": "Анулиране на наличност",
+        "mark-as-restocked": "Възстановяването на запасите е направено"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Предишни бележки",
+        "add-note": "Добавяне на бележка",
+        "new-room-note": "Нова функция на стаята",
+        "new-note-placeholder": "Напр. задача"
+      }
+    },
+    "glitch": {
+      "glitch-read-only": {
+        "none": "Празен",
+        "send-email": "Изпращане на поща",
+        "glitch-cost": "Струвам",
+        "glitch-followup": "Грижи",
+        "start": "Започвам",
+        "glitch-description": "Описание",
+        "assigned-to": "Възложено на",
+        "current-responsibility": "Отговорно лице",
+        "glitch-action": "Действие",
+        "glitch-category": "Категория"
+      }
+    },
+    "components": {
+      "group-select-modal": {
+        "close": "Затварям",
+        "select-assignment": "Изберете получател"
+      },
+      "group-select-row": {
+        "text": "Текст"
+      },
+      "location-select-modal": {
+        "close": "Затварям",
+        "select-location": "Изберете място/стая"
+      },
+      "room-note-row": {
+        "remove": "Изтривам"
+      },
+      "task-card": {
+        "created-by": "Създадено от",
+        "location": "Място / стая",
+        "last-message": "Съобщение",
+        "submitted-time": "Създаден"
+      },
+      "special-select-row": {
+        "text": "Текст"
+      },
+      "assignment-select": {
+        "attendants": "Камериерки/камериери",
+        "inspectors": "Домакини",
+        "management": "Рамка",
+        "housekeeping": "Домакинство",
+        "concierge": "Проследяване на FO",
+        "maintenance": "Поддръжка",
+        "groups": "Групи",
+        "runners": "Пътеки"
+      },
+      "user-select-row": {
+        "text": "Ттексте"
+      },
+      "inventory-update-row": {
+        "reset": "Проучване"
+      },
+      "room-options": {
+        "room-gallery": "Оформление на стаята",
+        "send-task": "Изпращане на задача",
+        "clean-room": "Стая за почистване",
+        "guest-glitch": "Опит клиент",
+        "hsk-notes": "Характеристика на стаята",
+        "lost-found": "Изгубени и намерени",
+        "inventory": "Опис",
+        "maintenance": "Поддръжка"
+      },
+      "room-timer": {
+        "cancel": "Отмени",
+        "done": "Почистват"
+      },
+      "user-select-modal": {
+        "management": "Рамка",
+        "housekeeping": "Домакинство",
+        "concierge": "Проследяване на FO",
+        "select-assignment": "Изберете получател",
+        "maintenance": "Поддръжка",
+        "close": "Затварям"
+      },
+      "asset-action-description": {
+        "yes": "Да",
+        "there-are-no-actions-for-your-asset": "Няма действия за това оборудване",
+        "no-actions-for-created-asset": "Няма действия за това оборудване",
+        "you-must-first-select-an-asset": "Първо трябва да изберете част от оборудването",
+        "no": "Не"
+      },
+      "asset-select-modal": {
+        "close": "Затварям",
+        "select-asset": "Изберете устройство"
+      },
+      "room-info": {
+        "change-sheets": "Смяна на листове",
+        "pms": "ПМС"
+      },
+      "reservation-nights": {
+        "of": "На",
+        "nights": "Нощи"
+      },
+      "task-settings": {
+        "yes": "Да",
+        "no": "Не"
+      },
+      "gallery-row-item": {
+        "label": "Етикет"
+      }
+    },
+    "turndown": {
+      "subheader": {
+        "all-categories": "Всички категории"
+      },
+      "index": {
+        "all-categories": "Всички категории"
+      },
+      "modalcontent": {
+        "delay": "Късно",
+        "cancel-turndown": "Отмяна на услугата за покритие",
+        "refuse": "Отказва",
+        "finish-turndown": "Услугата за покритие е завършена",
+        "dnd": "ДНД"
+      }
+    },
+    "glitches": {
+      "index": {
+        "other-glitches": "Други доклади за клиенти",
+        "recently-closed": "Наскоро затворен",
+        "assigned-glitches": "Отчети за присвоени клиенти"
+      }
+    },
+    "navigation": {
+      "links": {
+        "glitches": "Опит",
+        "tasks": "Задачи",
+        "inventory-restock": "Борсов мениджър",
+        "notifications": "Уведомления",
+        "turndown-service": "Услуга за покритие",
+        "main": "Основен екран"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "submit-lost-item": "За да изпратите"
+      }
+    }
+  },
+  "attendant": {
+    "swipeoutoptions": {
+      "index": {
+        "close": "Затварям"
+      }
+    },
+    "clean": {
+      "menu": {
+        "dnd": "ДНД",
+        "refuse": "Отказ",
+        "inspect": "Стая за проверка",
+        "start-cleaning": "Започнете почистването",
+        "delay": "Късно",
+        "clean": "Чистене",
+        "no-check": "Не е инспектирано"
+      },
+      "finishmenu": {
+        "cancel-dnd": "Отмяна на DND",
+        "cancel-refuse": "Отказ от отклоняване",
+        "cancel-finish": "Отказ Почистено",
+        "confirm-dnd": "Потвърдете DND"
+      },
+      "cleaninginfo": {
+        "credits": "Кредити",
+        "pms": "ПМС",
+        "change-sheets": "Смяна на листове",
+        "long-stay": "Дълъг престой",
+        "cleaning-info": "Информация за почистване",
+        "cleaning-instruction": "Инструкция"
+      },
+      "taskssubheader": {
+        "show-tasks": "Показва задачи",
+        "tasks": "Задачи",
+        "hide-tasks": "Скрива задачите"
+      },
+      "index": {
+        "add-change-sheets": "Трябваше да сменя чаршафите"
+      }
+    },
+    "popuptasks": {
+      "index": {
+        "new-task": "Нова задача",
+        "accept": "Приемам",
+        "reject": "Отхвърлям"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Предишни бележки",
+        "add-note": "Добавяне на бележка",
+        "new-room-note": "Нова функция на стаята",
+        "new-note-placeholder": "Напр. задача"
+      }
+    },
+    "inspect": {
+      "menu": {
+        "dnd": "ДНД",
+        "refuse": "Отказ",
+        "inspect": "Инспектирана стая",
+        "start-cleaning": "Започнете почистването",
+        "delay": "Късно",
+        "clean": "Чист",
+        "no-check": "Не е инспектирано"
+      },
+      "finishmenu": {
+        "confirm-dnd": "Потвърдете DND"
+      },
+      "cleaninginfo": {
+        "credits": "Кредити",
+        "change-sheets": "Смяна на листове",
+        "long-stay": "Дълъг престой",
+        "pms": "ПМС"
+      },
+      "taskssubheader": {
+        "show-tasks": "Показва задачи",
+        "tasks": "Задачи",
+        "hide-tasks": "Скрива задачите"
+      }
+    },
+    "alert": {
+      "index": {
+        "priority": "Приоритет",
+        "room-message": "Съобщение до стаята"
+      }
+    },
+    "headers": {
+      "maintenance": "Поддръжка",
+      "inventory-restock": "Борсов мениджър",
+      "notes": "Характеристики",
+      "inspect": "Инспектира",
+      "lost-found": "Изгубени и намерени",
+      "inventory": "Опис",
+      "clean": "Чистене",
+      "gallery": "Стандартна стая"
+    },
+    "components": {
+      "group-select-row": {
+        "text": "Текст"
+      },
+      "location-select-modal": {
+        "close": "Затварям"
+      },
+      "user-select-row": {
+        "text": "Текст"
+      },
+      "reservation-component": {
+        "reservation": "Резервация"
+      },
+      "room-note-row": {
+        "remove": "Изтривам"
+      },
+      "task-settings": {
+        "yes": "Да",
+        "no": "Не"
+      },
+      "special-select-row": {
+        "text": "Текст"
+      },
+      "inventory-update-row": {
+        "reset": "Réinitilaiser"
+      },
+      "room-timer": {
+        "cancel": "Отмени",
+        "done": "Финална стая"
+      },
+      "assignment-select": {
+        "attendants": "Камериерки / камериерки",
+        "inspectors": "Домакини",
+        "management": "Рамка",
+        "housekeeping": "Домакинство",
+        "concierge": "Проследяване на FO",
+        "maintenance": "Екип по поддръжката",
+        "groups": "Групи",
+        "runners": "Бегачи / Equipiers"
+      },
+      "room-options": {
+        "room-gallery": "Стандартна стая",
+        "send-task": "Изпращане на задача",
+        "clean-room": "Стая за почистване",
+        "hsk-notes": "Характеристика на стаята",
+        "lost-found": "Изгубени и намерени",
+        "inventory": "Опис",
+        "maintenance": "Поддръжка"
+      },
+      "room-row-item": {
+        "tasks": "Задачи"
+      },
+      "user-select-modal": {
+        "management": "Рамка",
+        "housekeeping": "Домакинство",
+        "concierge": "Проследяване на FO",
+        "select-assignment": "Изберете потребител",
+        "maintenance": "Поддръжка",
+        "close": "Затварям"
+      },
+      "asset-action-description": {
+        "yes": "Да",
+        "there-are-no-actions-for-your-asset": "Няма действия за това оборудване",
+        "no-actions-for-created-asset": "Няма действия за това оборудване",
+        "you-must-first-select-an-asset": "Първо трябва да изберете част от оборудването",
+        "no": "Не"
+      },
+      "asset-select-modal": {
+        "close": "Затварям",
+        "select-asset": "Изберете оборудване"
+      },
+      "reservation-nights": {
+        "of": "на",
+        "nights": "Нощи"
+      }
+    },
+    "inventoryrestock": {
+      "index": {
+        "restock-inventory": "Нулиране на инвентара"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Изличавам",
+        "search": "Търсене по стая, клиенти ...",
+        "vacant": "Свободен",
+        "inspt": "Чист",
+        "other": "Друг",
+        "dirty": "Продажба",
+        "clean": "Чист",
+        "close": "Затварям",
+        "occupied": "Зает"
+      },
+      "index": {
+        "priority": "Приоритет",
+        "tasks": "Задачи",
+        "floor": "Етаж",
+        "paused-rooms": "Поставени на пауза стаи",
+        "cleaning-rooms": "Стаи за почистване",
+        "paused": "Пауза",
+        "priority-rooms": "Приоритетни стаи",
+        "close-floor": "Затваряне на прозореца",
+        "rooms": "Стаи",
+        "scheduled": "Програмирани стаи",
+        "show-more": "Виж всички",
+        "show-less": "Ограничаване на програмите",
+        "credits": "Кредити"
+      }
+    },
+    "navigation": {
+      "links": {
+        "tasks": "Задачи",
+        "main": "Основен екран",
+        "glitches": "Опит",
+        "inventory-restock": "Род",
+        "notifications": "Уведомления",
+        "rooms-cleaned": "Почистени стаи"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "report-lost-and-found-item": "Връщане на намерен елемент",
+        "description": "Добавяне на описание",
+        "submit-lost-item": "Подаване на намерен елемент"
+      }
+    }
+  },
+  "base": {
+    "extra-options": {
+      "room-extra-options": "Допълнителна информация"
+    },
+    "glitch-form": {
+      "index": {
+        "glitch-information": "Информация за опита",
+        "incident-description": "Описание на инцидента",
+        "name": "Име",
+        "room": "Стая",
+        "submit-new-glitch": "Изпратете новия опит",
+        "compensation-cost": "Разходи за обезщетение",
+        "select-glitch-category": "Изберете категория опит",
+        "enter-guest-name": "Въведете името на клиента",
+        "enter-room-number": "Въведете номера на стаята",
+        "vip": "ВИП",
+        "premiere-club": "Първи клуб",
+        "actions-to-resolve": "Действия за разрешаване на инцидента",
+        "follow-up-with-guest": "Последващи действия с клиента",
+        "email": "Поща",
+        "enter-guest-email": "Въведете имейла на клиента"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Изберете опит",
+        "select-glitch-category": "Изберете категория опит",
+        "select-category": "Изберете категория"
+      }
+    },
+    "lost-found-review": {
+      "index": {
+        "open": "Отворя",
+        "emailed": "Имейлът е изпратен",
+        "phoned": "Осъществен контакт (тел.)",
+        "pending": "Очакване",
+        "waiting": "Изчакване на потвърждение",
+        "mailed": "Експедирани",
+        "hand-delivered": "Ръчно доставени",
+        "expired": "Изтекъл",
+        "refused": "Отказва",
+        "delete": "Отмени",
+        "closed": "Затворен",
+        "found": "Основавам",
+        "show-all": "Виж всички",
+        "show-only-open": "Отворени билети",
+        "show-only-received": "Получени",
+        "holding": "Задържа се, докато гостът се върне",
+        "reception": "С рецепция",
+        "holding-lt": "Дългосрочно задържане"
+      },
+      "modal": {
+        "guest-signature-optional": "Клиент за подпис (опция)",
+        "notes-optional": "Забележка (опция)",
+        "added-photos-optional": "Добавени снимки (опция)",
+        "update-status": "Актуализиране на състоянието"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Добре",
+        "submitted-time": "Създаден",
+        "notification": "Известяване",
+        "accept": "Приемам",
+        "new-task": "Нова задача",
+        "location": "Място",
+        "reject": "Отхвърлям",
+        "created-by": "Създадено от",
+        "last-message": "Съобщение",
+        "assigned-audit": "Възложен одит",
+        "comments": "Инструкции",
+        "sent": "Изпратени",
+        "guest-name": "Име на гост"
+      }
+    },
+    "ubiquitous": {
+      "all": "Цял",
+      "departed": "Страните",
+      "photo": "Снимка",
+      "inspt": "Инспт",
+      "assignee": "Призовка",
+      "unassigned": "Некласираните",
+      "rooms": "Монети",
+      "filters": "Филтри",
+      "pms-notes": "Бележки PMS",
+      "yes": "Да",
+      "blocked": "Блокиран",
+      "pause": "Пауза",
+      "group": "Група",
+      "acknowledge": "Поглед",
+      "send": "Изпращам",
+      "search": "Изследване",
+      "search-users": "Намерете потребител",
+      "to": "една:",
+      "no-location": "Няма място",
+      "location": "Място",
+      "all-inspectors": "Всички владетели",
+      "create-asset": "Създаване на оборудване",
+      "da": "Г/Д",
+      "search-assets": "Оборудване за търсене",
+      "search-locations": "Търсене на място/стая",
+      "add-a-note": "Добавяне на бележка",
+      "assignments": "Призовка",
+      "continue": "Продължавам",
+      "quick": "Отбори",
+      "maintenance-team": "Екип по поддръжката",
+      "backlog": "Късно",
+      "reset-entry": "Réinit.",
+      "arr": "Арр",
+      "creator": "Създател",
+      "asset-and-action": "Оборудване и действие",
+      "cs": "В*Г",
+      "close": "Затварям",
+      "mandatory-task": "Задължителна задача",
+      "yesterday": "Тук",
+      "last-message": "Съобщение",
+      "arrival": "Пристигане",
+      "resume": "Възобнови",
+      "select-user": "Изберете потребител",
+      "attendant": "Прислужница / Камериер",
+      "stay": "Рец",
+      "optional": "Алтернатива",
+      "convert": "Превръщам",
+      "housekeeping": "Домакинство",
+      "enter-a-message": "Въведете съобщение",
+      "block": "Блокирам",
+      "tasks": "Задачи",
+      "select-location": "Изберете място/стая",
+      "floors": "Подове",
+      "submit": "За да изпратите",
+      "cancel": "Отмени",
+      "message": "Съобщение",
+      "people": "Лица",
+      "inspected": "Инспектирани",
+      "next": "Следващ",
+      "priority": "Приоритет",
+      "start": "Започвам",
+      "maintenance": "Поддръжка",
+      "prev": "Предишен",
+      "today": "Днес",
+      "tomorrow": "Утре",
+      "completed": "Completée",
+      "notifications": "Уведомления",
+      "all-runners": "Всички екипажи / бегачи",
+      "none": "-",
+      "room": "Стая",
+      "bedrooms": "Стаи",
+      "dep": "ДЕП",
+      "priority-task": "Приоритетна задача",
+      "lite-task": "Lite задача",
+      "normal-task": "Нормална задача",
+      "unassigned-task": "Невъзложена задача",
+      "enter-a-description-optional": "Въведете описание (по избор)",
+      "dirty": "Продажба",
+      "cancelled": "Отменени",
+      "send-housekeeping-task": "Изпращане на HK задача",
+      "select-locations": "Изберете местоположения/стаи",
+      "search-tasks": "Търсене на задача",
+      "send-maintenance-task": "Изпращане на задача за поддръжка",
+      "runner": "Бегач / Екипаж",
+      "locations": "Места / Стаи",
+      "accept": "Приемам",
+      "no-photo": "Няма снимка",
+      "receptionist": "Рецепционист",
+      "inspector": "Владетели",
+      "occupied": "Зает",
+      "vacant": "Вакантно",
+      "information": "Информация",
+      "adminstrator": "Администратор",
+      "no": "Не",
+      "stayover": "Пренаслояване",
+      "delay": "Късно",
+      "other": "Друг",
+      "blocking-task": "Задача за блокиране",
+      "reject": "Отхвърлям",
+      "finish": "Свършвам",
+      "description": "Описание",
+      "normal": "Нормален",
+      "planned-attendant": "Планирана прислужница",
+      "planned-runner": "Планиран член на екипажа",
+      "update": "Актуализирам",
+      "alert": "Бдителен",
+      "arrived": "Пристигане",
+      "change-sheets": "Смяна на листовете",
+      "task": "Задача",
+      "clear": "Изтривам",
+      "floor": "Етаж",
+      "departure": "Тръгване",
+      "clean": "Чист",
+      "exit-selection": "Затварям",
+      "tap-to-start-camera": "Докосване до снимка",
+      "continue-without-photo": "Продължете без снимка",
+      "default-assignment": "Присвояване по подразбиране",
+      "tap-to-continue": "Натиснете, за да продължите",
+      "review": "Да видя",
+      "dismiss": "Маска",
+      "show": "Стълб",
+      "checkout-on": "Отпътуване на",
+      "cleaning": "Чистене",
+      "dnd": "ДНД",
+      "refuse": "Отказва",
+      "reset-system": "Изличавам",
+      "management": "Рамка",
+      "properties": "Свойства",
+      "area": "Област",
+      "asset": "Оборудване",
+      "action": "Действие",
+      "model": "Модел",
+      "guest": "Клиент",
+      "due-out": "Отпътуване на",
+      "tap-to-enlarge": "Докосване, за да увеличите",
+      "categories": "Категории",
+      "status": "Статус",
+      "calendar": "Календар",
+      "take-picture": "Снимка",
+      "add-more-video": "Добавяне на видео",
+      "take-video": "Видео",
+      "picture-gallery": "Снимка в тел.",
+      "video-gallery": "Видео в тел.",
+      "task-asset": "Оборудване",
+      "task-next": "Следващ",
+      "task-guest-request": "Запитване на клиент",
+      "task-submit": "За да изпратите",
+      "task-assign": "Възложено на",
+      "add-more-photo": "Добавяне на снимка"
+    },
+    "realtime": {
+      "index": {
+        "pending-requests-itemstosync": "Чакаща заявка",
+        "offline": "Офлайн",
+        "-": ""
+      }
+    },
+    "notification": {
+      "extraoptions": {
+        "reply": "Отговор",
+        "convert-to-task": "Конвертиране в задача",
+        "follow-up": "Грижи"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "recent-quick-notifications": "Бързи или скорошни известия"
+      },
+      "selectuser": {
+        "tap": "Натиснете, за да промените"
+      }
+    },
+    "tasktable": {
+      "modal": {
+        "assigned-to": "Възложено на",
+        "last-action": "Последно действие",
+        "messages": "Съобщения",
+        "location": "Място",
+        "created-by": "Създадено от",
+        "submitted-time": "Създаден",
+        "complete-task": "Свършвам",
+        "cancel-task": "Отмени",
+        "reassign-task": "Réassigner"
+      },
+      "status": {
+        "started": "Започна",
+        "waiting": "Приети",
+        "rejected": "Отхвърлени",
+        "paused": "Пауза",
+        "canceled": "Отменени",
+        "finished": "Над",
+        "completed": "Над",
+        "pending": "Очакване"
+      },
+      "header": {
+        "status": "Статус",
+        "information": "Информация",
+        "task": "Задача",
+        "normal-ticket": "Билет нормален",
+        "lite-ticket": "Билет за завършване",
+        "assigned": "Призовка",
+        "time-created": "Създаден",
+        "location": "Място",
+        "created-by": "Създадено от",
+        "priority-ticket": "Приоритетен билет"
+      },
+      "utils": {
+        "pause": "Пауза",
+        "finish": "Свършвам",
+        "start": "Започвам",
+        "resume": "Възобнови",
+        "reject": "Отхвърлям"
+      },
+      "lastaction": {
+        "created": "Задачата е създадена",
+        "task-reassigned": "Повторно възложена задача",
+        "rescheduled": "Повторно планирана задача",
+        "added-message": "Добавено съобщение"
+      }
+    },
+    "notifications": {
+      "index": {
+        "assigned": "Присвоени",
+        "sent": "Доставени"
+      },
+      "quicknotificationform": {
+        "send-message": "Изпрати съобщение"
+      }
+    },
+    "tasks": {
+      "tabs": {
+        "today": "Днес",
+        "sent": "Доставени",
+        "backlog": "Късно"
+      },
+      "dummy": {
+        "occupaied": ""
+      }
+    },
+    "inventory": {
+      "index": {
+        "close-area": "Затворете зоната",
+        "search-items": "Търсене на елемент"
+      }
+    },
+    "components": {
+      "assetactiondescription": {
+        "submit-maintenance": "Подаване на задача за поддръжка",
+        "no-available": "Няма действия за това оборудване",
+        "description": "Описание",
+        "no": "Не",
+        "no-actions": "Няма действия за това оборудване",
+        "priority": "Приоритет",
+        "continue": "Продължавам",
+        "asset": "Оборудване",
+        "first-select": "Първо трябва да изберете част от оборудването",
+        "action": "Действие",
+        "description-placeholder": "Ex: не се върти",
+        "yes": "Да",
+        "select-asset": "Изберете оборудване",
+        "location": "Място"
+      },
+      "fullscreenphoto": {
+        "no-photo": "Няма снимка"
+      }
+    },
+    "navigation": {
+      "index": {
+        "task": "Задача",
+        "convert-task": "Конвертиране в задача",
+        "notifications": "Уведомления",
+        "tasks": "Задачи",
+        "notes": "Характеристики",
+        "create-notification": "Създаване на известие",
+        "glitch": "Опит Клиент",
+        "turndown-service": "Услуга за покритие",
+        "lost-found": "Изгубени и намерени",
+        "room": "Стая",
+        "filter-tasks": "Изглед на филтър",
+        "inventory": "Управление на запасите",
+        "maintenance": "Поддръжка",
+        "home": "Дом",
+        "glitches": "Преживявания Клиенти",
+        "gallery": "Снимки на стаите",
+        "inventory-restock": "Род"
+      },
+      "links": {
+        "assets": "Оборудване",
+        "notifications": "Уведомления",
+        "logout": "Изход",
+        "rooms": "Стаи",
+        "closed": "Затворен",
+        "main": "Основен екран",
+        "sent": "Доставени"
+      }
+    },
+    "taskcard": {
+      "status": {
+        "started": "Започна",
+        "completed": "Завършен",
+        "unclaimed": "Очакване",
+        "cancelled": "Отменени",
+        "accepted": "Приети",
+        "pending": "Очакване"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Затварям"
+      }
+    }
+  },
+  "inspector": {
+    "room-messages": {
+      "index": {
+        "day-night": "Ден и покритие",
+        "edit": "Променям",
+        "add-message": "Нов",
+        "delete-messages": "Изтриване на съобщение(я)",
+        "change-room": "Преминаване към # не.",
+        "message": "Съобщение",
+        "message-type": "Изберете тип съобщение",
+        "schedule": "Изберете краен срок",
+        "calendar": "Календар",
+        "day": "Ден",
+        "night": "Одеяло",
+        "pickup": "Пикап",
+        "end-of-day": "Днес",
+        "end-of-stay": "До заминаване",
+        "custom": "Обичай",
+        "indefinitely": "Безкрайно",
+        "cancel": "Отмени",
+        "submit-message": "За да изпратите"
+      }
+    },
+    "audits": {
+      "add-photo": "Добавяне на снимка",
+      "add-note": "Добавяне на бележка",
+      "submit-task": "За да изпратите",
+      "save": "Спасявам",
+      "note": "Бележка",
+      "photo": "Снимка",
+      "select-audit": "Избор на одит",
+      "assign-to-others": "Присвояване на ... (по избор)"
+    },
+    "attendantmodal": {
+      "index": {
+        "priority": "Приоритет",
+        "reset": "Проучване",
+        "attendant": "Прислужница / Камериер",
+        "overwrite-guest-status": "Промяна на състоянието на фронт офиса",
+        "send-message-to-attendant": "Изпращане на съобщение до fdc / vdc"
+      }
+    },
+    "createtask": {
+      "index": {
+        "photo": "Снимка",
+        "mandatory-task": "Задължителна задача",
+        "assignee": "Призовка",
+        "priority-task": "Приоритетна задача",
+        "blocking-task": "Задача за блокиране",
+        "location": "Място / стая",
+        "asset-and-action": "Оборудване и действие"
+      },
+      "extraoption": {
+        "yes": "Да",
+        "no": "Не"
+      }
+    },
+    "main": {
+      "index": {
+        "rooms": "Стаи",
+        "all-floors": "Всички етажи",
+        "floor": "Етаж",
+        "ok": "Добре"
+      },
+      "rooms-filter": {
+        "attendants": "КРС",
+        "reset": "Проучване",
+        "filtered-rooms": "Стаи по филтър",
+        "other": "Друг",
+        "floors": "Подове",
+        "filters": "Филтри",
+        "all-rooms": "Всички стаи",
+        "show-non-guest-rooms": "Покажи общите части",
+        "hide-non-guest-rooms": "Скриване на общите части"
+      },
+      "rooms-information": {
+        "reset": "Проучване",
+        "vip": "ВИП"
+      },
+      "notes": {
+        "room-notes": "Характеристика на стаята"
+      },
+      "roommessageform": {
+        "room-message": "Съобщение за стая"
+      },
+      "roomnotesmodal": {
+        "no-pms-notes-for-this-reservation": "Няма рейтинг PMS за тази резервация",
+        "send-message-attendant": "Изпращане на директно известие",
+        "room-notes": "Характеристика на стаята",
+        "pms-notes": "бележки PMS",
+        "save-for-later": "Запиши за по-късно",
+        "room-message": "Съобщение за стая",
+        "messaging": "Съобщение за изпращане"
+      },
+      "filters-drawer": {
+        "1": "1"
+      }
+    },
+    "housekeeping": {
+      "index": {
+        "today": "Днес",
+        "search-tasks-rooms-users": "Търсене на стаи, потребители и т.н.",
+        "backlog": "Късно"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Добре",
+        "submitted-time": "Създаден от",
+        "notification": "Известяване",
+        "accept": "Приемам",
+        "new-task": "Нова задача",
+        "location": "Място / стая",
+        "reject": "Отхвърлям",
+        "created-by": "Създадено от",
+        "last-message": "Съобщение"
+      }
+    },
+    "information": {
+      "info": {
+        "dnd": "Не безпокойте",
+        "cleaning": "Почистването е в ход...",
+        "refused": "Отказано от клиента",
+        "delay": "Късно",
+        "finish": "Ограничен",
+        "attendant-status": "Състояние на почистване",
+        "housekeeping-status": "Статут Домакинство",
+        "room-attendant": "Прислужница / Камериер",
+        "room-information": "Информация за стаята",
+        "emilie-persion": "Емили персион",
+        "room-type": "Тип стая",
+        "standart-room": "Стандартна стая",
+        "last-action": "Последно действие",
+        "room-category": "Категория на стаята",
+        "cleaning-name": "Име за почистване"
+      },
+      "index": {
+        "room": "Стая"
+      },
+      "pmsnotes": {
+        "pms-notes": "Бележки pms",
+        "no-pms-notes": "Няма бележка за PMS"
+      },
+      "notes": {
+        "room-notes": "Характеристика на стаята"
+      },
+      "roommessageform": {
+        "room-message": "Съобщение за стая"
+      },
+      "housekeepingstatus": {
+        "other-housekeepings": "Друг"
+      },
+      "vipstatus": {
+        "vip-status": "ВИП статус"
+      },
+      "attendantstatus": {
+        "attendant-status": "Статут на камериерка"
+      }
+    },
+    "updatespopup": {
+      "index": {
+        "new": "Нов",
+        "dismiss": "Игнорирам",
+        "you-have": "Нова информация",
+        "show": "Стълб",
+        "new-updates": ""
+      },
+      "modal": {
+        "priority-set": "Валидиран приоритет",
+        "message-added": "Добавено съобщение",
+        "room-restocked": "Възстановяването на запасите е направено",
+        "room-unblocked": "Отключена стая",
+        "updates": "Нова информация",
+        "dismiss-all": "Игнорирай всички"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "select-a-location-or-change-user": "Изберете място/стая или друг потребител",
+        "photo": "Снимка",
+        "missing-location-or-user": "Липсващо място/стая или потребител",
+        "send-notification": "Подаване на уведомление",
+        "to": "Отт",
+        "select-notification": "Изберете известие",
+        "location": "Място / стая",
+        "message": "Съобщение",
+        "quick-notifications": "Уведомления"
+      },
+      "selectusermodal": {
+        "select-reciepent": "Изберете получател"
+      }
+    },
+    "tableheader": {
+      "index": {
+        "attendant-runner": "Жена / Valet & бегач",
+        "tasks": "Задачи",
+        "my-assigned-tasks": "Моите задачи",
+        "open-housekeepings": "Отваряне на HK работни места",
+        "open": "Отваряне на задачи задачи",
+        "open-maintenances": "Отворени задачи за поддръжка",
+        "recently-closed-tasks": "Последно приключени задачи",
+        "open-tasks": "Отворени задачи",
+        "paused-audits": "Одити на пауза",
+        "open-audits": "Открити одити",
+        "recently-closed-audits": "Последните одити са приключени",
+        "start-new-audit": "Започване на нов одит"
+      }
+    },
+    "founditem": {
+      "index": {
+        "add-a-description": "Добавяне на описание",
+        "submit-lost-item": "Подаване на елемент"
+      }
+    },
+    "notifications": {
+      "notificationheader": {
+        "status": "Статус",
+        "message": "Съобщение",
+        "user": "Потребител",
+        "room": "Стая",
+        "time": "Час"
+      },
+      "assignedheader": {
+        "status": "Статус",
+        "message": "Съобщение",
+        "time": "Час",
+        "room": "Стая",
+        "creator": "Създател"
+      },
+      "status": {
+        "okay": "Добре",
+        "started": "Започна",
+        "rejected": "Отхвърлени",
+        "paused": "Пауза",
+        "canceled": "Отменени",
+        "waiting": "Приети",
+        "pending": "Очакване"
+      },
+      "index": {
+        "sent-attendant-notifications": "Изпратени уведомления",
+        "assigned-notifications": "Моите известия",
+        "search-rooms-or-people": "Търсене на стаи или потребители"
+      }
+    },
+    "catalog": {
+      "index": {
+        "room-photos": "Снимки на стаите"
+      }
+    },
+    "planning": {
+      "index": {
+        "add-attendant": "Добавяне на FoC",
+        "reset": "Проучване",
+        "prev": "Предишен",
+        "filters": "Филтри",
+        "next": "Следващ"
+      },
+      "filtersdrawer": {
+        "all": "Цял",
+        "rooms-to-plan": "Стаи за разпределяне",
+        "stayover": "Пренаслояване",
+        "departure": "Тръгване",
+        "arrivals": "Пристигане",
+        "da": "Г/Д",
+        "filter-by-guest-status": "Филтриране по състояние на клиента",
+        "filter-by-housekeeping": "Филтриране по състояние на HK",
+        "filter-by-floor": "Филтриране по етаж",
+        "filter-by-category": "Филтрирай по категория",
+        "change-sheets": "Смяна на листове",
+        "blocked": "Блокиран"
+      }
+    },
+    "room": {
+      "index": {
+        "information": "Информация",
+        "hsk-tasks": "HK задачи",
+        "maintenances": "Поддръжка",
+        "catalog": "Стандарти",
+        "lost-found": "Изгубени и намерени",
+        "image-about-how-the-room-should-look": "Как трябва да изглежда стаята",
+        "questionnaires": "Одити"
+      }
+    },
+    "playground": {
+      "index": {
+        "let-go": "Да вървим"
+      }
+    },
+    "components": {
+      "selectassignmentmodal": {
+        "select-assignment": "Изберете получател",
+        "search-users": "Намерете потребител"
+      },
+      "selectlocationmodal": {
+        "select-locations": "Изберете място/стая",
+        "search-locations": "Търсене на място/стая"
+      },
+      "selectassetactionmodal": {
+        "search-assets": "Оборудване за търсене",
+        "select-asset": "Изберете устройство"
+      }
+    },
+    "chooseattendantmodal": {
+      "index": {
+        "choose-attendant": "Изберете нов fdc"
+      }
+    },
+    "imagegallery": {
+      "index": {
+        "image-about-how-the-room-should-look": "Как трябва да изглежда стаята"
+      }
+    },
+    "navigation": {
+      "links": {
+        "housekeeping": "Задачи",
+        "notifications": "Уведомления",
+        "planning": "Приписване",
+        "maintenance": "Поддръжка",
+        "main": "Основен екран",
+        "history": "Исторически",
+        "lost-found": "Изгубени и намерени",
+        "experiences": "Опит Клиент"
+      }
+    },
+    "maintenance": {
+      "index": {
+        "today": "Днес",
+        "search-tasks-rooms-users": "Търсене на стаи, потребители и т.н.",
+        "backlog": "Късно"
+      }
+    },
+    "history": {
+      "index": {
+        "reset": "Проучване",
+        "all": "Цял",
+        "other": "Друг",
+        "guests": "Клиенти",
+        "search-room-users-events": "Търсене на стаи, потребители и т.н.",
+        "events": "Събития",
+        "cleaning": "Чистене"
+      },
+      "historyheader": {
+        "action": "Действие",
+        "user": "Потребител",
+        "room": "Стая",
+        "time": "Час"
+      }
+    }
+  },
+  "maintenance": {
+    "filter-tasks": {
+      "index": {
+        "filter-tasks": "Изглед на филтър",
+        "select-one": "Изберете поне 1 филтър"
+      }
+    },
+    "filters": {
+      "index": {
+        "hide-all": "Скрий всички",
+        "reset": "Проучване",
+        "search": "Търсене на задачи",
+        "guest-status": "Статус на фронт офиса",
+        "vacant-rooms": "Свободни стаи",
+        "occupied-rooms": "Заети стаи",
+        "out-of-service": "Стаи извън експлоатация",
+        "departure-rooms": "Стаи при заминаване",
+        "arrival-rooms": "Пристигащи стаи",
+        "no-locations": "Задачи без локализация",
+        "housekeeping": "Statut домакинство",
+        "dirty-rooms": "Мръсни стаи",
+        "cleaned-rooms": "Чисти стаи",
+        "inspected-rooms": "Инспектирани стаи",
+        "pickup": "Chambres вземете",
+        "properties": "Свойства",
+        "priority-tasks": "Приоритетни задачи",
+        "blocking-tasks": "Блокиране на задачи",
+        "no-asset-tasks": "Задачи без оборудване",
+        "planned-tasks": "Планирани задачи",
+        "task-status": "Състояние на задачата",
+        "pending-tasks": "Чакащи задачи",
+        "progressing-tasks": "Текущи задачи",
+        "paused-tasks": "Поставени на пауза задачи",
+        "completed-tasks": "Завършени задачи",
+        "rejected-tasks": "Отхвърлени задачи",
+        "assignment": "Призовка",
+        "assigned-to-me": "Моите възложени задачи",
+        "unassigned": "Невъзложени задачи",
+        "assigned-to-others": "Други задания",
+        "return-to-tasks": "Назад към задачите"
+      }
+    },
+    "createtask": {
+      "assetactiondescription": {
+        "there-are-no-actions-for-your-asset": "Няма действия за това оборудване",
+        "no": "Не",
+        "submit-maintenance": "За да изпратите",
+        "you-must-first-select-an-asset": "Първо трябва да изберете част от оборудването",
+        "submit-housekeeping": "За да изпратите",
+        "yes": "Да",
+        "no-actions-for-created-asset": "Няма действия за това оборудване"
+      },
+      "assetselectmodal": {
+        "close": "Затварям",
+        "search-assets": "Търсене на оборудване",
+        "select-asset": "Изберете устройство"
+      },
+      "assignment": {
+        "search-assignments": "Търсене на потребители",
+        "missing-assignment": "липсващо задание"
+      }
+    },
+    "reassigntask": {
+      "index": {
+        "reassignment-message": "Добавяне на съобщение към повторното възлагане",
+        "due-date": "Дата на заминаване",
+        "select-due-date": "Изберете дата на заминаване",
+        "assign-to": "Присвояване на",
+        "reassign-task": "Преназначаване"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Добре",
+        "submitted-time": "Създаден",
+        "new-glitch": "Ново преживяване",
+        "accept": "Приемам",
+        "new-task": "Нова задача",
+        "location": "Местоположение / Стая",
+        "reject": "Отхвърлям",
+        "created-by": "Създадено от",
+        "last-message": "Съобщение"
+      }
+    },
+    "assetmodel": {
+      "index": {
+        "asset-model": "Модел на оборудването"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Затварям"
+      }
+    },
+    "notasks": {
+      "index": {
+        "no-tasks": "Няма задачи"
+      }
+    },
+    "task": {
+      "dummy": {
+        "pause": "Пауза",
+        "finish": "Ограничен"
+      },
+      "index": {
+        "sublocation": "Под-локализация",
+        "information": "Информация",
+        "undefined": "Билет",
+        "guest-status": "Информация за стаята",
+        "normal": "Билет нормален",
+        "messages": "Съобщения",
+        "start-date": "Създаден",
+        "priority": "Приоритетен билет",
+        "reassign-ticket": "Преназначаване",
+        "unassigned": "Билетът не се вижда",
+        "lite": "Билет за завършване",
+        "model": "Модел",
+        "created-by": "Създадено от",
+        "view-additional-photos": "Допълнителни снимки",
+        "choose-model": "Изберете модел",
+        "select": "Отбран",
+        "view-attachments": "Doc, прикрепен към оборудването",
+        "location-information": "Информация за местоположението",
+        "reassign-task": "Повторно възлагане",
+        "move-to-departure": "Повторно възлагане на заминаване"
+      },
+      "create-task-alert": {
+        "select-asset": "Благодарим Ви, че избрахте актива!!",
+        "select-location": "Благодарим Ви, че избрахте локацията!!!",
+        "select-asset-action": "Благодарим Ви, че избрахте действие!!!"
+      }
+    },
+    "asset": {
+      "index": {
+        "models": "Модел",
+        "actions": "Действия"
+      }
+    },
+    "main": {
+      "index": {
+        "create-new-task-for": "Създаване на нова задача за"
+      },
+      "filterbutton": {
+        "filters": "Филтри"
+      },
+      "filters": {
+        "filter-tasks": "Филтриране на задачи",
+        "limit-priority": "Ограничаване на приоритетните задачи",
+        "limit-dirty": "Ограничете мръсните стаи",
+        "limit-occupied": "Ограничение до заети стаи",
+        "limit-out-of-service": "Ограничение до стаи по ХС",
+        "limit-vacant": "Ограничение до свободни стаи"
+      }
+    },
+    "navigation": {
+      "scenes": {
+        "closed-tasks": "Затворени задачи",
+        "tasks": "Задачи",
+        "hotel-assets": "Удобства в хотела",
+        "create-task": "Създаване на задача",
+        "reassign-task": "Повторно възлагане на задача",
+        "sent-tasks": "Подадени задачи",
+        "hotel-rooms": "Хотелски стаи",
+        "asset": "Оборудване",
+        "action": "Действие",
+        "filters": "Филтри"
+      },
+      "links": {
+        "assets": "Оборудване",
+        "notifications": "Уведомления",
+        "rooms": "Стаи",
+        "closed": "Затворен",
+        "main": "Основен екран",
+        "sent": "Изпращам"
+      }
+    },
+    "rooms": {
+      "dummy": {
+        "occupaied": "Зает"
+      },
+      "index": {
+        "close-room": "Затварям",
+        "close-floor": "Затварям"
+      }
+    }
+  }
+}

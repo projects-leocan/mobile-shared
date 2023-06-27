@@ -1,877 +1,1266 @@
 {
-  "attendant": {
-    "alert": {
+  "runner": {
+    "glitch-form": {
       "index": {
-        "priority": "Priorità",
-        "room-message": "messaggio camera"
-      }
-    },
-    "clean": {
-      "cleaninginfo": {
-        "cleaning-info": "Info Pulizia",
-        "credits": "Titoli di coda",
-        "pms": "Pms",
-        "cleaning-instruction":"Istruzione"
+        "add-actions-to-resolve": "Aggiungere un'azione",
+        "add-followup-instructions": "Aggiungere istruzioni di follow-up",
+        "vip": "VIP",
+        "add-task": "Aggiungere un'attività",
+        "enter-room-name": "Inserisci il numero della camera",
+        "select-glitch-category": "Seleziona una categoria",
+        "glitch-information": "Notizie",
+        "close-glitch": "Chiudi l'esperienza",
+        "handover": "Consegna a un'altra persona",
+        "internal-followup": "Monitoraggio interno",
+        "enter-guest-name": "Immettere il nome del client",
+        "choose-location": "Scegli un luogo/camera",
+        "send-glitch": "Invia l'esperienza",
+        "email": "Posta",
+        "eur": "Euro",
+        "submit-new-glitch": "Invia la nuova esperienza",
+        "compensation-cost": "Costo del risarcimento",
+        "update-glitch": "Aggiorna l'esperienza",
+        "guest-information": "Informazioni per i clienti",
+        "add-experience-description": "Aggiungi una descrizione",
+        "vip-status-optional": "Stato VIP (opzionale)",
+        "incident-description": "Descrizione dell'incidente",
+        "room": "Camera",
+        "name": "Nome",
+        "select-a-glitch-category": "Seleziona una categoria",
+        "actions-to-resolve": "Azione per risolvere l'incidente",
+        "enter-guest-email": "Inserisci l'email del cliente"
       },
-      "finishmenu": {
-        "cancel-dnd": "Annulla DND",
-        "cancel-finish": "Annulla Fine",
-        "cancel-refuse": "Annulla Rifiuti",
-        "confirm-dnd": "confermare DND"
-      },
-      "menu": {
-        "clean": "Pulito",
-        "delay": "Dopo",
-        "dnd": "DND",
-        "inspect": "ispezionare camera",
-        "no-check": "No Controllare",
-        "refuse": "Rifiuto",
-        "start-cleaning": "Inizio di pulizia"
-      },
-      "taskssubheader": {
-        "hide-tasks": "nascondere le attività",
-        "show-tasks": "Mostra compiti",
-        "tasks": "Compiti"
-      }
-    },
-    "components": {
-      "asset-action-description": {
-        "no": "No",
-        "no-actions-for-created-asset": "Nessuna azione",
-        "there-are-no-actions-for-your-asset": "Nessuna azione",
-        "yes": "sì",
-        "you-must-first-select-an-asset": "prima è necessario selezionare una risorsa"
-      },
-      "asset-select-modal": {
-        "close": "Vicino",
-        "select-asset": "Selezionare"
-      },
-      "group-select-row": {
-        "text": "Testo"
-      },
-      "inventory-update-row": {
-        "reset": "Reset"
-      },
-      "location-select-modal": {
-        "close": "Vicino"
-      },
-      "reservation-component": {
-        "reservation": "Prenotazione"
-      },
-      "reservation-nights": {
-        "nights": "notti",
-        "of": "Di"
-      },
-      "room-note-row": {
-        "remove": "Rimuovere"
-      },
-      "room-options": {
-        "clean-room": "Pulito",
-        "hsk-notes": "note HSK",
-        "inventory": "Inventario",
-        "lost-found": "Lost & Found",
-        "maintenance": "Manutenzione",
-        "room-gallery": "galleria camera",
-        "send-task": "Invia compito"
-      },
-      "room-row-item": {
-        "tasks": "compiti"
-      },
-      "room-timer": {
-        "cancel": "Annulla",
-        "done": "Fatto"
-      },
-      "special-select-row": {
-        "text": "Testo"
-      },
-      "task-settings": {
-        "no": "No",
-        "yes": "sì"
-      },
-      "user-select-modal": {
-        "close": "Vicino",
-        "select-assignment": "Scegliere l'assegnazione"
-      },
-      "user-select-row": {
-        "text": "Testo"
-      }
-    },
-    "headers": {
-      "clean": "Pulito",
-      "gallery": "Galleria",
-      "inspect": "Ispezionare",
-      "inventory": "Inventario",
-      "inventory-restock": "inventario Restock",
-      "lost-found": "Lost & Found",
-      "maintenance": "Manutenzione",
-      "notes": "Gli appunti"
-    },
-    "inspect": {
-      "cleaninginfo": {
-        "credits": "Titoli di coda",
-        "pms": "Pms"
-      },
-      "finishmenu": {
-        "confirm-dnd": "confermare DND"
-      },
-      "menu": {
-        "clean": "Pulito",
-        "delay": "Dopo",
-        "dnd": "DND",
-        "inspect": "ispezionare camera",
-        "no-check": "No Controllare",
-        "refuse": "Rifiuto",
-        "start-cleaning": "Inizio di pulizia"
-      },
-      "taskssubheader": {
-        "hide-tasks": "nascondere le attività",
-        "show-tasks": "Mostra compiti",
-        "tasks": "Compiti"
-      }
-    },
-    "lostfound": {
-      "index": {
-        "description": "Aggiungere una descrizione",
-        "report-lost-and-found-item": "Rapporto trovato voce",
-        "submit-lost-item": "Invia oggetto smarrito"
+      "glitch-category-selector": {
+        "select-glitch": "Seleziona un'esperienza",
+        "select-glitch-category": "Seleziona una categoria di esperienza",
+        "select-category": "Seleziona una categoria"
       }
     },
     "main": {
       "filter-grid": {
-        "clean": "Pulito",
-        "close": "Vicino",
-        "dirty": "Sporco",
-        "inspt": "Inspt",
-        "occupied": "Occupato",
-        "other": "Altro",
-        "reset": "Reset",
-        "search": "camere di ricerca, gli ospiti ...",
-        "vacant": "Vacante"
+        "reset": "Resettare",
+        "close": "Chiudere"
       },
       "index": {
-        "close-floor": "Chiudi piano",
-        "floor": "Pavimento",
-        "paused": "In pausa",
-        "paused-rooms": "camere in pausa",
-        "priority": "Priorità",
-        "priority-rooms": "camere di priorità",
-        "rooms": "Camere",
-        "tasks": "compiti"
+        "tasks": "Attività",
+        "rooms": "Camera",
+        "close-floor": "Chiudi finestra",
+        "floor": "Pavimento"
       }
     },
-    "navigation": {
-      "links": {
-        "glitches": "experiencees",
-        "inventory-restock": "inventario di rifornimento",
-        "main": "Principale",
-        "notifications": "notifiche",
-        "tasks": "Compiti"
+    "clean": {
+      "index": {
+        "confirm-dnd": "Conferma Non disturbare",
+        "change-sheets": "Cambio lenzuola",
+        "pms": "PMS",
+        "add-change-sheets": "Ho dovuto cambiare le lenzuola"
+      }
+    },
+    "room": {
+      "restock": {
+        "room-inventory": "Inventario delle camere",
+        "cancel-restock": "Annulla stock",
+        "mark-as-restocked": "Ripopolamento effettuato"
       }
     },
     "notes": {
       "index": {
-        "add-note": "Aggiungi nota",
-        "new-note-placeholder": "Ex. compito",
-        "new-room-note": "Nuova nota stanza",
-        "previous-notes": "note precedenti"
+        "previous-notes": "Note precedenti",
+        "add-note": "Aggiungere una nota",
+        "new-room-note": "Nuova caratteristica della camera",
+        "new-note-placeholder": "Ad es. compito"
+      }
+    },
+    "glitch": {
+      "glitch-read-only": {
+        "none": "Vuoto",
+        "send-email": "Invia mail",
+        "glitch-cost": "Costo",
+        "glitch-followup": "Aftercare",
+        "start": "Cominciare",
+        "glitch-description": "Descrizione",
+        "assigned-to": "Assegnato a",
+        "current-responsibility": "Persona responsabile",
+        "glitch-action": "Azione",
+        "glitch-category": "Categoria"
+      }
+    },
+    "components": {
+      "group-select-modal": {
+        "close": "Chiudere",
+        "select-assignment": "Seleziona un destinatario"
+      },
+      "group-select-row": {
+        "text": "Testo"
+      },
+      "location-select-modal": {
+        "close": "Chiudere",
+        "select-location": "Seleziona un luogo/camera"
+      },
+      "room-note-row": {
+        "remove": "Cancellare"
+      },
+      "task-card": {
+        "created-by": "Creato da",
+        "location": "Luogo / camera",
+        "last-message": "Messaggio",
+        "submitted-time": "Creato"
+      },
+      "special-select-row": {
+        "text": "Testo"
+      },
+      "assignment-select": {
+        "attendants": "Cameriere/valletti",
+        "inspectors": "Governanti",
+        "management": "Cornice",
+        "housekeeping": "Pulizia di casa",
+        "concierge": "FO Follow-up",
+        "maintenance": "Manutenzione",
+        "groups": "Gruppi",
+        "runners": "Corridori"
+      },
+      "user-select-row": {
+        "text": "Ttexte"
+      },
+      "inventory-update-row": {
+        "reset": "Resettare"
+      },
+      "room-options": {
+        "room-gallery": "Disposizione delle camere",
+        "send-task": "Invia attività",
+        "clean-room": "Camera da pulire",
+        "guest-glitch": "Cliente esperto",
+        "hsk-notes": "Caratteristiche della camera",
+        "lost-found": "Oggetti smarriti e ritrovati",
+        "inventory": "Inventario",
+        "maintenance": "Manutenzione"
+      },
+      "room-timer": {
+        "cancel": "Annulla",
+        "done": "Pulito"
+      },
+      "user-select-modal": {
+        "management": "Cornice",
+        "housekeeping": "Pulizia di casa",
+        "concierge": "FO Follow-up",
+        "select-assignment": "Seleziona un destinatario",
+        "maintenance": "Manutenzione",
+        "close": "Chiudere"
+      },
+      "asset-action-description": {
+        "yes": "Sì",
+        "there-are-no-actions-for-your-asset": "Non ci sono azioni per questa apparecchiatura",
+        "no-actions-for-created-asset": "Non ci sono azioni per questa apparecchiatura",
+        "you-must-first-select-an-asset": "Per prima cosa devi selezionare un pezzo di attrezzatura",
+        "no": "Non"
+      },
+      "asset-select-modal": {
+        "close": "Chiudere",
+        "select-asset": "Seleziona un dispositivo"
+      },
+      "room-info": {
+        "change-sheets": "Cambio lenzuola",
+        "pms": "PMS"
+      },
+      "reservation-nights": {
+        "of": "Su",
+        "nights": "Notti"
+      },
+      "task-settings": {
+        "yes": "Sì",
+        "no": "Non"
+      },
+      "gallery-row-item": {
+        "label": "Etichetta"
+      }
+    },
+    "turndown": {
+      "subheader": {
+        "all-categories": "Tutte le categorie"
+      },
+      "index": {
+        "all-categories": "Tutte le categorie"
+      },
+      "modalcontent": {
+        "delay": "Dopo",
+        "cancel-turndown": "Annulla il servizio di copertura",
+        "refuse": "Rifiutato",
+        "finish-turndown": "Servizio di copertura completato",
+        "dnd": "DND"
+      }
+    },
+    "glitches": {
+      "index": {
+        "other-glitches": "Altri rapporti dei clienti",
+        "recently-closed": "Chiuso di recente",
+        "assigned-glitches": "Report dei clienti assegnati"
+      }
+    },
+    "navigation": {
+      "links": {
+        "glitches": "Esperienze",
+        "tasks": "Attività",
+        "inventory-restock": "Responsabile di magazzino",
+        "notifications": "Notifiche",
+        "turndown-service": "Servizio di copertura",
+        "main": "Schermata principale"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "submit-lost-item": "Per inviare"
+      }
+    }
+  },
+  "attendant": {
+    "swipeoutoptions": {
+      "index": {
+        "close": "Chiudere"
+      }
+    },
+    "clean": {
+      "menu": {
+        "dnd": "DND",
+        "refuse": "Rifiuto",
+        "inspect": "Stanza da ispezionare",
+        "start-cleaning": "Inizia la pulizia",
+        "delay": "Dopo",
+        "clean": "Pulitura",
+        "no-check": "Non ispezionato"
+      },
+      "finishmenu": {
+        "cancel-dnd": "Annulla DND",
+        "cancel-refuse": "Annulla rifiuto",
+        "cancel-finish": "Annulla pulizia",
+        "confirm-dnd": "Conferma DND"
+      },
+      "cleaninginfo": {
+        "credits": "Crediti",
+        "pms": "PMS",
+        "change-sheets": "Cambio lenzuola",
+        "long-stay": "Soggiorno Lungo",
+        "cleaning-info": "Informazioni sulla pulizia",
+        "cleaning-instruction": "Istruzione"
+      },
+      "taskssubheader": {
+        "show-tasks": "Visualizza le attività",
+        "tasks": "Attività",
+        "hide-tasks": "Nasconde le attività"
+      },
+      "index": {
+        "add-change-sheets": "Ho dovuto cambiare le lenzuola"
       }
     },
     "popuptasks": {
       "index": {
+        "new-task": "Nuova attività",
         "accept": "Accettare",
-        "new-task": "Nuovo compito",
-        "reject": "Rifiutare"
+        "reject": "Rigettare"
       }
     },
-    "swipeoutoptions": {
+    "notes": {
       "index": {
-        "close": "Vicino"
+        "previous-notes": "Note precedenti",
+        "add-note": "Aggiungere una nota",
+        "new-room-note": "Nuova caratteristica della camera",
+        "new-note-placeholder": "Ad es. compito"
+      }
+    },
+    "inspect": {
+      "menu": {
+        "dnd": "DND",
+        "refuse": "Rifiuto",
+        "inspect": "Camera ispezionata",
+        "start-cleaning": "Inizia la pulizia",
+        "delay": "Dopo",
+        "clean": "Pulito",
+        "no-check": "Non ispezionato"
+      },
+      "finishmenu": {
+        "confirm-dnd": "Conferma DND"
+      },
+      "cleaninginfo": {
+        "credits": "Crediti",
+        "change-sheets": "Cambio lenzuola",
+        "long-stay": "Soggiorno Lungo",
+        "pms": "PMS"
+      },
+      "taskssubheader": {
+        "show-tasks": "Visualizza le attività",
+        "tasks": "Attività",
+        "hide-tasks": "Nasconde le attività"
+      }
+    },
+    "alert": {
+      "index": {
+        "priority": "Priorità",
+        "room-message": "Messaggio alla camera"
+      }
+    },
+    "headers": {
+      "maintenance": "Manutenzione",
+      "inventory-restock": "Responsabile di magazzino",
+      "notes": "Caratteristiche",
+      "inspect": "Ispezionare",
+      "lost-found": "Oggetti smarriti e ritrovati",
+      "inventory": "Inventario",
+      "clean": "Pulitura",
+      "gallery": "Camera Standard"
+    },
+    "components": {
+      "group-select-row": {
+        "text": "Testo"
+      },
+      "location-select-modal": {
+        "close": "Chiudere"
+      },
+      "user-select-row": {
+        "text": "Testo"
+      },
+      "reservation-component": {
+        "reservation": "Prenotazione"
+      },
+      "room-note-row": {
+        "remove": "Cancellare"
+      },
+      "task-settings": {
+        "yes": "Sì",
+        "no": "Non"
+      },
+      "special-select-row": {
+        "text": "Testo"
+      },
+      "inventory-update-row": {
+        "reset": "Réinitilaiser"
+      },
+      "room-timer": {
+        "cancel": "Annulla",
+        "done": "Camera di finitura"
+      },
+      "assignment-select": {
+        "attendants": "Cameriere / Valletti di chambre",
+        "inspectors": "Governanti",
+        "management": "Cornice",
+        "housekeeping": "Pulizia di casa",
+        "concierge": "FO Follow-up",
+        "maintenance": "Team di manutenzione",
+        "groups": "Gruppi",
+        "runners": "Corridori / Equipiers"
+      },
+      "room-options": {
+        "room-gallery": "Camera Standard",
+        "send-task": "Invia attività",
+        "clean-room": "Camera da pulire",
+        "hsk-notes": "Caratteristiche della camera",
+        "lost-found": "Oggetti smarriti e ritrovati",
+        "inventory": "Inventario",
+        "maintenance": "Manutenzione"
+      },
+      "room-row-item": {
+        "tasks": "Attività"
+      },
+      "user-select-modal": {
+        "management": "Cornice",
+        "housekeeping": "Pulizia di casa",
+        "concierge": "FO Follow-up",
+        "select-assignment": "Seleziona un utente",
+        "maintenance": "Manutenzione",
+        "close": "Chiudere"
+      },
+      "asset-action-description": {
+        "yes": "Sì",
+        "there-are-no-actions-for-your-asset": "Non ci sono azioni per questa apparecchiatura",
+        "no-actions-for-created-asset": "Non ci sono azioni per questa apparecchiatura",
+        "you-must-first-select-an-asset": "Per prima cosa devi selezionare un pezzo di attrezzatura",
+        "no": "Non"
+      },
+      "asset-select-modal": {
+        "close": "Chiudere",
+        "select-asset": "Seleziona l'attrezzatura"
+      },
+      "reservation-nights": {
+        "of": "su",
+        "nights": "Notti"
+      }
+    },
+    "inventoryrestock": {
+      "index": {
+        "restock-inventory": "Reimpostazione dell'inventario"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Cancellare",
+        "search": "Ricerca per camera, clienti ...",
+        "vacant": "Gratuito",
+        "inspt": "Pulito",
+        "other": "Altro",
+        "dirty": "Vendita",
+        "clean": "Pulito",
+        "close": "Chiudere",
+        "occupied": "Occupato"
+      },
+      "index": {
+        "priority": "Priorità",
+        "tasks": "Attività",
+        "floor": "Pavimento",
+        "paused-rooms": "Camere in pausa",
+        "cleaning-rooms": "Pulizia camere",
+        "paused": "Pausa",
+        "priority-rooms": "Camere in priorità",
+        "close-floor": "Chiudi la finestra",
+        "rooms": "Camere",
+        "scheduled": "Camere programmate",
+        "show-more": "Visualizza tutto",
+        "show-less": "Limita ai programmi",
+        "credits": "Crediti"
+      }
+    },
+    "navigation": {
+      "links": {
+        "tasks": "Attività",
+        "main": "Schermata principale",
+        "glitches": "Esperienze",
+        "inventory-restock": "Ceppo",
+        "notifications": "Notifiche",
+        "rooms-cleaned": "Camere pulite"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "report-lost-and-found-item": "Riportare un oggetto trovato",
+        "description": "Aggiungi una descrizione",
+        "submit-lost-item": "Invia un elemento trovato"
       }
     }
   },
   "base": {
-    "components": {
-      "assetactiondescription": {
-        "action": "Azione",
-        "asset": "Bene",
-        "continue": "Continua",
-        "description": "Descrizione",
-        "description-placeholder": "Es: E 'abitudine accendere",
-        "location": "Posizione",
-        "no": "No",
-        "priority": "Priorità",
-        "select-asset": "Selezionare la risorsa",
-        "submit-maintenance": "Invia Manutenzione",
-        "yes": "sì"
-      },
-      "fullscreenphoto": {
-        "no-photo": "Niente foto"
-      }
-    },
-    "createnotification": {
-      "index": {
-        "recent-quick-notifications": "Recenti e rapidi Notifiche"
-      },
-      "selectuser": {
-        "tap": "Toccare per cambiare"
-      }
+    "extra-options": {
+      "room-extra-options": "Informazioni complementari"
     },
     "glitch-form": {
-      "glitch-category-selector": {
-        "select-category": "Seleziona categoria",
-        "select-glitch": "Selezionare esperienza",
-        "select-glitch-category": "Seleziona la categoria esperienza"
-      },
       "index": {
-        "actions-to-resolve": "Azioni per risolvere",
-        "compensation-cost": "Compensazione dei costi",
-        "email": "E-mail",
-        "enter-guest-email": "Inserisci Guest E-mail",
-        "enter-guest-name": "Inserisci Nome dell'Ospite",
-        "enter-room-number": "Entra nella stanza numero",
-        "follow-up-with-guest": "Follow-up con gli ospiti",
-        "glitch-information": "informazioni esperienze",
-        "incident-description": "descrizione Incident",
+        "glitch-information": "Informazioni sull'esperienza",
+        "incident-description": "Descrizione dell'incidente",
         "name": "Nome",
-        "premiere-club": "Premiere Club",
         "room": "Camera",
-        "select-glitch-category": "Seleziona la categoria esperienza",
-        "submit-new-glitch": "Invia nuova esperienza",
-        "vip": "Vip"
-      }
-    },
-    "inventory": {
-      "index": {
-        "close-area": "Chiudi Area",
-        "search-items": "Cerca Oggetti"
-      }
-    },
-    "navigation": {
-      "index": {
-        "convert-task": "Convertire Task",
-        "create-notification": "Creazione di notifica",
-        "gallery": "Galleria",
-        "glitch": "Guest Experience",
-        "glitches": "esperienza dei nostri ospiti",
-        "home": "Casa",
-        "inventory": "Inventario",
-        "inventory-restock": "rifornire inventario",
-        "lost-found": "Lost & Found",
-        "maintenance": "Manutenzione",
-        "notes": "Gli appunti",
-        "notifications": "notifiche",
-        "room": "Camera",
-        "task": "Compito",
-        "tasks": "Compiti",
-        "turndown-service": "Interrompere il servizio"
+        "submit-new-glitch": "Invia la nuova esperienza",
+        "compensation-cost": "Costo del risarcimento",
+        "select-glitch-category": "Seleziona la categoria di esperienza",
+        "enter-guest-name": "Immettere il nome del client",
+        "enter-room-number": "Inserisci il numero della camera",
+        "vip": "VIP",
+        "premiere-club": "Primo Club",
+        "actions-to-resolve": "Azione per risolvere l'incidente",
+        "follow-up-with-guest": "Follow-up con il cliente",
+        "email": "Posta",
+        "enter-guest-email": "Inserisci l'email del cliente"
       },
-      "links": {
-        "assets": "Risorse",
+      "glitch-category-selector": {
+        "select-glitch": "Seleziona l'esperienza",
+        "select-glitch-category": "Seleziona la categoria di esperienza",
+        "select-category": "Seleziona categoria"
+      }
+    },
+    "lost-found-review": {
+      "index": {
+        "open": "Aperto",
+        "emailed": "Email inviata",
+        "phoned": "Contattato (tel)",
+        "pending": "In sospeso",
+        "waiting": "In attesa di conferma",
+        "mailed": "Spediti",
+        "hand-delivered": "Consegnato a mano",
+        "expired": "Scaduto",
+        "refused": "Rifiutato",
+        "delete": "Annulla",
         "closed": "Chiuso",
-        "logout": "Disconnettersi",
-        "main": "Principale",
-        "notifications": "notifiche",
-        "rooms": "Camere",
-        "sent": "Inviato"
+        "found": "Fondare",
+        "show-all": "Visualizza tutto",
+        "show-only-open": "Biglietti aperti",
+        "show-only-received": "Ricevuto",
+        "holding": "Trattenuto fino al ritorno dell'ospite",
+        "reception": "Con reception",
+        "holding-lt": "Sospensione a lungo termine"
+      },
+      "modal": {
+        "guest-signature-optional": "Client di firma (opzione)",
+        "notes-optional": "Nota (opzione)",
+        "added-photos-optional": "Foto aggiunte (opzione)",
+        "update-status": "Stato aggiornamento"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Ok",
+        "submitted-time": "Creato",
+        "notification": "Notifica",
+        "accept": "Accettare",
+        "new-task": "Nuova attività",
+        "location": "Luogo",
+        "reject": "Rigettare",
+        "created-by": "Creato da",
+        "last-message": "Messaggio",
+        "assigned-audit": "Audit assegnato",
+        "comments": "Disposizioni",
+        "sent": "Inviato",
+        "guest-name": "Nome dell'ospite"
+      }
+    },
+    "ubiquitous": {
+      "all": "Tutto",
+      "departed": "Parti",
+      "photo": "Foto",
+      "inspt": "Inspt",
+      "assignee": "Citazione",
+      "unassigned": "Nessuno",
+      "rooms": "Monete",
+      "filters": "Filtri",
+      "pms-notes": "Note PMS",
+      "yes": "Sì",
+      "blocked": "Bloccato",
+      "pause": "Pausa",
+      "group": "Gruppo",
+      "acknowledge": "Vista",
+      "send": "Invia",
+      "search": "Ricerca",
+      "search-users": "Trova un utente",
+      "to": "un:",
+      "no-location": "Nessun luogo",
+      "location": "Luogo",
+      "all-inspectors": "Tutti i righelli",
+      "create-asset": "Crea attrezzature",
+      "da": "D/A",
+      "search-assets": "Attrezzature di ricerca",
+      "search-locations": "Cerca un luogo/camera",
+      "add-a-note": "Aggiungere una nota",
+      "assignments": "Citazione",
+      "continue": "Continuare",
+      "quick": "Squadre",
+      "maintenance-team": "Team di manutenzione",
+      "backlog": "Tardi",
+      "reset-entry": "Réinit.",
+      "arr": "Arr",
+      "creator": "Creatore",
+      "asset-and-action": "Equipaggiamento e azione",
+      "cs": "C*D",
+      "close": "Chiudere",
+      "mandatory-task": "Attività obbligatoria",
+      "yesterday": "Qui",
+      "last-message": "Messaggio",
+      "arrival": "Arrivo",
+      "resume": "Riassumere",
+      "select-user": "Seleziona un utente",
+      "attendant": "Cameriera / Valet",
+      "stay": "Rec",
+      "optional": "Opzione",
+      "convert": "Convertire",
+      "housekeeping": "Pulizia di casa",
+      "enter-a-message": "Inserisci un messaggio",
+      "block": "Blocco",
+      "tasks": "Attività",
+      "select-location": "Seleziona un luogo/camera",
+      "floors": "Pavimenti",
+      "submit": "Per inviare",
+      "cancel": "Annulla",
+      "message": "Messaggio",
+      "people": "Persone",
+      "inspected": "Ispezionato",
+      "next": "Prossimo",
+      "priority": "Priorità",
+      "start": "Cominciare",
+      "maintenance": "Manutenzione",
+      "prev": "Precedente",
+      "today": "Oggi",
+      "tomorrow": "Domani",
+      "completed": "Completée",
+      "notifications": "Notifiche",
+      "all-runners": "Tutti gli equipaggi / corridori",
+      "none": "-",
+      "room": "Camera",
+      "bedrooms": "Camere",
+      "dep": "DEP",
+      "priority-task": "Attività prioritaria",
+      "lite-task": "Attività Lite",
+      "normal-task": "Compito normale",
+      "unassigned-task": "Attività non assegnata",
+      "enter-a-description-optional": "Inserisci una descrizione (facoltativo)",
+      "dirty": "Vendita",
+      "cancelled": "Annullato",
+      "send-housekeeping-task": "Invia attività HK",
+      "select-locations": "Seleziona località/camere",
+      "search-tasks": "Cercare un'attività",
+      "send-maintenance-task": "Invia attività di manutenzione",
+      "runner": "Corridore / Equipaggio",
+      "locations": "Luoghi / Camere",
+      "accept": "Accettare",
+      "no-photo": "Nessuna foto",
+      "receptionist": "Receptionist",
+      "inspector": "Righelli",
+      "occupied": "Occupato",
+      "vacant": "Posto vacante",
+      "information": "Informazione",
+      "adminstrator": "Amministratore",
+      "no": "Non",
+      "stayover": "Relayer",
+      "delay": "Dopo",
+      "other": "Altro",
+      "blocking-task": "Attività di blocco",
+      "reject": "Rigettare",
+      "finish": "Finire",
+      "description": "Descrizione",
+      "normal": "Normale",
+      "planned-attendant": "Cameriera programmata",
+      "planned-runner": "Membro dell'equipaggio previsto",
+      "update": "Aggiornare",
+      "alert": "Vigile",
+      "arrived": "Arrivo",
+      "change-sheets": "Cambiare i fogli",
+      "task": "Compito",
+      "clear": "Cancellare",
+      "floor": "Pavimento",
+      "departure": "Partenza",
+      "clean": "Pulito",
+      "exit-selection": "Chiudere",
+      "tap-to-start-camera": "Tocca per fotografare",
+      "continue-without-photo": "Continua senza foto",
+      "default-assignment": "Assegnazione predefinita",
+      "tap-to-continue": "Tocca per continuare",
+      "review": "Vedere",
+      "dismiss": "Maschera",
+      "show": "Inserisci",
+      "checkout-on": "Partenza il",
+      "cleaning": "Pulitura",
+      "dnd": "DND",
+      "refuse": "Rifiutato",
+      "reset-system": "Cancellare",
+      "management": "Cornice",
+      "properties": "Proprietà",
+      "area": "Area",
+      "asset": "Attrezzatura",
+      "action": "Azione",
+      "model": "Modello",
+      "guest": "Cliente",
+      "due-out": "Partenza il",
+      "tap-to-enlarge": "Tocca per ingrandire",
+      "categories": "Categorie",
+      "status": "Stato",
+      "calendar": "Calendario",
+      "take-picture": "Foto",
+      "add-more-video": "Aggiungi video",
+      "take-video": "Video",
+      "picture-gallery": "Foto in Tel.",
+      "video-gallery": "Video in Tel.",
+      "task-asset": "Attrezzatura",
+      "task-next": "Prossimo",
+      "task-guest-request": "Richiesta del cliente",
+      "task-submit": "Per inviare",
+      "task-assign": "Assegnato a",
+      "add-more-photo": "Aggiungi foto"
+    },
+    "realtime": {
+      "index": {
+        "pending-requests-itemstosync": "Richiesta in sospeso",
+        "offline": "Off-line",
+        "-": ""
       }
     },
     "notification": {
       "extraoptions": {
-        "convert-to-task": "Conversione in operazione",
-        "follow-up": "Azione supplementare",
-        "reply": "rispondere"
+        "reply": "Risposta",
+        "convert-to-task": "Converti in attività",
+        "follow-up": "Aftercare"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "recent-quick-notifications": "Notifiche rapide o recenti"
+      },
+      "selectuser": {
+        "tap": "Tocca per cambiare"
+      }
+    },
+    "tasktable": {
+      "modal": {
+        "assigned-to": "Assegnato a",
+        "last-action": "Ultima azione",
+        "messages": "Messaggi",
+        "location": "Luogo",
+        "created-by": "Creato da",
+        "submitted-time": "Creato",
+        "complete-task": "Finire",
+        "cancel-task": "Annulla",
+        "reassign-task": "Riassegnatore"
+      },
+      "status": {
+        "started": "Avviato",
+        "waiting": "Accettato",
+        "rejected": "Respinto",
+        "paused": "Pausa",
+        "canceled": "Annullato",
+        "finished": "Sopra",
+        "completed": "Sopra",
+        "pending": "In sospeso"
+      },
+      "header": {
+        "status": "Stato",
+        "information": "Informazione",
+        "task": "Compito",
+        "normal-ticket": "Biglietto normale",
+        "lite-ticket": "Biglietto da completare",
+        "assigned": "Citazione",
+        "time-created": "Creato",
+        "location": "Luogo",
+        "created-by": "Creato da",
+        "priority-ticket": "Biglietto prioritario"
+      },
+      "utils": {
+        "pause": "Pausa",
+        "finish": "Finire",
+        "start": "Cominciare",
+        "resume": "Riassumere",
+        "reject": "Rigettare"
+      },
+      "lastaction": {
+        "created": "Attività creata",
+        "task-reassigned": "Attività riassegnata",
+        "rescheduled": "Attività riprogrammata",
+        "added-message": "Messaggio aggiunto"
       }
     },
     "notifications": {
       "index": {
         "assigned": "Assegnato",
-        "sent": "Inviato"
+        "sent": "Consegnato"
       },
       "quicknotificationform": {
         "send-message": "Invia messaggio"
       }
     },
-    "popup": {
-      "index": {
-        "accept": "Accettare",
-        "created-by": "Creato da",
-        "last-message": "Ultimo messaggio",
-        "location": "Posizione",
-        "new-task": "Nuovo compito",
-        "notification": "Notifica",
-        "okay": "Va bene",
-        "reject": "Rifiutare",
-        "submitted-time": "Inserito tempo",
-        "comments" :"Commenti",
-        "sent":"Inviata"
+    "tasks": {
+      "tabs": {
+        "today": "Oggi",
+        "sent": "Consegnato",
+        "backlog": "Tardi"
+      },
+      "dummy": {
+        "occupaied": ""
       }
     },
-    "realtime": {
+    "inventory": {
       "index": {
-        "offline": "disconnesso",
-        "pending-requests-itemstosync": "Richieste in sospeso"
+        "close-area": "Chiudere la zona",
+        "search-items": "Cerca un articolo"
       }
     },
-    "swipeoutoptions": {
+    "components": {
+      "assetactiondescription": {
+        "submit-maintenance": "Invia attività di manutenzione",
+        "no-available": "Non ci sono azioni per questa apparecchiatura",
+        "description": "Descrizione",
+        "no": "Non",
+        "no-actions": "Non ci sono azioni per questa apparecchiatura",
+        "priority": "Priorità",
+        "continue": "Continuare",
+        "asset": "Attrezzatura",
+        "first-select": "Per prima cosa devi selezionare un pezzo di attrezzatura",
+        "action": "Azione",
+        "description-placeholder": "Es: non ruota",
+        "yes": "Sì",
+        "select-asset": "Seleziona l'attrezzatura",
+        "location": "Luogo"
+      },
+      "fullscreenphoto": {
+        "no-photo": "Nessuna foto"
+      }
+    },
+    "navigation": {
       "index": {
-        "close": "Vicino"
+        "task": "Compito",
+        "convert-task": "Converti in attività",
+        "notifications": "Notifiche",
+        "tasks": "Attività",
+        "notes": "Caratteristiche",
+        "create-notification": "Creare una notifica",
+        "glitch": "Esperienza Cliente",
+        "turndown-service": "Servizio di copertura",
+        "lost-found": "Oggetti smarriti e ritrovati",
+        "room": "Camera",
+        "filter-tasks": "Visualizzazione filtro",
+        "inventory": "Gestione delle scorte",
+        "maintenance": "Manutenzione",
+        "home": "Casa",
+        "glitches": "Esperienze Clienti",
+        "gallery": "Foto delle camere",
+        "inventory-restock": "Ceppo"
+      },
+      "links": {
+        "assets": "Attrezzatura",
+        "notifications": "Notifiche",
+        "logout": "Logout",
+        "rooms": "Camere",
+        "closed": "Chiuso",
+        "main": "Schermata principale",
+        "sent": "Consegnato"
       }
     },
     "taskcard": {
       "status": {
-        "accepted": "Accettato",
-        "cancelled": "Annullato",
-        "completed": "Completato",
-        "pending": "in attesa di",
-        "started": "Iniziato",
-        "unclaimed": "Non reclamato"
-      }
-    },
-    "tasks": {
-      "tabs": {
-        "backlog": "arretrati",
-        "sent": "Inviato",
-        "today": "Oggi"
-      }
-    },
-    "tasktable": {
-      "header": {
-        "assigned": "Assegnato",
-        "created-by": "Creato da",
-        "information": "Informazione",
-        "lite-ticket": "biglietto Lite",
-        "location": "Posizione",
-        "normal-ticket": "biglietto normale",
-        "priority-ticket": "biglietto di priorità",
-        "status": "Stato",
-        "task": "Compito",
-        "time-created": "tempo creato"
-      },
-      "status": {
-        "canceled": "Annullato",
+        "started": "Avviato",
         "completed": "Finito",
-        "finished": "Finito",
-        "paused": "In pausa",
-        "pending": "in attesa di",
-        "rejected": "Respinto",
-        "started": "Iniziato",
-        "waiting": "In attesa"
-      },
-      "utils": {
-        "finish": "finire",
-        "pause": "Pausa",
-        "reject": "Rifiutare",
-        "resume": "Curriculum vitae",
-        "start": "Inizio"
+        "unclaimed": "In sospeso",
+        "cancelled": "Annullato",
+        "accepted": "Accettato",
+        "pending": "In sospeso"
       }
     },
-    "ubiquitous": {
-      "add-more-photo" : "Aggiungi più foto",
-      "add-more-video" : "Aggiungi altro video",
-      "accept": "Accettare",
-      "acknowledge": "Riconoscere",
-      "add-a-note": "Aggiungi una nota",
-      "adminstrator": "Amministratore",
-      "alert": "Mettere in guardia",
-      "all": "Tutti",
-      "all-inspectors": "tutti gli ispettori",
-      "all-runners": "tutti i corridori",
-      "arr": "arr",
-      "arrival": "dovuto in",
-      "arrived": "Arrivato",
-      "asset-and-action": "Asset e l'azione",
-      "assignee": "assegnatario",
-      "assignments": "assegnazioni",
-      "attendant": "guardiano",
-      "backlog": "arretrati",
-      "block": "Bloccare",
-      "blocked": "bloccato",
-      "blocking-task": "Blocco compito",
-      "cancel": "Annulla",
-      "cancelled": "Annullato",
-      "clean": "Pulito",
-      "clear": "Chiaro",
-      "close": "Vicino",
-      "completed": "Completato",
-      "continue": "Continua",
-      "continue-without-photo": "Continua senza foto",
-      "convert": "Convertire",
-      "create-asset": "Crea risorsa",
-      "creator": "Creatore",
-      "cs": "CS",
-      "da": "D / A",
-      "default-assignment": "assegnazione predefinita",
-      "delay": "Ritardo",
-      "dep": "Dep",
-      "departed": "partito",
-      "departure": "Partenza",
-      "description": "Descrizione",
-      "dirty": "Sporco",
-      "enter-a-description-optional": "Descrizione (facoltativa)...",
-      "enter-a-message": "Inserisci un messaggio",
-      "exit-selection": "selezione Exit",
-      "filters": "filtri",
-      "finish": "finire",
-      "floor": "Pavimento",
-      "floors": "Piani",
-      "group": "Gruppo",
-      "housekeeping": "Faccende domestiche",
-      "information": "Informazione",
-      "inspected": "ispezionato",
-      "inspector": "Ispettore",
-      "inspt": "Inspt",
-      "last-message": "Ultimo messaggio",
-      "location": "Posizione",
-      "locations": "sedi",
-      "maintenance": "Manutenzione",
-      "maintenance-team": "Manutenzione della squadra",
-      "mandatory-task": "compito obbligatorio",
-      "message": "Messaggio",
-      "next": "Il prossimo",
-      "no": "No",
-      "no-location": "No posizione",
-      "no-photo": "Niente foto",
-      "none": "Nessuna",
-      "normal": "Normale",
-      "notifications": "notifiche",
-      "occupied": "Occupato",
-      "optional": "opzionale",
-      "other": "Altro",
-      "pause": "Pausa",
-      "people": "Individuale",
-      "photo": "Foto",
-      "planned-attendant": "Attendant previsto",
-      "planned-runner": "Planned Runner",
-      "pms-notes": "PMS Note",
-      "prev": "prev",
-      "priority": "Priorità",
-      "priority-task": "compito prioritario",
-      "quick": "Squadra",
-      "receptionist": "Addetto alla reception",
-      "reject": "Rifiutare",
-      "reset-entry": "Reset",
-      "resume": "Curriculum vitae",
-      "room": "Camera",
-      "rooms": "Camere",
-      "runner": "Corridore",
-      "search-assets": "beni di ricerca",
-      "search-locations": "posizioni di ricerca",
-      "search-tasks": "le attività di ricerca",
-      "search-users": "Cerca utenti",
-      "select-location": "Seleziona posizione",
-      "select-locations": "selezionare le posizioni",
-      "select-user": "Selezionare l'utente",
-      "send": "Inviare",
-      "send-housekeeping-task": "Invia compito di pulizia",
-      "send-maintenance-task": "Invia attività di manutenzione",
-      "start": "Inizio",
-      "stay": "Restare",
-      "stayover": "Restare",
-      "submit": "Sottoscrivi",
-      "tap-to-continue": "Tocca per continuare",
-      "tap-to-start-camera": "Toccare per avviare fotocamera",
-      "task": "Compito",
-      "tasks": "Compiti",
-      "to": "A",
-      "today": "Oggi",
-      "unassigned": "Non assegnato",
-      "update": "Aggiornare",
-      "vacant": "Vacante",
-      "yes": "sì",
-      "yesterday": "Ieri"
+    "swipeoutoptions": {
+      "index": {
+        "close": "Chiudere"
+      }
     }
   },
   "inspector": {
+    "room-messages": {
+      "index": {
+        "day-night": "Giorno e copertura",
+        "edit": "Modificare",
+        "add-message": "Nuovo",
+        "delete-messages": "Eliminare i messaggi",
+        "change-room": "Passa a # no.",
+        "message": "Messaggio",
+        "message-type": "Seleziona un tipo di messaggio",
+        "schedule": "Seleziona una scadenza",
+        "calendar": "Calendario",
+        "day": "Giorno",
+        "night": "Coperta",
+        "pickup": "Fonorivelatore",
+        "end-of-day": "Oggi",
+        "end-of-stay": "Fino alla partenza",
+        "custom": "Costume",
+        "indefinitely": "Indefinitamente",
+        "cancel": "Annulla",
+        "submit-message": "Per inviare"
+      }
+    },
+    "audits": {
+      "add-photo": "Aggiungere una foto",
+      "add-note": "Aggiungere una nota",
+      "submit-task": "Per inviare",
+      "save": "Salvare",
+      "note": "Nota",
+      "photo": "Foto",
+      "select-audit": "Seleziona controllo",
+      "assign-to-others": "Assegna a ... (facoltativo)"
+    },
     "attendantmodal": {
       "index": {
-        "attendant": "guardiano",
-        "overwrite-guest-status": "stato ospite sovrascrittura",
         "priority": "Priorità",
-        "reset": "Reset"
-      }
-    },
-    "catalog": {
-      "index": {
-        "room-photos": "foto camera"
-      }
-    },
-    "chooseattendantmodal": {
-      "index": {
-        "choose-attendant": "Scegli attendant"
-      }
-    },
-    "components": {
-      "selectassetactionmodal": {
-        "search-assets": "beni di ricerca",
-        "select-asset": "Seleziona la risorsa"
-      },
-      "selectassignmentmodal": {
-        "search-users": "Cerca utenti",
-        "select-assignment": "Scegliere l'assegnazione"
-      },
-      "selectlocationmodal": {
-        "search-locations": "posizioni di ricerca",
-        "select-locations": "selezionare le posizioni"
-      }
-    },
-    "createnotification": {
-      "index": {
-        "location": "Posizione",
-        "message": "Messaggio",
-        "missing-location-or-user": "posizione o utente mancante",
-        "photo": "Foto",
-        "quick-notifications": "notifiche rapidi",
-        "select-notification": "Selezionare la notifica",
-        "send-notification": "Invia notifica",
-        "to": "A"
-      },
-      "selectusermodal": {
-        "select-reciepent": "Selezionare reciepent"
+        "reset": "Resettare",
+        "attendant": "Cameriera / Valet",
+        "overwrite-guest-status": "Modificare lo stato del front office",
+        "send-message-to-attendant": "Invia un messaggio a un fdc / vdc"
       }
     },
     "createtask": {
-      "extraoption": {
-        "no": "No",
-        "yes": "sì"
-      },
       "index": {
-        "asset-and-action": "Asset e l'azione",
-        "assignee": "assegnatario",
-        "blocking-task": "Blocco compito",
-        "location": "Posizione",
-        "mandatory-task": "compito obbligatorio",
         "photo": "Foto",
-        "priority-task": "compito prioritario"
-      }
-    },
-    "founditem": {
-      "index": {
-        "submit-lost-item": "Invia oggetto smarrito"
-      }
-    },
-    "history": {
-      "historyheader": {
-        "action": "Azione",
-        "room": "Camera",
-        "time": "Tempo",
-        "user": "Utente"
+        "mandatory-task": "Attività obbligatoria",
+        "assignee": "Citazione",
+        "priority-task": "Compito prioritario",
+        "blocking-task": "Attività di blocco",
+        "location": "Luogo / camera",
+        "asset-and-action": "Equipaggiamento e azione"
       },
+      "extraoption": {
+        "yes": "Sì",
+        "no": "Non"
+      }
+    },
+    "main": {
       "index": {
-        "all": "Tutti",
-        "cleaning": "Pulizia",
-        "events": "eventi",
-        "guests": "Ospiti",
+        "rooms": "Camere",
+        "all-floors": "Tutti i piani",
+        "floor": "Pavimento",
+        "ok": "Va bene"
+      },
+      "rooms-filter": {
+        "attendants": "FDC",
+        "reset": "Resettare",
+        "filtered-rooms": "Camere per filtro",
         "other": "Altro",
-        "reset": "Reset",
-        "search-room-users-events": "camere di ricerca, gli utenti, gli eventi ..."
+        "floors": "Pavimenti",
+        "filters": "Filtri",
+        "all-rooms": "Tutte le camere",
+        "show-non-guest-rooms": "Mostra aree comuni",
+        "hide-non-guest-rooms": "Nascondi le aree comuni"
+      },
+      "rooms-information": {
+        "reset": "Resettare",
+        "vip": "VIP"
+      },
+      "notes": {
+        "room-notes": "Caratteristiche della camera"
+      },
+      "roommessageform": {
+        "room-message": "Messaggio della camera"
+      },
+      "roomnotesmodal": {
+        "no-pms-notes-for-this-reservation": "Nessuna valutazione PMS per questa prenotazione",
+        "send-message-attendant": "Invia una notifica diretta",
+        "room-notes": "Caratteristiche della camera",
+        "pms-notes": "note PMS",
+        "save-for-later": "Salva per dopo",
+        "room-message": "Messaggio della camera",
+        "messaging": "Messaggio da inviare"
+      },
+      "filters-drawer": {
+        "1": "1"
       }
     },
     "housekeeping": {
       "index": {
-        "backlog": "arretrati",
-        "search-tasks-rooms-users": "attività di ricerca, camere, gli utenti ...",
-        "today": "Oggi"
-      }
-    },
-    "imagegallery": {
-      "index": {
-        "image-about-how-the-room-should-look": "Foto per gli standard camera"
-      }
-    },
-    "information": {
-      "attendantstatus": {
-        "attendant-status": "stato di Attendant"
-      },
-      "housekeepingstatus": {
-        "other-housekeepings": "altri Housekeepings"
-      },
-      "index": {
-        "room": "Camera"
-      },
-      "info": {
-        "attendant-status": "stato di Attendant",
-        "dnd": "Dnd",
-        "emilie-persion": "Emilie persion",
-        "housekeeping-status": "stato di pulizie",
-        "last-action": "ultima azione",
-        "room-attendant": "Addetto alla camera",
-        "room-category": "camera Categoria",
-        "room-information": "le informazioni sulla camera",
-        "room-type": "Tipo di stanza",
-        "standart-room": "camera Standart",
-        "cleaning-name": "Nome pulizia"
-      },
-      "notes": {
-        "room-notes": "Note camera"
-      },
-      "pmsnotes": {
-        "no-pms-notes": "Nessun pms note",
-        "pms-notes": "note pms"
-      },
-      "roommessageform": {
-        "room-message": "camera Messaggio"
-      },
-      "vipstatus": {
-        "vip-status": "status VIP"
-      }
-    },
-    "main": {
-      "filters-drawer": {
-        "1": "1"
-      },
-      "index": {
-        "all-floors": "tutti i piani",
-        "floor": "Pavimento",
-        "rooms": "Camere"
-      },
-      "notes": {
-        "room-notes": "Note camera"
-      },
-      "roommessageform": {
-        "room-message": "messaggio camera"
-      },
-      "roomnotesmodal": {
-        "messaging": "messaggistica",
-        "no-pms-notes-for-this-reservation": "Non ci sono note per questa prenotazione pms",
-        "pms-notes": "note pms",
-        "room-message": "camera Messaggio",
-        "room-notes": "Note camera",
-        "save-for-later": "Salva per dopo",
-        "send-message-attendant": "Invia notifica diretta"
-      },
-      "rooms-filter": {
-        "all-rooms": "tutte le camere",
-        "attendants": "assistenti",
-        "filtered-rooms": "camere filtrati",
-        "filters": "filtri",
-        "floors": "Piani",
-        "other": "Altro",
-        "reset": "Reset"
-      },
-      "rooms-information": {
-        "reset": "Reset",
-        "vip": "VIP"
-      }
-    },
-    "maintenance": {
-      "index": {
-        "backlog": "arretrati",
-        "search-tasks-rooms-users": "attività di ricerca, camere, gli utenti ...",
-        "today": "Oggi"
-      }
-    },
-    "navigation": {
-      "links": {
-        "history": "Storia",
-        "housekeeping": "Faccende domestiche",
-        "main": "Principale",
-        "maintenance": "Manutenzione",
-        "notifications": "notifiche",
-        "planning": "Pianificazione"
-      }
-    },
-    "notifications": {
-      "assignedheader": {
-        "creator": "Creatore",
-        "message": "Messaggio",
-        "room": "Camera",
-        "status": "Stato",
-        "time": "Tempo"
-      },
-      "index": {
-        "assigned-notifications": "notifiche Assigned",
-        "search-rooms-or-people": "camere di ricerca o persone",
-        "sent-attendant-notifications": "Sent & notifiche attendant"
-      },
-      "notificationheader": {
-        "message": "Messaggio",
-        "room": "Camera",
-        "status": "Stato",
-        "time": "Tempo",
-        "user": "Utente"
-      },
-      "status": {
-        "canceled": "Annullato",
-        "okay": "Va bene",
-        "paused": "In pausa",
-        "pending": "in attesa di",
-        "rejected": "Respinto",
-        "started": "Iniziato",
-        "waiting": "In attesa"
-      }
-    },
-    "planning": {
-      "filtersdrawer": {
-        "all": "Tutti",
-        "arrivals": "Arrivi",
-        "blocked": "bloccato",
-        "da": "D / a",
-        "departure": "Partenza",
-        "filter-by-category": "Scegli per categoria",
-        "filter-by-floor": "Filtra per pavimento",
-        "filter-by-guest-status": "Filtra per stato ospite",
-        "filter-by-housekeeping": "Filtra per pulizie",
-        "rooms-to-plan": "Camere di pianificare",
-        "stayover": "Fermarsi"
-      },
-      "index": {
-        "add-attendant": "Aggiungere attendant",
-        "filters": "filtri",
-        "next": "Il prossimo",
-        "prev": "prev",
-        "reset": "Reset"
-      }
-    },
-    "playground": {
-      "index": {
-        "let-go": "Lascia andare"
+        "today": "Oggi",
+        "search-tasks-rooms-users": "Cerca camere, utenti, ecc...",
+        "backlog": "Tardi"
       }
     },
     "popup": {
       "index": {
-        "accept": "Accettare",
-        "created-by": "Creato da",
-        "last-message": "Ultimo messaggio",
-        "location": "Posizione",
-        "new-task": "Nuovo compito",
+        "okay": "OK",
+        "submitted-time": "Creato dal",
         "notification": "Notifica",
-        "okay": "Va bene",
-        "reject": "Rifiutare",
-        "submitted-time": "Inserito tempo"
+        "accept": "Accettare",
+        "new-task": "Nuova attività",
+        "location": "Luogo / camera",
+        "reject": "Rigettare",
+        "created-by": "Creato da",
+        "last-message": "Messaggio"
       }
     },
-    "room": {
+    "information": {
+      "info": {
+        "dnd": "Non disturbare",
+        "cleaning": "Pulizia in corso...",
+        "refused": "Rifiutato dal cliente",
+        "delay": "Dopo",
+        "finish": "finito",
+        "attendant-status": "Stato di pulizia",
+        "housekeeping-status": "Pulizie Statut",
+        "room-attendant": "Cameriera / Valet",
+        "room-information": "Informazioni sulle camere",
+        "emilie-persion": "Emilie persion",
+        "room-type": "Tipo di camera",
+        "standart-room": "Camera Standard",
+        "last-action": "Ultima azione",
+        "room-category": "Categoria di camera",
+        "cleaning-name": "Nome pulizia"
+      },
       "index": {
-        "catalog": "Catalogare",
-        "hsk-tasks": "compiti HSK",
-        "information": "Informazione",
-        "lost-found": "Lost & Found",
-        "maintenances": "manutenzioni",
-        "questionnaires": "questionari"
-      }
-    },
-    "tableheader": {
-      "index": {
-        "attendant-runner": "Attendant & corridore",
-        "my-assigned-tasks": "I miei compiti assegnati",
-        "open-housekeepings": "housekeepings aperte",
-        "open-maintenances": "manutenzioni aperte",
-        "open-tasks": "attività aperte",
-        "recently-closed-tasks": "attività chiuse di recente",
-        "tasks": "Compiti"
+        "room": "Camera"
+      },
+      "pmsnotes": {
+        "pms-notes": "Note pms",
+        "no-pms-notes": "Nessuna nota PMS"
+      },
+      "notes": {
+        "room-notes": "Caratteristiche della camera"
+      },
+      "roommessageform": {
+        "room-message": "Messaggio della camera"
+      },
+      "housekeepingstatus": {
+        "other-housekeepings": "Altro"
+      },
+      "vipstatus": {
+        "vip-status": "Status VIP"
+      },
+      "attendantstatus": {
+        "attendant-status": "Status di cameriera"
       }
     },
     "updatespopup": {
       "index": {
-        "dismiss": "Respingere",
         "new": "Nuovo",
-        "show": "Mostrare",
-        "you-have": "Hai"
-      }
-    }
-  },
-  "maintenance": {
-    "asset": {
-      "index": {
-        "actions": "Azioni",
-        "models": "Modelli"
+        "dismiss": "Ignorare",
+        "you-have": "Nuove informazioni",
+        "show": "Inserisci",
+        "new-updates": ""
+      },
+      "modal": {
+        "priority-set": "Priorità convalidata",
+        "message-added": "Messaggio aggiunto",
+        "room-restocked": "Ripopolamento effettuato",
+        "room-unblocked": "Camera sbloccata",
+        "updates": "Nuove informazioni",
+        "dismiss-all": "Ignora tutto"
       }
     },
-    "assetmodel": {
+    "createnotification": {
       "index": {
-        "asset-model": "modello di Asset"
+        "select-a-location-or-change-user": "Seleziona un luogo/una stanza o un altro utente",
+        "photo": "Foto",
+        "missing-location-or-user": "Luogo/stanza o utente mancanti",
+        "send-notification": "Invia notifica",
+        "to": "A:",
+        "select-notification": "Seleziona una notifica",
+        "location": "Luogo / camera",
+        "message": "Messaggio",
+        "quick-notifications": "Notifiche"
+      },
+      "selectusermodal": {
+        "select-reciepent": "Seleziona un destinatario"
       }
     },
-    "createtask": {
-      "assetactiondescription": {
-        "no": "No",
-        "no-actions-for-created-asset": "Nessuna azione per attività creata",
-        "submit-housekeeping": "Invia le pulizie",
-        "submit-maintenance": "Invia manutenzione",
-        "there-are-no-actions-for-your-asset": "nessuna azione",
-        "yes": "sì",
-        "you-must-first-select-an-asset": "prima è necessario selezionare una risorsa"
-      },
-      "assetselectmodal": {
-        "close": "Vicino",
-        "search-assets": "beni di ricerca",
-        "select-asset": "Seleziona la risorsa"
-      },
-      "assignment": {
-        "missing-assignment": "assegnazione mancante",
-        "search-assignments": "Cerca utenti, gruppi ..."
+    "tableheader": {
+      "index": {
+        "attendant-runner": "Donna / Valet & runner",
+        "tasks": "Attività",
+        "my-assigned-tasks": "I miei compiti",
+        "open-housekeepings": "Offerte di lavoro aperte per \"HK\"",
+        "open": "Attività aperte",
+        "open-maintenances": "Attività di manutenzione aperte",
+        "recently-closed-tasks": "Attività chiuse di recente",
+        "open-tasks": "Attività aperte",
+        "paused-audits": "Audit in pausa",
+        "open-audits": "Audit aperti",
+        "recently-closed-audits": "Audit recenti chiusi",
+        "start-new-audit": "Avviare un nuovo audit"
       }
     },
-    "filters": {
+    "founditem": {
       "index": {
-        "arrival-rooms": "camere Arrivo",
-        "assigned-to-me": "Assegnato a me",
-        "assigned-to-others": "Assegnato a altri",
-        "assignment": "assegnazione",
-        "blocking-tasks": "Blocco compiti",
-        "cleaned-rooms": "camere pulite",
-        "completed-tasks": "attività completate",
-        "departure-rooms": "partenza le camere",
-        "dirty-rooms": "camere sporche",
-        "guest-status": "stato ospite",
-        "hide-all": "Nascondi tutto",
-        "housekeeping": "Faccende domestiche",
-        "inspected-rooms": "camere Inspected",
-        "no-asset-tasks": "Nessuna attività di asset",
-        "no-locations": "Compiti senza posizione",
-        "occupied-rooms": "camere occupate",
-        "out-of-service": "Fuori di locali di servizio",
-        "paused-tasks": "compiti in pausa",
-        "pending-tasks": "attività in sospeso",
-        "planned-tasks": "attività pianificate",
-        "priority-tasks": "compiti prioritari",
-        "progressing-tasks": "progredendo compiti",
-        "properties": "Proprietà",
-        "rejected-tasks": "compiti rifiutati",
-        "reset": "Reset",
-        "return-to-tasks": "Torna a compiti",
-        "search": "le attività di ricerca",
-        "task-status": "lo stato delle attività",
-        "unassigned": "compiti non assegnati",
-        "vacant-rooms": "camere libere"
+        "add-a-description": "Aggiungi una descrizione",
+        "submit-lost-item": "Invia elemento"
       }
     },
-    "main": {
-      "filterbutton": {
-        "filters": "filtri"
+    "notifications": {
+      "notificationheader": {
+        "status": "Stato",
+        "message": "Messaggio",
+        "user": "Utente",
+        "room": "Camera",
+        "time": "Ora"
       },
-      "filters": {
-        "filter-tasks": "compiti di filtro",
-        "limit-dirty": "Limitato a camere sporche",
-        "limit-occupied": "Limitato a camere occupate",
-        "limit-out-of-service": "Limite al di locali di servizio",
-        "limit-priority": "Limitato a compiti prioritari",
-        "limit-vacant": "Limitato a camere libere"
+      "assignedheader": {
+        "status": "Stato",
+        "message": "Messaggio",
+        "time": "Ora",
+        "room": "Camera",
+        "creator": "Creatore"
+      },
+      "status": {
+        "okay": "OK",
+        "started": "Avviato",
+        "rejected": "Respinto",
+        "paused": "Pausa",
+        "canceled": "Annullato",
+        "waiting": "Accettato",
+        "pending": "In sospeso"
       },
       "index": {
-        "create-new-task-for": "Creare un nuovo compito per"
+        "sent-attendant-notifications": "Notifiche inviate",
+        "assigned-notifications": "Le mie notifiche",
+        "search-rooms-or-people": "Ricerca di sale o utenti"
+      }
+    },
+    "catalog": {
+      "index": {
+        "room-photos": "Foto delle camere"
+      }
+    },
+    "planning": {
+      "index": {
+        "add-attendant": "Aggiungere un FoC",
+        "reset": "Resettare",
+        "prev": "Precedente",
+        "filters": "Filtri",
+        "next": "Prossimo"
+      },
+      "filtersdrawer": {
+        "all": "Tutto",
+        "rooms-to-plan": "Camere da assegnare",
+        "stayover": "Relayer",
+        "departure": "Partenza",
+        "arrivals": "Arrivi",
+        "da": "D/A",
+        "filter-by-guest-status": "Filtra per stato del cliente",
+        "filter-by-housekeeping": "Filtra per stato HK",
+        "filter-by-floor": "Filtra per piano",
+        "filter-by-category": "Filtra per categoria",
+        "change-sheets": "Cambio lenzuola",
+        "blocked": "Bloccato"
+      }
+    },
+    "room": {
+      "index": {
+        "information": "Informazione",
+        "hsk-tasks": "Attività HK",
+        "maintenances": "Manutenzione",
+        "catalog": "Standard",
+        "lost-found": "Oggetti smarriti e ritrovati",
+        "image-about-how-the-room-should-look": "Come dovrebbe essere la stanza",
+        "questionnaires": "Audit"
+      }
+    },
+    "playground": {
+      "index": {
+        "let-go": "Andiamo"
+      }
+    },
+    "components": {
+      "selectassignmentmodal": {
+        "select-assignment": "Seleziona un destinatario",
+        "search-users": "Trova un utente"
+      },
+      "selectlocationmodal": {
+        "select-locations": "Seleziona un luogo/camera",
+        "search-locations": "Cerca un luogo/camera"
+      },
+      "selectassetactionmodal": {
+        "search-assets": "Attrezzature di ricerca",
+        "select-asset": "Seleziona un dispositivo"
+      }
+    },
+    "chooseattendantmodal": {
+      "index": {
+        "choose-attendant": "Scegli un nuovo fdc"
+      }
+    },
+    "imagegallery": {
+      "index": {
+        "image-about-how-the-room-should-look": "Come dovrebbe essere la stanza"
       }
     },
     "navigation": {
       "links": {
-        "assets": "Risorse",
-        "closed": "Chiuso",
-        "main": "Principale",
-        "notifications": "notifiche",
-        "rooms": "Camere",
-        "sent": "Inviato"
+        "housekeeping": "Attività",
+        "notifications": "Notifiche",
+        "planning": "Attribuzione",
+        "maintenance": "Manutenzione",
+        "main": "Schermata principale",
+        "history": "Storico",
+        "lost-found": "Oggetti smarriti e ritrovati",
+        "experiences": "Esperienza Cliente"
+      }
+    },
+    "maintenance": {
+      "index": {
+        "today": "Oggi",
+        "search-tasks-rooms-users": "Cerca camere, utenti, ecc...",
+        "backlog": "Tardi"
+      }
+    },
+    "history": {
+      "index": {
+        "reset": "Resettare",
+        "all": "Tutto",
+        "other": "Altro",
+        "guests": "Clienti",
+        "search-room-users-events": "Cerca camere, utenti, ecc...",
+        "events": "Avvenimenti",
+        "cleaning": "Pulitura"
       },
-      "scenes": {
+      "historyheader": {
         "action": "Azione",
-        "asset": "Bene",
-        "closed-tasks": "Operazioni chiuse",
-        "create-task": "Crea attività",
-        "filters": "Filtri Task",
-        "hotel-assets": "Attivo hotel",
-        "hotel-rooms": "hotel Camere",
-        "reassign-task": "riassegnare Task",
-        "sent-tasks": "Compiti Sent",
-        "tasks": "Compiti"
+        "user": "Utente",
+        "room": "Camera",
+        "time": "Ora"
+      }
+    }
+  },
+  "maintenance": {
+    "filter-tasks": {
+      "index": {
+        "filter-tasks": "Visualizzazione filtro",
+        "select-one": "Seleziona almeno 1 filtro"
+      }
+    },
+    "filters": {
+      "index": {
+        "hide-all": "Nascondi tutto",
+        "reset": "Resettare",
+        "search": "Ricerca di attività",
+        "guest-status": "Stato del front office",
+        "vacant-rooms": "Camere libere",
+        "occupied-rooms": "Camere occupate",
+        "out-of-service": "Camere fuori servizio",
+        "departure-rooms": "Camere alla partenza",
+        "arrival-rooms": "Camere in arrivo",
+        "no-locations": "Attività senza localizzazione",
+        "housekeeping": "Pulizie Statut",
+        "dirty-rooms": "Camere sporche",
+        "cleaned-rooms": "Camere pulite",
+        "inspected-rooms": "Camere ispezionate",
+        "pickup": "Chambres pick up",
+        "properties": "Proprietà",
+        "priority-tasks": "Compiti prioritari",
+        "blocking-tasks": "Blocco delle attività",
+        "no-asset-tasks": "Compiti senza attrezzature",
+        "planned-tasks": "Attività pianificate",
+        "task-status": "Stato dell'attività",
+        "pending-tasks": "Attività in sospeso",
+        "progressing-tasks": "Attività attuali",
+        "paused-tasks": "Attività sospese",
+        "completed-tasks": "Attività completate",
+        "rejected-tasks": "Attività rifiutate",
+        "assignment": "Citazione",
+        "assigned-to-me": "I miei compiti assegnati",
+        "unassigned": "Attività non assegnate",
+        "assigned-to-others": "Altri incarichi",
+        "return-to-tasks": "Torna alle attività"
+      }
+    },
+    "createtask": {
+      "assetactiondescription": {
+        "there-are-no-actions-for-your-asset": "Non ci sono azioni per questa apparecchiatura",
+        "no": "Non",
+        "submit-maintenance": "Per inviare",
+        "you-must-first-select-an-asset": "Devi prima selezionare un pezzo di equipaggiamento",
+        "submit-housekeeping": "Per inviare",
+        "yes": "Sì",
+        "no-actions-for-created-asset": "Nessuna azione per questa apparecchiatura"
+      },
+      "assetselectmodal": {
+        "close": "Chiudere",
+        "search-assets": "Ricerca di attrezzature",
+        "select-asset": "Seleziona un dispositivo"
+      },
+      "assignment": {
+        "search-assignments": "Ricerca di utenti",
+        "missing-assignment": "Assegnazione mancante"
+      }
+    },
+    "reassigntask": {
+      "index": {
+        "reassignment-message": "Aggiungere un messaggio alla riassegnazione",
+        "due-date": "Data di partenza",
+        "select-due-date": "Seleziona una data di partenza",
+        "assign-to": "Assegna a",
+        "reassign-task": "Riassegnatore"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Ok",
+        "submitted-time": "Creato",
+        "new-glitch": "Nuova esperienza",
+        "accept": "Accettare",
+        "new-task": "Nuova attività",
+        "location": "Posizione / Camera",
+        "reject": "Rigettare",
+        "created-by": "Creato da",
+        "last-message": "Messaggio"
+      }
+    },
+    "assetmodel": {
+      "index": {
+        "asset-model": "Modello di equipaggiamento"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Chiudere"
       }
     },
     "notasks": {
@@ -879,272 +1268,90 @@
         "no-tasks": "Nessuna attività"
       }
     },
-    "popup": {
-      "index": {
-        "accept": "Accettare",
-        "created-by": "Creato da",
-        "last-message": "Ultimo messaggio",
-        "location": "Posizione",
-        "new-glitch": "Nuova esperienza",
-        "new-task": "Nuovo compito",
-        "okay": "Va bene",
-        "reject": "Rifiutare",
-        "submitted-time": "Inserito tempo"
-      }
-    },
-    "reassigntask": {
-      "index": {
-        "assign-to": "Assegnato a",
-        "due-date": "Scadenza",
-        "reassign-task": "riassegnare compito",
-        "reassignment-message": "messaggio (opzionale)",
-        "select-due-date": "Seleziona la data di scadenza"
-      }
-    },
-    "rooms": {
-      "index": {
-        "close-floor": "Chiudi piano",
-        "close-room": "Chiudere stanza"
-      }
-    },
-    "swipeoutoptions": {
-      "index": {
-        "close": "Vicino"
-      }
-    },
     "task": {
       "dummy": {
-        "finish": "finire",
-        "pause": "Pausa"
+        "pause": "Pausa",
+        "finish": "Finito"
       },
       "index": {
-        "created-by": "Creato da",
-        "guest-status": "ospite di stato",
+        "sublocation": "Sottolocalizzazione",
         "information": "Informazione",
-        "lite": "biglietto Lite",
-        "messages": "messaggi",
+        "undefined": "Biglietto",
+        "guest-status": "Informazioni sulle camere",
+        "normal": "Biglietto normale",
+        "messages": "Messaggi",
+        "start-date": "Creato",
+        "priority": "Biglietto prioritario",
+        "reassign-ticket": "Riassegnatore",
+        "unassigned": "Biglietto non visto",
+        "lite": "Biglietto da completare",
         "model": "Modello",
-        "normal": "biglietto normale",
-        "priority": "biglietto di priorità",
-        "reassign-ticket": "riassegnare",
-        "start-date": "Data d'inizio",
-        "sublocation": "sublocation",
-        "unassigned": "biglietto non assegnati",
-        "undefined": "Biglietto"
+        "created-by": "Creato da",
+        "view-additional-photos": "Altre foto",
+        "choose-model": "Scegli il modello",
+        "select": "Selezionare",
+        "view-attachments": "Documento allegato all'attrezzatura",
+        "location-information": "Informazioni sulla posizione",
+        "reassign-task": "Riassegnazione",
+        "move-to-departure": "Riassegna alla partenza"
       },
       "create-task-alert": {
-        "select-asset" :"Si prega di selezionare la risorsa!!",
-        "select-location":"Si prega di selezionare la posizione!!",
-        "select-asset-action":"Si prega di selezionare l'azione dell'asset!!"
+        "select-asset": "Grazie per aver selezionato la risorsa!!",
+        "select-location": "Grazie per aver selezionato la posizione! !",
+        "select-asset-action": "Grazie per aver selezionato un'azione!!"
       }
-    }
-  },
-  "runner": {
-    "clean": {
+    },
+    "asset": {
       "index": {
-        "confirm-dnd": "confermare DND",
-        "pms": "Pms"
-      }
-    },
-    "components": {
-      "asset-action-description": {
-        "no": "No",
-        "no-actions-for-created-asset": "Nessuna azione per attività creata",
-        "there-are-no-actions-for-your-asset": "nessuna azione",
-        "yes": "sì",
-        "you-must-first-select-an-asset": "prima è necessario selezionare una risorsa"
-      },
-      "asset-select-modal": {
-        "close": "Vicino",
-        "select-asset": "Seleziona la risorsa"
-      },
-      "assignment-select": {
-        "attendants": "assistenti",
-        "concierge": "Concierge",
-        "groups": "gruppi",
-        "housekeeping": "Faccende domestiche",
-        "inspectors": "Gli ispettori",
-        "maintenance": "Manutenzione",
-        "management": "Gestione",
-        "runners": "Runners"
-      },
-      "gallery-row-item": {
-        "label": "Etichetta"
-      },
-      "group-select-modal": {
-        "close": "Vicino",
-        "select-assignment": "Scegliere l'assegnazione"
-      },
-      "group-select-row": {
-        "text": "Testo"
-      },
-      "inventory-update-row": {
-        "reset": "Reset"
-      },
-      "location-select-modal": {
-        "close": "Vicino",
-        "select-location": "Seleziona posizione"
-      },
-      "reservation-nights": {
-        "nights": "notti",
-        "of": "Di"
-      },
-      "room-info": {
-        "pms": "Pms"
-      },
-      "room-note-row": {
-        "remove": "Rimuovere"
-      },
-      "room-options": {
-        "clean-room": "Camera pulita",
-        "hsk-notes": "note HSK",
-        "inventory": "Inventario",
-        "lost-found": "Lost & Found",
-        "maintenance": "Manutenzione",
-        "room-gallery": "galleria camera",
-        "send-task": "Invia compito"
-      },
-      "room-timer": {
-        "cancel": "Annulla",
-        "done": "Fatto"
-      },
-      "special-select-row": {
-        "text": "Testo"
-      },
-      "task-card": {
-        "created-by": "Creato da",
-        "last-message": "Ultimo messaggio",
-        "location": "Posizione",
-        "submitted-time": "Inserito tempo"
-      },
-      "task-settings": {
-        "no": "No",
-        "yes": "sì"
-      },
-      "user-select-modal": {
-        "close": "Vicino",
-        "concierge": "Concierge",
-        "housekeeping": "Faccende domestiche",
-        "maintenance": "Manutenzione",
-        "management": "Gestione",
-        "select-assignment": "Scegliere l'assegnazione"
-      },
-      "user-select-row": {
-        "text": "Testo"
-      }
-    },
-    "glitch-form": {
-      "glitch-category-selector": {
-        "select-category": "Seleziona categoria",
-        "select-glitch": "Selezionare esperienza",
-        "select-glitch-category": "Seleziona la categoria esperienza"
-      },
-      "index": {
-        "actions-to-resolve": "Azioni per risolvere",
-        "add-actions-to-resolve": "Aggiungere azioni per risolvere",
-        "add-experience-description": "Aggiungere descrizione esperienza",
-        "add-followup-instructions": "Aggiungere le istruzioni follow",
-        "add-task": "Aggiungere compito",
-        "choose-location": "Scegli una località",
-        "close-glitch": "Chiudi esperienza",
-        "compensation-cost": "Compensazione dei costi",
-        "email": "E-mail",
-        "enter-guest-email": "Inserisci e-mail ospite",
-        "enter-guest-name": "Inserire nome dell'ospite",
-        "enter-room-name": "Inserire il numero della stanza",
-        "eur": "Euro",
-        "glitch-information": "informazioni Experience",
-        "guest-information": "ospite Informazioni",
-        "handover": "Devolvere",
-        "incident-description": "descrizione Incident",
-        "internal-followup": "follow interno",
-        "name": "Nome",
-        "room": "Camera",
-        "select-a-glitch-category": "Seleziona una categoria di esperienza",
-        "select-glitch-category": "Seleziona la categoria esperienza",
-        "send-glitch": "Invia esperienza",
-        "submit-new-glitch": "Invia nuova esperienza",
-        "update-glitch": "esperienza Aggiornamento",
-        "vip": "Vip",
-        "vip-status-optional": "VIP (opzionale)"
-      }
-    },
-    "glitch": {
-      "glitch-read-only": {
-        "assigned-to": "Assegnato a",
-        "current-responsibility": "responsabilità corrente",
-        "glitch-action": "azione Experience",
-        "glitch-category": "categoria Experience",
-        "glitch-cost": "costo Experience",
-        "glitch-description": "descrizione Experience",
-        "glitch-followup": "esperienza follow",
-        "none": "Nessuna",
-        "send-email": "Invia una email",
-        "start": "Inizio"
-      }
-    },
-    "glitches": {
-      "index": {
-        "assigned-glitches": "esperienze Assigned",
-        "other-glitches": "altre esperienze",
-        "recently-closed": "Chiuse di recente"
-      }
-    },
-    "lostfound": {
-      "index": {
-        "submit-lost-item": "Invia oggetto smarrito"
+        "models": "Modello",
+        "actions": "Azioni"
       }
     },
     "main": {
-      "filter-grid": {
-        "close": "Vicino",
-        "reset": "Reset"
-      },
       "index": {
-        "close-floor": "Chiudi piano",
-        "floor": "Pavimento",
-        "rooms": "Camere",
-        "tasks": "Compiti"
+        "create-new-task-for": "Creare una nuova attività per"
+      },
+      "filterbutton": {
+        "filters": "Filtri"
+      },
+      "filters": {
+        "filter-tasks": "Filtrare le attività",
+        "limit-priority": "Limitare le attività prioritarie",
+        "limit-dirty": "Limitare le stanze sporche",
+        "limit-occupied": "Limite alle camere occupate",
+        "limit-out-of-service": "Limitare le camere HS",
+        "limit-vacant": "Limite alle camere libere"
       }
     },
     "navigation": {
+      "scenes": {
+        "closed-tasks": "Attività chiuse",
+        "tasks": "Attività",
+        "hotel-assets": "Servizi dell'hotel",
+        "create-task": "Creare un'attività",
+        "reassign-task": "Riassegna attività",
+        "sent-tasks": "Attività inviate",
+        "hotel-rooms": "Le camere dell'hotel",
+        "asset": "Attrezzatura",
+        "action": "Azione",
+        "filters": "Filtri"
+      },
       "links": {
-        "glitches": "experiencees",
-        "inventory-restock": "rifornire l'inventario",
-        "main": "Principale",
-        "notifications": "notifiche",
-        "tasks": "Compiti",
-        "turndown-service": "Interrompere il servizio"
+        "assets": "Attrezzatura",
+        "notifications": "Notifiche",
+        "rooms": "Camere",
+        "closed": "Chiuso",
+        "main": "Schermata principale",
+        "sent": "Invia"
       }
     },
-    "notes": {
-      "index": {
-        "add-note": "Aggiungi nota",
-        "new-note-placeholder": "Ex. compito",
-        "new-room-note": "Nuova nota stanza",
-        "previous-notes": "note precedenti"
-      }
-    },
-    "room": {
-      "restock": {
-        "cancel-restock": "Annulla rifornire",
-        "mark-as-restocked": "Segna come rifornito",
-        "room-inventory": "condizioni della camera"
-      }
-    },
-    "turndown": {
-      "index": {
-        "all-categories": "Tutte le categorie"
+    "rooms": {
+      "dummy": {
+        "occupaied": "Occupato"
       },
-      "modalcontent": {
-        "cancel-turndown": "Annulla couverture",
-        "delay": "Ritardo",
-        "dnd": "Dnd",
-        "finish-turndown": "Fine di couverture",
-        "refuse": "Rifiuto"
-      },
-      "subheader": {
-        "all-categories": "Tutte le categorie"
+      "index": {
+        "close-room": "Chiudere",
+        "close-floor": "Chiudere"
       }
     }
   }

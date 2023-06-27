@@ -1,0 +1,1358 @@
+{
+  "runner": {
+    "glitch-form": {
+      "index": {
+        "add-actions-to-resolve": "Добавление действия",
+        "add-followup-instructions": "Добавление последующих инструкций",
+        "vip": "ВИП",
+        "add-task": "Добавление задачи",
+        "enter-room-name": "Введите номер комнаты",
+        "select-glitch-category": "Выберите категорию",
+        "glitch-information": "Новости",
+        "close-glitch": "Закрытие интерфейса",
+        "handover": "Передать другому лицу",
+        "internal-followup": "Внутренний мониторинг",
+        "enter-guest-name": "Введите имя клиента",
+        "choose-location": "Выберите место/комнату",
+        "send-glitch": "Отправить опыт",
+        "email": "Почта",
+        "eur": "Евро",
+        "submit-new-glitch": "Отправьте новый опыт",
+        "compensation-cost": "Стоимость компенсации",
+        "update-glitch": "Обновление интерфейса",
+        "guest-information": "Информация о клиенте",
+        "add-experience-description": "Добавить описание",
+        "vip-status-optional": "VIP-статус (необязательно)",
+        "incident-description": "Описание происшествия",
+        "room": "Комната",
+        "name": "Имя",
+        "select-a-glitch-category": "Выберите категорию",
+        "actions-to-resolve": "Действия по разрешению инцидента",
+        "enter-guest-email": "Введите адрес электронной почты клиента"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Выберите опыт",
+        "select-glitch-category": "Выберите категорию впечатлений",
+        "select-category": "Выберите категорию"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Сброс",
+        "close": "Закрывать"
+      },
+      "index": {
+        "tasks": "Задачи",
+        "rooms": "Комната",
+        "close-floor": "Закрыть окно",
+        "floor": "Этаж"
+      }
+    },
+    "clean": {
+      "index": {
+        "confirm-dnd": "Подтвердите режим «Не беспокоить»",
+        "change-sheets": "Смена листов",
+        "pms": "ПМС",
+        "add-change-sheets": "Пришлось менять простыни"
+      }
+    },
+    "room": {
+      "restock": {
+        "room-inventory": "Комнатный инвентарь",
+        "cancel-restock": "Отмена акций",
+        "mark-as-restocked": "Пополнение запасов завершено"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Предыдущие заметки",
+        "add-note": "Добавить заметку",
+        "new-room-note": "Новая особенность номера",
+        "new-note-placeholder": "Например, задача"
+      }
+    },
+    "glitch": {
+      "glitch-read-only": {
+        "none": "Пустой",
+        "send-email": "Отправить почту",
+        "glitch-cost": "Стоить",
+        "glitch-followup": "Уход за выздоравливающим",
+        "start": "Начинать",
+        "glitch-description": "Приметы:__________",
+        "assigned-to": "Назначен",
+        "current-responsibility": "Ответственное лицо",
+        "glitch-action": "Действие",
+        "glitch-category": "Категория"
+      }
+    },
+    "components": {
+      "group-select-modal": {
+        "close": "Закрывать",
+        "select-assignment": "Выберите получателя"
+      },
+      "group-select-row": {
+        "text": "СМС"
+      },
+      "location-select-modal": {
+        "close": "Закрывать",
+        "select-location": "Выберите место/комнату"
+      },
+      "room-note-row": {
+        "remove": "Удалить"
+      },
+      "task-card": {
+        "created-by": "Создание сайта",
+        "location": "Место / комната",
+        "last-message": "Сообщение",
+        "submitted-time": "Созданный"
+      },
+      "special-select-row": {
+        "text": "СМС"
+      },
+      "assignment-select": {
+        "attendants": "Горничные/камердинеры",
+        "inspectors": "Администраторы",
+        "management": "Рамка",
+        "housekeeping": "Домашнее хозяйство",
+        "concierge": "Последующее наблюдение за ФО",
+        "maintenance": "Содержание",
+        "groups": "Группы",
+        "runners": "Бегунов"
+      },
+      "user-select-row": {
+        "text": "Ttexte"
+      },
+      "inventory-update-row": {
+        "reset": "Сброс"
+      },
+      "room-options": {
+        "room-gallery": "Планировка помещений",
+        "send-task": "Отправить задание",
+        "clean-room": "Помещение для уборки",
+        "guest-glitch": "Опыт клиента",
+        "hsk-notes": "Особенности номера",
+        "lost-found": "Потерянные и найденные",
+        "inventory": "Инвентарь",
+        "maintenance": "Содержание"
+      },
+      "room-timer": {
+        "cancel": "Отмена",
+        "done": "Очищены"
+      },
+      "user-select-modal": {
+        "management": "Рамка",
+        "housekeeping": "Домашнее хозяйство",
+        "concierge": "Последующее наблюдение за ФО",
+        "select-assignment": "Выберите получателя",
+        "maintenance": "Содержание",
+        "close": "Закрывать"
+      },
+      "asset-action-description": {
+        "yes": "Да",
+        "there-are-no-actions-for-your-asset": "Для этого оборудования нет никаких действий",
+        "no-actions-for-created-asset": "Для этого оборудования нет никаких действий",
+        "you-must-first-select-an-asset": "Для начала нужно выбрать единицу оборудования",
+        "no": "Не"
+      },
+      "asset-select-modal": {
+        "close": "Закрывать",
+        "select-asset": "Выберите устройство"
+      },
+      "room-info": {
+        "change-sheets": "Смена листов",
+        "pms": "ПМС"
+      },
+      "reservation-nights": {
+        "of": "На",
+        "nights": "Ночью"
+      },
+      "task-settings": {
+        "yes": "Да",
+        "no": "Не"
+      },
+      "gallery-row-item": {
+        "label": "Этикет"
+      }
+    },
+    "turndown": {
+      "subheader": {
+        "all-categories": "Все категории"
+      },
+      "index": {
+        "all-categories": "Все категории"
+      },
+      "modalcontent": {
+        "delay": "Позже",
+        "cancel-turndown": "Отмена услуги покрытия",
+        "refuse": "Отказался",
+        "finish-turndown": "Услуга покрытия завершена",
+        "dnd": "ДНД"
+      }
+    },
+    "glitches": {
+      "index": {
+        "other-glitches": "Другие отчеты клиентов",
+        "recently-closed": "Недавно закрыто",
+        "assigned-glitches": "Отчеты о назначенных клиентах"
+      }
+    },
+    "navigation": {
+      "links": {
+        "glitches": "Опытом",
+        "tasks": "Задачи",
+        "inventory-restock": "Менеджер по запасам",
+        "notifications": "Уведомления",
+        "turndown-service": "Услуги по страхованию",
+        "main": "Главный экран"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "submit-lost-item": "Отправить"
+      }
+    }
+  },
+  "attendant": {
+    "swipeoutoptions": {
+      "index": {
+        "close": "Закрывать"
+      }
+    },
+    "clean": {
+      "menu": {
+        "dnd": "ДНД",
+        "refuse": "Отказ",
+        "inspect": "Помещение для осмотра",
+        "start-cleaning": "Начать уборку",
+        "delay": "Позже",
+        "clean": "Чистка",
+        "no-check": "Не проверяется"
+      },
+      "finishmenu": {
+        "cancel-dnd": "Отмена «Не беспокоить»",
+        "cancel-refuse": "Отмена отклонения",
+        "cancel-finish": "Отмена очистки",
+        "confirm-dnd": "Подтвердите «Не беспокоить»"
+      },
+      "cleaninginfo": {
+        "credits": "Кредиты",
+        "pms": "ПМС",
+        "change-sheets": "Смена листов",
+        "long-stay": "Длительное пребывание",
+        "cleaning-info": "Информация об очистке",
+        "cleaning-instruction": "Инструкция"
+      },
+      "taskssubheader": {
+        "show-tasks": "Отображает задачи",
+        "tasks": "Задачи",
+        "hide-tasks": "Скрывает задачи"
+      },
+      "index": {
+        "add-change-sheets": "Пришлось менять простыни"
+      }
+    },
+    "popuptasks": {
+      "index": {
+        "new-task": "Новая задача",
+        "accept": "Принимать",
+        "reject": "Отвергать"
+      }
+    },
+    "notes": {
+      "index": {
+        "previous-notes": "Предыдущие заметки",
+        "add-note": "Добавить заметку",
+        "new-room-note": "Новая особенность номера",
+        "new-note-placeholder": "Например, задача"
+      }
+    },
+    "inspect": {
+      "menu": {
+        "dnd": "ДНД",
+        "refuse": "Отказ",
+        "inspect": "Инспектируемое помещение",
+        "start-cleaning": "Начать уборку",
+        "delay": "Позже",
+        "clean": "Чистый",
+        "no-check": "Не проверяется"
+      },
+      "finishmenu": {
+        "confirm-dnd": "Подтвердите «Не беспокоить»"
+      },
+      "cleaninginfo": {
+        "credits": "Кредиты",
+        "change-sheets": "Смена листов",
+        "long-stay": "Длительное пребывание",
+        "pms": "ПМС"
+      },
+      "taskssubheader": {
+        "show-tasks": "Отображает задачи",
+        "tasks": "Задачи",
+        "hide-tasks": "Скрывает задачи"
+      }
+    },
+    "alert": {
+      "index": {
+        "priority": "Приоритет",
+        "room-message": "Сообщение в комнату"
+      }
+    },
+    "headers": {
+      "maintenance": "Содержание",
+      "inventory-restock": "Менеджер по запасам",
+      "notes": "Характеристики",
+      "inspect": "Осматривать",
+      "lost-found": "Потерянные и найденные",
+      "inventory": "Инвентарь",
+      "clean": "Чистка",
+      "gallery": "Стандартный номер"
+    },
+    "components": {
+      "group-select-row": {
+        "text": "СМС"
+      },
+      "location-select-modal": {
+        "close": "Закрывать"
+      },
+      "user-select-row": {
+        "text": "СМС"
+      },
+      "reservation-component": {
+        "reservation": "Резервирование"
+      },
+      "room-note-row": {
+        "remove": "Удалить"
+      },
+      "task-settings": {
+        "yes": "Да",
+        "no": "Не"
+      },
+      "special-select-row": {
+        "text": "СМС"
+      },
+      "inventory-update-row": {
+        "reset": "Réinitilaiser"
+      },
+      "room-timer": {
+        "cancel": "Отмена",
+        "done": "Финишная комната"
+      },
+      "assignment-select": {
+        "attendants": "Горничные / Камердинеры",
+        "inspectors": "Администраторы",
+        "management": "Рамка",
+        "housekeeping": "Домашнее хозяйство",
+        "concierge": "Последующее наблюдение за ФО",
+        "maintenance": "Команда технического обслуживания",
+        "groups": "Группы",
+        "runners": "Бегуны / Экипьеры"
+      },
+      "room-options": {
+        "room-gallery": "Стандартный номер",
+        "send-task": "Отправить задание",
+        "clean-room": "Помещение для уборки",
+        "hsk-notes": "Особенности номера",
+        "lost-found": "Потерянные и найденные",
+        "inventory": "Инвентарь",
+        "maintenance": "Содержание"
+      },
+      "room-row-item": {
+        "tasks": "Задачи"
+      },
+      "user-select-modal": {
+        "management": "Рамка",
+        "housekeeping": "Домашнее хозяйство",
+        "concierge": "Последующее наблюдение за ФО",
+        "select-assignment": "Выберите пользователя",
+        "maintenance": "Содержание",
+        "close": "Закрывать"
+      },
+      "asset-action-description": {
+        "yes": "Да",
+        "there-are-no-actions-for-your-asset": "Для этого оборудования нет никаких действий",
+        "no-actions-for-created-asset": "Для этого оборудования нет никаких действий",
+        "you-must-first-select-an-asset": "Для начала нужно выбрать единицу оборудования",
+        "no": "Не"
+      },
+      "asset-select-modal": {
+        "close": "Закрывать",
+        "select-asset": "Выберите оборудование"
+      },
+      "reservation-nights": {
+        "of": "на",
+        "nights": "Ночью"
+      }
+    },
+    "inventoryrestock": {
+      "index": {
+        "restock-inventory": "Сброс инвентаря"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Стереть",
+        "search": "Поиск по комнатам, клиентам...",
+        "vacant": "Свободный",
+        "inspt": "Чистый",
+        "other": "Другое__________",
+        "dirty": "Продажа",
+        "clean": "Чистый",
+        "close": "Закрывать",
+        "occupied": "Занятый"
+      },
+      "index": {
+        "priority": "Приоритет",
+        "tasks": "Задачи",
+        "floor": "Этаж",
+        "paused-rooms": "Приостановленные номера",
+        "cleaning-rooms": "Уборка помещений",
+        "paused": "Приостановка",
+        "priority-rooms": "Номера в приоритете",
+        "close-floor": "Закрыть окно",
+        "rooms": "Номера",
+        "scheduled": "Запрограммированные комнаты",
+        "show-more": "Смотреть все",
+        "show-less": "Ограничение на количество программ",
+        "credits": "Кредиты"
+      }
+    },
+    "navigation": {
+      "links": {
+        "tasks": "Задачи",
+        "main": "Главный экран",
+        "glitches": "Опытом",
+        "inventory-restock": "Запас",
+        "notifications": "Уведомления",
+        "rooms-cleaned": "Убранные номера"
+      }
+    },
+    "lostfound": {
+      "index": {
+        "report-lost-and-found-item": "Вернуть найденный предмет",
+        "description": "Добавить описание",
+        "submit-lost-item": "Отправка найденного товара"
+      }
+    }
+  },
+  "base": {
+    "extra-options": {
+      "room-extra-options": "Дополнительная информация"
+    },
+    "glitch-form": {
+      "index": {
+        "glitch-information": "Информация об опыте",
+        "incident-description": "Описание происшествия",
+        "name": "Имя",
+        "room": "Комната",
+        "submit-new-glitch": "Отправьте новый опыт",
+        "compensation-cost": "Стоимость компенсации",
+        "select-glitch-category": "Выберите категорию опыта",
+        "enter-guest-name": "Введите имя клиента",
+        "enter-room-number": "Введите номер комнаты",
+        "vip": "ВИП",
+        "premiere-club": "Первый клуб",
+        "actions-to-resolve": "Действия по разрешению инцидента",
+        "follow-up-with-guest": "Сопровождение с клиентом",
+        "email": "Почта",
+        "enter-guest-email": "Введите адрес электронной почты клиента"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Выберите опыт",
+        "select-glitch-category": "Выберите категорию опыта",
+        "select-category": "Выберите категорию"
+      }
+    },
+    "lost-found-review": {
+      "index": {
+        "open": "Открытый",
+        "emailed": "Электронная почта отправлена",
+        "phoned": "Связался (тел.)",
+        "pending": "Ожидаемый",
+        "waiting": "В ожидании подтверждения",
+        "mailed": "Отправлены",
+        "hand-delivered": "Ручная доставка",
+        "expired": "Истек",
+        "refused": "Отказался",
+        "delete": "Отмена",
+        "closed": "Закрытый",
+        "found": "Основывать",
+        "show-all": "Смотреть все",
+        "show-only-open": "Открытые билеты",
+        "show-only-received": "Полученный",
+        "holding": "Удерживается до тех пор, пока гость не вернется",
+        "reception": "С ресепшеном",
+        "holding-lt": "Долгосрочное удержание"
+      },
+      "modal": {
+        "guest-signature-optional": "Клиент подписи (опция)",
+        "notes-optional": "Примечание (опция)",
+        "added-photos-optional": "Добавлены фотографии (опция)",
+        "update-status": "Статус обновления"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Хорошо",
+        "submitted-time": "Созданный",
+        "notification": "Уведомление",
+        "accept": "Принимать",
+        "new-task": "Новая задача",
+        "location": "Место",
+        "reject": "Отвергать",
+        "created-by": "Создание сайта",
+        "last-message": "Сообщение",
+        "assigned-audit": "Назначенный аудит",
+        "comments": "Резолюция",
+        "sent": "Посылать",
+        "guest-name": "Имя гостя"
+      }
+    },
+    "ubiquitous": {
+      "all": "Все",
+      "departed": "Сторон",
+      "photo": "Фото",
+      "inspt": "Инспт",
+      "assignee": "Вызов",
+      "unassigned": "Неназначенные",
+      "rooms": "Монеты",
+      "filters": "Фильтры",
+      "pms-notes": "Примечания PMS",
+      "yes": "Да",
+      "blocked": "Блокированный",
+      "pause": "Пауза",
+      "group": "Группа",
+      "acknowledge": "Зрение",
+      "send": "Отправить",
+      "search": "Исследование",
+      "search-users": "Найти пользователя",
+      "to": "a:",
+      "no-location": "Нет места проведения",
+      "location": "Место",
+      "all-inspectors": "Все правители",
+      "create-asset": "Создание оборудования",
+      "da": "Д/Д",
+      "search-assets": "Поисковое оборудование",
+      "search-locations": "Поиск места/комнаты",
+      "add-a-note": "Добавить заметку",
+      "assignments": "Вызов",
+      "continue": "Продолжать",
+      "quick": "Команды",
+      "maintenance-team": "Команда технического обслуживания",
+      "backlog": "Поздний",
+      "reset-entry": "Réinit.",
+      "arr": "Арр",
+      "creator": "Создатель",
+      "asset-and-action": "Экипировка и экшен",
+      "cs": "С*Д",
+      "close": "Закрывать",
+      "mandatory-task": "Обязательное задание",
+      "yesterday": "Здесь",
+      "last-message": "Сообщение",
+      "arrival": "Прибытие",
+      "resume": "Резюме",
+      "select-user": "Выберите пользователя",
+      "attendant": "Горничная / Камердинер",
+      "stay": "Rec",
+      "optional": "Выбор",
+      "convert": "Обращать",
+      "housekeeping": "Домашнее хозяйство",
+      "enter-a-message": "Введите сообщение",
+      "block": "Блок",
+      "tasks": "Задачи",
+      "select-location": "Выберите место/комнату",
+      "floors": "Полом",
+      "submit": "Отправить",
+      "cancel": "Отмена",
+      "message": "Сообщение",
+      "people": "Лиц",
+      "inspected": "Освидетельствованный",
+      "next": "Следующий",
+      "priority": "Приоритет",
+      "start": "Начинать",
+      "maintenance": "Содержание",
+      "prev": "Предыдущий",
+      "today": "Сегодня",
+      "tomorrow": "Завтра",
+      "completed": "Completée",
+      "notifications": "Уведомления",
+      "all-runners": "Все экипажи / Бегуны",
+      "none": "-",
+      "room": "Комната",
+      "bedrooms": "Номера",
+      "dep": "DEP",
+      "priority-task": "Приоритетная задача",
+      "lite-task": "Облегченная задача",
+      "normal-task": "Обычная задача",
+      "unassigned-task": "Неназначенная задача",
+      "enter-a-description-optional": "Введите описание (необязательно)",
+      "dirty": "Продажа",
+      "cancelled": "Отменен",
+      "send-housekeeping-task": "Отправить задание HK",
+      "select-locations": "Выбор локаций/комнат",
+      "search-tasks": "Поиск задачи",
+      "send-maintenance-task": "Отправить задачу обслуживания",
+      "runner": "Бегун / Экипаж",
+      "locations": "Места / Комнаты",
+      "accept": "Принимать",
+      "no-photo": "Нет фото",
+      "receptionist": "Администратор",
+      "inspector": "Правителей",
+      "occupied": "Занятый",
+      "vacant": "Вакансия",
+      "information": "Информация",
+      "adminstrator": "Администратор",
+      "no": "Не",
+      "stayover": "Ретранслятор",
+      "delay": "Позже",
+      "other": "Другое__________",
+      "blocking-task": "Задача блокировки",
+      "reject": "Отвергать",
+      "finish": "Заканчивать",
+      "description": "Приметы:__________",
+      "normal": "Нормальный",
+      "planned-attendant": "Плановая горничная",
+      "planned-runner": "Планируемый член экипажа",
+      "update": "Обновлять",
+      "alert": "Тревога",
+      "arrived": "Прибытие",
+      "change-sheets": "Смена листов",
+      "task": "Задача",
+      "clear": "Удалить",
+      "floor": "Этаж",
+      "departure": "Отправление",
+      "clean": "Чистый",
+      "exit-selection": "Закрывать",
+      "tap-to-start-camera": "Нажмите, чтобы сфотографировать",
+      "continue-without-photo": "Продолжить без фото",
+      "default-assignment": "Назначение по умолчанию",
+      "tap-to-continue": "Нажмите, чтобы продолжить",
+      "review": "Увидеть",
+      "dismiss": "Маска",
+      "show": "Поместить",
+      "checkout-on": "Отправление на",
+      "cleaning": "Чистка",
+      "dnd": "ДНД",
+      "refuse": "Отказался",
+      "reset-system": "Стереть",
+      "management": "Рамка",
+      "properties": "Свойства",
+      "area": "Площадь",
+      "asset": "Оборудование",
+      "action": "Действие",
+      "model": "Модель",
+      "guest": "Клиент",
+      "due-out": "Отправление на",
+      "tap-to-enlarge": "Нажмите, чтобы увеличить",
+      "categories": "Категории",
+      "status": "Статус",
+      "calendar": "Календарь",
+      "take-picture": "Фото",
+      "add-more-video": "Добавить видео",
+      "take-video": "Видео",
+      "picture-gallery": "Фото в тел.",
+      "video-gallery": "Видео в тел.",
+      "task-asset": "Оборудование",
+      "task-next": "Следующий",
+      "task-guest-request": "Запрос клиента",
+      "task-submit": "Отправить",
+      "task-assign": "Назначен",
+      "add-more-photo": "Добавить фото"
+    },
+    "realtime": {
+      "index": {
+        "pending-requests-itemstosync": "Ожидающий запрос",
+        "offline": "Автономный",
+        "-": ""
+      }
+    },
+    "notification": {
+      "extraoptions": {
+        "reply": "Ответ",
+        "convert-to-task": "Преобразовать в задачу",
+        "follow-up": "Уход за выздоравливающим"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "recent-quick-notifications": "Быстрые или последние уведомления"
+      },
+      "selectuser": {
+        "tap": "Нажмите, чтобы изменить"
+      }
+    },
+    "tasktable": {
+      "modal": {
+        "assigned-to": "Назначен",
+        "last-action": "Последнее действие",
+        "messages": "Сообщения",
+        "location": "Место",
+        "created-by": "Создание сайта",
+        "submitted-time": "Созданный",
+        "complete-task": "Заканчивать",
+        "cancel-task": "Отмена",
+        "reassign-task": "Цессионарий"
+      },
+      "status": {
+        "started": "Начатый",
+        "waiting": "Принятый",
+        "rejected": "Отклонено",
+        "paused": "Приостановка",
+        "canceled": "Отменен",
+        "finished": "Над",
+        "completed": "Над",
+        "pending": "Ожидаемый"
+      },
+      "header": {
+        "status": "Статус",
+        "information": "Информация",
+        "task": "Задача",
+        "normal-ticket": "Билет нормальный",
+        "lite-ticket": "Заявка на заполнение",
+        "assigned": "Вызов",
+        "time-created": "Созданный",
+        "location": "Место",
+        "created-by": "Создание сайта",
+        "priority-ticket": "Приоритетный билет"
+      },
+      "utils": {
+        "pause": "Приостановка",
+        "finish": "Заканчивать",
+        "start": "Начинать",
+        "resume": "Резюме",
+        "reject": "Отвергать"
+      },
+      "lastaction": {
+        "created": "Задача создана",
+        "task-reassigned": "Переназначенная задача",
+        "rescheduled": "Повторное задание",
+        "added-message": "Добавлено сообщение"
+      }
+    },
+    "notifications": {
+      "index": {
+        "assigned": "Назначенный",
+        "sent": "Доставленный"
+      },
+      "quicknotificationform": {
+        "send-message": "Отправить сообщение"
+      }
+    },
+    "tasks": {
+      "tabs": {
+        "today": "Сегодня",
+        "sent": "Доставленный",
+        "backlog": "Поздний"
+      },
+      "dummy": {
+        "occupaied": ""
+      }
+    },
+    "inventory": {
+      "index": {
+        "close-area": "Закрытие зоны",
+        "search-items": "Поиск товара"
+      }
+    },
+    "components": {
+      "assetactiondescription": {
+        "submit-maintenance": "Отправка задачи на обслуживание",
+        "no-available": "Для этого оборудования нет никаких действий",
+        "description": "Приметы:__________",
+        "no": "Не",
+        "no-actions": "Для этого оборудования нет никаких действий",
+        "priority": "Приоритет",
+        "continue": "Продолжать",
+        "asset": "Оборудование",
+        "first-select": "Для начала нужно выбрать единицу оборудования",
+        "action": "Действие",
+        "description-placeholder": "Пример: не вращается",
+        "yes": "Да",
+        "select-asset": "Выберите оборудование",
+        "location": "Место"
+      },
+      "fullscreenphoto": {
+        "no-photo": "Нет фото"
+      }
+    },
+    "navigation": {
+      "index": {
+        "task": "Задача",
+        "convert-task": "Преобразовать в задачу",
+        "notifications": "Уведомления",
+        "tasks": "Задачи",
+        "notes": "Характеристики",
+        "create-notification": "Создание уведомления",
+        "glitch": "Опыт работы с клиентом",
+        "turndown-service": "Служба покрытия",
+        "lost-found": "Потерянные и найденные",
+        "room": "Комната",
+        "filter-tasks": "Представление фильтра",
+        "inventory": "Управление запасами",
+        "maintenance": "Содержание",
+        "home": "Дом",
+        "glitches": "Впечатления клиентов",
+        "gallery": "Фотографии номеров",
+        "inventory-restock": "Запас"
+      },
+      "links": {
+        "assets": "Оборудование",
+        "notifications": "Уведомления",
+        "logout": "Выход",
+        "rooms": "Номера",
+        "closed": "Закрытый",
+        "main": "Главный экран",
+        "sent": "Доставленный"
+      }
+    },
+    "taskcard": {
+      "status": {
+        "started": "Начатый",
+        "completed": "Завершённый",
+        "unclaimed": "Ожидаемый",
+        "cancelled": "Отменен",
+        "accepted": "Принятый",
+        "pending": "Ожидаемый"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Закрывать"
+      }
+    }
+  },
+  "inspector": {
+    "room-messages": {
+      "index": {
+        "day-night": "День и покрытие",
+        "edit": "Модифицировать",
+        "add-message": "Новые функции",
+        "delete-messages": "Удаление сообщений",
+        "change-room": "Перейти к # нет.",
+        "message": "Сообщение",
+        "message-type": "Выберите тип сообщения",
+        "schedule": "Выберите крайний срок",
+        "calendar": "Календарь",
+        "day": "День",
+        "night": "Одеяло",
+        "pickup": "Пикап",
+        "end-of-day": "Сегодня",
+        "end-of-stay": "До вылета",
+        "custom": "Обычай",
+        "indefinitely": "Неопределённо",
+        "cancel": "Отмена",
+        "submit-message": "Отправить"
+      }
+    },
+    "audits": {
+      "add-photo": "Добавить фотографию",
+      "add-note": "Добавить заметку",
+      "submit-task": "Отправить",
+      "save": "Спасать",
+      "note": "Заметка",
+      "photo": "Фото",
+      "select-audit": "Выберите аудит",
+      "assign-to-others": "Назначьте ... (необязательно)"
+    },
+    "attendantmodal": {
+      "index": {
+        "priority": "Приоритет",
+        "reset": "Сброс",
+        "attendant": "Горничная / Камердинер",
+        "overwrite-guest-status": "Изменение статуса фронт-офиса",
+        "send-message-to-attendant": "Отправить сообщение в fdc / vdc"
+      }
+    },
+    "createtask": {
+      "index": {
+        "photo": "Фото",
+        "mandatory-task": "Обязательное задание",
+        "assignee": "Вызов",
+        "priority-task": "Приоритетная задача",
+        "blocking-task": "Задача блокировки",
+        "location": "Место / комната",
+        "asset-and-action": "Экипировка и экшен"
+      },
+      "extraoption": {
+        "yes": "Да",
+        "no": "Не"
+      }
+    },
+    "main": {
+      "index": {
+        "rooms": "Номера",
+        "all-floors": "Все этажи",
+        "floor": "Этаж",
+        "ok": "Хорошо"
+      },
+      "rooms-filter": {
+        "attendants": "FDC",
+        "reset": "Сброс",
+        "filtered-rooms": "Номера по фильтру",
+        "other": "Другое__________",
+        "floors": "Полом",
+        "filters": "Фильтры",
+        "all-rooms": "Все номера",
+        "show-non-guest-rooms": "Показать места общего пользования",
+        "hide-non-guest-rooms": "Скрыть места общего пользования"
+      },
+      "rooms-information": {
+        "reset": "Сброс",
+        "vip": "ВИП"
+      },
+      "notes": {
+        "room-notes": "Особенности номера"
+      },
+      "roommessageform": {
+        "room-message": "Сообщение о комнате"
+      },
+      "roomnotesmodal": {
+        "no-pms-notes-for-this-reservation": "Нет рейтинга PMS для этого бронирования",
+        "send-message-attendant": "Отправить прямое уведомление",
+        "room-notes": "Особенности номера",
+        "pms-notes": "примечания PMS",
+        "save-for-later": "Отложить на потом",
+        "room-message": "Сообщение о комнате",
+        "messaging": "Сообщение для отправки"
+      },
+      "filters-drawer": {
+        "1": "1"
+      }
+    },
+    "housekeeping": {
+      "index": {
+        "today": "Сегодня",
+        "search-tasks-rooms-users": "Поиск комнат, пользователей и т.д.",
+        "backlog": "Поздний"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "ХОРОШО",
+        "submitted-time": "Создано с тех пор",
+        "notification": "Уведомление",
+        "accept": "Принимать",
+        "new-task": "Новая задача",
+        "location": "Место / комната",
+        "reject": "Отвергать",
+        "created-by": "Создание сайта",
+        "last-message": "Сообщение"
+      }
+    },
+    "information": {
+      "info": {
+        "dnd": "Не беспокоить",
+        "cleaning": "Идет уборка...",
+        "refused": "Отказ заказчика",
+        "delay": "Позже",
+        "finish": "конечный",
+        "attendant-status": "Состояние очистки",
+        "housekeeping-status": "Статут Уборка",
+        "room-attendant": "Горничная / Камердинер",
+        "room-information": "Номера",
+        "emilie-persion": "Эмили Персион",
+        "room-type": "Тип номера",
+        "standart-room": "Стандартный номер",
+        "last-action": "Последнее действие",
+        "room-category": "Категория номера",
+        "cleaning-name": "Название чистки"
+      },
+      "index": {
+        "room": "Комната"
+      },
+      "pmsnotes": {
+        "pms-notes": "Примечания pms",
+        "no-pms-notes": "Нет примечания к ПМС"
+      },
+      "notes": {
+        "room-notes": "Особенности номера"
+      },
+      "roommessageform": {
+        "room-message": "Сообщение о комнате"
+      },
+      "housekeepingstatus": {
+        "other-housekeepings": "Другое__________"
+      },
+      "vipstatus": {
+        "vip-status": "VIP-статус"
+      },
+      "attendantstatus": {
+        "attendant-status": "Статус горничной"
+      }
+    },
+    "updatespopup": {
+      "index": {
+        "new": "Новые функции",
+        "dismiss": "Игнорировать",
+        "you-have": "Новая информация",
+        "show": "Поместить",
+        "new-updates": ""
+      },
+      "modal": {
+        "priority-set": "Подтвержденный приоритет",
+        "message-added": "Добавлено сообщение",
+        "room-restocked": "Пополнение запасов завершено",
+        "room-unblocked": "Незапертая комната",
+        "updates": "Новая информация",
+        "dismiss-all": "Игнорировать все"
+      }
+    },
+    "createnotification": {
+      "index": {
+        "select-a-location-or-change-user": "Выберите место/комнату или другого пользователя",
+        "photo": "Фото",
+        "missing-location-or-user": "Отсутствует место/комната или пользователь",
+        "send-notification": "Отправить уведомление",
+        "to": "У:",
+        "select-notification": "Выберите уведомление",
+        "location": "Место / комната",
+        "message": "Сообщение",
+        "quick-notifications": "Уведомления"
+      },
+      "selectusermodal": {
+        "select-reciepent": "Выберите получателя"
+      }
+    },
+    "tableheader": {
+      "index": {
+        "attendant-runner": "Женщина / камердинер и бегун",
+        "tasks": "Задачи",
+        "my-assigned-tasks": "Мои задачи",
+        "open-housekeepings": "Открытие вакансий в Гонконге",
+        "open": "Открытые задачи, задачи",
+        "open-maintenances": "Открытые задачи обслуживания",
+        "recently-closed-tasks": "Недавно закрытые задачи",
+        "open-tasks": "Открытые задачи",
+        "paused-audits": "Аудиты на паузе",
+        "open-audits": "Открытые аудиты",
+        "recently-closed-audits": "Последние аудиты закрыты",
+        "start-new-audit": "Начать новый аудит"
+      }
+    },
+    "founditem": {
+      "index": {
+        "add-a-description": "Добавить описание",
+        "submit-lost-item": "Отправить элемент"
+      }
+    },
+    "notifications": {
+      "notificationheader": {
+        "status": "Статус",
+        "message": "Сообщение",
+        "user": "Пользователь",
+        "room": "Комната",
+        "time": "Час"
+      },
+      "assignedheader": {
+        "status": "Статус",
+        "message": "Сообщение",
+        "time": "Час",
+        "room": "Комната",
+        "creator": "Создатель"
+      },
+      "status": {
+        "okay": "ХОРОШО",
+        "started": "Начатый",
+        "rejected": "Отклонено",
+        "paused": "Приостановка",
+        "canceled": "Отменен",
+        "waiting": "Принятый",
+        "pending": "Ожидаемый"
+      },
+      "index": {
+        "sent-attendant-notifications": "Отправленные уведомления",
+        "assigned-notifications": "Мои уведомления",
+        "search-rooms-or-people": "Поиск комнат или пользователей"
+      }
+    },
+    "catalog": {
+      "index": {
+        "room-photos": "Фотографии номеров"
+      }
+    },
+    "planning": {
+      "index": {
+        "add-attendant": "Добавление FoC",
+        "reset": "Сброс",
+        "prev": "Предыдущий",
+        "filters": "Фильтры",
+        "next": "Следующий"
+      },
+      "filtersdrawer": {
+        "all": "Все",
+        "rooms-to-plan": "Комнаты для выделения",
+        "stayover": "Ретранслятор",
+        "departure": "Отправление",
+        "arrivals": "Прибытия",
+        "da": "Д/Д",
+        "filter-by-guest-status": "Фильтр по статусу клиента",
+        "filter-by-housekeeping": "Фильтр по статусу HK",
+        "filter-by-floor": "Фильтр по этажам",
+        "filter-by-category": "Фильтр по категориям",
+        "change-sheets": "Смена листов",
+        "blocked": "Блокированный"
+      }
+    },
+    "room": {
+      "index": {
+        "information": "Информация",
+        "hsk-tasks": "Задачи HK",
+        "maintenances": "Содержание",
+        "catalog": "Стандарты",
+        "lost-found": "Потерянные и найденные",
+        "image-about-how-the-room-should-look": "Как должна выглядеть комната",
+        "questionnaires": "Аудиты"
+      }
+    },
+    "playground": {
+      "index": {
+        "let-go": "Поехали"
+      }
+    },
+    "components": {
+      "selectassignmentmodal": {
+        "select-assignment": "Выберите получателя",
+        "search-users": "Найти пользователя"
+      },
+      "selectlocationmodal": {
+        "select-locations": "Выберите место/комнату",
+        "search-locations": "Поиск места/комнаты"
+      },
+      "selectassetactionmodal": {
+        "search-assets": "Поисковое оборудование",
+        "select-asset": "Выберите устройство"
+      }
+    },
+    "chooseattendantmodal": {
+      "index": {
+        "choose-attendant": "Выберите новый fdc"
+      }
+    },
+    "imagegallery": {
+      "index": {
+        "image-about-how-the-room-should-look": "Как должна выглядеть комната"
+      }
+    },
+    "navigation": {
+      "links": {
+        "housekeeping": "Задачи",
+        "notifications": "Уведомления",
+        "planning": "Приписывание",
+        "maintenance": "Содержание",
+        "main": "Главный экран",
+        "history": "Исторический",
+        "lost-found": "Потерянные и найденные",
+        "experiences": "Опыт работы с клиентом"
+      }
+    },
+    "maintenance": {
+      "index": {
+        "today": "Сегодня",
+        "search-tasks-rooms-users": "Поиск комнат, пользователей и т.д.",
+        "backlog": "Поздний"
+      }
+    },
+    "history": {
+      "index": {
+        "reset": "Сброс",
+        "all": "Все",
+        "other": "Другое__________",
+        "guests": "Клиентов",
+        "search-room-users-events": "Поиск комнат, пользователей и т.д.",
+        "events": "События",
+        "cleaning": "Чистка"
+      },
+      "historyheader": {
+        "action": "Действие",
+        "user": "Пользователь",
+        "room": "Комната",
+        "time": "Час"
+      }
+    }
+  },
+  "maintenance": {
+    "filter-tasks": {
+      "index": {
+        "filter-tasks": "Представление фильтра",
+        "select-one": "Выберите хотя бы 1 фильтр"
+      }
+    },
+    "filters": {
+      "index": {
+        "hide-all": "Скрыть все",
+        "reset": "Сброс",
+        "search": "Поиск задач",
+        "guest-status": "Статус фронт-офиса",
+        "vacant-rooms": "Свободные номера",
+        "occupied-rooms": "Занятые комнаты",
+        "out-of-service": "Номера, вышедшие из эксплуатации",
+        "departure-rooms": "Номера при отъезде",
+        "arrival-rooms": "Номера для заезда",
+        "no-locations": "Задачи без локализации",
+        "housekeeping": "Статутное ведение домашнего хозяйства",
+        "dirty-rooms": "Грязные комнаты",
+        "cleaned-rooms": "Чистые помещения",
+        "inspected-rooms": "Проверенные помещения",
+        "pickup": "Chambres pickup",
+        "properties": "Свойства",
+        "priority-tasks": "Приоритетные задачи",
+        "blocking-tasks": "Блокировка задач",
+        "no-asset-tasks": "Задачи без оборудования",
+        "planned-tasks": "Запланированные задачи",
+        "task-status": "Статус задачи",
+        "pending-tasks": "Незавершенные задачи",
+        "progressing-tasks": "Текущие задачи",
+        "paused-tasks": "Поставленные на паузу задачи",
+        "completed-tasks": "Выполненные задачи",
+        "rejected-tasks": "Отклоненные задания",
+        "assignment": "Вызов",
+        "assigned-to-me": "Мои назначенные задачи",
+        "unassigned": "Неназначенные задачи",
+        "assigned-to-others": "Другие задания",
+        "return-to-tasks": "Вернуться к задачам"
+      }
+    },
+    "createtask": {
+      "assetactiondescription": {
+        "there-are-no-actions-for-your-asset": "Для этого оборудования нет никаких действий",
+        "no": "Не",
+        "submit-maintenance": "Отправить",
+        "you-must-first-select-an-asset": "Сначала вы должны выбрать единицу оборудования",
+        "submit-housekeeping": "Отправить",
+        "yes": "Да",
+        "no-actions-for-created-asset": "Никаких действий для этого оборудования"
+      },
+      "assetselectmodal": {
+        "close": "Закрывать",
+        "search-assets": "Поиск оборудования",
+        "select-asset": "Выберите устройство"
+      },
+      "assignment": {
+        "search-assignments": "Поиск пользователей",
+        "missing-assignment": "Отсутствующее назначение"
+      }
+    },
+    "reassigntask": {
+      "index": {
+        "reassignment-message": "Добавление сообщения в переназначение",
+        "due-date": "Дата вылета",
+        "select-due-date": "Выберите дату вылета",
+        "assign-to": "Назначьте",
+        "reassign-task": "Переназначитель"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Хорошо",
+        "submitted-time": "Созданный",
+        "new-glitch": "Новый опыт",
+        "accept": "Принимать",
+        "new-task": "Новая задача",
+        "location": "Расположение / Номер",
+        "reject": "Отвергать",
+        "created-by": "Создание сайта",
+        "last-message": "Сообщение"
+      }
+    },
+    "assetmodel": {
+      "index": {
+        "asset-model": "Модель оборудования"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Закрывать"
+      }
+    },
+    "notasks": {
+      "index": {
+        "no-tasks": "Нет задач"
+      }
+    },
+    "task": {
+      "dummy": {
+        "pause": "Приостановка",
+        "finish": "Конечный"
+      },
+      "index": {
+        "sublocation": "Сублокализация",
+        "information": "Информация",
+        "undefined": "Билет",
+        "guest-status": "Номера",
+        "normal": "Билет нормальный",
+        "messages": "Сообщения",
+        "start-date": "Созданный",
+        "priority": "Приоритетный билет",
+        "reassign-ticket": "Переназначитель",
+        "unassigned": "Билет не виден",
+        "lite": "Заявка на заполнение",
+        "model": "Модель",
+        "created-by": "Создание сайта",
+        "view-additional-photos": "Дополнительные фотографии",
+        "choose-model": "Выберите модель",
+        "select": "Выбирать",
+        "view-attachments": "Документ, прикрепленный к оборудованию",
+        "location-information": "Информация о местоположении",
+        "reassign-task": "Переуступка",
+        "move-to-departure": "Переназначить на вылет"
+      },
+      "create-task-alert": {
+        "select-asset": "Спасибо, что выбрали актив!!",
+        "select-location": "Спасибо, что выбрали место!!",
+        "select-asset-action": "Спасибо, что выбрали акцию!!"
+      }
+    },
+    "asset": {
+      "index": {
+        "models": "Модель",
+        "actions": "Действия"
+      }
+    },
+    "main": {
+      "index": {
+        "create-new-task-for": "Создайте новую задачу для"
+      },
+      "filterbutton": {
+        "filters": "Фильтры"
+      },
+      "filters": {
+        "filter-tasks": "Фильтрация задач",
+        "limit-priority": "Ограничьтесь приоритетными задачами",
+        "limit-dirty": "Ограничьтесь грязными комнатами",
+        "limit-occupied": "Ограничение на количество занятых комнат",
+        "limit-out-of-service": "Ограничьте количество комнат HS",
+        "limit-vacant": "Ограничьте количество свободных комнат"
+      }
+    },
+    "navigation": {
+      "scenes": {
+        "closed-tasks": "Закрытые задачи",
+        "tasks": "Задачи",
+        "hotel-assets": "Удобства в гостинице",
+        "create-task": "Создание задачи",
+        "reassign-task": "Переназначить задачу",
+        "sent-tasks": "Отправленные задания",
+        "hotel-rooms": "Гостиничные номера",
+        "asset": "Оборудование",
+        "action": "Действие",
+        "filters": "Фильтры"
+      },
+      "links": {
+        "assets": "Оборудование",
+        "notifications": "Уведомления",
+        "rooms": "Номера",
+        "closed": "Закрытый",
+        "main": "Главный экран",
+        "sent": "Отправить"
+      }
+    },
+    "rooms": {
+      "dummy": {
+        "occupaied": "Занятый"
+      },
+      "index": {
+        "close-room": "Закрывать",
+        "close-floor": "Закрывать"
+      }
+    }
+  }
+}
