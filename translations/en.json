@@ -1271,7 +1271,8 @@
         "you-must-first-select-an-asset": "You must first select an asset",
         "submit-housekeeping": "Submit housekeeping",
         "yes": "Yes",
-        "no-actions-for-created-asset": "No actions for created asset"
+        "no-actions-for-created-asset": "No actions for created asset",
+        "date" :"Date"
       },
       "assetselectmodal": {
         "close": "Close",

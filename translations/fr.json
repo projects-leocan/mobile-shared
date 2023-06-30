@@ -1219,7 +1219,8 @@
         "you-must-first-select-an-asset": "Vous devez d'abord selectionner un equipement",
         "submit-housekeeping": "Soumettre",
         "yes": "Oui",
-        "no-actions-for-created-asset": "Pas d'actions pour cet équipement"
+        "no-actions-for-created-asset": "Pas d'actions pour cet équipement",
+        "date" :"Date"
       },
       "assetselectmodal": {
         "close": "Fermer",
