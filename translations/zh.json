@@ -331,7 +331,8 @@
       "index": {
         "report-lost-and-found-item": "报告丢失物品",
         "description": "增加一个说明",
-        "submit-lost-item": "提交丢失物品"
+        "submit-lost-item": "提交丢失物品",
+        "submit-found-item": "提交找到的项目"
       }
     }
   },

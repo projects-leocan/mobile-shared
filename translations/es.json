@@ -419,7 +419,8 @@
 			"index": {
 				"report-lost-and-found-item": "Informar de un elemento perdido y encontrado",
 				"description": "Añadir una descripción",
-				"submit-lost-item": "Enviar artículo perdido"
+				"submit-lost-item": "Enviar artículo perdido",
+				"submit-found-item": "Enviar artículo perdido"
 			}
 		}
 	},

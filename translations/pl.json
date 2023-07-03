@@ -430,7 +430,8 @@
       "index": {
         "report-lost-and-found-item": "Przynoś znaleziony przedmiot",
         "description": "Dodawanie opisu",
-        "submit-lost-item": "Prześlij znaleziony przedmiot"
+        "submit-lost-item": "Prześlij znaleziony przedmiot",
+        "submit-found-item": "Prześlij znaleziony przedmiot"
       }
     }
   },

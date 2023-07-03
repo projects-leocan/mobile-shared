@@ -384,7 +384,8 @@
             "index": {
                 "report-lost-and-found-item": "Nahlásiť straty a nálezy",
                 "description": "Pridať popis",
-                "submit-lost-item": "Vložiť stratené položky"
+                "submit-lost-item": "Vložiť stratené položky",
+                "submit-found-item": "Oddaj najdeni predmet"
             }
         }
     },

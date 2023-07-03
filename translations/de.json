@@ -430,7 +430,8 @@
       "index": {
         "report-lost-and-found-item": "Einen gefundenen Gegenstand zurückbringen",
         "description": "Füge eine Beschreibung hinzu",
-        "submit-lost-item": "Einen gefundenen Artikel einreichen"
+        "submit-lost-item": "Einen gefundenen Artikel einreichen",
+        "submit-found-item": "Gefundenen Artikel einreichen"
       }
     }
   },

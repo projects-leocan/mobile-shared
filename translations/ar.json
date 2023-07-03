@@ -338,7 +338,8 @@
       "index": {
         "report-lost-and-found-item": "تقرير فقد وجدت البند",
         "description": "إضافة وصف",
-        "submit-lost-item": "إرسال المفقود"
+        "submit-lost-item": "إرسال المفقود",
+        "submit-found-item": "إرسال العنصر الذي تم العثور عليه"
       }
     }
   },

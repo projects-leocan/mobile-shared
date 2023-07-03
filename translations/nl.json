@@ -154,7 +154,8 @@
       "index": {
         "description": "Voeg omschrijving toe",
         "report-lost-and-found-item": "Melding verloren voorwerp",
-        "submit-lost-item": "Verzend verloren voorwerp"
+        "submit-lost-item": "Verzend verloren voorwerp",
+        "submit-found-item": "Gevonden item doorgeven"
       }
     },
     "main": {

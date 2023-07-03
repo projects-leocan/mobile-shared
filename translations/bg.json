@@ -430,7 +430,8 @@
       "index": {
         "report-lost-and-found-item": "Връщане на намерен елемент",
         "description": "Добавяне на описание",
-        "submit-lost-item": "Подаване на намерен елемент"
+        "submit-lost-item": "Подаване на намерен елемент",
+        "submit-found-item": "Подаване на намерен елемент"
       }
     }
   },

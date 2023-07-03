@@ -442,7 +442,8 @@
       "index": {
         "report-lost-and-found-item": "Report lost and found item",
         "description": "Add a description",
-        "submit-lost-item": "Submit lost item"
+        "submit-lost-item": "Submit lost item",
+        "submit-found-item": "Submit found item"
       }
     }
   },
