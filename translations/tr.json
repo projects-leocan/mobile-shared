@@ -30,6 +30,9 @@
         "actions-to-resolve": "Olayı çözmek için eylem",
         "enter-guest-email": "Müşterinin e-posta adresini girin"
       },
+      "experience-form":{
+        "select-room-number" : "Lütfen Oda Numarasını Seçiniz"
+      },
       "glitch-category-selector": {
         "select-glitch": "Bir deneyim seçin",
         "select-glitch-category": "Bir deneyim kategorisi seçin",

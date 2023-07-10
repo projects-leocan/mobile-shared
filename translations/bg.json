@@ -30,6 +30,9 @@
         "actions-to-resolve": "Действия за разрешаване на инцидента",
         "enter-guest-email": "Въведете имейла на клиента"
       },
+      "experience-form":{
+        "select-room-number" : "Моля, изберете номер на стая"
+      },
       "glitch-category-selector": {
         "select-glitch": "Изберете преживяване",
         "select-glitch-category": "Изберете категория опит",

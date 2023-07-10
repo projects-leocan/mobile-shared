@@ -30,6 +30,9 @@
         "actions-to-resolve": "إجراءات لحل",
         "enter-guest-email": "أدخل البريد الإلكتروني للمدعوين"
       },
+      "experience-form":{
+        "select-room-number" : "الرجاء تحديد رقم الغرفة"
+      },
       "glitch-category-selector": {
         "select-glitch": "حدد تجربة",
         "select-glitch-category": "اختر فئة تجربة",

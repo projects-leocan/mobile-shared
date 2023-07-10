@@ -30,6 +30,9 @@
         "actions-to-resolve": "Ενέργειες για την επίλυση του περιστατικού",
         "enter-guest-email": "Εισάγετε το email του πελάτη"
       },
+      "experience-form":{
+        "select-room-number" : "Επιλέξτε τον αριθμό δωματίου"
+      },
       "glitch-category-selector": {
         "select-glitch": "Επιλέξτε μια εμπειρία",
         "select-glitch-category": "Επιλέξτε μια κατηγορία εμπειρίας",

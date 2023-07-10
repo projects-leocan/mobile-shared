@@ -30,6 +30,9 @@
         "actions-to-resolve": "Действия по разрешению инцидента",
         "enter-guest-email": "Введите адрес электронной почты клиента"
       },
+      "experience-form":{
+        "select-room-number" : "Пожалуйста, выберите номер комнаты"
+      },
       "glitch-category-selector": {
         "select-glitch": "Выберите опыт",
         "select-glitch-category": "Выберите категорию впечатлений",

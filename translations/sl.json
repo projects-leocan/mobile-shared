@@ -18,6 +18,9 @@
                 "email": "E-mail",
                 "eur": "Eur"
             },
+            "experience-form":{
+                "select-room-number" : "Prosimo izberite številko sobe"
+            },
             "glitch-category-selector": {
                 "select-glitch": "Vybrať závadu",
                 "select-glitch-category": "Vybrať kategóriu závady",

@@ -30,6 +30,9 @@
         "actions-to-resolve": "操作来解决",
         "enter-guest-email": "输入邀请对象的电子邮件"
       },
+      "experience-form":{
+        "select-room-number" : "请选择房间号"
+      },
       "glitch-category-selector": {
         "select-glitch": "选择经验",
         "select-glitch-category": "选择经验类别",

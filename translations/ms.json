@@ -30,6 +30,9 @@
         "actions-to-resolve": "Tindakan untuk menyelesaikan kejadian",
         "enter-guest-email": "Masukkan e-mel pelanggan"
       },
+      "experience-form":{
+        "select-room-number" : "Sila Pilih Nombor Bilik"
+      },
       "glitch-category-selector": {
         "select-glitch": "Pilih pengalaman",
         "select-glitch-category": "Pilih kategori pengalaman",

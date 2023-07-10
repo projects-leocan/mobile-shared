@@ -32,6 +32,9 @@
         "mark-as-closed": "Mark as closed",
         "claim-glitch": "Claim experience"
       },
+      "experience-form":{
+        "select-room-number" : "Please Select Room Number"
+      },
       "glitch-category-selector": {
         "select-glitch": "Select experience",
         "select-glitch-category": "Select experience category",

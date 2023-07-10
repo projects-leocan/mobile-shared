@@ -30,6 +30,9 @@
         "actions-to-resolve": "Дії щодо вирішення інциденту",
         "enter-guest-email": "Введіть email клієнта"
       },
+      "experience-form":{
+        "select-room-number" : "Виберіть номер кімнати"
+      },
       "glitch-category-selector": {
         "select-glitch": "Виберіть досвід",
         "select-glitch-category": "Виберіть категорію досвіду",

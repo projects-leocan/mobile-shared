@@ -1109,6 +1109,9 @@
         "update-glitch": "Ervaring bijwerken",
         "vip": "Vip",
         "vip-status-optional": "VIP-status (optioneel)"
+      },
+      "experience-form":{
+        "select-room-number" : "Selecteer kamernummer"
       }
     },
     "glitch": {

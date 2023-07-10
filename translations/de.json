@@ -30,6 +30,9 @@
         "actions-to-resolve": "Maßnahmen zur Behebung des Vorfalls",
         "enter-guest-email": "Geben Sie die E-Mail-Adresse des Kunden ein"
       },
+      "experience-form":{
+        "select-room-number" : "Bitte wählen Sie die Zimmernummer aus"
+      },
       "glitch-category-selector": {
         "select-glitch": "Wählen Sie ein Erlebnis aus",
         "select-glitch-category": "Wähle eine Erlebniskategorie aus",
