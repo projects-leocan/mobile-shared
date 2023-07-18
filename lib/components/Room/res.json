@@ -1,0 +1,523 @@
+{
+    "name": "J10",
+    "pmsName": "J10",
+    "description": null,
+    "hotelId": "956e3238-e621-4dd7-a552-a49c2de92003",
+    "roomAccessId": null,
+    "roomCategoryId": null,
+    "roomCategoryName": "Standard",
+    "isBedroomSpace": true,
+    "roomStatusId": null,
+    "roomMaintenanceId": null,
+    "roomHousekeepingId": null,
+    "comment": "",
+    "roomNoteId": null,
+    "overwriteCredits": -1,
+    "attendantStatus": "",
+    "attendantStatusChangedAt": null,
+    "attendantStatusNight": "",
+    "attendantStatusNightChangedAt": null,
+    "turndownService": "",
+    "isGuestIn": true,
+    "isChangeSheets": false,
+    "isLongStay": false,
+    "isRoomBlocked": false,
+    "isRoomRestocked": false,
+    "sortValue": 20012,
+    "section": null,
+    "subSection": null,
+    "tags": [],
+    "features": [],
+    "sublocations": [],
+    "externalInfoId": null,
+    "id": "d04d521e-ce10-4070-9a08-421cb0ca97c8",
+    "floorId": "ac710f78-118c-4324-a289-91ee44c20a85",
+    "floorName": "Floor 1",
+    "floorNumber": 1,
+    "buildingId": "f1067a64-aaad-4953-8ac4-81cc0884a0c8",
+    "buildingName": "Building 1",
+    "isTemporaryRoom": false,
+    "typeKey": "HOTEL",
+    "infoAccess": null,
+    "infoWifi": null,
+    "infoGarbage": null,
+    "infoParking": null,
+    "infoImportant": null,
+    "infoOther": null,
+    "address": null,
+    "floor": {
+        "id": "ac710f78-118c-4324-a289-91ee44c20a85",
+        "number": "1",
+        "description": "Building 1 - Floor 1 1",
+        "hotelId": "956e3238-e621-4dd7-a552-a49c2de92003",
+        "lastAction": null,
+        "lastDate": "2023-07-14T13:04:07.6297398Z"
+    },
+    "roomStatus": {},
+    "roomHousekeeping": {
+        "id": "d04d521e-ce10-4070-9a08-421cb0ca97c8",
+        "roomId": "d04d521e-ce10-4070-9a08-421cb0ca97c8",
+        "label": "Occupied clean",
+        "code": "OHC",
+        "color": "3498DB",
+        "hotelId": "956e3238-e621-4dd7-a552-a49c2de92003"
+    },
+    "roomCategory": {},
+    "roomPlanning": {},
+    "roomCalendar": [
+        {
+            "id": "c8be436a-0ed2-4d51-a7a4-05c8e8c85c2c",
+            "hotel_id": "956e3238-e621-4dd7-a552-a49c2de92003",
+            "pms_id": null,
+            "source": "",
+            "guest_name": "Mr BOULADOUX Lucas",
+            "room_name": "J10",
+            "room_id": "d04d521e-ce10-4070-9a08-421cb0ca97c8",
+            "bed_name": null,
+            "bed_id": null,
+            "floor_number": 1,
+            "floor_id": "ac710f78-118c-4324-a289-91ee44c20a85",
+            "check_in_date": "2023-05-15T18:00:00",
+            "check_out_date": "2023-11-14T10:00:00",
+            "expected_arrival_ts": 1684173600,
+            "arrival_ts": null,
+            "arrival_date": null,
+            "arrival_time": null,
+            "departure_date": null,
+            "departure_time": null,
+            "expected_arrival_date": "2023-05-15",
+            "expected_arrival_time": "18:00",
+            "expected_departure_date": "2023-11-14",
+            "expected_departure_time": "10:00",
+            "expected_departure_ts": 1699956000,
+            "departure_ts": null,
+            "occupants": 1,
+            "adults": 1,
+            "children": 0,
+            "infants": 0,
+            "group_name": null,
+            "pms_note": "29,40,2,2",
+            "rc_note": "",
+            "is_active": 1,
+            "is_vip": 0,
+            "vip": null,
+            "is_priority": 0,
+            "is_arrival": 0,
+            "rm_prior": null,
+            "rm_current": null,
+            "guest": "",
+            "isTemporaryRoom": false,
+            "status": "stay",
+            "otherProperties": [
+                {
+                    "key": "hotel_id",
+                    "value": "956e3238-e621-4dd7-a552-a49c2de92003"
+                },
+                {
+                    "key": "source",
+                    "value": "ClubMed"
+                },
+                {
+                    "key": "Membership",
+                    "value": "UNSUPPORTED TYPE: Null"
+                },
+                {
+                    "key": "Quality",
+                    "value": "GO"
+                },
+                {
+                    "key": "QSV_CLEANING",
+                    "value": "True"
+                },
+                {
+                    "key": "Age",
+                    "value": "40"
+                },
+                {
+                    "key": "nationality",
+                    "value": "FRANCE"
+                },
+                {
+                    "key": "HoneyMoon",
+                    "value": "0"
+                },
+                {
+                    "key": "group_name",
+                    "value": "UNSUPPORTED TYPE: Null"
+                }
+            ]
+        },
+        {
+            "id": "bbb2b3b5-1188-4b1c-805b-460031b930ce",
+            "hotel_id": "956e3238-e621-4dd7-a552-a49c2de92003",
+            "pms_id": null,
+            "source": "",
+            "guest_name": "Mr BOULADOUX Sacha",
+            "room_name": "J10",
+            "room_id": "d04d521e-ce10-4070-9a08-421cb0ca97c8",
+            "bed_name": null,
+            "bed_id": null,
+            "floor_number": 1,
+            "floor_id": "ac710f78-118c-4324-a289-91ee44c20a85",
+            "check_in_date": "2023-05-30T18:00:00",
+            "check_out_date": "2023-09-15T10:00:00",
+            "expected_arrival_ts": 1685469600,
+            "arrival_ts": null,
+            "arrival_date": null,
+            "arrival_time": null,
+            "departure_date": null,
+            "departure_time": null,
+            "expected_arrival_date": "2023-05-30",
+            "expected_arrival_time": "18:00",
+            "expected_departure_date": "2023-09-15",
+            "expected_departure_time": "10:00",
+            "expected_departure_ts": 1694772000,
+            "departure_ts": null,
+            "occupants": 1,
+            "adults": 0,
+            "children": 0,
+            "infants": 1,
+            "group_name": null,
+            "pms_note": "29,40,2,2",
+            "rc_note": "",
+            "is_active": 1,
+            "is_vip": 0,
+            "vip": null,
+            "is_priority": 0,
+            "is_arrival": 0,
+            "rm_prior": null,
+            "rm_current": null,
+            "guest": "",
+            "isTemporaryRoom": false,
+            "status": "stay",
+            "otherProperties": [
+                {
+                    "key": "hotel_id",
+                    "value": "956e3238-e621-4dd7-a552-a49c2de92003"
+                },
+                {
+                    "key": "source",
+                    "value": "ClubMed"
+                },
+                {
+                    "key": "Membership",
+                    "value": "UNSUPPORTED TYPE: Null"
+                },
+                {
+                    "key": "Quality",
+                    "value": "GO"
+                },
+                {
+                    "key": "QSV_CLEANING",
+                    "value": "True"
+                },
+                {
+                    "key": "Age",
+                    "value": "2"
+                },
+                {
+                    "key": "nationality",
+                    "value": "FRANCE"
+                },
+                {
+                    "key": "HoneyMoon",
+                    "value": "0"
+                },
+                {
+                    "key": "group_name",
+                    "value": "UNSUPPORTED TYPE: Null"
+                }
+            ]
+        },
+        {
+            "id": "27b6bf54-93b6-408e-b350-2472fb640df3",
+            "hotel_id": "956e3238-e621-4dd7-a552-a49c2de92003",
+            "pms_id": null,
+            "source": "",
+            "guest_name": "Mr BOULADOUX Noah",
+            "room_name": "J10",
+            "room_id": "d04d521e-ce10-4070-9a08-421cb0ca97c8",
+            "bed_name": null,
+            "bed_id": null,
+            "floor_number": 1,
+            "floor_id": "ac710f78-118c-4324-a289-91ee44c20a85",
+            "check_in_date": "2023-05-30T18:00:00",
+            "check_out_date": "2023-09-15T10:00:00",
+            "expected_arrival_ts": 1685469600,
+            "arrival_ts": null,
+            "arrival_date": null,
+            "arrival_time": null,
+            "departure_date": null,
+            "departure_time": null,
+            "expected_arrival_date": "2023-05-30",
+            "expected_arrival_time": "18:00",
+            "expected_departure_date": "2023-09-15",
+            "expected_departure_time": "10:00",
+            "expected_departure_ts": 1694772000,
+            "departure_ts": null,
+            "occupants": 1,
+            "adults": 0,
+            "children": 0,
+            "infants": 1,
+            "group_name": null,
+            "pms_note": "29,40,2,2",
+            "rc_note": "",
+            "is_active": 1,
+            "is_vip": 0,
+            "vip": null,
+            "is_priority": 0,
+            "is_arrival": 0,
+            "rm_prior": null,
+            "rm_current": null,
+            "guest": "",
+            "isTemporaryRoom": false,
+            "status": "stay",
+            "otherProperties": [
+                {
+                    "key": "hotel_id",
+                    "value": "956e3238-e621-4dd7-a552-a49c2de92003"
+                },
+                {
+                    "key": "source",
+                    "value": "ClubMed"
+                },
+                {
+                    "key": "Membership",
+                    "value": "UNSUPPORTED TYPE: Null"
+                },
+                {
+                    "key": "Quality",
+                    "value": "GO"
+                },
+                {
+                    "key": "QSV_CLEANING",
+                    "value": "True"
+                },
+                {
+                    "key": "Age",
+                    "value": "2"
+                },
+                {
+                    "key": "nationality",
+                    "value": "FRANCE"
+                },
+                {
+                    "key": "HoneyMoon",
+                    "value": "0"
+                },
+                {
+                    "key": "group_name",
+                    "value": "UNSUPPORTED TYPE: Null"
+                }
+            ]
+        },
+        {
+            "id": "48fac66b-01d5-4eb4-9d87-7a7b1f1ce091",
+            "hotel_id": "956e3238-e621-4dd7-a552-a49c2de92003",
+            "pms_id": null,
+            "source": "",
+            "guest_name": "Me DUVAL LELEU Lea",
+            "room_name": "J10",
+            "room_id": "d04d521e-ce10-4070-9a08-421cb0ca97c8",
+            "bed_name": null,
+            "bed_id": null,
+            "floor_number": 1,
+            "floor_id": "ac710f78-118c-4324-a289-91ee44c20a85",
+            "check_in_date": "2023-05-30T18:00:00",
+            "check_out_date": "2023-09-15T10:00:00",
+            "expected_arrival_ts": 1685469600,
+            "arrival_ts": null,
+            "arrival_date": null,
+            "arrival_time": null,
+            "departure_date": null,
+            "departure_time": null,
+            "expected_arrival_date": "2023-05-30",
+            "expected_arrival_time": "18:00",
+            "expected_departure_date": "2023-09-15",
+            "expected_departure_time": "10:00",
+            "expected_departure_ts": 1694772000,
+            "departure_ts": null,
+            "occupants": 1,
+            "adults": 1,
+            "children": 0,
+            "infants": 0,
+            "group_name": null,
+            "pms_note": "29,40,2,2",
+            "rc_note": "",
+            "is_active": 1,
+            "is_vip": 0,
+            "vip": null,
+            "is_priority": 0,
+            "is_arrival": 0,
+            "rm_prior": null,
+            "rm_current": null,
+            "guest": "",
+            "isTemporaryRoom": false,
+            "status": "stay",
+            "otherProperties": [
+                {
+                    "key": "hotel_id",
+                    "value": "956e3238-e621-4dd7-a552-a49c2de92003"
+                },
+                {
+                    "key": "source",
+                    "value": "ClubMed"
+                },
+                {
+                    "key": "Membership",
+                    "value": "UNSUPPORTED TYPE: Null"
+                },
+                {
+                    "key": "Quality",
+                    "value": "GO"
+                },
+                {
+                    "key": "QSV_CLEANING",
+                    "value": "True"
+                },
+                {
+                    "key": "Age",
+                    "value": "29"
+                },
+                {
+                    "key": "nationality",
+                    "value": "FRANCE"
+                },
+                {
+                    "key": "HoneyMoon",
+                    "value": "0"
+                },
+                {
+                    "key": "group_name",
+                    "value": "UNSUPPORTED TYPE: Null"
+                }
+            ]
+        }
+    ],
+    "roomNotes": [],
+    "roomTasks": [],
+    "guests": [
+        {
+            "guest_id": "c8be436a-0ed2-4d51-a7a4-05c8e8c85c2c",
+            "name": "Mr BOULADOUX Lucas",
+            "group": null,
+            "occupants": 1,
+            "adults": 1,
+            "children": 0,
+            "infants": 0,
+            "pmsId": null,
+            "pmsNote": "29,40,2,2",
+            "rcNote": "",
+            "eta": 1684173600,
+            "etd": 1699956000,
+            "etaDate": "2023-05-15",
+            "etaTime": "18:00",
+            "etdDate": "2023-11-14",
+            "etdTime": "10:00",
+            "vip": null,
+            "email": null,
+            "guest": "",
+            "status": "stay",
+            "display": "STAY",
+            "checkInDate": "2023-05-15",
+            "checkOutDate": "2023-11-14",
+            "isActive": false,
+            "isFutureArr": false,
+            "reservationMessage": null,
+            "reservationMessageObject": null
+        },
+        {
+            "guest_id": "bbb2b3b5-1188-4b1c-805b-460031b930ce",
+            "name": "Mr BOULADOUX Sacha",
+            "group": null,
+            "occupants": 1,
+            "adults": 0,
+            "children": 0,
+            "infants": 1,
+            "pmsId": null,
+            "pmsNote": "29,40,2,2",
+            "rcNote": "",
+            "eta": 1685469600,
+            "etd": 1694772000,
+            "etaDate": "2023-05-30",
+            "etaTime": "18:00",
+            "etdDate": "2023-09-15",
+            "etdTime": "10:00",
+            "vip": null,
+            "email": null,
+            "guest": "",
+            "status": "stay",
+            "display": "STAY",
+            "checkInDate": "2023-05-30",
+            "checkOutDate": "2023-09-15",
+            "isActive": false,
+            "isFutureArr": false,
+            "reservationMessage": null,
+            "reservationMessageObject": null
+        },
+        {
+            "guest_id": "27b6bf54-93b6-408e-b350-2472fb640df3",
+            "name": "Mr BOULADOUX Noah",
+            "group": null,
+            "occupants": 1,
+            "adults": 0,
+            "children": 0,
+            "infants": 1,
+            "pmsId": null,
+            "pmsNote": "29,40,2,2",
+            "rcNote": "",
+            "eta": 1685469600,
+            "etd": 1694772000,
+            "etaDate": "2023-05-30",
+            "etaTime": "18:00",
+            "etdDate": "2023-09-15",
+            "etdTime": "10:00",
+            "vip": null,
+            "email": null,
+            "guest": "",
+            "status": "stay",
+            "display": "STAY",
+            "checkInDate": "2023-05-30",
+            "checkOutDate": "2023-09-15",
+            "isActive": false,
+            "isFutureArr": false,
+            "reservationMessage": null,
+            "reservationMessageObject": null
+        },
+        {
+            "guest_id": "48fac66b-01d5-4eb4-9d87-7a7b1f1ce091",
+            "name": "Me DUVAL LELEU Lea",
+            "group": null,
+            "occupants": 1,
+            "adults": 1,
+            "children": 0,
+            "infants": 0,
+            "pmsId": null,
+            "pmsNote": "29,40,2,2",
+            "rcNote": "",
+            "eta": 1685469600,
+            "etd": 1694772000,
+            "etaDate": "2023-05-30",
+            "etaTime": "18:00",
+            "etdDate": "2023-09-15",
+            "etdTime": "10:00",
+            "vip": null,
+            "email": null,
+            "guest": "",
+            "status": "stay",
+            "display": "STAY",
+            "checkInDate": "2023-05-30",
+            "checkOutDate": "2023-09-15",
+            "isActive": false,
+            "isFutureArr": false,
+            "reservationMessage": null,
+            "reservationMessageObject": null
+        }
+    ],
+    "guestStatus": "stay",
+    "guestExactStatus": "stay",
+    "roomCredits": -1,
+    "update": null,
+    "roomMessage": null,
+    "calculated_scheduled_order": 7
+}
