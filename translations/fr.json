@@ -131,7 +131,7 @@
       "room-options": {
         "room-gallery": "Disposition chambre",
         "send-task": "Envoyer la tâche",
-        "clean-room": "Chambre à nettoyer",
+        "clean-room": "Chambres nettoyées",
         "guest-glitch": "Experience client",
         "hsk-notes": "Caractéristique de chambre",
         "lost-found": "Objets trouvés",
@@ -353,7 +353,7 @@
       "room-options": {
         "room-gallery": "Standards Chambre",
         "send-task": "Envoyer la tâche",
-        "clean-room": "Chambre à nettoyer",
+        "clean-room": "Chambres nettoyées",
         "hsk-notes": "Caractéristique chambre",
         "lost-found": "Objets trouvés",
         "inventory": "Inventaire",
