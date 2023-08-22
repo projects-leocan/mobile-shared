@@ -28,7 +28,8 @@
         "name": "Όνομα",
         "select-a-glitch-category": "Επιλέξτε κατηγορία",
         "actions-to-resolve": "Ενέργειες για την επίλυση του περιστατικού",
-        "enter-guest-email": "Εισάγετε το email του πελάτη"
+        "enter-guest-email": "Εισάγετε το email του πελάτη",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "Επιλέξτε τον αριθμό δωματίου"
@@ -189,7 +190,8 @@
         "cancel-turndown": "Ακύρωση υπηρεσίας κάλυψης",
         "refuse": "Αρνήθηκε",
         "finish-turndown": "Η υπηρεσία κάλυψης ολοκληρώθηκε",
-        "dnd": "DND"
+        "dnd": "DND",
+        "more-options": "MORE OPTIONS"
       }
     },
     "glitches": {
@@ -565,7 +567,9 @@
       "tasks": "Εργασίες",
       "select-location": "Επιλέξτε μέρος/δωμάτιο",
       "floors": "Δάπεδα",
+      "main-floor": "Floor",
       "submit": "Για να υποβάλετε",
+      "remove": "Remove",
       "cancel": "Ακυρώνω",
       "message": "Μήνυμα",
       "people": "Άτομα",
@@ -762,6 +766,7 @@
         "submit-maintenance": "Υποβολή εργασίας συντήρησης",
         "no-available": "Δεν υπάρχουν ενέργειες για αυτόν τον εξοπλισμό",
         "description": "Περιγραφή",
+        "type-here": "Type here",
         "no": "Όχι",
         "no-actions": "Δεν υπάρχουν ενέργειες για αυτόν τον εξοπλισμό",
         "priority": "Προτεραιότητα",

@@ -28,7 +28,8 @@
         "name": "Ad",
         "select-a-glitch-category": "Bir kategori seçin",
         "actions-to-resolve": "Olayı çözmek için eylem",
-        "enter-guest-email": "Müşterinin e-posta adresini girin"
+        "enter-guest-email": "Müşterinin e-posta adresini girin",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "Lütfen Oda Numarasını Seçiniz"
@@ -565,7 +566,9 @@
       "tasks": "Görev",
       "select-location": "Bir yer/oda seçin",
       "floors": "Zemin",
+      "main-floor": "Floor",
       "submit": "Göndermek için",
+      "remove": "Remove",
       "cancel": "İptal",
       "message": "İleti",
       "people": "Kişi",
@@ -762,6 +765,7 @@
         "submit-maintenance": "Bakım görevini gönder",
         "no-available": "Bu ekipman için herhangi bir işlem yapılmamıştır",
         "description": "Tarif",
+        "type-here": "Type here",
         "no": "Değil",
         "no-actions": "Bu ekipman için herhangi bir işlem yapılmamıştır",
         "priority": "Öncelik",

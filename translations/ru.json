@@ -28,7 +28,8 @@
         "name": "Имя",
         "select-a-glitch-category": "Выберите категорию",
         "actions-to-resolve": "Действия по разрешению инцидента",
-        "enter-guest-email": "Введите адрес электронной почты клиента"
+        "enter-guest-email": "Введите адрес электронной почты клиента",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "Пожалуйста, выберите номер комнаты"
@@ -565,7 +566,9 @@
       "tasks": "Задачи",
       "select-location": "Выберите место/комнату",
       "floors": "Полом",
+      "main-floor": "Floor",
       "submit": "Отправить",
+      "remove": "Remove",
       "cancel": "Отмена",
       "message": "Сообщение",
       "people": "Лиц",
@@ -762,6 +765,7 @@
         "submit-maintenance": "Отправка задачи на обслуживание",
         "no-available": "Для этого оборудования нет никаких действий",
         "description": "Приметы:__________",
+        "type-here": "Type here",
         "no": "Не",
         "no-actions": "Для этого оборудования нет никаких действий",
         "priority": "Приоритет",

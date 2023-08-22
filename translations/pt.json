@@ -28,7 +28,8 @@
         "name": "Designação",
         "select-a-glitch-category": "Selecione uma categoria",
         "actions-to-resolve": "Medidas para resolver o incidente",
-        "enter-guest-email": "Insira o e-mail do cliente"
+        "enter-guest-email": "Insira o e-mail do cliente",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "Selecione o número do quarto"
@@ -565,7 +566,9 @@
       "tasks": "Tarefas",
       "select-location": "Selecione um lugar/quarto",
       "floors": "Pavimentos",
+      "main-floor": "Floor",
       "submit": "Para submeter",
+      "remove": "Remove",
       "cancel": "Cancelar",
       "message": "Mensagem",
       "people": "Pessoas",
@@ -762,6 +765,7 @@
         "submit-maintenance": "Enviar tarefa de manutenção",
         "no-available": "Não há ações para este equipamento",
         "description": "Descrição",
+        "type-here": "Type here",
         "no": "Não",
         "no-actions": "Não há ações para este equipamento",
         "priority": "Prioridade",

@@ -16,7 +16,8 @@
                 "actions-to-resolve": "Potrebné vyriešiť",
                 "incident-description": "Popis problému",
                 "email": "E-mail",
-                "eur": "Eur"
+                "eur": "Eur",
+                "available-inspection": "Available Inspections"
             },
             "experience-form":{
                 "select-room-number" : "Prosimo izberite številko sobe"
@@ -440,6 +441,7 @@
             "photo": "Fotka",
             "locations": "Polohy",
             "receptionist": "Recepčný",
+            "remove": "Remove",
             "cancel": "Zrušiť",
             "message": "Správa",
             "inspector": "Supervízor",
@@ -458,7 +460,8 @@
             "alert": "Upozornenie",
             "search-locations": "Hľadať polohu",
             "enter-a-message": "Zadať správu",
-            "continue": "Pokračovať"
+            "continue": "Pokračovať",
+            "main-floor": "Floor"
         },
         "realtime": {
             "index": {
@@ -529,6 +532,7 @@
                 "submit-maintenance": "Nahlásiť údržbu",
                 "no-available": "Žiadne činnosti pre tvoju položku",
                 "description": "Popis",
+                "type-here": "Type here",
                 "no": "Nie",
                 "priority": "Priorita",
                 "continue": "Pokračovať",

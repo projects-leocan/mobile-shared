@@ -28,7 +28,8 @@
         "name": "اسم",
         "select-a-glitch-category": "حدد فئة تجربة",
         "actions-to-resolve": "إجراءات لحل",
-        "enter-guest-email": "أدخل البريد الإلكتروني للمدعوين"
+        "enter-guest-email": "أدخل البريد الإلكتروني للمدعوين",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "الرجاء تحديد رقم الغرفة"
@@ -155,7 +156,8 @@
         "cancel-turndown": "إلغاء الهبوط",
         "refuse": "رفض",
         "finish-turndown": "الانتهاء من تحضير الأسرة للنوم",
-        "dnd": "DND"
+        "dnd": "DND",
+        "more-options": "MORE OPTIONS"
       }
     },
     "glitches": {
@@ -446,6 +448,7 @@
       "select-location": "اختر موقعا",
       "floors": "طوابق",
       "submit": "خضع",
+      "remove": "Remove",
       "cancel": "إلغاء",
       "message": "رسالة",
       "people": "فرد",
@@ -498,6 +501,7 @@
       "task": "مهمة",
       "clear": "واضح",
       "floor": "أرضية",
+      "main-floor": "Floor",
       "departure": "مقال",
       "clean": "نظيف",
       "exit-selection": "اختيار الخروج"
@@ -567,6 +571,7 @@
         "submit-maintenance": "إرسال الصيانة",
         "no-available": "لا توجد إجراءات لالأصول الخاصة بك",
         "description": "وصف",
+        "type-here": "Type here",
         "no": "لا",
         "no-actions": "توجد إجراءات لإنشاء الأصول",
         "priority": "أفضلية",

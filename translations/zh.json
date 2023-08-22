@@ -28,7 +28,8 @@
         "name": "名称",
         "select-a-glitch-category": "选择一个经验类别",
         "actions-to-resolve": "操作来解决",
-        "enter-guest-email": "输入邀请对象的电子邮件"
+        "enter-guest-email": "输入邀请对象的电子邮件",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "请选择房间号"
@@ -438,7 +439,9 @@
       "tasks": "任务",
       "select-location": "选择位置",
       "floors": "地板",
+      "main-floor": "Floor",
       "submit": "提交",
+      "remove": "Remove",
       "cancel": "取消",
       "message": "信息",
       "people": "个人",
@@ -560,6 +563,7 @@
         "submit-maintenance": "提交维修",
         "no-available": "有你的资产没有动作",
         "description": "描述",
+        "type-here": "Type here",
         "no": "没有",
         "no-actions": "用于创建资产无行动",
         "priority": "优先",

@@ -219,6 +219,7 @@
         "asset": "Onderwerp",
         "continue": "Doorgaan",
         "description": "Omschrijving",
+        "type-here": "Type here",
         "description-placeholder": "Vb: aparaat werkt niet",
         "first-select": "Kies een onderwerp",
         "location": "Plaats",
@@ -263,7 +264,8 @@
         "room": "Kamer",
         "select-glitch-category": "Kies een fout categorie",
         "submit-new-glitch": "Nieuwe fout",
-        "vip": "Vip"
+        "vip": "Vip",
+        "available-inspection": "Available Inspections"
       }
     },
     "inventory": {
@@ -417,6 +419,7 @@
       "block": "Blok",
       "blocked": "Geblokkeerd",
       "blocking-task": "Blokkerende taak",
+      "remove": "Remove",
       "cancel": "Annuleren",
       "cancelled": "Geannuleerd",
       "change-sheets": "Schone lakens",
@@ -445,6 +448,7 @@
       "finish": "Afgewerkt",
       "floor": "Verdieping",
       "floors": "Verdiepingen",
+      "main-floor": "Floor",
       "group": "Groep",
       "housekeeping": "Huishouding",
       "information": "Informatie",
@@ -1186,7 +1190,8 @@
         "delay": "Vertraging",
         "dnd": "Dnd",
         "finish-turndown": "Afwerken turndown",
-        "refuse": "Weigeren"
+        "refuse": "Weigeren",
+        "more-options": "MORE OPTIONS"
       },
       "subheader": {
         "all-categories": "Alle categorieën"

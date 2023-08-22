@@ -28,7 +28,8 @@
         "name": "Name",
         "select-a-glitch-category": "Wählen Sie eine Kategorie",
         "actions-to-resolve": "Maßnahmen zur Behebung des Vorfalls",
-        "enter-guest-email": "Geben Sie die E-Mail-Adresse des Kunden ein"
+        "enter-guest-email": "Geben Sie die E-Mail-Adresse des Kunden ein",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "Bitte wählen Sie die Zimmernummer aus"
@@ -189,7 +190,8 @@
         "cancel-turndown": "Deckungsdienst kündigen",
         "refuse": "Abgewiesen",
         "finish-turndown": "Deckungsdienst abgeschlossen",
-        "dnd": "DND"
+        "dnd": "DND",
+        "more-options": "MORE OPTIONS"
       }
     },
     "glitches": {
@@ -565,7 +567,9 @@
       "tasks": "Aufgaben",
       "select-location": "Wählen Sie einen Ort/Raum",
       "floors": "Etagen",
+      "main-floor": "Floor",
       "submit": "Zum Einreichen",
+      "remove": "Remove",
       "cancel": "Abbrechen",
       "message": "Nachricht",
       "people": "Personen",
@@ -762,6 +766,7 @@
         "submit-maintenance": "Wartungsaufgabe übermitteln",
         "no-available": "Für dieses Gerät gibt es keine Aktionen",
         "description": "Beschreibung",
+        "type-here": "Type here",
         "no": "Nicht",
         "no-actions": "Für dieses Gerät gibt es keine Aktionen",
         "priority": "Priorität",

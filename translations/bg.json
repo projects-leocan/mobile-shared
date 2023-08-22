@@ -28,7 +28,8 @@
         "name": "Име",
         "select-a-glitch-category": "Изберете категория",
         "actions-to-resolve": "Действия за разрешаване на инцидента",
-        "enter-guest-email": "Въведете имейла на клиента"
+        "enter-guest-email": "Въведете имейла на клиента",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "Моля, изберете номер на стая"
@@ -189,7 +190,8 @@
         "cancel-turndown": "Отмяна на услугата за покритие",
         "refuse": "Отказва",
         "finish-turndown": "Услугата за покритие е завършена",
-        "dnd": "ДНД"
+        "dnd": "ДНД",
+        "more-options": "MORE OPTIONS"
       }
     },
     "glitches": {
@@ -565,7 +567,9 @@
       "tasks": "Задачи",
       "select-location": "Изберете място/стая",
       "floors": "Подове",
+      "main-floor": "Floor",
       "submit": "За да изпратите",
+      "remove": "Remove",
       "cancel": "Отмени",
       "message": "Съобщение",
       "people": "Лица",
@@ -762,6 +766,7 @@
         "submit-maintenance": "Подаване на задача за поддръжка",
         "no-available": "Няма действия за това оборудване",
         "description": "Описание",
+        "type-here": "Type here",
         "no": "Не",
         "no-actions": "Няма действия за това оборудване",
         "priority": "Приоритет",

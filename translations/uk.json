@@ -28,7 +28,8 @@
         "name": "Ім'я",
         "select-a-glitch-category": "Виберіть категорію",
         "actions-to-resolve": "Дії щодо вирішення інциденту",
-        "enter-guest-email": "Введіть email клієнта"
+        "enter-guest-email": "Введіть email клієнта",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "Виберіть номер кімнати"
@@ -565,7 +566,9 @@
       "tasks": "Завдання",
       "select-location": "Оберіть місце/кімнату",
       "floors": "Підлоги",
+      "main-floor": "Floor",
       "submit": "Подати",
+      "remove": "Remove",
       "cancel": "Скасувати",
       "message": "Повідомлення",
       "people": "Осіб",
@@ -762,6 +765,7 @@
         "submit-maintenance": "Надсилання завдання з обслуговування",
         "no-available": "Ніяких дій по даному обладнанню немає",
         "description": "Опис",
+        "type-here": "Type here",
         "no": "Не",
         "no-actions": "Ніяких дій по даному обладнанню немає",
         "priority": "Пріоритет",

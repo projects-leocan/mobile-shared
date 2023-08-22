@@ -28,7 +28,8 @@
         "name": "Nome",
         "select-a-glitch-category": "Seleziona una categoria",
         "actions-to-resolve": "Azione per risolvere l'incidente",
-        "enter-guest-email": "Inserisci l'email del cliente"
+        "enter-guest-email": "Inserisci l'email del cliente",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "Si prega di selezionare il numero della camera"
@@ -189,7 +190,8 @@
         "cancel-turndown": "Annulla il servizio di copertura",
         "refuse": "Rifiutato",
         "finish-turndown": "Servizio di copertura completato",
-        "dnd": "DND"
+        "dnd": "DND",
+        "more-options": "MORE OPTIONS"
       }
     },
     "glitches": {
@@ -565,7 +567,9 @@
       "tasks": "Attività",
       "select-location": "Seleziona un luogo/camera",
       "floors": "Pavimenti",
+      "main-floor": "Floor",
       "submit": "Per inviare",
+      "remove": "Remove",
       "cancel": "Annulla",
       "message": "Messaggio",
       "people": "Persone",
@@ -762,6 +766,7 @@
         "submit-maintenance": "Invia attività di manutenzione",
         "no-available": "Non ci sono azioni per questa apparecchiatura",
         "description": "Descrizione",
+        "type-here": "Type here",
         "no": "Non",
         "no-actions": "Non ci sono azioni per questa apparecchiatura",
         "priority": "Priorità",

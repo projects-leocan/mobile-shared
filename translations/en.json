@@ -30,7 +30,8 @@
         "actions-to-resolve": "Actions to resolve",
         "enter-guest-email": "Enter guest email",
         "mark-as-closed": "Mark as closed",
-        "claim-glitch": "Claim experience"
+        "claim-glitch": "Claim experience",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "Please Select Room Number"
@@ -192,7 +193,8 @@
         "cancel-turndown": "Cancel turndown",
         "refuse": "Refuse",
         "finish-turndown": "Finish turndown",
-        "dnd": "Dnd"
+        "dnd": "Dnd",
+        "more-options": "MORE OPTIONS"
       }
     },
     "glitches": {
@@ -583,7 +585,9 @@
       "tasks": "Tasks",
       "select-location": "Select location",
       "floors": "Floors",
+      "main-floor": "Floor",
       "submit": "Submit",
+      "remove": "Remove",
       "cancel": "Cancel",
       "message": "Message",
       "people": "Individual",
@@ -787,6 +791,7 @@
         "submit-maintenance": "Submit Maintenance",
         "no-available": "There are no actions for your asset",
         "description": "Description",
+        "type-here": "Type here",
         "no": "No",
         "no-actions": "No actions for created asset",
         "priority": "Priority",

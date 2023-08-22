@@ -28,7 +28,8 @@
 				"name": "Nombre",
 				"select-a-glitch-category": "Seleccione una categoría de experiencia",
 				"actions-to-resolve": "Acciones para resolver",
-				"enter-guest-email": "Introduce el correo electrónico del invitado"
+				"enter-guest-email": "Introduce el correo electrónico del invitado",
+				"available-inspection": "Available Inspections"
 			},
 			"experience-form":{
 				"select-room-number" : "Seleccione el número de habitación"
@@ -188,7 +189,8 @@
 				"cancel-turndown": "Cancelar la limpieza nocturna",
 				"refuse": "Rechazo",
 				"finish-turndown": "Finalizar la limpieza nocturna ",
-				"dnd": "Dnd"
+				"dnd": "Dnd",
+				"more-options": "MORE OPTIONS"
 			}
 		},
 		"glitches": {
@@ -526,7 +528,9 @@
 			"tasks": "Tareas",
 			"select-location": "Seleccionar ubicación",
 			"floors": "Pisos",
+			"main-floor": "Floor",
 			"submit": "Enviar",
+			"remove": "Remove",
 			"cancel": "Cancelar",
 			"message": "Mensaje",
 			"people": "Individual",
@@ -666,6 +670,7 @@
 				"submit-maintenance": "Enviar mantenimiento",
 				"no-available": "No hay acciones para su activo",
 				"description": "Descripción",
+				"type-here": "Type here",
 				"no": "No",
 				"no-actions": "No hay acciones para el activo creado",
 				"priority": "Prioridad",

@@ -28,7 +28,8 @@
         "name": "Nom",
         "select-a-glitch-category": "Sélectionner une catégorie",
         "actions-to-resolve": "Action pour résoudre l'incident",
-        "enter-guest-email": "Entrez l'email du client"
+        "enter-guest-email": "Entrez l'email du client",
+        "available-inspection": "Liste des audits"
       },
       "experience-form":{
         "select-room-number" : "Veuillez sélectionner le numéro de chambre"
@@ -187,9 +188,10 @@
       "modalcontent": {
         "delay": "Plus tard",
         "cancel-turndown": "Annuler le service couverture",
-        "refuse": "Refusé",
+        "refuse": "Refus",
         "finish-turndown": "Service couverture terminé",
-        "dnd": "DND"
+        "dnd": "DND",
+        "more-options": "Autres choix"
       }
     },
     "glitches": {
@@ -434,7 +436,7 @@
         "report-lost-and-found-item": "Rapporter un objet trouvé",
         "description": "Ajouter une description",
         "submit-lost-item": "Soumettre un objet trouvé",
-        "submit-found-item": "Soumettre l'objet trouvé"
+        "submit-found-item": "Envoyer"
       }
     }
   },
@@ -565,7 +567,9 @@
       "tasks": "Tâches",
       "select-location": "Sélectionnez un lieu / pièce",
       "floors": "Etages",
+      "main-floor": "Etage",
       "submit": "Soumettre",
+      "remove": "Annuler",
       "cancel": "Annuler",
       "message": "Message",
       "people": "Personnes",
@@ -639,7 +643,7 @@
       "refuse": "Refusé",
       "reset-system": "Effacer",
       "management": "Encadrement",
-      "properties": "Propriétés",
+      "properties": "Lieux",
       "area": "Area",
       "asset": "Equipement",
       "action": "Action",
@@ -658,7 +662,7 @@
       "task-asset" : "Equipement",
       "task-next": "Suivant",
       "task-guest-request": "Demande client",
-      "task-submit": "Soumettre",
+      "task-submit": "Envoyer",
       "task-assign": "Assigné à",
       "add-more-photo" : "Ajouter Photo"
     },
@@ -761,7 +765,8 @@
       "assetactiondescription": {
         "submit-maintenance": "Soumettre la tâche de maintenance",
         "no-available": "Il n'y a pas d'actions pour cet équipement",
-        "description": "Description",
+        "description": "Commentaire",
+        "type-here": "Ecrire un commentaire",
         "no": "Non",
         "no-actions": "Il n'y a pas d'actions pour cet équipement",
         "priority": "Priorité",
@@ -848,7 +853,7 @@
       }
     },
     "audits": {
-      "add-photo": "Ajouter une photo",
+      "add-photo": "Prendre une photo",
       "add-note": "Ajouter une note",
       "submit-task": "Soumettre",
       "save": "Sauver",

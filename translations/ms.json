@@ -28,7 +28,8 @@
         "name": "Nama",
         "select-a-glitch-category": "Pilih kategori",
         "actions-to-resolve": "Tindakan untuk menyelesaikan kejadian",
-        "enter-guest-email": "Masukkan e-mel pelanggan"
+        "enter-guest-email": "Masukkan e-mel pelanggan",
+        "available-inspection": "Available Inspections"
       },
       "experience-form":{
         "select-room-number" : "Sila Pilih Nombor Bilik"
@@ -189,7 +190,8 @@
         "cancel-turndown": "Batalkan perkhidmatan perlindungan",
         "refuse": "Ditolak",
         "finish-turndown": "Perkhidmatan perlindungan selesai",
-        "dnd": "DND"
+        "dnd": "DND",
+        "more-options": "MORE OPTIONS"
       }
     },
     "glitches": {
@@ -565,7 +567,9 @@
       "tasks": "Tugas",
       "select-location": "Pilih tempat/bilik",
       "floors": "Lantai",
+      "main-floor": "Floor",
       "submit": "Untuk menghantar",
+      "remove": "Remove",
       "cancel": "Batal",
       "message": "Mesej",
       "people": "Orang",
@@ -762,6 +766,7 @@
         "submit-maintenance": "Serahkan tugas penyelenggaraan",
         "no-available": "Tiada tindakan untuk peralatan ini",
         "description": "Keterangan",
+        "type-here": "Type here",
         "no": "Tidak",
         "no-actions": "Tiada tindakan untuk peralatan ini",
         "priority": "Keutamaan",
