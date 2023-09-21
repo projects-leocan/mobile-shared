@@ -174,7 +174,8 @@
         "inventory-restock": "إعادة ملء المخزون",
         "notifications": "إخطارات",
         "turndown-service": "خدمة تحضير الأسرة للنوم",
-        "main": "الأساسية"
+        "main": "الأساسية",
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": { "index": { "submit-lost-item": "إرسال المفقود" } }

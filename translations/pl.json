@@ -208,7 +208,8 @@
         "inventory-restock": "Kierownik Magazynów",
         "notifications": "Powiadomienia",
         "turndown-service": "Usługa pokrycia",
-        "main": "Ekran główny"
+        "main": "Ekran główny",
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": {

@@ -208,7 +208,8 @@
         "inventory-restock": "Gestionnaire de stock",
         "notifications": "Notifications",
         "turndown-service": "Service couverture",
-        "main": "Ecran principal"
+        "main": "Ecran principal",
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": {

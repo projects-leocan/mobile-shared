@@ -207,7 +207,8 @@
         "inventory-restock": "Менеджер по запасам",
         "notifications": "Уведомления",
         "turndown-service": "Услуги по страхованию",
-        "main": "Главный экран"
+        "main": "Главный экран",
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": {

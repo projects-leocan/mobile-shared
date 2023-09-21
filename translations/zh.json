@@ -166,7 +166,8 @@
         "inventory-restock": "进货库存",
         "notifications": "通知",
         "turndown-service": "夜床服务",
-        "main": "主要"
+        "main": "主要",
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": { "index": { "submit-lost-item": "提交丢失物品" } }

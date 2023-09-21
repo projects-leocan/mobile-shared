@@ -208,7 +208,8 @@
         "inventory-restock": "Διαχειριστής Αποθεμάτων",
         "notifications": "Ειδοποιήσεις",
         "turndown-service": "Υπηρεσία κάλυψης",
-        "main": "Κύρια οθόνη"
+        "main": "Κύρια οθόνη",
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": {

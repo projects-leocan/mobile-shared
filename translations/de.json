@@ -208,7 +208,8 @@
         "inventory-restock": "Lagerverwalter",
         "notifications": "Benachrichtigungen",
         "turndown-service": "Deckungs-Service",
-        "main": "Hauptbildschirm"
+        "main": "Hauptbildschirm",
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": {

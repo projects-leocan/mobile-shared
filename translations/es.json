@@ -207,7 +207,8 @@
 				"inventory-restock": "Reponer inventario",
 				"notifications": "Notificaciones",
 				"turndown-service": "Cancela el servicio",
-				"main": "Principal"
+				"main": "Principal",
+				"breakfast": "BreakFast"
 			}
 		},
 		"lostfound": {
