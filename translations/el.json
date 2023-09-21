@@ -511,7 +511,8 @@
         "assigned-audit": "Ανάθεση ελέγχου",
         "comments": "Οδηγίες",
         "sent": "Στάλθηκε",
-        "guest-name": "Όνομα επισκέπτη"
+        "guest-name": "Όνομα επισκέπτη",
+        "confirm": "Confirm"
       }
     },
     "ubiquitous": {

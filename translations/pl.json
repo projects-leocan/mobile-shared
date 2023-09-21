@@ -511,7 +511,8 @@
         "assigned-audit": "Audyt powierzony",
         "comments": "Instrukcje",
         "sent": "Wysłane",
-        "guest-name": "Imię i nazwisko gościa"
+        "guest-name": "Imię i nazwisko gościa",
+        "confirm": "Confirm"
       }
     },
     "ubiquitous": {

@@ -510,7 +510,8 @@
         "assigned-audit": "Atanan denetim",
         "comments": "Talimat -ları",
         "sent": "Gönderilen",
-        "guest-name": "Misafir Adı"
+        "guest-name": "Misafir Adı",
+        "confirm": "Confirm"
       }
     },
     "ubiquitous": {

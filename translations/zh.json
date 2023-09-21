@@ -378,7 +378,8 @@
         "created-by": "由...制作",
         "last-message": "最后消息",
         "comments" :"评论",
-        "sent":"发送"
+        "sent":"发送",
+        "confirm": "Confirm"
       }
     },
     "ubiquitous": {

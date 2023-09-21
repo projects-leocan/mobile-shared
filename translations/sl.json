@@ -431,7 +431,8 @@
                 "created-by": "Vytvorené ",
                 "last-message": "Posledná správa",
                 "comments" :"Komentarji",
-                "sent":"Poslano"
+                "sent":"Poslano",
+                "confirm": "Confirm"
             }
         },
         "ubiquitous": {

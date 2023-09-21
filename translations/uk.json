@@ -510,7 +510,8 @@
         "assigned-audit": "Призначений аудит",
         "comments": "Інструкції",
         "sent": "Відправлені",
-        "guest-name": "Ім'я гостя"
+        "guest-name": "Ім'я гостя",
+        "confirm": "Confirm"
       }
     },
     "ubiquitous": {

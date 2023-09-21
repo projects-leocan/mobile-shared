@@ -386,7 +386,8 @@
         "created-by": "صنع من قبل",
         "last-message": "اخر رسالة",
         "comments" :"تعليقات",
-        "sent":"مرسل"
+        "sent":"مرسل",
+        "confirm": "Confirm"
       }
     },
     "ubiquitous": {

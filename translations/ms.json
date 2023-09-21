@@ -511,7 +511,8 @@
         "assigned-audit": "Audit yang diperuntukkan",
         "comments": "Arahan",
         "sent": "Dihantar",
-        "guest-name": "Nama Tetamu"
+        "guest-name": "Nama Tetamu",
+        "confirm": "Confirm"
       }
     },
     "ubiquitous": {

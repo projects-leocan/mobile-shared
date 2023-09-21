@@ -467,7 +467,8 @@
 				"created-by": "Creado por",
 				"last-message": "Ultimo mensaje",
 				"comments" :"Comentarios",
-				"sent":"Enviada"
+				"sent":"Enviada",
+				"confirm": "Confirm"
 			}
 		},
 		"ubiquitous": {

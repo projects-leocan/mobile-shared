@@ -331,7 +331,8 @@
         "reject": "Afwijzen",
         "submitted-time": "Tijd verzonden",
         "comments" :"Opmerkingen",
-        "sent":"Verstuurd"
+        "sent":"Verstuurd",
+        "confirm": "Confirm"
       }
     },
     "realtime": {

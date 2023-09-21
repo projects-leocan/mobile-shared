@@ -511,7 +511,8 @@
         "assigned-audit": "Audit assigné",
         "comments" :"Consignes",
         "sent":"Envoyée",
-        "guest-name":"Nom de l'invité"
+        "guest-name":"Nom de l'invité",
+        "confirm": "Confirmer"
       }
     },
     "ubiquitous": {

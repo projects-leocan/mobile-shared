@@ -510,7 +510,8 @@
         "assigned-audit": "Auditoria atribuída",
         "comments": "Instruções",
         "sent": "Enviado",
-        "guest-name": "Nome do Hóspede"
+        "guest-name": "Nome do Hóspede",
+        "confirm": "Confirm"
       }
     },
     "ubiquitous": {

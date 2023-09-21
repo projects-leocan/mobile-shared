@@ -511,7 +511,8 @@
         "assigned-audit": "Възложен одит",
         "comments": "Инструкции",
         "sent": "Изпратени",
-        "guest-name": "Име на гост"
+        "guest-name": "Име на гост",
+        "confirm": "Confirm"
       }
     },
     "ubiquitous": {

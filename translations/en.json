@@ -528,7 +528,8 @@
         "assigned-audit": "Assigned audit",
         "comments": "Comments",
         "sent": "Sent",
-        "guest-name":"Guest name"
+        "guest-name":"Guest name",
+        "confirm": "Confirm"
       }
     },
     "ubiquitous": {
