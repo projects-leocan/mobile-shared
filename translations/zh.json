@@ -809,7 +809,8 @@
         "catalog": "目录",
         "lost-found": "失物招领",
         "image-about-how-the-room-should-look": "在房间里应该如何看图片",
-        "questionnaires": "问卷调查"
+        "questionnaires": "问卷调查",
+        "property-information": "Property Information"
       }
     },
     "playground": { "index": { "let-go": "松手" } },

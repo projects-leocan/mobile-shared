@@ -1111,7 +1111,8 @@
         "catalog": "Standard",
         "lost-found": "Oggetti smarriti e ritrovati",
         "image-about-how-the-room-should-look": "Come dovrebbe essere la stanza",
-        "questionnaires": "Audit"
+        "questionnaires": "Audit",
+        "property-information": "Property Information"
       }
     },
     "playground": {

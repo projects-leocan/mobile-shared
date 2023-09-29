@@ -823,7 +823,8 @@
         "lost-found": "وجد المفقود",
         "image-about-how-the-room-should-look":
           "صورة عن كيف يجب أن تبدو الغرفة",
-        "questionnaires": "الاستبيانات"
+        "questionnaires": "الاستبيانات",
+        "property-information": "Property Information"
       }
     },
     "playground": { "index": { "let-go": "اتركه" } },
