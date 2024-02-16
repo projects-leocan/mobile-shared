@@ -208,7 +208,8 @@
         "notifications": "Bildirim",
         "turndown-service": "Kapsama hizmeti",
         "main": "Ana ekran",
-        "breakfast": "BreakFast"
+        "breakfast": "BreakFast",
+        "socketHistory": "Logs"
       }
     },
     "lostfound": {

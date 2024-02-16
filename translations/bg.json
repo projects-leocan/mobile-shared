@@ -209,7 +209,8 @@
         "notifications": "Уведомления",
         "turndown-service": "Услуга за покритие",
         "main": "Основен екран",
-        "breakfast": "BreakFast"
+        "breakfast": "BreakFast",
+        "socketHistory": "Logs"
       }
     },
     "lostfound": {

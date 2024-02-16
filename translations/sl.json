@@ -180,7 +180,8 @@
                 "notifications": "Pripomienky",
                 "turndown-service": "Zamietnúť službu",
                 "main": "Hlavný",
-                "breakfast": "BreakFast"
+                "breakfast": "BreakFast",
+                "socketHistory": "Logs"
             }
         },
         "lostfound": {

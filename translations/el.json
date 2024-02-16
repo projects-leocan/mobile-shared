@@ -209,7 +209,8 @@
         "notifications": "Ειδοποιήσεις",
         "turndown-service": "Υπηρεσία κάλυψης",
         "main": "Κύρια οθόνη",
-        "breakfast": "BreakFast"
+        "breakfast": "BreakFast",
+        "socketHistory": "Logs"
       }
     },
     "lostfound": {

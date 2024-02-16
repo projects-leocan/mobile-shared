@@ -175,7 +175,8 @@
         "notifications": "إخطارات",
         "turndown-service": "خدمة تحضير الأسرة للنوم",
         "main": "الأساسية",
-        "breakfast": "BreakFast"
+        "breakfast": "BreakFast",
+        "socketHistory": "Logs"
       }
     },
     "lostfound": { "index": { "submit-lost-item": "إرسال المفقود" } }
