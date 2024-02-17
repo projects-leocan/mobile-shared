@@ -1166,8 +1166,7 @@
         "notifications": "Meldingen",
         "tasks": "Taken",
         "turndown-service": "Turndown service",
-        "breakfast": "BreakFast",
-        "socketHistory": "Logs"
+        "breakfast": "BreakFast"
       }
     },
     "notes": {

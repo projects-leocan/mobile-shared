@@ -209,8 +209,7 @@
         "notifications": "Pemberitahuan",
         "turndown-service": "Perkhidmatan liputan",
         "main": "Skrin utama",
-        "breakfast": "BreakFast",
-        "socketHistory": "Logs"
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": {

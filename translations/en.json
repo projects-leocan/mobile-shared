@@ -217,8 +217,7 @@
         "checklists": "Checklists",
         "checklist": "Checklist",
         "main": "Main",
-        "breakfast": "BreakFast",
-        "socketHistory": "Logs"
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": {

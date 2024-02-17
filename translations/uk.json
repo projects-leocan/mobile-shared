@@ -208,8 +208,7 @@
         "notifications": "Сповіщення",
         "turndown-service": "Послуга покриття",
         "main": "Головний екран",
-        "breakfast": "BreakFast",
-        "socketHistory": "Logs"
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": {

@@ -167,8 +167,7 @@
         "notifications": "通知",
         "turndown-service": "夜床服务",
         "main": "主要",
-        "breakfast": "BreakFast",
-        "socketHistory": "Logs"
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": { "index": { "submit-lost-item": "提交丢失物品" } }

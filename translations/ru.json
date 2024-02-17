@@ -208,8 +208,7 @@
         "notifications": "Уведомления",
         "turndown-service": "Услуги по страхованию",
         "main": "Главный экран",
-        "breakfast": "BreakFast",
-        "socketHistory": "Logs"
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": {

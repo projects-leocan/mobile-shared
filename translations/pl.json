@@ -209,8 +209,7 @@
         "notifications": "Powiadomienia",
         "turndown-service": "Usługa pokrycia",
         "main": "Ekran główny",
-        "breakfast": "BreakFast",
-        "socketHistory": "Logs"
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": {

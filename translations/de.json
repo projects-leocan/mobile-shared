@@ -209,8 +209,7 @@
         "notifications": "Benachrichtigungen",
         "turndown-service": "Deckungs-Service",
         "main": "Hauptbildschirm",
-        "breakfast": "BreakFast",
-        "socketHistory": "Logs"
+        "breakfast": "BreakFast"
       }
     },
     "lostfound": {
