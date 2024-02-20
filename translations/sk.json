@@ -1,0 +1,1431 @@
+{
+  "runner": {
+    "glitch-form": {
+      "index": {
+        "add-actions-to-resolve": "Pridať akcie na vyriešenie",
+        "add-followup-instructions": "Pridať pokyny na ďalšie kroky",
+        "vip": "Vip",
+        "add-task": "Pridať úlohu",
+        "enter-room-name": "Zadajte číslo izby",
+        "select-glitch-category": "Vyberte kategóriu skúsenosti",
+        "glitch-information": "Informácie o skúsenosti",
+        "close-glitch": "Zatvoriť skúsenosť",
+        "handover": "Odovzdanie",
+        "internal-followup": "Interné pokračovanie",
+        "enter-guest-name": "Zadajte meno hosta",
+        "choose-location": "Vyberte miesto",
+        "send-glitch": "Odoslať skúsenosť",
+        "email": "E-mail",
+        "eur": "Eur",
+        "submit-new-glitch": "Odoslať novú skúsenosť",
+        "compensation-cost": "Náklady na kompenzáciu",
+        "update-glitch": "Aktualizovať skúsenosť",
+        "guest-information": "Informácie o hostovi",
+        "add-experience-description": "Pridať popis skúsenosti",
+        "vip-status-optional": "Voliteľný VIP status",
+        "incident-description": "Popis udalosti",
+        "room": "Izba",
+        "name": "Meno",
+        "select-a-glitch-category": "Vyberte kategóriu skúsenosti",
+        "actions-to-resolve": "Akcie na vyriešenie",
+        "enter-guest-email": "Zadajte e-mail hosta",
+        "mark-as-closed": "Označiť ako uzavreté",
+        "claim-glitch": "Nahlásiť skúsenosť",
+        "available-inspection": "Dostupné inšpekcie"
+      },
+      "experience-form": {
+        "select-room-number": "Prosím, vyberte číslo izby"
+      },
+      "glitch-category-selector": {
+        "select-glitch": "Vyberte skúsenosť",
+        "select-glitch-category": "Vyberte kategóriu skúsenosti",
+        "select-category": "Vyberte kategóriu"
+      }
+    },
+    "main": {
+      "filter-grid": {
+        "reset": "Obnoviť",
+        "close": "Zavrieť"
+      },
+      "index": {
+        "tasks": "Úlohy",
+        "rooms": "Izby",
+        "close-floor": "Zavrieť podlažie",
+        "floor": "Podlažie"
+      }
+    },
+ "clean": {
+        "index": {
+          "confirm-dnd": "Potvrdiť DND",
+          "change-sheets": "Zmeniť posteľné prádlo",
+          "pms": "PMS",
+          "add-change-sheets": "Pridať zmenu posteľného prádla"
+        }
+      },
+      "room": {
+        "restock": {
+          "room-inventory": "Inventár izby",
+          "cancel-restock": "Zrušiť doplnenie",
+          "mark-as-restocked": "Označiť ako doplnené"
+        }
+      },
+      "notes": {
+        "index": {
+          "previous-notes": "Predchádzajúce poznámky",
+          "add-note": "Pridať poznámku",
+          "new-room-note": "Nová poznámka k izbe",
+          "new-note-placeholder": "Napr. úloha"
+        }
+      },
+      "glitch": {
+        "glitch-read-only": {
+          "none": "Žiadne",
+          "send-email": "Odoslať e-mail",
+          "glitch-cost": "Náklady na skúsenosť",
+          "glitch-followup": "Pokračovanie skúsenosti",
+          "start": "Štart",
+          "glitch-description": "Popis skúsenosti",
+          "assigned-to": "Priradené k",
+          "current-responsibility": "Aktuálna zodpovednosť",
+          "glitch-action": "Akcia so skúsenosťou",
+          "glitch-category": "Kategória skúsenosti",
+          "change-category": "Zmeniť kategóriu"
+        }
+      },
+      "components": {
+        "group-select-modal": {
+          "close": "Zavrieť",
+          "select-assignment": "Vybrať priradenie"
+        },
+        "group-select-row": {
+          "text": "Text"
+        },
+        "location-select-modal": {
+          "close": "Zavrieť",
+          "select-location": "Vybrať miesto"
+        },
+        "room-note-row": {
+          "remove": "Odstrániť"
+        },
+        "task-card": {
+          "created-by": "Vytvoril",
+          "location": "Lokalita",
+          "last-message": "Posledná správa",
+          "submitted-time": "Čas odoslania"
+        },
+        "special-select-row": {
+          "text": "Text"
+        },
+        "assignment-select": {
+          "attendants": "Obsluha",
+          "inspectors": "Inšpektori",
+          "management": "Manažment",
+          "housekeeping": "Údržba izby",
+          "concierge": "Portier",
+          "maintenance": "Údržba",
+          "groups": "Skupiny",
+          "runners": "Bežci"
+        },
+        "user-select-row": {
+          "text": "Text",
+        },
+          "inventory-update-row": {
+            "reset": "Reset"
+          },
+          "room-options": {
+            "room-gallery": "Galéria izby",
+            "send-task": "Odoslať úlohu",
+            "clean-room": "Vyčistiť izbu",
+            "guest-glitch": "Zážitok",
+            "hsk-notes": "Hsk poznámky",
+            "lost-found": "Stratené & nájdené",
+            "inventory": "Inventár",
+            "maintenance": "Údržba"
+          },
+          "room-timer": {
+            "cancel": "Zrušiť",
+            "done": "Hotovo"
+          },
+          "user-select-modal": {
+            "management": "Manažment",
+            "housekeeping": "Housekeeping",
+            "concierge": "Concierge",
+            "select-assignment": "Vyberte priradenie",
+            "maintenance": "Údržba",
+            "close": "Zavrieť"
+          },
+          "asset-action-description": {
+            "yes": "Áno",
+            "there-are-no-actions-for-your-asset": "Pre váš majetok nie sú k dispozícii žiadne akcie",
+            "no-actions-for-created-asset": "Pre vytvorený majetok nie sú k dispozícii žiadne akcie",
+            "you-must-first-select-an-asset": "Najprv musíte vybrať majetok",
+            "no": "Nie"
+          },
+          "asset-select-modal": {
+            "close": "Zavrieť",
+            "select-asset": "Vyberte majetok"
+          },
+          "room-info": {
+            "change-sheets": "Zmeniť posteľné prádlo",
+            "pms": "PMS"
+          },
+          "reservation-nights": {
+            "of": "Z",
+            "nights": "Noci"
+          },
+          "task-settings": {
+            "yes": "Áno",
+            "no": "Nie"
+          },
+          "gallery-row-item": {
+            "label": "Označenie"
+          }
+        },
+        "turndown": {
+          "subheader": {
+            "all-categories": "Všetky kategórie"
+          },
+          "index": {
+            "all-categories": "Všetky kategórie"
+          },
+          "modalcontent": {
+            "delay": "Oneskorenie",
+            "cancel-turndown": "Zrušiť prípravu izby",
+            "refuse": "Odmietnuť",
+            "finish-turndown": "Dokončiť prípravu izby",
+            "dnd": "Nepretrieť",
+            "more-options": "VIAC MOŽNOSTÍ"
+          }
+        },
+        "glitches": {
+          "index": {
+            "other-glitches": "Iné skúsenosti",
+            "recently-closed": "Nedávno uzavreté",
+            "assigned-glitches": "Priradené skúsenosti"
+          }
+        },
+        "navigation": {
+          "links": {
+            "glitches": "Skúsenosti",
+            "tasks": "Úlohy",
+            "inventory-restock": "Doplnenie inventáru",
+            "notifications": "Oznámenia",
+            "turndown-service": "Služba zatvárania",
+            "audits": "Audity",
+            "audit": "Audit",
+            "create-audit": "Vytvoriť audit",
+            "checklists": "Zoznamy kontrol",
+            "checklist": "Zoznam kontrol",
+            "main": "Hlavná",
+            "breakfast": "Raňajky"
+          }
+        },
+        "lostfound": {
+          "index": {
+            "submit-lost-item": "Odoslať stratenú položku"
+          }
+        }
+      },
+        "attendant": {
+          "swipeoutoptions": {
+            "index": {
+              "close": "Zavrieť"
+            }
+          },
+          "clean": {
+            "menu": {
+              "dnd": "DND",
+              "voucher": "Voucher",
+              "refuse": "Odmietnuť",
+              "inspect": "Preskúmať izbu",
+              "start-cleaning": "Začať čistiť",
+              "delay": "Neskôr",
+              "clean": "Čisté",
+              "no-check": "Žiadna kontrola"
+            },
+            "finishmenu": {
+              "cancel-dnd": "Zrušiť DND",
+              "cancel-refuse": "Zrušiť odmietnutie",
+              "cancel-finish": "Zrušiť dokončenie",
+              "confirm-dnd": "Potvrdiť DND"
+            },
+            "cleaninginfo": {
+              "credits": "Kredity",
+              "pms": "PMS",
+              "change-sheets": "Zmeniť posteľné prádlo",
+              "long-stay": "Dlhý pobyt",
+              "cleaning-info": "Informácie o čistení",
+              "cleaning-instruction": "Inštrukcia"
+            },
+            "taskssubheader": {
+              "show-tasks": "Zobraziť úlohy",
+              "tasks": "Úlohy",
+              "hide-tasks": "Skryť úlohy"
+            },
+            "index": {
+              "add-change-sheets": "Pridať zmenu posteľného prádla"
+            }
+          },
+          "popuptasks": {
+            "index": {
+              "new-task": "Nová úloha",
+              "accept": "Prijať",
+              "reject": "Odmietnuť"
+          }
+        },
+        "notes": {
+          "index": {
+            "previous-notes": "Predchádzajúce poznámky",
+            "add-note": "Pridať poznámku",
+            "new-room-note": "Nová poznámka k izbe",
+            "new-note-placeholder": "Napr. úloha"
+          }
+        },
+        "inspect": {
+          "menu": {
+            "dnd": "DND",
+            "refuse": "Odmietnuť",
+            "inspect": "Preskúmať izbu",
+            "start-cleaning": "Začať čistiť",
+            "delay": "Neskôr",
+            "clean": "Čisté",
+            "no-check": "Žiadna kontrola"
+          },
+          "finishmenu": {
+            "confirm-dnd": "Potvrdiť DND"
+          },
+          "cleaninginfo": {
+            "credits": "Kredity",
+            "change-sheets": "Zmeniť posteľné prádlo",
+            "long-stay": "Dlhý pobyt",
+            "pms": "PMS"
+          },
+          "taskssubheader": {
+            "show-tasks": "Zobraziť úlohy",
+            "tasks": "Úlohy",
+            "hide-tasks": "Skryť úlohy"
+          }
+        },
+        "alert": {
+          "index": {
+            "priority": "Priorita",
+            "room-message": "Správa izby"
+          }
+        },
+        "headers": {
+          "maintenance": "Údržba",
+          "inventory-restock": "Doplnenie inventára",
+          "notes": "Poznámky",
+          "inspect": "Preskúmať",
+          "lost-found": "Stratené a nájdené",
+          "inventory": "Inventár",
+          "clean": "Čistenie",
+          "gallery": "Galéria"
+        },
+        "components": {
+          "group-select-row": {
+            "text": "Text"
+          },
+          "location-select-modal": {
+            "close": "Zavrieť"
+          },
+            "user-select-row": {
+              "text": "Text"
+            },
+            "reservation-component": {
+              "reservation": "Rezervácia"
+            },
+            "room-note-row": {
+              "remove": "Odstrániť"
+            },
+            "task-settings": {
+              "yes": "Áno",
+              "no": "Nie"
+            },
+            "special-select-row": {
+              "text": "Text"
+            },
+            "inventory-update-row": {
+              "reset": "Resetovať"
+            },
+            "room-timer": {
+              "cancel": "Zrušiť",
+              "done": "Hotovo"
+            },
+            "assignment-select": {
+              "attendants": "Obsluha",
+              "inspectors": "Inšpektori",
+              "management": "Manažment",
+              "housekeeping": "Údržba",
+              "concierge": "Concierge",
+              "maintenance": "Údržbár",
+              "groups": "Skupiny",
+              "runners": "Behúň"
+            },
+            "room-options": {
+              "room-gallery": "Galéria izby",
+              "send-task": "Poslať úlohu",
+              "clean-room": "Upratať izbu",
+              "hsk-notes": "Poznámky HSK",
+              "lost-found": "Stratené a nájdené",
+              "inventory": "Inventár",
+              "maintenance": "Údržba"
+            },
+            "room-row-item": {
+              "tasks": "úlohy"
+            },
+            "user-select-modal": {
+              "management": "Manažment",
+              "housekeeping": "Údržba",
+              "concierge": "Concierge",
+              "select-assignment": "Vyberte priradenie",
+              "maintenance": "Údržba",
+              "close": "Zavrieť"
+            },
+            "asset-action-description": {
+              "yes": "Áno",
+              "there-are-no-actions-for-your-asset": "Pre váš majetok nie sú k dispozícii žiadne akcie",
+              "no-actions-for-created-asset": "Pre vytvorený majetok nie sú k dispozícii žiadne akcie",
+              "you-must-first-select-an-asset": "Najprv musíte vybrať majetok",
+              "no": "Nie"
+            },
+            "asset-select-modal": {
+              "close": "Zavrieť",
+              "select-asset": "Vyberte majetok"
+            },
+            "reservation-nights": {
+              "of": "Z",
+              "nights": "Noci"
+            }
+          },
+          "inventoryrestock": {
+            "index": {
+              "restock-inventory": "Doplňte sklad"
+            }
+          },
+          "main": {
+            "filter-grid": {
+              "reset": "Resetovať",
+              "search": "Vyhľadajte izby, hostí...",
+              "vacant": "Voľné",
+              "inspt": "Inšpekcia",
+              "other": "Iné",
+              "dirty": "Špinavé",
+              "clean": "Čisté",
+              "close": "Zavrieť",
+              "occupied": "Obsadené"
+            },
+            "index": {
+              "priority": "Priorita",
+              "tasks": "úlohy",
+              "floor": "Poschodie",
+              "paused-rooms": "Pozastavené izby",
+              "cleaning-rooms": "Čistenie izieb",
+              "paused": "Pozastavené",
+              "cleaning": "Čistenie",
+              "priority-rooms": "Izby s prioritou",
+              "close-floor": "Zatvoriť poschodie",
+              "rooms": "Izby",
+              "scheduled": "Naplánované izby",
+              "show-more": "Zobraziť všetky izby",
+              "show-less": "Obmedziť na naplánované izby",
+              "credits": "Kredity"
+            }
+          },
+          "navigation": {
+            "links": {
+              "tasks": "Úlohy",
+              "main": "Hlavná",
+              "sent": "Odoslané",
+              "glitches": "Zážitky",
+              "inventory-restock": "Doplnenie skladu",
+              "notifications": "Oznámenia",
+              "plannings": "Budúce plánovania",
+              "rooms-cleaned": "Upratané izby"
+            }
+          },
+          "lostfound": {
+            "index": {
+              "report-lost-and-found-item": "Nahlásiť stratený a nájdený predmet",
+              "description": "Pridať popis",
+              "submit-lost-item": "Odoslať stratený predmet",
+              "submit-found-item": "Odoslať nájdený predmet"
+            }
+          }
+        },
+        "base": {
+            "extra-options": {
+              "room-extra-options": "Dodatočné možnosti izby"
+            },
+            "glitch-form": {
+              "index": {
+                "glitch-information": "Informácie o zážitku",
+                "incident-description": "Popis udalosti",
+                "name": "Meno",
+                "room": "Izba",
+                "submit-new-glitch": "Odoslať nový zážitok",
+                "compensation-cost": "Náklady na kompenzáciu",
+                "select-glitch-category": "Vyberte kategóriu zážitku",
+                "enter-guest-name": "Zadajte meno hosta",
+                "enter-room-number": "Zadajte číslo izby",
+                "vip": "VIP",
+                "premiere-club": "Klub Premier",
+                "actions-to-resolve": "Akcie na vyriešenie",
+                "follow-up-with-guest": "Sledovať ďalšie kroky s hosťom",
+                "email": "E-mail",
+                "enter-guest-email": "Zadajte e-mail hosťa"
+              },
+              "glitch-category-selector": {
+                "select-glitch": "Vyberte zážitok",
+                "select-glitch-category": "Vyberte kategóriu zážitku",
+                "select-category": "Vyberte kategóriu"
+              },
+              "experiences": {
+                "index": {
+                  "pending": "Nevyriešené zážitky"
+                }
+              },
+              "lost-found-review": {
+                "index": {
+                  "open": "Otvorené",
+                  "emailed": "Poslané e-mailom",
+                  "phoned": "Volali",
+                  "pending": "Čakajúci hosť",
+                  "waiting": "Kontaktovaní a čakáme",
+                  "mailed": "Poslané poštou",
+                  "hand-delivered": "Osobne doručené",
+                  "expired": "Platnosť vypršala",
+                  "refused": "Odmietnuté",
+                  "delete": "Vymazať",
+                  "closed": "Uzavreté",
+                  "found": "Nájdené",
+                  "show-all": "Zobraziť všetko",
+                  "show-only-open": "Zobraziť len otvorené",
+                  "show-only-received": "príjmy",
+                  "holding": "Podržané do návratu hosťa",
+                  "reception": "S recepciou",
+                  "holding-lt": "Podržané dlhodobo"
+                },
+                "modal": {
+                  "guest-signature-optional": "Podpis hosťa (voliteľný)",
+                  "notes-optional": "Poznámky (voliteľné)",
+                  "added-photos-optional": "Pridané fotky (voliteľné)",
+                  "update-status": "Aktualizovať stav"
+                }
+              },
+              "popup": {
+                "index": {
+                  "okay": "OK",
+                  "submitted-time": "Čas odoslania",
+                  "notification": "Oznámenie",
+                  "accept": "Prijať",
+                  "new-task": "Nová úloha",
+                  "location": "Lokalita",
+                  "reject": "Odmietnuť",
+                  "created-by": "Vytvoril",
+                  "last-message": "Posledná správa",
+                  "assigned-audit": "Priradený audit",
+                  "comments": "Komentáre",
+                  "sent": "Odoslané",
+                  "guest-name":"Meno hosťa",
+                  "confirm": "Potvrdiť"
+                }
+              }
+            },
+              "ubiquitous": {
+                "all": "Všetko",
+                "departed": "Odídené",
+                "photo": "Fotka",
+                "inspt": "Inšpekcia",
+                "assignee": "Priradený",
+                "unassigned": "Nepripradený",
+                "rooms": "Izby",
+                "filters": "Filtre",
+                "pms-notes": "Poznámky PMS",
+                "yes": "Áno",
+                "blocked": "Blokované",
+                "pause": "Pauza",
+                "group": "Skupina",
+                "acknowledge": "Potvrdiť",
+                "send": "Odoslať",
+                "search": "Hľadať",
+  "search-users": "Hľadať používateľov",
+  "to": "Do",
+  "no-location": "Žiadna lokalita",
+  "location": "Lokalita",
+  "all-inspectors": "Všetci inšpektori",
+  "create-asset": "Vytvoriť majetok",
+  "da": "D/A",
+  "search-assets": "Hľadať majetky",
+  "search-locations": "Hľadať lokality",
+  "add-a-note": "Pridať poznámku",
+  "assignments": "Priradenia",
+  "continue": "Pokračovať",
+  "quick": "Tím",
+  "maintenance-team": "Údržbový tím",
+  "backlog": "Nasledujúce",
+  "reset-entry": "Resetovať",
+  "arr": "Arr",
+  "creator": "Vytvorené",
+  "asset-and-action": "Majetok a akcia",
+  "cs": "CS",
+  "close": "Zavrieť",
+  "mandatory-task": "Povinná úloha",
+  "yesterday": "Včera",
+  "last-message": "Posledná správa",
+  "arrival": "Dátum príchodu",
+  "resume": "Pokračovať",
+  "select-user": "Vyberte používateľa",
+  "attendant": "Údržbár",
+  "stay": "Pobyt",
+  "vacant": "Voľné",
+  "optional": "Voliteľné",
+  "convert": "Previesť",
+  "housekeeping": "Úklid",
+  "enter-a-message": "Zadajte správu",
+  "block": "Blokovanie",
+  "tasks": "Úlohy",
+  "select-location": "Vyberte lokalitu",
+  "floors": "Poschodia",
+  "main-floor": "Poschodie",
+  "submit": "Odoslať",
+  "remove": "Odstrániť",
+  "cancel": "Zrušiť",
+  "message": "Správa",
+  "people": "Osoba",
+  "inspected": "Skontrolované",
+  "next": "Ďalší",
+  "priority": "Priorita",
+  "start": "Spustiť",
+  "maintenance": "Údržba",
+  "prev": "Predchádzajúci",
+  "today": "Dnes",
+  "tomorrow": "Zajtra",
+  "completed": "Dokončené",
+  "notifications": "Notifikácie",
+  "all-runners": "Všetci bežci",
+  "none": "Žiadny",
+  "room": "Izba",
+  "dep": "Odchod",
+  "vac": "Voľ",
+  "priority-task": "Prioritná úloha",
+  "lite-task": "Prioritná úloha",
+  "normal-task": "Prioritná úloha",
+  "unassigned-task": "Prioritná úloha",
+  "enter-a-description-optional": "Zadajte popis (voliteľné)...",
+  "dirty": "Špinavé",
+  "cancelled": "Zrušené",
+  "send-housekeeping-task": "Odoslať úlohu na úklid",
+  "select-locations": "Vyberte lokality",
+  "search-tasks": "Hľadať úlohy",
+  "send-maintenance-task": "Odoslať úlohu na údržbu",
+  "runner": "Bežec",
+  "locations": "Lokality",
+  "accept": "Prijať",
+  "no-photo": "Žiadna fotografia",
+  "receptionist": "Recepčný",
+  "inspector": "Inšpektor",
+  "occupied": "Obsadené",
+  "information": "Informácie",
+  "adminstrator": "Administrátor",
+  "no": "Nie",
+  "stayover": "Pobyt",
+  "delay": "Oneskorenie",
+  "other": "Iné",
+  "blocking-task": "Blokovacia úloha",
+  "reject": "Odmietnuť",
+  "finish": "Dokončiť",
+  "description": "Popis",
+  "normal": "Normálny",
+  "planned-attendant": "Plánovaný údržbár",
+  "planned-runner": "Plánovaný bežec",
+  "update": "Aktualizovať",
+  "alert": "Upozornenie",
+  "arrived": "Príchod",
+  "change-sheets": "Výmena posteľnej bielizne",
+  "task": "Úloha",
+  "clear": "Vyčistiť",
+  "floor": "Poschodie",
+  "departure": "Odchod",
+  "clean": "Upratať",
+  "exit-selection": "Ukončiť výber",
+  "tap-to-start-camera": "Klepnutím spustite fotoaparát",
+  "continue-without-photo": "Pokračovať bez fotografie",
+  "default-assignment": "Predvolené priradenie",
+  "tap-to-continue": "Klepnutím pokračujte",
+  "management": "Manažment",
+  "front-office": "Recepčný",
+  "review": "Hodnotenie",
+  "nos": "Čísla izieb",
+  "blk": "Blok",
+  "lc": "LC",
+  "sc": "SC",
+  "dc": "DC",
+  "dismiss": "Zavrieť",
+  "show": "Zobraziť",
+  "checkout-on": "Odhlásenie na",
+  "cleaning": "Upratovanie",
+  "dnd": "Nevyrušovať",
+  "refuse": "Odmietnuté",
+  "reset-system": "Resetovať",
+  "bedrooms": "Spálne",
+  "properties": "Vlastnosti",
+  "area": "Plocha",
+  "asset": "Majetok",
+  "action": "Akcia",
+  "model": "Model",
+  "guest": "Hosť",
+  "due-out": "Výstup",
+  "tap-to-enlarge": "Klepnutím zväčšite",
+  "categories": "Kategórie",
+  "status": "Stav",
+  "calendar": "Kalendár",
+  "take-picture": "Fotografovať",
+  "add-more-photo": "Pridať ďalšiu fotografiu",
+  "add-more-video": "Pridať ďalšie video",
+  "take-video": "Nahrať video",
+  "picture-gallery": "Obrázok z galérie",
+  "video-gallery": "Video z galérie",
+  "task-asset": "Majetok",
+  "task-next": "Ďalšie",
+  "task-guest-request": "Žiadosť hosťa",
+  "task-submit": "Odoslať",
+  "task-assign": "Priradiť"
+ },
+ "realtime": {
+  "index": {
+    "pending-requests-itemstosync": "Nevyriešené požiadavky",
+    "offline": "Offline",
+    "-": ""
+  }
+},
+"notification": {
+  "extraoptions": {
+    "reply": "Odpovedať",
+    "convert-to-task": "Previesť na úlohu",
+    "follow-up": "Follow up"
+  }
+},
+"createnotification": {
+  "index": {
+    "recent-quick-notifications": "Nedávne a rýchle oznámenia"
+  },
+  "selectuser": {
+    "tap": "Klepnite na zmenu"
+  }
+},
+"tasktable": {
+  "modal": {
+    "assigned-to": "Priradené k",
+    "last-action": "Posledná akcia",
+    "messages": "Správy",
+    "location": "Umiestnenie",
+    "created-by": "Vytvorené",
+    "submitted-time": "Čas odoslania",
+    "complete-task": "Dokončiť úlohu",
+    "cancel-task": "Zrušiť úlohu",
+    "reassign-task": "Znovu priradiť úlohu"
+  },
+  "status": {
+    "started": "Začaté",
+    "claimed": "Čakajúce",
+    "waiting": "Čakajúce",
+    "rejected": "Zamietnuté",
+    "paused": "Pozastavené",
+    "canceled": "Zrušené",
+    "finished": "Dokončené",
+    "completed": "Dokončené",
+    "pending": "Čakajúce"
+  },
+  "header": {
+    "status": "Stav",
+    "information": "Informácie",
+    "task": "Úloha",
+    "normal-ticket": "Bežný lístok",
+    "lite-ticket": "Ľahký lístok",
+    "assigned": "Priradené",
+    "time-created": "Čas vytvorenia",
+    "location": "Umiestnenie",
+    "created-by": "Vytvorené",
+    "priority-ticket": "Prioritný lístok"
+  },
+  "utils": {
+    "pause": "Pozastaviť",
+    "finish": "Dokončiť",
+    "start": "Spustiť",
+    "resume": "Pokračovať",
+    "reject": "Zamietnuť"
+  },
+  "lastaction": {
+    "created": "Vytvorené",
+    "task-reassigned": "Úloha preradená",
+    "rescheduled": "Presunuté",
+    "added-message": "Pridaná správa"
+   }
+ },
+  "notifications": {
+    "index": {
+      "assigned": "Priradené",
+      "sent": "Odoslané"
+    },
+    "quicknotificationform": {
+      "send-message": "Odoslať správu"
+    }
+  },
+  "tasks": {
+    "tabs": {
+      "today": "Dnes",
+      "sent": "Odoslané",
+      "backlog": "Záloha"
+    },
+    "dummy": {
+      "occupaied": ""
+    }
+  },
+  "inventory": {
+    "index": {
+      "close-area": "Zavrieť oblasť",
+      "search-items": "Vyhľadať položky"
+    }
+  },
+  "components": {
+    "assetactiondescription": {
+      "submit-maintenance": "Odoslať údržbu",
+      "no-available": "Pre váš majetok nie sú k dispozícii žiadne akcie",
+      "description": "Popis",
+      "type-here": "Napíšte sem",
+      "no": "Nie",
+      "no-actions": "Pre vytvorený majetok nie sú k dispozícii žiadne akcie",
+      "priority": "Priorita",
+      "continue": "Pokračovať",
+      "asset": "Majetok",
+      "first-select": "Musíte najskôr vybrať majetok",
+      "action": "Akcia",
+      "description-placeholder": "Napr .: nezapne sa",
+      "yes": "Áno",
+      "select-asset": "Vyberte majetok",
+      "location": "Umiestnenie"
+    },
+    "fullscreenphoto": {
+      "no-photo": "Žiadna fotografia"
+    },
+    "selectassignmentmodal": {
+      "select-assignment": "Vyberte priradenie"
+    }
+  },
+  "navigation": {
+    "index": {
+      "task": "Úloha",
+      "convert-task": "Previesť úlohu",
+      "notifications": "Oznámenia",
+      "tasks": "Úlohy",
+      "notes": "Poznámky",
+      "create-notification": "Vytvoriť oznámenie",
+      "glitch": "Zážitok hosta",
+      "turndown-service": "Služba večerného spracovania",
+      "lost-found": "Stratené a nájdené",
+      "room": "Izba",
+      "filter-tasks": "Filtrovať úlohy",
+      "inventory": "Inventár",
+      "maintenance": "Údržba",
+      "home": "Domov",
+      "glitches": "Zážitky hosta",
+      "gallery": "Galéria",
+      "inventory-restock": "Doplňovanie zásob"
+    },
+    "links": {
+      "assets": "Aktíva",
+      "notifications": "Oznámenia",
+      "logout": "Odhlásiť sa",
+      "rooms": "Izby",
+      "closed": "Uzavreté",
+      "main": "Hlavná",
+      "sent": "Odoslané"
+    }
+  },
+  "taskcard": {
+    "status": {
+      "started": "Začaté",
+      "completed": "Dokončené",
+      "unclaimed": "Neprebrané",
+      "cancelled": "Zrušené",
+      "accepted": "Akceptované",
+      "pending": "Nevyriešené"
+    }
+  },
+  "swipeoutoptions": {
+    "index": {
+      "close": "Zavrieť"
+    }
+   }
+  },
+  "inspector": {
+    "lost-found": {
+      "index": {
+        "today": "Dnes",
+        "description": "Popis",
+        "reference": "Referencia",
+        "category": "Kategória",
+        "guest": "Host",
+        "location": "Lokalita",
+        "found-by": "Nájdené kým"
+      }
+    },
+    "room-messages": {
+      "index": {
+        "day-night": "Deň & Noc",
+        "edit": "Upraviť",
+        "add-message": "Pridať správu",
+        "delete-messages": "Vymazať správy",
+        "change-room": "Zmeniť izbu",
+        "message": "Správa",
+        "message-type": "Vyberte typ správy",
+        "schedule": "Plán",
+        "calendar": "Kalendár",
+        "day": "Deň",
+        "night": "Noc",
+        "pickup": "Vyzdvihnúť",
+        "end-of-day": "Koniec dňa",
+        "end-of-stay": "Koniec pobytu",
+        "custom": "Vlastné",
+        "indefinitely": "Nekonečne",
+        "cancel": "Zrušiť",
+        "submit-message": "Odoslať správu"
+      }
+    },
+    "audits": {
+      "add-photo": "Pridať fotografiu",
+      "add-note": "Pridať poznámku",
+      "submit-task": "Odoslať úlohu",
+      "save": "Uložiť"
+      "note": "Poznámka",
+  "photo": "Fotografia",
+  "select-audit": "Vybrať audit",
+  "assign-to-others": "Priradiť iným (voliteľné)"
+},
+"attendantmodal": {
+  "index": {
+    "priority": "Priorita",
+    "reset": "Obnoviť",
+    "attendant": "Služobník",
+    "overwrite-guest-status": "Prepísať stav hosťa",
+    "send-message-to-attendant": "Poslať správu služobníkovi"
+  }
+},
+"createtask": {
+  "index": {
+    "photo": "Fotografia",
+    "mandatory-task": "Povinná úloha",
+    "assignee": "Priradený",
+    "priority-task": "Úloha s priorítou",
+    "blocking-task": "Blokovacia úloha",
+    "location": "Lokalita",
+    "asset-and-action": "Aktívum a akcia"
+  },
+  "extraoption": {
+    "yes": "Áno",
+    "no": "Nie"
+  }
+},
+"main": {
+  "index": {
+    "rooms": "Izby",
+    "all-floors": "Všetky podlažia",
+    "floor": "Poschodie",
+    "ok": "Ok"
+  },
+  "rooms-filter": {
+    "attendants": "Služobníci",
+    "reset": "Obnoviť",
+    "filtered-rooms": "Filtrované izby",
+    "other": "Iné",
+    "floors": "Podlažia",
+    "filters": "Filtre",
+    "all-rooms": "Všetky izby",
+    "show-non-guest-rooms": "Zobraziť izby pre nehostí",
+    "hide-non-guest-rooms": "Skryť izby pre nehostí"
+  },
+  "rooms-information": {
+    "reset": "Obnoviť",
+    "vip": "VIP"
+  },
+  "notes": {
+    "room-notes": "Poznámky k izbe"
+  },
+  "roommessageform": {
+    "room-message": "Správa izby"
+  },
+  "roomnotesmodal": {
+    "no-pms-notes-for-this-reservation": "Žiadne PMS poznámky pre túto rezerváciu",
+    "send-message-attendant": "Poslať priamu notifikáciu",
+    "room-notes": "Poznámky k izbe",
+    "pms-notes": "PMS poznámky",
+    "save-for-later": "Uložiť na neskôr",
+    "room-message": "Správa izby",
+    "messaging": "Komunikácia"
+  },
+  "filters-drawer": {
+    "1": "1"
+  }
+},
+"housekeeping": {
+  "index": {
+    "today": "Dnes",
+    "search-tasks-rooms-users": "Vyhľadať úlohy, izby, používateľov...",
+    "backlog": "Zostávajúce"
+  }
+},
+"popup": {
+  "index": {
+    "okay": "V poriadku",
+    "submitted-time": "Odovzdaný čas",
+      "notification": "Oznamovanie",
+      "accept": "Prijať",
+      "new-task": "Nová úloha",
+      "location": "Lokalita",
+      "reject": "Zamietnuť",
+      "created-by": "Vytvorené",
+      "last-message": "Posledná správa",
+      "assigned-audit": "Priradený audit"
+        }
+      },
+      "information": {
+      "info": {
+      "dnd": "Dnd",
+      "attendant-status": "Stav služobníka",
+      "housekeeping-status": "Stav úklidu",
+      "room-attendant": "Služobník izby",
+      "room-information": "Informácie o izbe",
+      "emilie-persion": "Emilie osoba",
+      "room-type": "Typ izby",
+      "standart-room": "Štandardná izba",
+      "last-action": "Posledná akcia",
+      "room-category": "Kategória izby",
+      "cleaning-name": "Názov úklidu"
+      },
+      "index": {
+      "room": "Izba"
+      },
+      "pmsnotes": {
+      "pms-notes": "Poznámky PMS",
+      "no-pms-notes": "Žiadne poznámky PMS"
+      },
+      "notes": {
+      "room-notes": "Poznámky k izbe"
+      },
+      "roommessageform": {
+      "room-message": "Správa k izbe"
+      },
+      "housekeepingstatus": {
+      "other-housekeepings": "Ostatní úklidy"
+      },
+      "vipstatus": {
+      "vip-status": "VIP stav"
+      },
+      "attendantstatus": {
+      "attendant-status": "Stav služobníka"
+      }
+      },
+      "updatespopup": {
+      "index": {
+      "new": "Nový",
+      "dismiss": "Zamietnuť",
+      "you-have": "Máte",
+      "show": "Zobraziť",
+      "new-updates": "nové aktualizácie"
+      },
+      "modal": {
+      "priority-set": "Nastavená priorita",
+      "message-added": "Správa pridaná",
+      "room-restocked": "Izba doplnená",
+      "room-unblocked": "Izba odblokovaná",
+      "updates": "Aktualizácie",
+      "dismiss-all": "Zamietnuť všetko"
+      }
+      },
+      "createnotification": {
+      "index": {
+      "select-a-location-or-change-user": "Vyberte lokalitu alebo zmeňte používateľa",
+      "photo": "Fotografia",
+      "missing-location-or-user": "Chýba lokalita alebo používateľ",
+      "send-notification": "Odoslať upozornenie",
+      "to": "Komu",
+      "select-notification": "Vyberte upozornenie",
+      "location": "Lokalita",
+      "message": "Správa",
+      "quick-notifications": "Rýchle upozornenia"
+      },
+      "selectusermodal": {
+      "select-reciepent": "Vyberte príjemcu"
+      }
+    },
+    "tableheader": {
+      "index": {
+        "attendant-runner": "Služobník a beháč",
+        "tasks": "Úlohy",
+        "my-assigned-tasks": "Moje priradené úlohy",
+        "open-housekeepings": "Otvorené úklidy",
+        "open-maintenances": "Otvorená údržba",
+        "open": "Otvorené úlohy",
+        "recently-closed-tasks": "Nedávno uzavreté úlohy",
+        "open-tasks": "Otvorené úlohy",
+        "paused-audits": "Pozastavené audity",
+        "open-audits": "Otvorené audity",
+        "recently-closed-audits": "Nedávno uzavreté audity",
+        "start-new-audit": "Začať nový audit"
+      }
+    },
+    "founditem": {
+      "index": {
+        "add-a-description": "Pridať popis",
+        "submit-lost-item": "Odoslať stratenu položku"
+      }
+    },
+    "notifications": {
+      "notificationheader": {
+        "status": "Stav",
+        "message": "Správa",
+        "user": "Používateľ",
+        "room": "Izba",
+        "time": "Čas"
+      },
+      "assignedheader": {
+        "status": "Stav",
+        "message": "Správa",
+        "time": "Čas",
+        "room": "Izba",
+        "creator": "Tvorca"
+      },
+      "status": {
+        "okay": "V poriadku",
+        "started": "Začaté",
+        "rejected": "Zamietnuté",
+        "paused": "Pozastavené",
+        "canceled": "Zrušené",
+        "waiting": "Čakajúce",
+        "pending": "Nevyriešené"
+      },
+      "index": {
+        "sent-attendant-notifications": "Odoslané oznámenia služobníkom",
+        "assigned-notifications": "Priradené oznámenia",
+        "search-rooms-or-people": "Hľadať izby alebo osoby"
+      }
+    },
+    "catalog": {
+      "index": {
+        "room-photos": "Fotografie izby"
+      }
+    },
+    "planning": {
+      "index": {
+        "add-attendant": "Pridať služobníka",
+        "reset": "Resetovať",
+        "prev": "Predchádzajúci",
+        "filters": "Filtre",
+        "next": "Nasledujúci"
+      },
+      "filtersdrawer": {
+        "all": "Všetko",
+        "rooms-to-plan": "Izby na plánovanie",
+        "stayover": "Pobyt",
+        "departure": "Odchod",
+        "arrivals": "Príchody",
+        "da": "D/a",
+        "filter-by-guest-status": "Filtrovať podľa stavu hosťa",
+        "filter-by-housekeeping": "Filtrovať podľa úklidu",
+        "filter-by-floor": "Filtrovať podľa poschodia",
+        "filter-by-category": "Filtrovať podľa kategórie",
+        "change-sheets": "Zmeniť posteľnú bielizeň",
+        "blocked": "Blokované"
+      }
+    },
+    "room": {
+      "index": {
+        "information": "Informácie",
+        "hsk-tasks": "Úlohy úklidu",
+        "maintenances": "Údržby",
+        "catalog": "Katalóg",
+        "lost-found": "Stratené a nájdené",
+        "image-about-how-the-room-should-look": "Obrázok ako by mala izba vyzerať",
+        "questionnaires": "Dotazníky",
+        "audits": "Audity",
+        "property-information": "Informácie o nehnuteľnosti"
+      }
+    },
+    "playground": {
+      "index": {
+        "let-go": "Pustiť"
+      }
+    },
+    "components": {
+      "selectassignmentmodal": {
+        "select-assignment": "Vyberte priradenie",
+        "search-users": "Hľadať používateľov"
+      },
+      "selectlocationmodal": {
+        "select-locations": "Vyberte miesta",
+        "search-locations": "Hľadať miesta"
+      },
+      "selectassetactionmodal": {
+        "search-assets": "Hľadať aktíva",
+        "select-asset": "Vybrať aktívum"
+      }
+    },
+    "chooseattendantmodal": {
+      "index": {
+        "choose-attendant": "Vyberte služobníka"
+      }
+    },
+    "imagegallery": {
+      "index": {
+        "image-about-how-the-room-should-look": "Fotografie štandardov izby"
+      }
+    },
+    "navigation": {
+      "links": {
+        "housekeeping": "Úlohy",
+        "notifications": "Oznámenia",
+        "planning": "Plánovanie",
+        "maintenance": "Údržba",
+        "maintenances": "Údržby",
+        "main": "Hlavná",
+        "history": "História",
+        "turndown-service": "Večerný servis",
+        "audits": "Audity",
+        "audit": "Audit",
+        "create-audit": "Vytvoriť audit",
+        "show-audit": "Zobraziť audit",
+        "lost-found": "Stratené a nájdené",
+        "experiences": "Zážitky"
+      }
+    },
+    "maintenance": {
+      "index": {
+        "today": "Dnes",
+        "search-tasks-rooms-users": "Hľadať úlohy, izby, používateľov...",
+        "backlog": "Záloha"
+      }
+    },
+    "history": {
+      "index": {
+        "reset": "Resetovať",
+        "all": "Všetko",
+        "other": "Iné",
+        "guests": "Hostia",
+        "search-room-users-events": "Hľadať izby, používateľov, udalosti...",
+        "events": "Udalosti",
+        "cleaning": "Úklid"
+      },
+      "historyheader": {
+        "action": "Akcia",
+        "user": "Používateľ",
+        "room": "Izba",
+        "time": "Čas"
+      }
+    }
+  },
+  "maintenance": {
+    "filter-tasks": {
+      "index": {
+        "filter-tasks": "Filtrovať úlohy",
+        "select-one": "Vyberte aspoň jeden filter"
+      }
+    },
+    "on-duty": {
+      "index": {
+        "you-are-currently": "Momentálne ste",
+        "on-duty": "Pracovná služba",
+        "off-duty": "Mimo služby",
+        "tap-go-on": "Kliknite pre nástup do služby",
+        "tap-go-off": "Kliknite pre ukončenie služby"
+      }
+    },
+    "filters": {
+      "index": {
+        "hide-all": "Skryť všetko",
+        "reset": "Resetovať",
+        "search": "Hľadať úlohy",
+        "guest-status": "Stav hostí",
+        "vacant-rooms": "Voľné izby",
+        "occupied-rooms": "Obsadené izby",
+        "out-of-service": "Izby mimo prevádzky",
+        "departure-rooms": "Izby na odchod",
+        "arrival-rooms": "Izby na príchod",
+        "no-locations": "Úlohy bez umiestnenia",
+        "housekeeping": "Úklid",
+        "dirty-rooms": "Špinavé izby",
+        "cleaned-rooms": "Vyčistené izby",
+        "inspected-rooms": "Skontrolované izby",
+        "pickup": "Zdvihnutie izby",
+        "properties": "Vlastnosti",
+        "priority-tasks": "Úlohy s priorítou",
+        "blocking-tasks": "Blokovacie úlohy",
+        "no-asset-tasks": "Úlohy bez aktív",
+        "planned-tasks": "Plánované úlohy",
+        "task-status": "Stav úlohy",
+        "pending-tasks": "Nevykonané úlohy",
+        "progressing-tasks": "Prebiehajúce úlohy",
+        "paused-tasks": "Pozastavené úlohy",
+        "completed-tasks": "Dokončené úlohy",
+        "rejected-tasks": "Zamietnuté úlohy",
+        "assignment": "Priradenie",
+        "assigned-to-me": "Priradené mne",
+        "unassigned": "Nepriadené úlohy",
+        "assigned-to-others": "Priradené iným",
+        "return-to-tasks": "Späť na úlohy"
+      }
+    },
+    "createtask": {
+      "assetactiondescription": {
+        "there-are-no-actions-for-your-asset": "Pre vaše aktívum nie sú k dispozícii žiadne akcie",
+        "no": "Nie",
+        "submit-maintenance": "Odoslať údržbu",
+        "you-must-first-select-an-asset": "Najprv musíte vybrať aktívum",
+        "submit-housekeeping": "Odoslať úklid",
+        "yes": "Áno",
+        "no-actions-for-created-asset": "Pre vytvorené aktívum nie sú k dispozícii žiadne akcie",
+        "date" :"Dátum"
+      },
+      "assetselectmodal": {
+        "close": "Zavrieť",
+        "search-assets": "Hľadať aktíva",
+        "select-asset": "Vybrať aktívum"
+      },
+      "assignment": {
+        "search-assignments": "Hľadať používateľov, skupiny...",
+        "missing-assignment": "chýbajúce priradenie"
+      }
+    },
+    "reassigntask": {
+      "index": {
+        "reassignment-message": "Pridať správu o opätovnom priradení (nepovinné)",
+        "due-date": "Dátum splnenia",
+        "select-due-date": "Vyberte dátum splnenia",
+        "assign-to": "Priradiť",
+        "reassign-task": "Opätovne priradiť úlohu"
+      }
+    },
+    "popup": {
+      "index": {
+        "okay": "Ok",
+        "submitted-time": "Čas odoslania",
+        "new-glitch": "Nová skúsenosť",
+        "accept": "Prijať",
+        "new-task": "Nová úloha",
+        "location": "Miesto",
+        "reject": "Zamietnuť",
+        "created-by": "Vytvorené",
+        "last-message": "Posledná správa",
+        "assigned-audit": "Priradená kontrola"
+      }
+    },
+    "assetmodel": {
+      "index": {
+        "asset-model": "Model aktíva"
+      }
+    },
+    "swipeoutoptions": {
+      "index": {
+        "close": "Zavrieť"
+      }
+    },
+    "notasks": {
+      "index": {
+        "no-tasks": "Žiadne úlohy"
+      }
+    },
+    "task": {
+      "dummy": {
+        "pause": "Pozastaviť",
+        "finish": "Dokončiť"
+      },
+      "index": {
+        "sublocation": "Podmiestnosť",
+        "information": "Informácie",
+        "undefined": "Ticket",
+        "guest-status": "Stav hosťa",
+        "normal": "Bežný ticket",
+        "messages": "Správy",
+        "start-date": "Dátum začiatku",
+        "priority": "Prioritný ticket",
+        "reassign-ticket": "Znova priradiť",
+        "unassigned": "Nepriadený ticket",
+        "lite": "Zjednodušený ticket",
+        "model": "Model",
+        "created-by": "Vytvorené",
+        "view-additional-photos": "Zobraziť ďalšie fotografie",
+        "choose-model": "Vyberte model",
+        "select": "Vybrať",
+        "view-attachments": "Zobraziť prílohy",
+        "location-information": "Informácie o umiestnení",
+        "reassign-task": "Znova priradiť úlohu",
+        "move-to-departure": "Presunúť na odchod"
+      },
+      "create-task-alert": {
+        "select-asset": "Prosím, vyberte aktívum!!",
+        "select-location": "Prosím, vyberte umiestnenie!!",
+        "select-asset-action": "Prosím, vyberte akciu pre aktívum!!"
+      }
+    },
+    "asset": {
+      "index": {
+        "models": "Modely",
+        "actions": "Akcie"
+      }
+    },
+    "main": {
+      "index": {
+        "create-new-task-for": "Vytvoriť novú úlohu pre"
+      },
+      "filterbutton": {
+        "filters": "Filtre"
+      },
+      "filters": {
+        "filter-tasks": "Filtrovať úlohy",
+        "limit-priority": "Obmedziť na prioritné úlohy",
+        "limit-dirty": "Obmedziť na špinavé izby",
+        "limit-occupied": "Obmedziť na obsadené izby",
+        "limit-out-of-service": "Obmedziť na izby mimo prevádzky",
+        "limit-vacant": "Obmedziť na voľné izby"
+      }
+    },
+    "navigation": {
+      "scenes": {
+        "closed-tasks": "Uzavreté úlohy",
+        "tasks": "Úlohy",
+        "hotel-assets": "Hotel Assets",
+        "create-task": "Create Task",
+        "reassign-task": "Reassign Task",
+        "filters": "Task Filters",
+        "sent-tasks": "Sent Tasks",
+        "hotel-rooms": "Hotel Rooms",
+        "asset": "Asset",
+        "action": "Action",
+        "on-duty": "On Duty",
+        "turndown-service": "Turndown Service",
+        "audits": "Audits"
+      },
+      "links": {
+        "assets": "Assets",
+        "notifications": "Notifications",
+        "rooms": "Rooms",
+        "closed": "Closed",
+        "main": "Main",
+        "sent": "Sent",
+        "turndown-service": "Turndown Service",
+        "audits": "Audits",
+        "create-audit": "Create Audit"
+      }
+    },
+    "rooms": {
+      "dummy": {
+        "occupaied": ""
+      },
+      "index": {
+        "close-room": "Close room",
+        "close-floor": "Close floor"
+      }
+    }
+  }
+}
+
